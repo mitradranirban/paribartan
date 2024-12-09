@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="400" maximum="900" default="400">
+      <labels>
+        <label uservalue="400" name="Regular" elidable="true"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="Semibold"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="ExtraBold"/>
+        <label uservalue="900" name="Black"/>
+      </labels>
+    </axis>
+    <axis tag="wdth" name="width" minimum="100" maximum="200" default="100">
+      <labels>
+        <label uservalue="100" name="Normal" elidable="true"/>
+        <label uservalue="150" name="Expanded"/>
+        <label uservalue="200" name="UltraExpanded"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="paribartan_Paribartan-Regular.ufo" name="def8e12e" familyname="Paribartan" stylename="Paribartan-Regular">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="paribartan_Paribartan-Wide.ufo" name="2eea0dec" familyname="Paribartan" stylename="Paribartan-Wide">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+        <dimension name="width" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="paribartan_Paribartan-Black.ufo" name="41355e1b" familyname="Paribartan" stylename="Paribartan-Black">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+        <dimension name="width" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
