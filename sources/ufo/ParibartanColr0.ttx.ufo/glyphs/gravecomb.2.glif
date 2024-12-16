@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb.2" format="2">
+  <outline>
+    <component base="grave.1" xOffset="-126"/>
+  </outline>
+</glyph>

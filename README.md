@@ -11,7 +11,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fparibartan.git%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fparibartan.git%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Paribartan is a Variable Weight and Width Bengali or Bangla Font fully created using Open Source tools.
+Paribartan is a Variable Multicolor Bengali or Bangla Font fully created using Open Source tools.
 
 It is a geometric Sans-Serif design in Latin glyphs and matching design in Bengali Glyphs.
 
@@ -32,10 +32,10 @@ If you want to build fonts manually on your own computer:
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://mitradranirban.github.io/paribartan.git.
+The proof files and QA tests are also available automatically via GitHub Actions - look [at this site](https://mitradranirban.github.io/paribartan).
 
 ## Changelog
-**Version 0.1 **
+**Version 0.001 **
 - Start of project
 
 ## License

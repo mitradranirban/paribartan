@@ -65,6 +65,7 @@ numpy==2.2.0
 openstep_plist==0.4.0
 opentype-sanitizer==9.2.0
 opentypespec==1.9.1
+opentypesvg==1.1.5
 orjson==3.10.12
 outcome==1.3.0.post0
 packaging==24.2
@@ -120,6 +121,7 @@ typing_extensions==4.12.2
 ufo2ft==3.3.1
 ufoLib2==0.17.0
 ufolint==1.2.0
+ufo-extractor
 ufomerge==1.8.2
 ufonormalizer==0.6.2
 ufoProcessor==1.13.3

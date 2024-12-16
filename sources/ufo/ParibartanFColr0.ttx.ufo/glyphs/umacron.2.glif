@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacron.2" format="2">
+  <advance width="598"/>
+  <outline>
+    <contour>
+      <point x="436" y="660" type="line"/>
+      <point x="164" y="660" type="line"/>
+      <point x="164" y="584" type="line"/>
+      <point x="436" y="584" type="line"/>
+    </contour>
+    <contour>
+      <point x="548" y="2" type="line"/>
+      <point x="548" y="518" type="line"/>
+      <point x="379" y="518" type="line"/>
+      <point x="379" y="186" type="line"/>
+      <point x="347" y="151"/>
+      <point x="299" y="151" type="qcurve"/>
+      <point x="250" y="151"/>
+      <point x="218" y="188" type="qcurve"/>
+      <point x="218" y="518" type="line"/>
+      <point x="51" y="518" type="line"/>
+      <point x="54" y="187" type="line"/>
+      <point x="78" y="104"/>
+      <point x="145" y="52" type="qcurve"/>
+      <point x="212" y="0"/>
+      <point x="299" y="0" type="qcurve"/>
+      <point x="340" y="0"/>
+      <point x="379" y="12" type="qcurve"/>
+      <point x="379" y="2" type="line"/>
+    </contour>
+  </outline>
+</glyph>

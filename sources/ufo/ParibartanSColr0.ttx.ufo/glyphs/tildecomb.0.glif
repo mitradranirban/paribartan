@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb.0" format="2">
+  <outline>
+    <component base="tilde.0" xOffset="1" yOffset="342"/>
+  </outline>
+</glyph>

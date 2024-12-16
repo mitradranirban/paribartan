@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccent.1" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="bar.0" xScale="0.0" xyScale="1.16387939453125" yxScale="-0.15667724609375" yScale="0.0" xOffset="312" yOffset="443"/>
+  </outline>
+</glyph>

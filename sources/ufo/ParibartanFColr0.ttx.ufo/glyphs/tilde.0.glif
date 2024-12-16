@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde.0" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="125" y="587" type="line"/>
+      <point x="115" y="577" type="line"/>
+      <point x="106" y="567"/>
+      <point x="89" y="557" type="qcurve"/>
+      <point x="72" y="547"/>
+      <point x="57" y="547" type="qcurve"/>
+      <point x="35" y="547"/>
+      <point x="12" y="547" type="qcurve"/>
+      <point x="-4" y="547"/>
+      <point x="-27" y="561" type="qcurve"/>
+      <point x="-51" y="574"/>
+      <point x="-68" y="574" type="qcurve"/>
+      <point x="-93" y="574"/>
+      <point x="-125" y="546" type="qcurve"/>
+      <point x="-125" y="470" type="line"/>
+      <point x="-116" y="477" type="line"/>
+      <point x="-107" y="484"/>
+      <point x="-92" y="491" type="qcurve"/>
+      <point x="-77" y="498"/>
+      <point x="-66" y="498" type="qcurve"/>
+      <point x="-50" y="498"/>
+      <point x="-27" y="484" type="qcurve"/>
+      <point x="-5" y="470"/>
+      <point x="11" y="470" type="qcurve"/>
+      <point x="61" y="470" type="line"/>
+      <point x="77" y="470"/>
+      <point x="93" y="481" type="qcurve"/>
+      <point x="109" y="491"/>
+      <point x="117" y="500" type="qcurve"/>
+      <point x="124" y="509"/>
+      <point x="125" y="511" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

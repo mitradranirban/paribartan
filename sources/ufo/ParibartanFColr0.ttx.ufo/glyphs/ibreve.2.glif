@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve.2" format="2">
+  <advance width="252"/>
+  <outline>
+    <contour>
+      <point x="-57" y="769" type="qcurve"/>
+      <point x="-68" y="805" type="line"/>
+      <point x="-71" y="788"/>
+      <point x="-71" y="769" type="qcurve"/>
+      <point x="-71" y="690"/>
+      <point x="-13" y="634" type="qcurve"/>
+      <point x="44" y="578"/>
+      <point x="125" y="578" type="qcurve"/>
+      <point x="207" y="578"/>
+      <point x="265" y="634" type="qcurve"/>
+      <point x="322" y="690"/>
+      <point x="322" y="769" type="qcurve"/>
+      <point x="322" y="788"/>
+      <point x="319" y="805" type="qcurve"/>
+      <point x="310" y="769" type="line"/>
+      <point x="310" y="719"/>
+      <point x="255" y="675" type="qcurve"/>
+      <point x="199" y="630"/>
+      <point x="126" y="630" type="qcurve"/>
+      <point x="54" y="630"/>
+      <point x="-1" y="675" type="qcurve"/>
+      <point x="-57" y="719"/>
+    </contour>
+    <contour>
+      <point x="50" y="512" type="line"/>
+      <point x="50" y="-2" type="line"/>
+      <point x="202" y="-2" type="line"/>
+      <point x="202" y="512" type="line"/>
+    </contour>
+  </outline>
+</glyph>

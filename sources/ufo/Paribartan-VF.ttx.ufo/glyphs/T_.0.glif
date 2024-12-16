@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T.0" format="2">
+  <advance width="676"/>
+  <outline>
+    <contour>
+      <point x="63" y="614" type="line"/>
+      <point x="63" y="766" type="line"/>
+      <point x="639" y="766" type="line"/>
+      <point x="639" y="614" type="line"/>
+      <point x="427" y="614" type="line"/>
+      <point x="427" y="-2" type="line"/>
+      <point x="275" y="-2" type="line"/>
+      <point x="275" y="614" type="line"/>
+    </contour>
+  </outline>
+</glyph>

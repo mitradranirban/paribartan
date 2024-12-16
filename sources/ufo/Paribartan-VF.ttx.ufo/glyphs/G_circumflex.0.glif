@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gcircumflex.0" format="2">
+  <advance width="651"/>
+  <outline>
+    <contour>
+      <point x="352" y="832" type="line"/>
+      <point x="423" y="1000" type="line"/>
+      <point x="424" y="1000" type="line"/>
+      <point x="499" y="1000" type="line"/>
+      <point x="500" y="1000" type="line"/>
+      <point x="552" y="832" type="line"/>
+      <point x="476" y="832" type="line"/>
+      <point x="456" y="940" type="line"/>
+      <point x="428" y="832" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="612" type="qcurve"/>
+      <point x="347" y="612"/>
+      <point x="280" y="544" type="qcurve"/>
+      <point x="213" y="475"/>
+      <point x="213" y="378" type="qcurve"/>
+      <point x="213" y="280"/>
+      <point x="280" y="212" type="qcurve"/>
+      <point x="347" y="143"/>
+      <point x="442" y="143" type="qcurve"/>
+      <point x="451" y="143"/>
+      <point x="459" y="144" type="qcurve"/>
+      <point x="459" y="313" type="line"/>
+      <point x="611" y="313" type="line"/>
+      <point x="611" y="-14" type="line"/>
+      <point x="459" y="-14" type="line"/>
+      <point x="451" y="-14"/>
+      <point x="442" y="-14" type="qcurve"/>
+      <point x="284" y="-14"/>
+      <point x="172" y="102" type="qcurve"/>
+      <point x="60" y="217"/>
+      <point x="60" y="380" type="qcurve"/>
+      <point x="60" y="543"/>
+      <point x="172" y="658" type="qcurve"/>
+      <point x="284" y="773"/>
+      <point x="442" y="773" type="qcurve"/>
+      <point x="479" y="773"/>
+      <point x="515" y="766" type="qcurve"/>
+      <point x="515" y="600" type="line"/>
+      <point x="480" y="612"/>
+    </contour>
+  </outline>
+</glyph>

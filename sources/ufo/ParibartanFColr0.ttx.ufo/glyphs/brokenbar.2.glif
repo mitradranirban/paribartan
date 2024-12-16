@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar.2" format="2">
+  <advance width="252"/>
+  <outline>
+    <component base="brokenbar.0" xOffset="-200"/>
+  </outline>
+</glyph>
