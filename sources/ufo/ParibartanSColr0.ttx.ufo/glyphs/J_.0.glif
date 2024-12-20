@@ -1,22 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="J.0" format="2">
   <advance width="419"/>
   <outline>
-    <contour>
-      <point x="0" y="16" type="line"/>
-      <point x="34" y="7"/>
-      <point x="71" y="7" type="qcurve"/>
-      <point x="158" y="7"/>
-      <point x="225" y="59" type="qcurve"/>
-      <point x="292" y="111"/>
-      <point x="316" y="194" type="qcurve"/>
-      <point x="319" y="771" type="line"/>
-      <point x="152" y="771" type="line"/>
-      <point x="152" y="195" type="line"/>
-      <point x="120" y="158"/>
-      <point x="71" y="158" type="qcurve"/>
-      <point x="31" y="158"/>
-      <point x="0" y="184" type="qcurve"/>
-    </contour>
+    <component base="J"/>
   </outline>
 </glyph>

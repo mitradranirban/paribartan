@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ntilde.2" format="2">
   <advance width="597"/>
   <outline>
-    <component base="ntilde.0" yOffset="-10"/>
+    <component base="ntilde"/>
   </outline>
 </glyph>

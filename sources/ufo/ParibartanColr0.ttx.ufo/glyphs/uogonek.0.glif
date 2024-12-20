@@ -1,53 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uogonek.0" format="2">
-  <advance width="598"/>
+  <advance width="597"/>
   <outline>
-    <contour>
-      <point x="550" y="-248" type="qcurve"/>
-      <point x="550" y="-171" type="line"/>
-      <point x="542" y="-173"/>
-      <point x="537" y="-173" type="qcurve"/>
-      <point x="514" y="-173"/>
-      <point x="499" y="-157" type="qcurve"/>
-      <point x="483" y="-142"/>
-      <point x="483" y="-120" type="qcurve"/>
-      <point x="483" y="-98"/>
-      <point x="499" y="-82" type="qcurve"/>
-      <point x="515" y="-66"/>
-      <point x="537" y="-66" type="qcurve"/>
-      <point x="542" y="-66"/>
-      <point x="550" y="-68" type="qcurve"/>
-      <point x="550" y="9" type="line"/>
-      <point x="537" y="9" type="line"/>
-      <point x="483" y="9"/>
-      <point x="446" y="-28" type="qcurve"/>
-      <point x="408" y="-66"/>
-      <point x="408" y="-120" type="qcurve"/>
-      <point x="408" y="-173"/>
-      <point x="446" y="-210" type="qcurve"/>
-      <point x="483" y="-248"/>
-      <point x="537" y="-248" type="qcurve"/>
-      <point x="550" y="-248"/>
-    </contour>
-    <contour>
-      <point x="548" y="3" type="line"/>
-      <point x="548" y="519" type="line"/>
-      <point x="379" y="519" type="line"/>
-      <point x="379" y="187" type="line"/>
-      <point x="347" y="152"/>
-      <point x="299" y="152" type="qcurve"/>
-      <point x="250" y="152"/>
-      <point x="218" y="189" type="qcurve"/>
-      <point x="218" y="519" type="line"/>
-      <point x="51" y="519" type="line"/>
-      <point x="54" y="188" type="line"/>
-      <point x="78" y="105"/>
-      <point x="145" y="53" type="qcurve"/>
-      <point x="212" y="1"/>
-      <point x="299" y="1" type="qcurve"/>
-      <point x="340" y="1"/>
-      <point x="379" y="13" type="qcurve"/>
-      <point x="379" y="3" type="line"/>
-    </contour>
+    <component base="uogonek"/>
   </outline>
 </glyph>

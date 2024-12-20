@@ -1,12 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash.0" format="2">
   <advance width="691"/>
   <outline>
-    <contour>
-      <point x="485" y="828" type="line"/>
-      <point x="0" y="-12" type="line"/>
-      <point x="106" y="-73" type="line"/>
-      <point x="591" y="767" type="line"/>
-    </contour>
+    <component base="slash"/>
   </outline>
 </glyph>

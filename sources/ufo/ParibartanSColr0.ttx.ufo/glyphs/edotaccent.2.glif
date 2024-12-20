@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edotaccent.2" format="2">
   <advance width="617"/>
   <outline>
-    <component base="edotaccent.0" xOffset="50" yOffset="-10"/>
+    <component base="edotaccent"/>
   </outline>
 </glyph>

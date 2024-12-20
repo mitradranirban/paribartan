@@ -1,72 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eth.0" format="2">
   <advance width="612"/>
   <outline>
-    <contour>
-      <point x="310" y="377" type="qcurve"/>
-      <point x="322" y="377"/>
-      <point x="334" y="374" type="qcurve"/>
-      <point x="334" y="375" type="line"/>
-      <point x="371" y="367"/>
-      <point x="395" y="338" type="qcurve"/>
-      <point x="419" y="309"/>
-      <point x="419" y="270" type="qcurve"/>
-      <point x="419" y="232"/>
-      <point x="395" y="203" type="qcurve"/>
-      <point x="371" y="174"/>
-      <point x="334" y="166" type="qcurve"/>
-      <point x="334" y="167" type="line"/>
-      <point x="322" y="164"/>
-      <point x="310" y="164" type="qcurve"/>
-      <point x="297" y="164"/>
-      <point x="286" y="167" type="qcurve"/>
-      <point x="286" y="166" type="line"/>
-      <point x="249" y="174"/>
-      <point x="225" y="203" type="qcurve"/>
-      <point x="201" y="232"/>
-      <point x="201" y="270" type="qcurve"/>
-      <point x="201" y="309"/>
-      <point x="225" y="338" type="qcurve"/>
-      <point x="249" y="367"/>
-      <point x="286" y="375" type="qcurve"/>
-      <point x="286" y="374" type="line"/>
-      <point x="297" y="377"/>
-    </contour>
-    <contour>
-      <point x="135" y="790" type="line"/>
-      <point x="212" y="687" type="line"/>
-      <point x="158" y="633" type="line"/>
-      <point x="245" y="557" type="line"/>
-      <point x="282" y="594" type="line"/>
-      <point x="332" y="527" type="line"/>
-      <point x="320" y="528"/>
-      <point x="308" y="528" type="qcurve"/>
-      <point x="201" y="528"/>
-      <point x="126" y="453" type="qcurve"/>
-      <point x="50" y="377"/>
-      <point x="50" y="270" type="qcurve"/>
-      <point x="50" y="163"/>
-      <point x="126" y="88" type="qcurve"/>
-      <point x="201" y="13"/>
-      <point x="308" y="13" type="qcurve"/>
-      <point x="320" y="13"/>
-      <point x="332" y="14" type="qcurve"/>
-      <point x="484" y="14" type="line"/>
-      <point x="531" y="112"/>
-      <point x="549" y="202" type="qcurve"/>
-      <point x="567" y="291"/>
-      <point x="562" y="360" type="qcurve"/>
-      <point x="556" y="428"/>
-      <point x="529" y="493" type="qcurve"/>
-      <point x="502" y="558"/>
-      <point x="468" y="605" type="qcurve"/>
-      <point x="434" y="651"/>
-      <point x="387" y="699" type="qcurve"/>
-      <point x="427" y="739" type="line"/>
-      <point x="340" y="815" type="line"/>
-      <point x="302" y="777" type="line"/>
-      <point x="295" y="783"/>
-      <point x="287" y="790" type="qcurve"/>
-    </contour>
+    <component base="eth"/>
   </outline>
 </glyph>

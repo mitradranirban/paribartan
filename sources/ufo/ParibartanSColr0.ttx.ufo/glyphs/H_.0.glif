@@ -1,20 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="H.0" format="2">
   <advance width="652"/>
   <outline>
-    <contour>
-      <point x="400" y="784" type="line"/>
-      <point x="400" y="495" type="line"/>
-      <point x="152" y="495" type="line"/>
-      <point x="152" y="784" type="line"/>
-      <point x="0" y="784" type="line"/>
-      <point x="0" y="8" type="line"/>
-      <point x="152" y="8" type="line"/>
-      <point x="152" y="343" type="line"/>
-      <point x="400" y="343" type="line"/>
-      <point x="400" y="8" type="line"/>
-      <point x="552" y="8" type="line"/>
-      <point x="552" y="784" type="line"/>
-    </contour>
+    <component base="H"/>
   </outline>
 </glyph>

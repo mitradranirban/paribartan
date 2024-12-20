@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve.2" format="2">
   <advance width="651"/>
   <outline>
-    <component base="Gbreve.0" xOffset="50" yOffset="-10"/>
+    <component base="Gbreve"/>
   </outline>
 </glyph>

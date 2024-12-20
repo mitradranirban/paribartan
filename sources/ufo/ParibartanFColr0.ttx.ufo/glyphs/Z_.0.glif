@@ -1,18 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Z.0" format="2">
   <advance width="783"/>
   <outline>
-    <contour>
-      <point x="50" y="20" type="line"/>
-      <point x="733" y="20" type="line"/>
-      <point x="733" y="172" type="line"/>
-      <point x="301" y="172" type="line"/>
-      <point x="733" y="620" type="line"/>
-      <point x="733" y="772" type="line"/>
-      <point x="50" y="772" type="line"/>
-      <point x="50" y="620" type="line"/>
-      <point x="480" y="620" type="line"/>
-      <point x="50" y="172" type="line"/>
-    </contour>
+    <component base="Z"/>
   </outline>
 </glyph>

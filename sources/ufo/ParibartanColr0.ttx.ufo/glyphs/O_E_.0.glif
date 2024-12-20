@@ -1,49 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="OE.0" format="2">
   <advance width="1068"/>
   <outline>
-    <contour>
-      <point x="909" y="495" type="line"/>
-      <point x="602" y="495" type="line"/>
-      <point x="602" y="636" type="line"/>
-      <point x="1018" y="636" type="line"/>
-      <point x="1017" y="788" type="line"/>
-      <point x="450" y="788" type="line"/>
-      <point x="450" y="784" type="line"/>
-      <point x="450" y="783" type="line"/>
-      <point x="441" y="783"/>
-      <point x="432" y="783" type="qcurve"/>
-      <point x="274" y="783"/>
-      <point x="162" y="668" type="qcurve"/>
-      <point x="50" y="553"/>
-      <point x="50" y="390" type="qcurve"/>
-      <point x="50" y="227"/>
-      <point x="162" y="112" type="qcurve"/>
-      <point x="274" y="-4"/>
-      <point x="432" y="-4" type="qcurve"/>
-      <point x="469" y="-4"/>
-      <point x="505" y="3" type="qcurve"/>
-      <point x="505" y="7" type="line"/>
-      <point x="1018" y="7" type="line"/>
-      <point x="1017" y="159" type="line"/>
-      <point x="602" y="159" type="line"/>
-      <point x="602" y="343" type="line"/>
-      <point x="910" y="343" type="line"/>
-    </contour>
-    <contour>
-      <point x="432" y="622" type="qcurve"/>
-      <point x="441" y="622"/>
-      <point x="450" y="621" type="qcurve"/>
-      <point x="450" y="154" type="line"/>
-      <point x="441" y="153"/>
-      <point x="432" y="153" type="qcurve"/>
-      <point x="337" y="153"/>
-      <point x="270" y="222" type="qcurve"/>
-      <point x="203" y="290"/>
-      <point x="203" y="388" type="qcurve"/>
-      <point x="203" y="485"/>
-      <point x="270" y="554" type="qcurve"/>
-      <point x="337" y="622"/>
-    </contour>
+    <component base="OE"/>
   </outline>
 </glyph>

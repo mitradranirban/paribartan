@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ldot.2" format="2">
   <advance width="718"/>
   <outline>
-    <component base="Ldot.0" xOffset="50" yOffset="-10"/>
+    <component base="Ldot"/>
   </outline>
 </glyph>

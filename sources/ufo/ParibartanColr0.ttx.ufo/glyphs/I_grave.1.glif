@@ -1,54 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Igrave.1" format="2">
-  <advance width="252"/>
+  <advance width="390"/>
   <outline>
-    <contour>
-      <point x="-52" y="1016" type="line"/>
-      <point x="52" y="1119" type="line"/>
-      <point x="230" y="941" type="line"/>
-      <point x="126" y="838" type="line"/>
-    </contour>
-    <contour>
-      <point x="-58" y="1018" type="line"/>
-      <point x="-59" y="1017"/>
-      <point x="-59" y="1016" type="qcurve"/>
-      <point x="-59" y="1015"/>
-      <point x="-58" y="1014" type="qcurve"/>
-      <point x="124" y="832" type="line"/>
-      <point x="125" y="832"/>
-      <point x="126" y="832" type="qcurve"/>
-      <point x="127" y="832"/>
-      <point x="128" y="832" type="qcurve"/>
-      <point x="236" y="939" type="line"/>
-      <point x="237" y="940"/>
-      <point x="237" y="941" type="qcurve"/>
-      <point x="237" y="942"/>
-      <point x="236" y="943" type="qcurve"/>
-      <point x="54" y="1125" type="line"/>
-      <point x="53" y="1126"/>
-      <point x="52" y="1126" type="qcurve"/>
-      <point x="51" y="1126"/>
-      <point x="50" y="1125" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="200" y="772" type="line"/>
-      <point x="200" y="0" type="line"/>
-      <point x="52" y="0" type="line"/>
-      <point x="52" y="772" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="776" type="line"/>
-      <point x="48" y="776"/>
-      <point x="48" y="774" type="qcurve"/>
-      <point x="48" y="-2" type="line"/>
-      <point x="48" y="-4"/>
-      <point x="50" y="-4" type="qcurve"/>
-      <point x="202" y="-4" type="line"/>
-      <point x="204" y="-4"/>
-      <point x="204" y="-2" type="qcurve"/>
-      <point x="204" y="774" type="line"/>
-      <point x="204" y="776"/>
-      <point x="202" y="776" type="qcurve"/>
-    </contour>
+    <component base="Igrave"/>
   </outline>
 </glyph>

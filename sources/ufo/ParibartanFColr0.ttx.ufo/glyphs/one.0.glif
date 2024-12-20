@@ -1,18 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.0" format="2">
   <advance width="436"/>
   <outline>
-    <contour>
-      <point x="158" y="497" type="line"/>
-      <point x="340" y="679" type="line"/>
-      <point x="232" y="786" type="line"/>
-      <point x="50" y="604" type="line"/>
-    </contour>
-    <contour>
-      <point x="234" y="784" type="line"/>
-      <point x="234" y="8" type="line"/>
-      <point x="386" y="8" type="line"/>
-      <point x="386" y="784" type="line"/>
-    </contour>
+    <component base="one"/>
   </outline>
 </glyph>

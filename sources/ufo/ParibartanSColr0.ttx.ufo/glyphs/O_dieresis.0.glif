@@ -1,54 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odieresis.0" format="2">
   <advance width="864"/>
   <outline>
-    <contour>
-      <point x="406" y="843" type="line"/>
-      <point x="558" y="843" type="line"/>
-      <point x="558" y="985" type="line"/>
-      <point x="406" y="985" type="line"/>
-    </contour>
-    <contour>
-      <point x="206" y="843" type="line"/>
-      <point x="358" y="843" type="line"/>
-      <point x="358" y="985" type="line"/>
-      <point x="206" y="985" type="line"/>
-    </contour>
-    <contour>
-      <point x="764" y="390" type="qcurve"/>
-      <point x="764" y="553"/>
-      <point x="652" y="668" type="qcurve"/>
-      <point x="540" y="783"/>
-      <point x="382" y="783" type="qcurve"/>
-      <point x="224" y="783"/>
-      <point x="112" y="668" type="qcurve"/>
-      <point x="0" y="553"/>
-      <point x="0" y="390" type="qcurve"/>
-      <point x="0" y="227"/>
-      <point x="112" y="112" type="qcurve"/>
-      <point x="224" y="-4"/>
-      <point x="382" y="-4" type="qcurve"/>
-      <point x="540" y="-4"/>
-      <point x="652" y="112" type="qcurve"/>
-      <point x="764" y="227"/>
-    </contour>
-    <contour>
-      <point x="611" y="388" type="qcurve"/>
-      <point x="611" y="290"/>
-      <point x="544" y="222" type="qcurve"/>
-      <point x="477" y="153"/>
-      <point x="382" y="153" type="qcurve"/>
-      <point x="287" y="153"/>
-      <point x="220" y="222" type="qcurve"/>
-      <point x="153" y="290"/>
-      <point x="153" y="388" type="qcurve"/>
-      <point x="153" y="485"/>
-      <point x="220" y="554" type="qcurve"/>
-      <point x="287" y="622"/>
-      <point x="382" y="622" type="qcurve"/>
-      <point x="477" y="622"/>
-      <point x="544" y="554" type="qcurve"/>
-      <point x="611" y="485"/>
-    </contour>
+    <component base="Odieresis"/>
   </outline>
 </glyph>

@@ -1,62 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut.1" format="2">
-  <advance width="500"/>
+  <advance width="676"/>
   <outline>
-    <contour>
-      <point x="39" y="567" type="line"/>
-      <point x="217" y="745" type="line"/>
-      <point x="321" y="642" type="line"/>
-      <point x="143" y="464" type="line"/>
-    </contour>
-    <contour>
-      <point x="33" y="569" type="line"/>
-      <point x="33" y="568"/>
-      <point x="33" y="567" type="qcurve"/>
-      <point x="33" y="566"/>
-      <point x="33" y="565" type="qcurve"/>
-      <point x="141" y="458" type="line"/>
-      <point x="142" y="458"/>
-      <point x="143" y="458" type="qcurve"/>
-      <point x="144" y="458"/>
-      <point x="145" y="458" type="qcurve"/>
-      <point x="327" y="640" type="line"/>
-      <point x="327" y="641"/>
-      <point x="327" y="642" type="qcurve"/>
-      <point x="327" y="643"/>
-      <point x="327" y="644" type="qcurve"/>
-      <point x="219" y="751" type="line"/>
-      <point x="218" y="752"/>
-      <point x="217" y="752" type="qcurve"/>
-      <point x="216" y="752"/>
-      <point x="215" y="751" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="-247" y="569" type="line"/>
-      <point x="-69" y="747" type="line"/>
-      <point x="35" y="644" type="line"/>
-      <point x="-143" y="466" type="line"/>
-    </contour>
-    <contour>
-      <point x="-253" y="571" type="line"/>
-      <point x="-253" y="570"/>
-      <point x="-253" y="569" type="qcurve"/>
-      <point x="-253" y="568"/>
-      <point x="-253" y="567" type="qcurve"/>
-      <point x="-145" y="460" type="line"/>
-      <point x="-144" y="460"/>
-      <point x="-143" y="460" type="qcurve"/>
-      <point x="-142" y="460"/>
-      <point x="-141" y="460" type="qcurve"/>
-      <point x="41" y="642" type="line"/>
-      <point x="41" y="643"/>
-      <point x="41" y="644" type="qcurve"/>
-      <point x="41" y="645"/>
-      <point x="41" y="646" type="qcurve"/>
-      <point x="-67" y="753" type="line"/>
-      <point x="-68" y="754"/>
-      <point x="-69" y="754" type="qcurve"/>
-      <point x="-70" y="754"/>
-      <point x="-71" y="753" type="qcurve"/>
-    </contour>
+    <component base="hungarumlaut"/>
   </outline>
 </glyph>

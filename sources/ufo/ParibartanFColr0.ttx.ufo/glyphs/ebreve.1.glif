@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ebreve.1" format="2">
   <advance width="617"/>
   <outline>
-    <component base="ebreve.0" yOffset="-10"/>
+    <component base="ebreve"/>
   </outline>
 </glyph>

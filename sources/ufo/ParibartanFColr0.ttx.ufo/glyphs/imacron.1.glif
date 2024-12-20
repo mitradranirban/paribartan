@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron.1" format="2">
-  <advance width="252"/>
+  <advance width="372"/>
   <outline>
-    <component base="imacron.0" yOffset="-10"/>
+    <component base="imacron"/>
   </outline>
 </glyph>

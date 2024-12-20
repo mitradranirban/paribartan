@@ -1,20 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="x.0" format="2">
   <advance width="724"/>
   <outline>
-    <contour>
-      <point x="0" y="523" type="line"/>
-      <point x="224" y="266" type="line"/>
-      <point x="1" y="9" type="line"/>
-      <point x="179" y="12" type="line"/>
-      <point x="312" y="165" type="line"/>
-      <point x="449" y="8" type="line"/>
-      <point x="624" y="10" type="line"/>
-      <point x="403" y="268" type="line"/>
-      <point x="623" y="521" type="line"/>
-      <point x="448" y="522" type="line"/>
-      <point x="315" y="370" type="line"/>
-      <point x="186" y="521" type="line"/>
-    </contour>
+    <component base="x"/>
   </outline>
 </glyph>

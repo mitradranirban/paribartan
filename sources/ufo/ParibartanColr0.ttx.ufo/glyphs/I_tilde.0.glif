@@ -1,45 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.0" format="2">
-  <advance width="252"/>
+  <advance width="350"/>
   <outline>
-    <contour>
-      <point x="251" y="961" type="line"/>
-      <point x="241" y="951" type="line"/>
-      <point x="232" y="941"/>
-      <point x="215" y="931" type="qcurve"/>
-      <point x="198" y="921"/>
-      <point x="183" y="921" type="qcurve"/>
-      <point x="161" y="921"/>
-      <point x="138" y="921" type="qcurve"/>
-      <point x="122" y="921"/>
-      <point x="99" y="935" type="qcurve"/>
-      <point x="75" y="948"/>
-      <point x="58" y="948" type="qcurve"/>
-      <point x="33" y="948"/>
-      <point x="1" y="920" type="qcurve"/>
-      <point x="1" y="844" type="line"/>
-      <point x="10" y="851" type="line"/>
-      <point x="19" y="858"/>
-      <point x="34" y="865" type="qcurve"/>
-      <point x="49" y="872"/>
-      <point x="60" y="872" type="qcurve"/>
-      <point x="76" y="872"/>
-      <point x="99" y="858" type="qcurve"/>
-      <point x="121" y="844"/>
-      <point x="137" y="844" type="qcurve"/>
-      <point x="187" y="844" type="line"/>
-      <point x="203" y="844"/>
-      <point x="219" y="855" type="qcurve"/>
-      <point x="235" y="865"/>
-      <point x="243" y="874" type="qcurve"/>
-      <point x="250" y="883"/>
-      <point x="251" y="885" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="50" y="784" type="line"/>
-      <point x="50" y="8" type="line"/>
-      <point x="202" y="8" type="line"/>
-      <point x="202" y="784" type="line"/>
-    </contour>
+    <component base="Itilde"/>
   </outline>
 </glyph>

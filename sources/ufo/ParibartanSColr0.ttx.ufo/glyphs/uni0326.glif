@@ -1,15 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0326" format="2">
+  <advance width="0"/>
   <unicode hex="0326"/>
   <outline>
     <contour>
-      <point x="-76" y="108" type="line"/>
-      <point x="-76" y="250" type="line"/>
-      <point x="76" y="250" type="line"/>
-      <point x="76" y="108" type="line"/>
-      <point x="16" y="-24" type="line"/>
-      <point x="-42" y="-20" type="line"/>
-      <point x="-33" y="108" type="line"/>
+      <point x="-126" y="103" type="line"/>
+      <point x="-126" y="245" type="line"/>
+      <point x="26" y="245" type="line"/>
+      <point x="26" y="103" type="line"/>
+      <point x="-34" y="-29" type="line"/>
+      <point x="-92" y="-25" type="line"/>
+      <point x="-83" y="103" type="line"/>
     </contour>
   </outline>
 </glyph>

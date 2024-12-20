@@ -1,64 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icircumflex.1" format="2">
-  <advance width="252"/>
+  <advance width="300"/>
   <outline>
-    <contour>
-      <point x="132" y="942" type="line"/>
-      <point x="132" y="944"/>
-      <point x="130" y="944" type="qcurve"/>
-      <point x="128" y="944"/>
-      <point x="127" y="942" type="qcurve"/>
-      <point x="100" y="837" type="line"/>
-      <point x="29" y="837" type="line"/>
-      <point x="99" y="999" type="line"/>
-      <point x="172" y="999" type="line"/>
-      <point x="223" y="837" type="line"/>
-      <point x="153" y="837" type="line"/>
-    </contour>
-    <contour>
-      <point x="97" y="1004" type="line"/>
-      <point x="95" y="1004"/>
-      <point x="95" y="1002" type="qcurve"/>
-      <point x="23" y="835" type="line"/>
-      <point x="23" y="835"/>
-      <point x="23" y="834" type="qcurve"/>
-      <point x="23" y="832"/>
-      <point x="26" y="832" type="qcurve"/>
-      <point x="102" y="832" type="line"/>
-      <point x="103" y="832"/>
-      <point x="104" y="834" type="qcurve"/>
-      <point x="129" y="930" type="line"/>
-      <point x="148" y="834" type="line"/>
-      <point x="148" y="832"/>
-      <point x="150" y="832" type="qcurve"/>
-      <point x="226" y="832" type="line"/>
-      <point x="229" y="832"/>
-      <point x="229" y="834" type="qcurve"/>
-      <point x="229" y="835"/>
-      <point x="229" y="835" type="qcurve"/>
-      <point x="176" y="1002" type="line"/>
-      <point x="175" y="1004"/>
-      <point x="174" y="1004" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="200" y="772" type="line"/>
-      <point x="200" y="0" type="line"/>
-      <point x="52" y="0" type="line"/>
-      <point x="52" y="772" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="776" type="line"/>
-      <point x="48" y="776"/>
-      <point x="48" y="774" type="qcurve"/>
-      <point x="48" y="-2" type="line"/>
-      <point x="48" y="-4"/>
-      <point x="50" y="-4" type="qcurve"/>
-      <point x="202" y="-4" type="line"/>
-      <point x="204" y="-4"/>
-      <point x="204" y="-2" type="qcurve"/>
-      <point x="204" y="774" type="line"/>
-      <point x="204" y="776"/>
-      <point x="202" y="776" type="qcurve"/>
-    </contour>
+    <component base="Icircumflex"/>
   </outline>
 </glyph>

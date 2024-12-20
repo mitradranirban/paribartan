@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth.2" format="2">
   <advance width="690"/>
   <outline>
-    <component base="Eth.0" xOffset="50" yOffset="-10"/>
+    <component base="Eth"/>
   </outline>
 </glyph>

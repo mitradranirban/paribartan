@@ -1,18 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron.0" format="2">
-  <advance width="252"/>
+  <advance width="372"/>
   <outline>
-    <contour>
-      <point x="212" y="664" type="line"/>
-      <point x="-60" y="664" type="line"/>
-      <point x="-60" y="588" type="line"/>
-      <point x="212" y="588" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="522" type="line"/>
-      <point x="0" y="8" type="line"/>
-      <point x="152" y="8" type="line"/>
-      <point x="152" y="522" type="line"/>
-    </contour>
+    <component base="imacron"/>
   </outline>
 </glyph>

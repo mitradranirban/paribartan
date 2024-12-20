@@ -1,42 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T.1" format="2">
   <advance width="676"/>
   <outline>
-    <contour>
-      <point x="56" y="764" type="line"/>
-      <point x="626" y="764" type="line"/>
-      <point x="626" y="616" type="line"/>
-      <point x="417" y="616" type="line"/>
-      <point x="414" y="616"/>
-      <point x="414" y="614" type="qcurve"/>
-      <point x="414" y="0" type="line"/>
-      <point x="268" y="0" type="line"/>
-      <point x="268" y="614" type="line"/>
-      <point x="268" y="616"/>
-      <point x="265" y="616" type="qcurve"/>
-      <point x="56" y="616" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="614" type="line"/>
-      <point x="50" y="612"/>
-      <point x="53" y="612" type="qcurve"/>
-      <point x="262" y="612" type="line"/>
-      <point x="262" y="-2" type="line"/>
-      <point x="262" y="-4"/>
-      <point x="265" y="-4" type="qcurve"/>
-      <point x="417" y="-4" type="line"/>
-      <point x="420" y="-4"/>
-      <point x="420" y="-2" type="qcurve"/>
-      <point x="420" y="612" type="line"/>
-      <point x="629" y="612" type="line"/>
-      <point x="632" y="612"/>
-      <point x="632" y="614" type="qcurve"/>
-      <point x="632" y="766" type="line"/>
-      <point x="632" y="768"/>
-      <point x="629" y="768" type="qcurve"/>
-      <point x="53" y="768" type="line"/>
-      <point x="50" y="768"/>
-      <point x="50" y="766" type="qcurve"/>
-    </contour>
+    <component base="T"/>
   </outline>
 </glyph>

@@ -1,28 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotleft.0" format="2">
-  <advance width="1282"/>
+  <advance width="1244"/>
   <outline>
-    <contour>
-      <point x="1194" y="673" type="line"/>
-      <point x="650" y="413" type="line"/>
-      <point x="650" y="412" type="line"/>
-      <point x="650" y="261" type="line"/>
-      <point x="650" y="260" type="line"/>
-      <point x="1194" y="16" type="line"/>
-      <point x="1194" y="168" type="line"/>
-      <point x="788" y="348" type="line"/>
-      <point x="1194" y="521" type="line"/>
-    </contour>
-    <contour>
-      <point x="594" y="673" type="line"/>
-      <point x="50" y="413" type="line"/>
-      <point x="50" y="412" type="line"/>
-      <point x="50" y="261" type="line"/>
-      <point x="50" y="260" type="line"/>
-      <point x="594" y="16" type="line"/>
-      <point x="594" y="168" type="line"/>
-      <point x="188" y="348" type="line"/>
-      <point x="594" y="521" type="line"/>
-    </contour>
+    <component base="guillemotleft"/>
   </outline>
 </glyph>

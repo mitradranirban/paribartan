@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="at.2" format="2">
-  <advance width="864"/>
+  <advance width="876"/>
   <outline>
-    <component base="at.0" yOffset="-10"/>
+    <component base="at" xOffset="-0.000102347"/>
   </outline>
 </glyph>

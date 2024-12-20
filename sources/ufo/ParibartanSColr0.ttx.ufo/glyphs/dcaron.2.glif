@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron.2" format="2">
-  <advance width="710"/>
+  <advance width="718"/>
   <outline>
-    <component base="dcaron.0" xOffset="50" yOffset="-10"/>
+    <component base="dcaron"/>
   </outline>
 </glyph>

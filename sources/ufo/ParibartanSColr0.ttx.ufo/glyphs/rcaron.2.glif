@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron.2" format="2">
   <advance width="587"/>
   <outline>
-    <component base="rcaron.0" xOffset="50" yOffset="-10"/>
+    <component base="rcaron"/>
   </outline>
 </glyph>

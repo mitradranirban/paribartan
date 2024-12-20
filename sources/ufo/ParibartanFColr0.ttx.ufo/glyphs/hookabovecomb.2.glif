@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hookabovecomb.2" format="2">
+  <advance width="242"/>
   <outline>
-    <component base="cedilla.0" xOffset="-450" yOffset="680"/>
+    <component base="hookabovecomb"/>
   </outline>
 </glyph>

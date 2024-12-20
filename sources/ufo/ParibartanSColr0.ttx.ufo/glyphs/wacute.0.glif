@@ -1,27 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wacute.0" format="2">
   <advance width="1044"/>
   <outline>
-    <contour>
-      <point x="472" y="588" type="line"/>
-      <point x="654" y="770" type="line"/>
-      <point x="546" y="877" type="line"/>
-      <point x="364" y="695" type="line"/>
-    </contour>
-    <contour>
-      <point x="396" y="521" type="line"/>
-      <point x="272" y="154" type="line"/>
-      <point x="148" y="521" type="line"/>
-      <point x="0" y="521" type="line"/>
-      <point x="200" y="10" type="line"/>
-      <point x="348" y="10" type="line"/>
-      <point x="472" y="327" type="line"/>
-      <point x="596" y="10" type="line"/>
-      <point x="744" y="10" type="line"/>
-      <point x="944" y="521" type="line"/>
-      <point x="792" y="521" type="line"/>
-      <point x="668" y="154" type="line"/>
-      <point x="548" y="521" type="line"/>
-    </contour>
+    <component base="wacute"/>
   </outline>
 </glyph>

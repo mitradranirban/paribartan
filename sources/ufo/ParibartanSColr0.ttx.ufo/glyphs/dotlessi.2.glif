@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi.2" format="2">
   <advance width="252"/>
   <outline>
-    <component base="bar.0" xScale="1.24591064453125" yScale="0.5299072265625" xOffset="31" yOffset="45"/>
+    <component base="dotlessi"/>
   </outline>
 </glyph>

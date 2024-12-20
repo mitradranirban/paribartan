@@ -1,18 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brokenbar.0" format="2">
   <advance width="252"/>
   <outline>
-    <contour>
-      <point x="202" y="380" type="line"/>
-      <point x="50" y="380" type="line"/>
-      <point x="50" y="-20" type="line"/>
-      <point x="202" y="-20" type="line"/>
-    </contour>
-    <contour>
-      <point x="202" y="843" type="line"/>
-      <point x="50" y="843" type="line"/>
-      <point x="50" y="469" type="line"/>
-      <point x="202" y="469" type="line"/>
-    </contour>
+    <component base="brokenbar"/>
   </outline>
 </glyph>

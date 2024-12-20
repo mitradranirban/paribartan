@@ -1,30 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yen.0" format="2">
   <advance width="612"/>
   <outline>
-    <contour>
-      <point x="580" y="406" type="line"/>
-      <point x="36" y="406" type="line"/>
-      <point x="36" y="344" type="line"/>
-      <point x="580" y="344" type="line"/>
-    </contour>
-    <contour>
-      <point x="580" y="268" type="line"/>
-      <point x="36" y="268" type="line"/>
-      <point x="36" y="206" type="line"/>
-      <point x="580" y="206" type="line"/>
-    </contour>
-    <contour>
-      <point x="229" y="461" type="line"/>
-      <point x="229" y="11" type="line"/>
-      <point x="381" y="11" type="line"/>
-      <point x="381" y="460" type="line"/>
-      <point x="382" y="460" type="line"/>
-      <point x="582" y="775" type="line"/>
-      <point x="430" y="775" type="line"/>
-      <point x="306" y="604" type="line"/>
-      <point x="182" y="775" type="line"/>
-      <point x="30" y="775" type="line"/>
-    </contour>
+    <component base="yen"/>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0326.2" format="2">
+  <advance width="0"/>
   <outline>
-    <component base="comma.0" xOffset="-326" yOffset="100"/>
+    <component base="uni0326"/>
   </outline>
 </glyph>

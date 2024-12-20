@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ycircumflex" format="2">
-  <advance width="512"/>
+  <advance width="652"/>
   <unicode hex="0176"/>
   <outline>
-    <component base="uni0302" xOffset="243" yOffset="60"/>
+    <component base="uni0302" xOffset="326" yOffset="67"/>
     <component base="Y"/>
   </outline>
 </glyph>

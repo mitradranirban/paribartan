@@ -1,17 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron.0" format="2">
-  <advance width="337"/>
+  <advance width="300"/>
   <outline>
-    <contour>
-      <point x="68" y="944" type="line"/>
-      <point x="139" y="776" type="line"/>
-      <point x="140" y="776" type="line"/>
-      <point x="215" y="776" type="line"/>
-      <point x="216" y="776" type="line"/>
-      <point x="268" y="944" type="line"/>
-      <point x="192" y="944" type="line"/>
-      <point x="172" y="836" type="line"/>
-      <point x="144" y="944" type="line"/>
-    </contour>
+    <component base="caron"/>
   </outline>
 </glyph>

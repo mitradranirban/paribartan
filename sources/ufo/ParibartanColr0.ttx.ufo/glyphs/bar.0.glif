@@ -1,12 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar.0" format="2">
-  <advance width="252"/>
+  <advance width="222"/>
   <outline>
-    <contour>
-      <point x="65" y="881" type="line"/>
-      <point x="65" y="-89" type="line"/>
-      <point x="187" y="-89" type="line"/>
-      <point x="187" y="881" type="line"/>
-    </contour>
+    <component base="bar"/>
   </outline>
 </glyph>

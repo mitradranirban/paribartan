@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ampersand.1" format="2">
-  <advance width="649"/>
+  <advance width="650"/>
   <outline>
-    <component base="ampersand.0" yOffset="-10"/>
+    <component base="ampersand" xOffset="-0.000325521"/>
   </outline>
 </glyph>

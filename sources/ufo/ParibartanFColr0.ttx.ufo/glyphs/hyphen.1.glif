@@ -1,12 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen.1" format="2">
   <advance width="644"/>
   <outline>
-    <contour>
-      <point x="594" y="496" type="line"/>
-      <point x="50" y="496" type="line"/>
-      <point x="50" y="344" type="line"/>
-      <point x="594" y="344" type="line"/>
-    </contour>
+    <component base="hyphen"/>
   </outline>
 </glyph>

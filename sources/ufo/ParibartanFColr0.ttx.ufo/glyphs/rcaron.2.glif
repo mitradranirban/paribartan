@@ -1,36 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron.2" format="2">
   <advance width="587"/>
   <outline>
-    <contour>
-      <point x="194" y="752" type="line"/>
-      <point x="265" y="584" type="line"/>
-      <point x="266" y="584" type="line"/>
-      <point x="341" y="584" type="line"/>
-      <point x="342" y="584" type="line"/>
-      <point x="394" y="752" type="line"/>
-      <point x="318" y="752" type="line"/>
-      <point x="298" y="644" type="line"/>
-      <point x="270" y="752" type="line"/>
-    </contour>
-    <contour>
-      <point x="50" y="522" type="line"/>
-      <point x="50" y="6" type="line"/>
-      <point x="219" y="6" type="line"/>
-      <point x="219" y="338" type="line"/>
-      <point x="251" y="373"/>
-      <point x="299" y="373" type="qcurve"/>
-      <point x="341" y="373"/>
-      <point x="372" y="344" type="qcurve"/>
-      <point x="372" y="345" type="line"/>
-      <point x="537" y="345" type="line"/>
-      <point x="508" y="422"/>
-      <point x="444" y="473" type="qcurve"/>
-      <point x="379" y="524"/>
-      <point x="299" y="524" type="qcurve"/>
-      <point x="258" y="524"/>
-      <point x="219" y="512" type="qcurve"/>
-      <point x="219" y="522" type="line"/>
-    </contour>
+    <component base="rcaron"/>
   </outline>
 </glyph>

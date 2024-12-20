@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="registered.2" format="2">
-  <advance width="864"/>
+  <advance width="656"/>
   <outline>
-    <component base="registered.0" yOffset="-10"/>
+    <component base="registered"/>
   </outline>
 </glyph>

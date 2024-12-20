@@ -1,19 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="F.0" format="2">
   <advance width="668"/>
   <outline>
-    <contour>
-      <point x="459" y="495" type="line"/>
-      <point x="152" y="495" type="line"/>
-      <point x="152" y="636" type="line"/>
-      <point x="568" y="636" type="line"/>
-      <point x="567" y="788" type="line"/>
-      <point x="0" y="788" type="line"/>
-      <point x="0" y="784" type="line"/>
-      <point x="0" y="8" type="line"/>
-      <point x="152" y="8" type="line"/>
-      <point x="152" y="343" type="line"/>
-      <point x="460" y="343" type="line"/>
-    </contour>
+    <component base="F"/>
   </outline>
 </glyph>

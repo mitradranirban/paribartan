@@ -1,28 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotright.0" format="2">
-  <advance width="1282"/>
+  <advance width="1244"/>
   <outline>
-    <contour>
-      <point x="0" y="673" type="line"/>
-      <point x="0" y="521" type="line"/>
-      <point x="406" y="348" type="line"/>
-      <point x="0" y="168" type="line"/>
-      <point x="0" y="16" type="line"/>
-      <point x="544" y="260" type="line"/>
-      <point x="544" y="261" type="line"/>
-      <point x="544" y="412" type="line"/>
-      <point x="544" y="413" type="line"/>
-    </contour>
-    <contour>
-      <point x="600" y="673" type="line"/>
-      <point x="600" y="521" type="line"/>
-      <point x="1006" y="348" type="line"/>
-      <point x="600" y="168" type="line"/>
-      <point x="600" y="16" type="line"/>
-      <point x="1144" y="260" type="line"/>
-      <point x="1144" y="261" type="line"/>
-      <point x="1144" y="412" type="line"/>
-      <point x="1144" y="413" type="line"/>
-    </contour>
+    <component base="guillemotright"/>
   </outline>
 </glyph>
