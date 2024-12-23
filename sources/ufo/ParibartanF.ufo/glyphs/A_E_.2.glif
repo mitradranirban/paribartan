@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE.2" format="2">
+  <advance width="1024"/>
+  <outline>
+    <component base="AE" xScale="0.8" yScale="0.8" xOffset="152.4" yOffset="77.5"/>
+  </outline>
+</glyph>

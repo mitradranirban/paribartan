@@ -1,26 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="SHDR" name="SHADOW" minimum="-50" maximum="50" default="0"/>
-    <axis tag="MASK" name="MASK" minimum="-50" maximum="50" default="0"/>
+    <axis tag="SHDW" name="SHADOW" minimum="-50" maximum="50" default="0">
+      <labels>
+        <label uservalue="0" name="Regular" elidable="true"/>
+      </labels>
+    </axis>
+    <axis tag="MASK" name="MASK" minimum="-50" maximum="50" default="0">
+      <labels>
+        <label uservalue="0" name="Regular" elidable="true"/>
+      </labels>
+    </axis>
   </axes>
   <sources>
-    <source filename="ParibartanSColr0.ttx.ufo" name="::fontra000-7630d7cb" familyname="Paribartan" stylename="ParibartanSColr0">
+    <source filename="ParibartanS.ufo" name="::fontra000-fb334828" familyname="Paribartan" stylename="ParibartanS">
       <location>
         <dimension name="SHADOW" xvalue="-50"/>
         <dimension name="MASK" xvalue="0"/>
       </location>
     </source>
-    <source filename="ParibartanColr0.ttx.ufo" name="::fontra001-e40a8340" familyname="Paribartan" stylename="ParibartanColr0">
+    <source filename="ParibartanR.ufo" name="::fontra001-2ee3f6a6" familyname="Paribartan" stylename="ParibartanR">
+      <location>
+        <dimension name="SHADOW" xvalue="50"/>
+        <dimension name="MASK" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Paribartan-Regular.ufo" name="::fontra002-59717c60" familyname="Paribartan" stylename="Paribartan">
       <location>
         <dimension name="SHADOW" xvalue="0"/>
         <dimension name="MASK" xvalue="0"/>
       </location>
     </source>
-    <source filename="ParibartanFColr0.ttx.ufo" name="::fontra002-cc34cfc8" familyname="Paribartan" stylename="ParibartanFColr0">
+    <source filename="ParibartanF.ufo" name="::fontra003-42797037" familyname="Paribartan" stylename="ParibartanF">
       <location>
         <dimension name="SHADOW" xvalue="0"/>
         <dimension name="MASK" xvalue="50"/>
+      </location>
+    </source>
+    <source filename="ParibartanB.ufo" name="::fontra004-0434fceb" familyname="Paribartan" stylename="ParibartanB">
+      <location>
+        <dimension name="SHADOW" xvalue="0"/>
+        <dimension name="MASK" xvalue="-50"/>
       </location>
     </source>
   </sources>

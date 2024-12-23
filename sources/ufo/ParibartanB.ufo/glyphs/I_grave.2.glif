@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Igrave.2" format="2">
+  <advance width="390"/>
+  <outline>
+    <component base="Igrave" xScale="0.8" yScale="0.8" xOffset="-32.2" yOffset="112.1"/>
+  </outline>
+</glyph>

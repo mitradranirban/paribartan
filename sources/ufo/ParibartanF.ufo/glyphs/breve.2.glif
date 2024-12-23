@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve.2" format="2">
+  <advance width="356"/>
+  <outline>
+    <component base="breve" xScale="0.8" yScale="0.8" xOffset="85.6" yOffset="102.6"/>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Q.2" format="2">
+  <advance width="872"/>
+  <outline>
+    <component base="Q" xScale="0.8" yScale="0.8" xOffset="37.2" yOffset="58.2"/>
+  </outline>
+</glyph>

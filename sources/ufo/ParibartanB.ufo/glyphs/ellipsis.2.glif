@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis.2" format="2">
+  <advance width="756"/>
+  <outline>
+    <component base="ellipsis" xScale="0.8" yScale="0.8" xOffset="25.6" yOffset="13.8"/>
+  </outline>
+</glyph>

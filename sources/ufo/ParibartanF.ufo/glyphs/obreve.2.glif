@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obreve.2" format="2">
+  <advance width="620"/>
+  <outline>
+    <component base="obreve" xScale="0.8" yScale="0.8" xOffset="112" yOffset="70.5"/>
+  </outline>
+</glyph>

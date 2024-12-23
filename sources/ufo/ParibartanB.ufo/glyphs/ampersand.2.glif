@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand.2" format="2">
+  <advance width="650"/>
+  <outline>
+    <component base="ampersand" xScale="0.8" yScale="0.8" xOffset="15.0665" yOffset="81.0167"/>
+  </outline>
+</glyph>

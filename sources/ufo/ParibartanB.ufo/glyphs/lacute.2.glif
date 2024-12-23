@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute.2" format="2">
+  <advance width="562"/>
+  <outline>
+    <component base="lacute" xScale="0.8" yScale="0.8" xOffset="-10.4" yOffset="110.7"/>
+  </outline>
+</glyph>

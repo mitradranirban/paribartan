@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflex.2" format="2">
+  <advance width="864"/>
+  <outline>
+    <component base="Ocircumflex" xScale="0.8" yScale="0.8" xOffset="36.4" yOffset="98.6"/>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="atilde.2" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="atilde" xScale="0.8" yScale="0.8" xOffset="103.4" yOffset="69.6"/>
+  </outline>
+</glyph>

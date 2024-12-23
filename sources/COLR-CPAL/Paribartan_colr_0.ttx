@@ -1244,14 +1244,14 @@
       <layer colorID="2" name="ldot.0"/>
     </ColorGlyph>
     <ColorGlyph name="Lslash">
-      <layer colorID="1" name="L.0"/>
-      <layer colorID="0" name="Lslash.0"/>
-      <layer colorID="2" name="L.0"/>
+      <layer colorID="1" name="Lslash.0"/>
+      <layer colorID="0" name="Lslash.1"/>
+      <layer colorID="2" name="Lslash.2"/>
     </ColorGlyph>
     <ColorGlyph name="lslash">
-      <layer colorID="1" name="l.0"/>
-      <layer colorID="0" name="lslash.0"/>
-      <layer colorID="2" name="l.0"/>
+      <layer colorID="1" name="lslash.0"/>
+      <layer colorID="0" name="lslash.1"/>
+      <layer colorID="2" name="lslash.2"/>
     </ColorGlyph>
     <ColorGlyph name="Nacute">
       <layer colorID="1" name="Nacute.0"/>
@@ -1853,10 +1853,10 @@
       <layer colorID="0" name="u09A3.1"/>
       <layer colorID="2" name="u09A3.0"/>
     </ColorGlyph>
-    <ColorGlyph name="u09a4">
-      <layer colorID="1" name="u09a4.0"/>
-      <layer colorID="0" name="u09a4.1"/>
-      <layer colorID="2" name="u09a4.0"/>
+    <ColorGlyph name="u09A4">
+      <layer colorID="1" name="u09A4.0"/>
+      <layer colorID="0" name="u09A4.1"/>
+      <layer colorID="2" name="u09A4.0"/>
     </ColorGlyph>
     <ColorGlyph name="u09A5">
       <layer colorID="1" name="u09A5.0"/>
@@ -2283,11 +2283,42 @@
       <layer colorID="0" name="quotedblbase.1"/>
       <layer colorID="2" name="quotedblbase.2"/>
     </ColorGlyph>
+    <ColorGlyph name="ellipsis">
+      <layer colorID="1" name="ellipsis.0"/>
+      <layer colorID="0" name="ellipsis.1"/>
+      <layer colorID="2" name="ellipsis.2"/>
+    </ColorGlyph>
+    <ColorGlyph name="guilsinglleft">
+      <layer colorID="1" name="guilsinglleft.0"/>
+      <layer colorID="0" name="guilsinglleft.1"/>
+      <layer colorID="2" name="guilsinglleft.2"/>
+    </ColorGlyph>
+    <ColorGlyph name="guilsinglright">
+      <layer colorID="1" name="guilsinglright.0"/>
+      <layer colorID="0" name="guilsinglright.1"/>
+      <layer colorID="2" name="guilsinglright.2"/>
+    </ColorGlyph>
+     <ColorGlyph name="bullet">
+      <layer colorID="1" name="bullet.0"/>
+      <layer colorID="0" name="bullet.1"/>
+      <layer colorID="2" name="bullet.2"/>
+    </ColorGlyph>
+  </COLR>
+
+</ttFont>
     <ColorGlyph name="">
       <layer colorID="1" name=".0"/>
       <layer colorID="0" name=".1"/>
       <layer colorID="2" name=".2"/>
     </ColorGlyph>
-  </COLR>
-
-</ttFont>
+    <ColorGlyph name="trademark">
+      <layer colorID="1" name="trademark.0"/>
+      <layer colorID="0" name="trademark.1"/>
+      <layer colorID="2" name="trademark.2"/>
+    </ColorGlyph>
+     <ColorGlyph name="minus">
+      <layer colorID="1" name="minus.0"/>
+      <layer colorID="0" name="minus.1"/>
+      <layer colorID="2" name="minus.2"/>
+    </ColorGlyph>
+ 

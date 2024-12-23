@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yen.2" format="2">
+  <advance width="612"/>
+  <outline>
+    <component base="yen" xScale="0.8" yScale="0.8" xOffset="1.2" yOffset="76.6"/>
+  </outline>
+</glyph>

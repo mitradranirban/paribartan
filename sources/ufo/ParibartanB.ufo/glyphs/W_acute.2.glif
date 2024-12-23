@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wacute.2" format="2">
+  <advance width="1053"/>
+  <outline>
+    <component base="Wacute" xScale="0.8" yScale="0.8" xOffset="55.3" yOffset="112.2"/>
+  </outline>
+</glyph>

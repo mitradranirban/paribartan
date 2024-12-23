@@ -10,8 +10,126 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[25] Paribartan-VF.ttf</summary>
+<details><summary>[33] Paribartan-VF.ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPConnectionPool(host='fonts.google.com', port=80): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPConnection object at 0x79d0609b07c0&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPConnectionPool(host='fonts.google.com', port=80): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPConnection object at 0x79d05b937bb0&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPConnectionPool(host='fonts.google.com', port=80): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPConnection object at 0x79d05b936770&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Familyname must be unique according to namecheck.fontdata.com <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Failed to access: <a href="http://namecheck.fontdata.com">http://namecheck.fontdata.com</a>.
+This check relies on the external service <a href="http://namecheck.fontdata.com">http://namecheck.fontdata.com</a> via the internet. While the service cannot be reached or does not respond this check is broken.</p>
+<pre><code>	You can exclude this check with the command line option:
+	-x com.google.fonts/check/fontdata_namecheck
+
+	Or you can wait until the service is available again.
+	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+	Original error message:
+	&lt;class 'requests.exceptions.ConnectionError'&gt;
+</code></pre>
+ [code: namecheck-service]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPConnectionPool(host='fonts.google.com', port=80): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPConnection object at 0x79d05b937f70&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPConnectionPool(host='fonts.google.com', port=80): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPConnection object at 0x79d05b936fb0&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> STAT table has Axis Value tables? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.stat.html#"></a></summary>
     <div>
@@ -40,12 +158,12 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1230, but got 1160 instead</p>
+* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 1220, but got 1160 instead</p>
  [code: ascent]
 
 
 
-* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 350, but got 348 instead</p>
+* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 438, but got 348 instead</p>
  [code: descent]
 
 
@@ -54,7 +172,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure indic fonts have the Indian Rupee Sign glyph. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.fontbakery.html#"></a></summary>
     <div>
 
 
@@ -63,8 +181,9 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>Please add a glyph for Indian Rupee Sign (₹) at codepoint U+20B9.</p>
- [code: missing-rupee]
+* 🔥 **FAIL** <p>Request to PyPI.org failed with this message:
+HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi/fontbakery/json (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x79d061a812d0&gt;: Failed to resolve 'pypi.org' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: connection-error]
 
 
 
@@ -78,11 +197,6 @@ fontbakery version: 0.12.10
 
 
 
-
-
-
-* 🔥 **FAIL** <p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 1 (MACINTOSH) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: <a href="https://openfontlicense.org">https://openfontlicense.org</a>&quot;&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: <a href="https://openfontlicense.org">https://openfontlicense.org</a>&quot;</p>
- [code: wrong]
 
 
 
@@ -104,8 +218,26 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;Paribartan[ELVN,SHDR].ttf. Got Paribartan-VF.ttf.</p>
+* 🔥 **FAIL** <p>Expected &quot;Paribartan[MASK,SHDR].ttf. Got Paribartan-VF.ttf.</p>
  [code: bad-filename]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Put an empty glyph on GID 1 right after the .notdef glyph for COLRv0 fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.color.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>This is a COLR font. As a workaround for a rendering bug in Windows 10, it needs an empty glyph to be in GID 1. To fix this, please reorder the glyphs so that a glyph with no contours is on GID 1 right after the <code>.notdef</code> glyph. This could be the space glyph.</p>
+ [code: gid1-has-contours]
 
 
 
@@ -144,8 +276,8 @@ fontbakery version: 0.12.10
 </tr>
 <tr>
 <td align="left">Full Name</td>
-<td align="left"><strong>Paribartan</strong></td>
-<td align="left"><strong>Paribartan Regular</strong></td>
+<td align="left">Paribartan Regular</td>
+<td align="left">Paribartan Regular</td>
 </tr>
 <tr>
 <td align="left">Postscript Name</td>
@@ -155,11 +287,6 @@ fontbakery version: 0.12.10
 </tbody>
 </table>
  [code: bad-names]
-
-
-
-* ⚠️ **WARN** <p>Regular missing from full name</p>
- [code: lacks-regular]
 
 
 
@@ -192,11 +319,642 @@ fontbakery version: 0.12.10
 <tr>
 <td align="left">Regular</td>
 <td align="left">N/A</td>
-<td align="left">SHDR=30.0, ELVN=0.0</td>
+<td align="left">SHDR=0.0, MASK=0.0</td>
 </tr>
 </tbody>
 </table>
  [code: bad-fvar-instances]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.hinting.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi.org/project/gftools/</a></p>
+ [code: lacks-gasp]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check glyphs do not have components which are themselves components. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyf.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs have components which themselves are component glyphs:
+* Aacute.0
+* Aacute.1
+* Aacute.2
+* Abreve.0
+* Abreve.1
+* Abreve.2
+* Acircumflex.0
+* Acircumflex.1
+* Acircumflex.2
+* Adieresis.0
+* Adieresis.1
+* Adieresis.2
+* Agrave.0
+* Agrave.1
+* Agrave.2
+* Amacron.0
+* Amacron.1
+* Amacron.2
+* Aogonek.0
+* Aogonek.1
+* Aogonek.2
+* Aring.0
+* Aring.1
+* Aring.2
+* Atilde.0
+* Atilde.1
+* Atilde.2
+* Cacute.0
+* Cacute.1
+* Cacute.2
+* Ccaron.0
+* Ccaron.1
+* Ccaron.2
+* Ccedilla.0
+* Ccedilla.1
+* Ccedilla.2
+* Ccircumflex.0
+* Ccircumflex.1
+* Ccircumflex.2
+* Cdotaccent.0
+* Cdotaccent.1
+* Cdotaccent.2
+* Dcaron.0
+* Dcaron.1
+* Dcaron.2
+* Dcroat.0
+* Dcroat.1
+* Dcroat.2
+* Eacute.0
+* Eacute.1
+* Eacute.2
+* Ebreve.0
+* Ebreve.1
+* Ebreve.2
+* Ecaron.0
+* Ecaron.1
+* Ecaron.2
+* Ecircumflex.0
+* Ecircumflex.1
+* Ecircumflex.2
+* Edieresis.0
+* Edieresis.1
+* Edieresis.2
+* Edotaccent.0
+* Edotaccent.1
+* Edotaccent.2
+* Egrave.0
+* Egrave.1
+* Egrave.2
+* Emacron.0
+* Emacron.1
+* Emacron.2
+* Eogonek.0
+* Eogonek.1
+* Eogonek.2
+* Gbreve.0
+* Gbreve.1
+* Gbreve.2
+* Gcircumflex.0
+* Gcircumflex.1
+* Gcircumflex.2
+* Gdotaccent.0
+* Gdotaccent.1
+* Gdotaccent.2
+* Hcircumflex.0
+* Hcircumflex.1
+* Hcircumflex.2
+* Iacute.0
+* Iacute.1
+* Iacute.2
+* Ibreve.0
+* Ibreve.1
+* Ibreve.2
+* Icircumflex.0
+* Icircumflex.1
+* Icircumflex.2
+* Idieresis.0
+* Idieresis.1
+* Idieresis.2
+* Idotaccent.0
+* Idotaccent.1
+* Idotaccent.2
+* Igrave.0
+* Igrave.1
+* Igrave.2
+* Imacron.0
+* Imacron.1
+* Imacron.2
+* Iogonek.0
+* Iogonek.1
+* Iogonek.2
+* Itilde.0
+* Itilde.1
+* Itilde.2
+* Jcircumflex.0
+* Jcircumflex.1
+* Jcircumflex.2
+* Lacute.0
+* Lacute.1
+* Lacute.2
+* Ldot.0
+* Ldot.1
+* Ldot.2
+* Nacute.0
+* Nacute.1
+* Nacute.2
+* Ncaron.0
+* Ncaron.1
+* Ncaron.2
+* Ntilde.0
+* Ntilde.1
+* Ntilde.2
+* Oacute.0
+* Oacute.1
+* Oacute.2
+* Obreve.0
+* Obreve.1
+* Obreve.2
+* Ocircumflex.0
+* Ocircumflex.1
+* Ocircumflex.2
+* Odieresis.0
+* Odieresis.1
+* Odieresis.2
+* Ograve.0
+* Ograve.1
+* Ograve.2
+* Ohungarumlaut.0
+* Ohungarumlaut.1
+* Ohungarumlaut.2
+* Omacron.0
+* Omacron.1
+* Omacron.2
+* Otilde.0
+* Otilde.1
+* Otilde.2
+* Racute.0
+* Racute.1
+* Racute.2
+* Rcaron.0
+* Rcaron.1
+* Rcaron.2
+* Sacute.0
+* Sacute.1
+* Sacute.2
+* Scaron.0
+* Scaron.1
+* Scaron.2
+* Scedilla.0
+* Scedilla.1
+* Scedilla.2
+* Scircumflex.0
+* Scircumflex.1
+* Scircumflex.2
+* Tcaron.0
+* Tcaron.1
+* Tcaron.2
+* Uacute.0
+* Uacute.1
+* Uacute.2
+* Ubreve.0
+* Ubreve.1
+* Ubreve.2
+* Ucircumflex.0
+* Ucircumflex.1
+* Ucircumflex.2
+* Udieresis.0
+* Udieresis.1
+* Udieresis.2
+* Ugrave.0
+* Ugrave.1
+* Ugrave.2
+* Uhungarumlaut.0
+* Uhungarumlaut.1
+* Uhungarumlaut.2
+* Umacron.0
+* Umacron.1
+* Umacron.2
+* Uogonek.0
+* Uogonek.1
+* Uogonek.2
+* Uring.0
+* Uring.1
+* Uring.2
+* Utilde.0
+* Utilde.1
+* Utilde.2
+* Wacute.0
+* Wacute.1
+* Wacute.2
+* Wcircumflex.0
+* Wcircumflex.1
+* Wcircumflex.2
+* Wdieresis.0
+* Wdieresis.1
+* Wdieresis.2
+* Wgrave.0
+* Wgrave.1
+* Wgrave.2
+* Yacute.0
+* Yacute.1
+* Yacute.2
+* Ycircumflex.0
+* Ycircumflex.1
+* Ycircumflex.2
+* Ydieresis.0
+* Ydieresis.1
+* Ydieresis.2
+* Ygrave.0
+* Ygrave.1
+* Ygrave.2
+* Zacute.0
+* Zacute.1
+* Zacute.2
+* Zcaron.0
+* Zcaron.1
+* Zcaron.2
+* Zdotaccent.0
+* Zdotaccent.1
+* Zdotaccent.2
+* aacute.0
+* aacute.1
+* aacute.2
+* abreve.0
+* abreve.1
+* abreve.2
+* acircumflex.0
+* acircumflex.1
+* acircumflex.2
+* acute.0
+* acute.1
+* acute.2
+* adieresis.0
+* adieresis.1
+* adieresis.2
+* agrave.0
+* agrave.1
+* agrave.2
+* amacron.0
+* amacron.1
+* amacron.2
+* aogonek.0
+* aogonek.1
+* aogonek.2
+* aring.0
+* aring.1
+* aring.2
+* atilde.0
+* atilde.1
+* atilde.2
+* breve.0
+* breve.1
+* breve.2
+* cacute.0
+* cacute.1
+* cacute.2
+* caron.0
+* caron.1
+* caron.2
+* ccaron.0
+* ccaron.1
+* ccaron.2
+* ccedilla.0
+* ccedilla.1
+* ccedilla.2
+* ccircumflex.0
+* ccircumflex.1
+* ccircumflex.2
+* cdotaccent.0
+* cdotaccent.1
+* cdotaccent.2
+* cedilla.0
+* cedilla.1
+* cedilla.2
+* circumflex.0
+* circumflex.1
+* circumflex.2
+* degree.0
+* degree.1
+* degree.2
+* dotaccent.0
+* dotaccent.1
+* dotaccent.2
+* eacute.0
+* eacute.1
+* eacute.2
+* ebreve.0
+* ebreve.1
+* ebreve.2
+* ecaron.0
+* ecaron.1
+* ecaron.2
+* ecircumflex.0
+* ecircumflex.1
+* ecircumflex.2
+* edieresis.0
+* edieresis.1
+* edieresis.2
+* edotaccent.0
+* edotaccent.1
+* edotaccent.2
+* egrave.0
+* egrave.1
+* egrave.2
+* emacron.0
+* emacron.1
+* emacron.2
+* eogonek.0
+* eogonek.1
+* eogonek.2
+* gbreve.0
+* gbreve.1
+* gbreve.2
+* gcircumflex.0
+* gcircumflex.1
+* gcircumflex.2
+* gdotaccent.0
+* gdotaccent.1
+* gdotaccent.2
+* hcircumflex.0
+* hcircumflex.1
+* hcircumflex.2
+* hungarumlaut.0
+* hungarumlaut.1
+* hungarumlaut.2
+* iacute.0
+* iacute.1
+* iacute.2
+* ibreve.0
+* ibreve.1
+* ibreve.2
+* icircumflex.0
+* icircumflex.1
+* icircumflex.2
+* idieresis.0
+* idieresis.1
+* idieresis.2
+* igrave.0
+* igrave.1
+* igrave.2
+* imacron.0
+* imacron.1
+* imacron.2
+* iogonek.0
+* iogonek.1
+* iogonek.2
+* itilde.0
+* itilde.1
+* itilde.2
+* jcircumflex.0
+* jcircumflex.1
+* jcircumflex.2
+* lacute.0
+* lacute.1
+* lacute.2
+* ldot.0
+* ldot.1
+* ldot.2
+* macron.0
+* macron.1
+* macron.2
+* nacute.0
+* nacute.1
+* nacute.2
+* ncaron.0
+* ncaron.1
+* ncaron.2
+* ntilde.0
+* ntilde.1
+* ntilde.2
+* oacute.0
+* oacute.1
+* oacute.2
+* obreve.0
+* obreve.1
+* obreve.2
+* ocircumflex.0
+* ocircumflex.1
+* ocircumflex.2
+* odieresis.0
+* odieresis.1
+* odieresis.2
+* ogonek.0
+* ogonek.1
+* ogonek.2
+* ograve.0
+* ograve.1
+* ograve.2
+* ohungarumlaut.0
+* ohungarumlaut.1
+* ohungarumlaut.2
+* omacron.0
+* omacron.1
+* omacron.2
+* onehalf.0
+* onehalf.1
+* onehalf.2
+* onequarter.0
+* onequarter.1
+* onequarter.2
+* ordfeminine.0
+* ordfeminine.1
+* ordfeminine.2
+* ordmasculine.0
+* ordmasculine.1
+* ordmasculine.2
+* racute.0
+* racute.1
+* racute.2
+* rcaron.0
+* rcaron.1
+* rcaron.2
+* ring.0
+* ring.1
+* ring.2
+* sacute.0
+* sacute.1
+* sacute.2
+* scaron.0
+* scaron.1
+* scaron.2
+* scedilla.0
+* scedilla.1
+* scedilla.2
+* scircumflex.0
+* scircumflex.1
+* scircumflex.2
+* threequarters.0
+* threequarters.1
+* threequarters.2
+* tilde.0
+* tilde.1
+* tilde.2
+* u0965.0
+* u0965.1
+* u0965.2
+* u09CB.0
+* u09CB.1
+* u09CB.2
+* u09CC.0
+* u09CC.1
+* u09CC.2
+* u09DC.0
+* u09DC.1
+* u09DC.2
+* u09DD.0
+* u09DD.1
+* u09DD.2
+* u09DF.0
+* u09DF.1
+* u09DF.2
+* u09FD.0
+* u09FD.1
+* u09FD.2
+* uacute.0
+* uacute.1
+* uacute.2
+* ubreve.0
+* ubreve.1
+* ubreve.2
+* ucircumflex.0
+* ucircumflex.1
+* ucircumflex.2
+* udieresis.0
+* udieresis.1
+* udieresis.2
+* ugrave.0
+* ugrave.1
+* ugrave.2
+* uhungarumlaut.0
+* uhungarumlaut.1
+* uhungarumlaut.2
+* umacron.0
+* umacron.1
+* umacron.2
+* uni00B2.0
+* uni00B2.1
+* uni00B2.2
+* uni00B3.0
+* uni00B3.1
+* uni00B3.2
+* uni00B9.0
+* uni00B9.1
+* uni00B9.2
+* uni0122.0
+* uni0122.1
+* uni0122.2
+* uni0123.0
+* uni0123.1
+* uni0123.2
+* uni0136.0
+* uni0136.1
+* uni0136.2
+* uni0137.0
+* uni0137.1
+* uni0137.2
+* uni013B.0
+* uni013B.1
+* uni013B.2
+* uni013C.0
+* uni013C.1
+* uni013C.2
+* uni0145.0
+* uni0145.1
+* uni0145.2
+* uni0146.0
+* uni0146.1
+* uni0146.2
+* uni0156.0
+* uni0156.1
+* uni0156.2
+* uni0157.0
+* uni0157.1
+* uni0157.2
+* uni0162.0
+* uni0162.1
+* uni0162.2
+* uni0163.0
+* uni0163.1
+* uni0163.2
+* uni0218.0
+* uni0218.1
+* uni0218.2
+* uni0219.0
+* uni0219.1
+* uni0219.2
+* uni021A.0
+* uni021A.1
+* uni021A.2
+* uni021B.0
+* uni021B.1
+* uni021B.2
+* uogonek.0
+* uogonek.1
+* uogonek.2
+* uring.0
+* uring.1
+* uring.2
+* utilde.0
+* utilde.1
+* utilde.2
+* wacute.0
+* wacute.1
+* wacute.2
+* wcircumflex.0
+* wcircumflex.1
+* wcircumflex.2
+* wdieresis.0
+* wdieresis.1
+* wdieresis.2
+* wgrave.0
+* wgrave.1
+* wgrave.2
+* yacute.0
+* yacute.1
+* yacute.2
+* ycircumflex.0
+* ycircumflex.1
+* ycircumflex.2
+* ydieresis.0
+* ydieresis.1
+* ydieresis.2
+* ygrave.0
+* ygrave.1
+* ygrave.2
+* zacute.0
+* zacute.1
+* zacute.2
+* zcaron.0
+* zcaron.1
+* zcaron.2
+* zdotaccent.0
+* zdotaccent.1 and zdotaccent.2</p>
+ [code: found-nested-components]
 
 
 
@@ -214,31 +972,7 @@ fontbakery version: 0.12.10
 
 
 * 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x2013 (EN DASH)
-
-
-- 0x2014 (EM DASH)
-
-
-- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-- 0x2022 (BULLET)
+<pre><code>- 0x2022 (BULLET)
 
 
 - 0x2026 (HORIZONTAL ELLIPSIS)
@@ -248,9 +982,6 @@ fontbakery version: 0.12.10
 
 
 - 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x20AC (EURO SIGN)
 
 
 - 0x2122 (TRADE MARK SIGN)
@@ -275,12 +1006,7 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.001&quot;</p>
- [code: bad-version-strings]
-
-
-
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.001&quot;</p>
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.100&quot;</p>
  [code: bad-version-strings]
 
 
@@ -325,6 +1051,25 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), dotbelowcomb (U+0323), gravecomb (U+0300), hookabovecomb (U+0309), tildecomb (U+0303), u0981 (U+0981), u09BC (U+09BC), u09C1 (U+09C1), u09C2 (U+09C2), u09C3 (U+09C3), u09C4 (U+09C4), u09CD (U+09CD), u09E2 (U+09E2), u09E3 (U+09E3), u09FE (U+09FE), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni030F (U+030F), uni0312 (U+0312), uni0313 (U+0313), uni0326 (U+0326), uni0327 (U+0327) and uni0328 (U+0328)</p>
+ [code: mark-chars]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
     <div>
 
@@ -353,31 +1098,21 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>The following glyphs have coordinates which are out of bounds:
-* ('circumflex', 221.5, 366.5)
-* ('circumflex', 422.5, 366.5)
-* ('circumflex', 346.5, 366.5)
-* ('circumflex', 297.5, 366.5)
-* ('circumflex.1', 221.5, 366.5)
-* ('circumflex.1', 297.5, 366.5)
-* ('circumflex.1', 346.5, 366.5)
-* ('circumflex.1', 422.5, 366.5)
-* ('degree.0', 307.5, 536.5)
-* ('degree.0', 308, 536.5)
-* ('degree.0', 309, 536.5)
-* ('degree.0', 362.5, 536.5)
-* ('degree.0', 301, 536.5)
-* ('degree.0', 305, 536.5)
-* ('degree.0', 306, 536.5)
-* ('degree.0', 307, 536.5)
-* ('degree.0', 307, 536.5)
-* ('degree.2', 298, 530.5)
-* ('degree.2', 301.5, 530.5)
-* ('degree.2', 307, 530.5)
-* ('degree.2', 309, 530.5)
-* ('degree.2', 363, 530.5)
-* ('uni00B2.2', 178.5, 478)
-* ('uni00B3.2', 140.5, 470.5)
-* ('uni00B3.2', 147, 470.5) and ('uni00B3.2', 211.5, 470.5)</p>
+* ('circumflex', 50, 366.5)
+* ('circumflex', 251, 366.5)
+* ('circumflex', 175, 366.5)
+* ('circumflex', 126, 366.5)
+* ('circumflex.0', 50, 366.5)
+* ('circumflex.0', 251, 366.5)
+* ('circumflex.0', 175, 366.5)
+* ('circumflex.0', 126, 366.5)
+* ('circumflex.1', 50, 366.5)
+* ('circumflex.1', 251, 366.5)
+* ('circumflex.1', 175, 366.5)
+* ('circumflex.1', 126, 366.5)
+* ('circumflex.2', 50, 366.5)
+* ('circumflex.2', 251, 366.5)
+* ('circumflex.2', 175, 366.5) and ('circumflex.2', 126, 366.5)</p>
 <p>This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message.</p>
  [code: points-out-of-bounds]
 
@@ -433,6 +1168,8 @@ fontbakery version: 0.12.10
 
 * ⚠️ **WARN** <p>The most common width is 644 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:</p>
+<p>Width = 1000:
+logicalnot</p>
 <p>Width = 724:
 multiply</p>
  [code: width-outliers]
@@ -453,7 +1190,835 @@ multiply</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- nonmarkingreturn
+<pre><code>- A.2
+
+- AE.2
+
+- Aacute.2
+
+- Abreve.2
+
+- Acircumflex.2
+
+- Adieresis.2
+
+- Agrave.2
+
+- Amacron.2
+
+- Aogonek.2
+
+- Aring.2
+
+- Atilde.2
+
+- B.2
+
+- C.2
+
+- Cacute.2
+
+- Ccaron.2
+
+- Ccedilla.2
+
+- Ccircumflex.2
+
+- Cdotaccent.2
+
+- D.2
+
+- Dcaron.2
+
+- Dcroat.1
+
+- Dcroat.2
+
+- E.2
+
+- Eacute.2
+
+- Ebreve.2
+
+- Ecaron.2
+
+- Ecircumflex.2
+
+- Edieresis.2
+
+- Edotaccent.2
+
+- Egrave.2
+
+- Emacron.2
+
+- Eogonek.2
+
+- Eth.2
+
+- Euro.2
+
+- F.2
+
+- G.2
+
+- Gbreve.2
+
+- Gcircumflex.2
+
+- Gdotaccent.2
+
+- H.2
+
+- Hbar.2
+
+- Hcircumflex.2
+
+- Iacute.2
+
+- Ibreve.2
+
+- Icircumflex.2
+
+- Idieresis.2
+
+- Idotaccent.2
+
+- Igrave.2
+
+- Imacron.2
+
+- Iogonek.2
+
+- Itilde.2
+
+- J.2
+
+- Jcircumflex.2
+
+- K.2
+
+- L.2
+
+- Lacute.2
+
+- Lcaron.2
+
+- Ldot.2
+
+- M.2
+
+- N.2
+
+- Nacute.2
+
+- Ncaron.2
+
+- Ntilde.2
+
+- O.2
+
+- OE.2
+
+- Oacute.2
+
+- Obreve.2
+
+- Ocircumflex.2
+
+- Odieresis.2
+
+- Ograve.2
+
+- Ohungarumlaut.2
+
+- Omacron.2
+
+- Oslash.2
+
+- Otilde.2
+
+- P.2
+
+- Q.2
+
+- R.2
+
+- Racute.2
+
+- Rcaron.2
+
+- S.2
+
+- Sacute.2
+
+- Scaron.2
+
+- Scedilla.2
+
+- Scircumflex.2
+
+- T.2
+
+- Tcaron.2
+
+- Thorn.2
+
+- U.2
+
+- Uacute.2
+
+- Ubreve.2
+
+- Ucircumflex.2
+
+- Udieresis.2
+
+- Ugrave.2
+
+- Uhungarumlaut.2
+
+- Umacron.2
+
+- Uogonek.2
+
+- Uring.2
+
+- Utilde.2
+
+- V.2
+
+- W.2
+
+- Wacute.2
+
+- Wcircumflex.2
+
+- Wdieresis.2
+
+- Wgrave.2
+
+- X.2
+
+- Y.2
+
+- Yacute.2
+
+- Ycircumflex.2
+
+- Ydieresis.2
+
+- Ygrave.2
+
+- Z.2
+
+- Zacute.2
+
+- Zcaron.2
+
+- Zdotaccent.2
+
+- a.2
+
+- aacute.2
+
+- abreve.2
+
+- acircumflex.2
+
+- acute.2
+
+- adieresis.2
+
+- ae.2
+
+- agrave.2
+
+- amacron.2
+
+- ampersand.2
+
+- aogonek.2
+
+- aring.2
+
+- asciicircum.2
+
+- asciitilde.2
+
+- asterisk.2
+
+- at.2
+
+- atilde.2
+
+- b.2
+
+- backslash.2
+
+- bar.2
+
+- braceleft.2
+
+- braceright.2
+
+- bracketleft.2
+
+- bracketright.2
+
+- breve.2
+
+- brokenbar.2
+
+- c.2
+
+- cacute.2
+
+- caron.2
+
+- ccaron.2
+
+- ccedilla.2
+
+- ccircumflex.2
+
+- cdotaccent.2
+
+- cedilla.2
+
+- cent.2
+
+- colon.2
+
+- comma.2
+
+- copyright.2
+
+- d.2
+
+- dcaron.2
+
+- dcroat.2
+
+- divide.2
+
+- dollar.2
+
+- e.2
+
+- eacute.2
+
+- ebreve.2
+
+- ecaron.2
+
+- ecircumflex.2
+
+- edieresis.2
+
+- edotaccent.2
+
+- egrave.2
+
+- eight.2
+
+- emacron.2
+
+- emdash.2
+
+- endash.2
+
+- eogonek.2
+
+- equal.2
+
+- eth.2
+
+- exclam.2
+
+- f.2
+
+- five.2
+
+- four.2
+
+- g.2
+
+- gbreve.2
+
+- gcircumflex.2
+
+- gdotaccent.2
+
+- germandbls.2
+
+- grave.2
+
+- gravecomb.2
+
+- greater.2
+
+- guillemotleft.2
+
+- guillemotright.2
+
+- h.2
+
+- hbar.2
+
+- hcircumflex.2
+
+- hungarumlaut.2
+
+- i.2
+
+- iacute.2
+
+- ibreve.2
+
+- icircumflex.2
+
+- idieresis.2
+
+- igrave.2
+
+- imacron.2
+
+- iogonek.2
+
+- itilde.2
+
+- j.2
+
+- jcircumflex.2
+
+- k.2
+
+- l.2
+
+- lacute.2
+
+- lcaron.2
+
+- ldot.2
+
+- less.2
+
+- logicalnot.2
+
+- m.2
+
+- mu.2
+
+- n.2
+
+- nacute.2
+
+- ncaron.2
+
+- nonmarkingreturn
+
+- ntilde.2
+
+- numbersign.2
+
+- o.2
+
+- oacute.2
+
+- obreve.2
+
+- ocircumflex.2
+
+- odieresis.2
+
+- oe.2
+
+- ogonek.2
+
+- ograve.2
+
+- ohungarumlaut.2
+
+- omacron.2
+
+- one.2
+
+- onehalf.2
+
+- onequarter.2
+
+- oslash.2
+
+- otilde.2
+
+- p.2
+
+- paragraph.2
+
+- parenleft.2
+
+- parenright.2
+
+- percent.2
+
+- plus.2
+
+- plusminus.2
+
+- q.2
+
+- question.2
+
+- quotedbl.2
+
+- quoteleft.2
+
+- quotesingle.2
+
+- r.2
+
+- racute.2
+
+- rcaron.2
+
+- registered.2
+
+- ring.2
+
+- s.2
+
+- sacute.2
+
+- scaron.2
+
+- scedilla.2
+
+- scircumflex.2
+
+- section.2
+
+- semicolon.2
+
+- seven.2
+
+- six.2
+
+- slash.2
+
+- sterling.2
+
+- t.2
+
+- tcaron.2
+
+- three.2
+
+- threequarters.2
+
+- tilde.2
+
+- two.2
+
+- u0980.2
+
+- u0981.2
+
+- u0982.2
+
+- u0983.2
+
+- u0985.2
+
+- u0986.2
+
+- u0987.2
+
+- u0988.2
+
+- u0989.2
+
+- u098A.0
+
+- u098A.1
+
+- u098A.2
+
+- u098B.2
+
+- u098C.2
+
+- u098F.2
+
+- u0990.2
+
+- u0993.2
+
+- u0994.2
+
+- u0995.2
+
+- u0996.2
+
+- u0997.2
+
+- u0998.2
+
+- u0999.2
+
+- u099A.2
+
+- u099B.2
+
+- u099C.2
+
+- u099D.2
+
+- u099E.2
+
+- u099F.2
+
+- u09A0.2
+
+- u09A1.0
+
+- u09A1.1
+
+- u09A1.2
+
+- u09A2.2
+
+- u09A3.2
+
+- u09A4.2
+
+- u09A5.2
+
+- u09A6.2
+
+- u09A7.2
+
+- u09A8.2
+
+- u09AA.2
+
+- u09AB.2
+
+- u09AC.2
+
+- u09AD.2
+
+- u09AE.2
+
+- u09AF.2
+
+- u09B0.2
+
+- u09B2.2
+
+- u09B6.2
+
+- u09B7.2
+
+- u09B8.2
+
+- u09B9.2
+
+- u09BD.2
+
+- u09BE.2
+
+- u09BF.2
+
+- u09C0.2
+
+- u09C1.2
+
+- u09C2.2
+
+- u09C3.2
+
+- u09C4.2
+
+- u09C7.2
+
+- u09C8.2
+
+- u09CB.2
+
+- u09CC.2
+
+- u09CD.2
+
+- u09CE.2
+
+- u09D7.2
+
+- u09DC.2
+
+- u09DD.2
+
+- u09DF.2
+
+- u09E0.2
+
+- u09E1.2
+
+- u09E2.2
+
+- u09E3.2
+
+- u09E6.2
+
+- u09E8.2
+
+- u09E9.2
+
+- u09EA.2
+
+- u09EB.2
+
+- u09EC.2
+
+- u09ED.2
+
+- u09EE.2
+
+- u09EF.1
+
+- u09EF.2
+
+- u09F0.2
+
+- u09F1.2
+
+- u09F2.2
+
+- u09F3.2
+
+- u09F4.2
+
+- u09F5.2
+
+- u09F6.2
+
+- u09F7.2
+
+- u09F8.2
+
+- u09F9.1
+
+- u09F9.2
+
+- u09FB.2
+
+- u09FC.2
+
+- u09FE.2
+
+- uacute.2
+
+- ubreve.2
+
+- ucircumflex.2
+
+- udieresis.2
+
+- ugrave.2
+
+- uhungarumlaut.2
+
+- umacron.2
+
+- underscore.2
+
+- uni0122.2
+
+- uni0123.2
+
+- uni0136.2
+
+- uni0137.2
+
+- uni013B.2
+
+- uni013C.2
+
+- uni0145.2
+
+- uni0146.2
+
+- uni0156.2
+
+- uni0157.2
+
+- uni0162.2
+
+- uni0163.2
+
+- uni0218.2
+
+- uni0219.2
+
+- uni021A.2
+
+- uni021B.2
+
+- uni0237.2
+
+- uni0302.2
+
+- uni0304.2
+
+- uni030F.2
+
+- uni1E9E.2
+
+- uni20B9.2
+
+- uni25CC.2
+
+- uogonek.2
+
+- uring.2
+
+- utilde.2
+
+- v.2
+
+- w.2
+
+- wacute.2
+
+- wcircumflex.2
+
+- wdieresis.2
+
+- wgrave.2
+
+- x.2
+
+- y.2
+
+- yacute.2
+
+- ycircumflex.2
+
+- ydieresis.2
+
+- yen.2
+
+- ygrave.2
+
+- z.2
+
+- zacute.2
+
+- zcaron.2
+
+- zdotaccent.2
+
+- zero.2
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -496,69 +2061,23 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, math, malayalam, syriac, tifinagh, hebrew, tai-le, old-permic, duployan, canadian-aboriginal, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, duployan, coptic, old-permic, tifinagh, syriac, tai-le, malayalam, canadian-aboriginal, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0964 DEVANAGARI DANDA: try adding one of: takri, telugu, tamil, kannada, bengali, oriya, tirhuta, gujarati, grantha, ol-onal, devanagari, syloti-nagri, gunjala-gondi, malayalam, masaram-gondi, dogra, mahajani, sinhala, multani, gurmukhi, limbu, nandinagari, khudawadi</li>
-<li>U+0965 DEVANAGARI DOUBLE DANDA: try adding one of: takri, telugu, tamil, kannada, bengali, oriya, tirhuta, gujarati, grantha, ol-onal, gurung-khema, devanagari, syloti-nagri, gunjala-gondi, malayalam, masaram-gondi, dogra, mahajani, sinhala, multani, gurmukhi, limbu, nandinagari, khudawadi</li>
-<li>U+0981 BENGALI SIGN CANDRABINDU: try adding bengali</li>
-<li>U+0982 BENGALI SIGN ANUSVARA: try adding bengali</li>
-<li>U+0983 BENGALI SIGN VISARGA: try adding bengali</li>
-<li>U+0985 BENGALI LETTER A: try adding bengali</li>
-<li>U+0986 BENGALI LETTER AA: try adding bengali</li>
-<li>U+0987 BENGALI LETTER I: try adding bengali</li>
-<li>U+0988 BENGALI LETTER II: try adding bengali</li>
-<li>U+0989 BENGALI LETTER U: try adding bengali</li>
-<li>U+098A BENGALI LETTER UU: try adding bengali</li>
-<li>U+098B BENGALI LETTER VOCALIC R: try adding bengali</li>
-<li>U+098C BENGALI LETTER VOCALIC L: try adding bengali</li>
-<li>U+098F BENGALI LETTER E: try adding bengali</li>
-<li>U+0990 BENGALI LETTER AI: try adding bengali</li>
-<li>U+0993 BENGALI LETTER O: try adding bengali</li>
-<li>U+0994 BENGALI LETTER AU: try adding bengali</li>
-<li>U+0995 BENGALI LETTER KA: try adding bengali</li>
-<li>U+0996 BENGALI LETTER KHA: try adding bengali</li>
-<li>U+0997 BENGALI LETTER GA: try adding bengali</li>
-<li>U+099C BENGALI LETTER JA: try adding bengali</li>
-<li>U+099D BENGALI LETTER JHA: try adding bengali</li>
-<li>U+099E BENGALI LETTER NYA: try adding bengali</li>
-<li>U+099F BENGALI LETTER TTA: try adding bengali</li>
-<li>U+09A1 BENGALI LETTER DDA: try adding bengali</li>
-<li>U+09A2 BENGALI LETTER DDHA: try adding bengali</li>
-<li>U+09A3 BENGALI LETTER NNA: try adding bengali</li>
-<li>U+09A4 BENGALI LETTER TA: try adding bengali</li>
-<li>U+09A5 BENGALI LETTER THA: try adding bengali</li>
-<li>U+09A7 BENGALI LETTER DHA: try adding bengali</li>
-<li>U+09A8 BENGALI LETTER NA: try adding bengali</li>
-<li>U+09AB BENGALI LETTER PHA: try adding bengali</li>
-<li>U+09AC BENGALI LETTER BA: try adding bengali</li>
-<li>U+09AD BENGALI LETTER BHA: try adding bengali</li>
-<li>U+09AF BENGALI LETTER YA: try adding bengali</li>
-<li>U+09B0 BENGALI LETTER RA: try adding bengali</li>
-<li>U+09B2 BENGALI LETTER LA: try adding bengali</li>
-<li>U+09B6 BENGALI LETTER SHA: try adding bengali</li>
-<li>U+09B7 BENGALI LETTER SSA: try adding bengali</li>
-<li>U+09B9 BENGALI LETTER HA: try adding bengali</li>
-<li>U+09BE BENGALI VOWEL SIGN AA: try adding bengali</li>
-<li>U+09EB BENGALI DIGIT FIVE: try adding one of: syloti-nagri, chakma, bengali</li>
-<li>U+09EC BENGALI DIGIT SIX: try adding one of: syloti-nagri, chakma, bengali</li>
-<li>U+09ED BENGALI DIGIT SEVEN: try adding one of: syloti-nagri, chakma, bengali</li>
-<li>U+09EE BENGALI DIGIT EIGHT: try adding one of: syloti-nagri, chakma, bengali</li>
-<li>U+09EF BENGALI DIGIT NINE: try adding one of: syloti-nagri, chakma, bengali</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>bengali</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
 
 
@@ -578,8 +2097,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̓ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ỉ ǐ ȉ i̒ ị̇ ị̉ ị̊ ị̋ ị̌ ị̏ ị̒ ị̓ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ ȉ̦ i̦̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ngbaka (Latn, 1,020,000 speakers), Aghem (Latn, 38,843 speakers), Bete-Bendi (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Vute (Latn, 21,000 speakers), Avokaya (Latn, 100,000 speakers), Heiltsuk (Latn, 300 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), South Central Banda (Latn, 244,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Mfumte (Latn, 79,000 speakers), Southern Kisi (Latn, 360,000 speakers), Dii (Latn, 71,000 speakers), Fur (Latn, 1,230,163 speakers), Makaa (Latn, 221,000 speakers), Sar (Latn, 500,000 speakers), Bafut (Latn, 158,146 speakers), Nzakara (Latn, 50,000 speakers), Dan (Latn, 1,099,244 speakers), Han (Latn, 6 speakers), Kom (Latn, 360,685 speakers), Kaska (Latn, 125 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Koonzime (Latn, 40,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Southern Kisi (Latn, 360,000 speakers), Kom (Latn, 360,685 speakers), Nzakara (Latn, 50,000 speakers), Navajo (Latn, 166,319 speakers), Sar (Latn, 500,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Han (Latn, 6 speakers), Kaska (Latn, 125 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Fur (Latn, 1,230,163 speakers), Avokaya (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Heiltsuk (Latn, 300 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Vute (Latn, 21,000 speakers), Mango (Latn, 77,000 speakers), Makaa (Latn, 221,000 speakers), Bafut (Latn, 158,146 speakers).</p>
  [code: soft-dotted]
 
 
@@ -598,1361 +2117,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* A.0 has a counter-clockwise outer contour
-
-* A.1 has a counter-clockwise outer contour
-
-* A.2 has a counter-clockwise outer contour
-
-* AE.0 has a counter-clockwise outer contour
-
-* AE.1 has a counter-clockwise outer contour
-
-* AE.2 has a counter-clockwise outer contour
-
-* Aacute.0 has a counter-clockwise outer contour
-
-* Aacute.0 has a counter-clockwise outer contour
-
-* Aacute.1 has a counter-clockwise outer contour
-
-* Aacute.1 has a counter-clockwise outer contour
-
-* Aacute.2 has a counter-clockwise outer contour
-
-* Aacute.2 has a counter-clockwise outer contour
-
-* Abreve.0 has a counter-clockwise outer contour
-
-* Abreve.0 has a counter-clockwise outer contour
-
-* Abreve.1 has a counter-clockwise outer contour
-
-* Abreve.1 has a counter-clockwise outer contour
-
-* Abreve.2 has a counter-clockwise outer contour
-
-* Abreve.2 has a counter-clockwise outer contour
-
-* Acircumflex.0 has a counter-clockwise outer contour
-
-* Acircumflex.0 has a counter-clockwise outer contour
-
-* Acircumflex.1 has a counter-clockwise outer contour
-
-* Acircumflex.1 has a counter-clockwise outer contour
-
-* Acircumflex.2 has a counter-clockwise outer contour
-
-* Acircumflex.2 has a counter-clockwise outer contour
-
-* Adieresis.0 has a counter-clockwise outer contour
-
-* Adieresis.0 has a counter-clockwise outer contour
-
-* Adieresis.0 has a counter-clockwise outer contour
-
-* Adieresis.1 has a counter-clockwise outer contour
-
-* Adieresis.1 has a counter-clockwise outer contour
-
-* Adieresis.1 has a counter-clockwise outer contour
-
-* Adieresis.2 has a counter-clockwise outer contour
-
-* Adieresis.2 has a counter-clockwise outer contour
-
-* Adieresis.2 has a counter-clockwise outer contour
-
-* Agrave.0 has a counter-clockwise outer contour
-
-* Agrave.0 has a counter-clockwise outer contour
-
-* Agrave.1 has a counter-clockwise outer contour
-
-* Agrave.1 has a counter-clockwise outer contour
-
-* Agrave.2 has a counter-clockwise outer contour
-
-* Agrave.2 has a counter-clockwise outer contour
-
-* Amacron.0 has a counter-clockwise outer contour
-
-* Amacron.0 has a counter-clockwise outer contour
-
-* Amacron.1 has a counter-clockwise outer contour
-
-* Amacron.1 has a counter-clockwise outer contour
-
-* Amacron.2 has a counter-clockwise outer contour
-
-* Amacron.2 has a counter-clockwise outer contour
-
-* Aogonek.0 has a counter-clockwise outer contour
-
-* Aogonek.0 has a counter-clockwise outer contour
-
-* Aogonek.1 has a counter-clockwise outer contour
-
-* Aogonek.1 has a counter-clockwise outer contour
-
-* Aogonek.2 has a counter-clockwise outer contour
-
-* Aogonek.2 has a counter-clockwise outer contour
-
-* Aring.0 has a counter-clockwise outer contour
-
-* Aring.0 has a counter-clockwise outer contour
-
-* Aring.1 has a counter-clockwise outer contour
-
-* Aring.1 has a counter-clockwise outer contour
-
-* Aring.2 has a counter-clockwise outer contour
-
-* Aring.2 has a counter-clockwise outer contour
-
-* Atilde.0 has a counter-clockwise outer contour
-
-* Atilde.0 has a counter-clockwise outer contour
-
-* Atilde.1 has a counter-clockwise outer contour
-
-* Atilde.1 has a counter-clockwise outer contour
-
-* Atilde.2 has a counter-clockwise outer contour
-
-* Atilde.2 has a counter-clockwise outer contour
-
-* B.0 has a counter-clockwise outer contour
-
-* B.1 has a counter-clockwise outer contour
-
-* B.2 has a counter-clockwise outer contour
-
-* C.0 has a counter-clockwise outer contour
-
-* C.1 has a counter-clockwise outer contour
-
-* C.2 has a counter-clockwise outer contour
-
-* Cacute.0 has a counter-clockwise outer contour
-
-* Cacute.0 has a counter-clockwise outer contour
-
-* Cacute.1 has a counter-clockwise outer contour
-
-* Cacute.1 has a counter-clockwise outer contour
-
-* Cacute.2 has a counter-clockwise outer contour
-
-* Cacute.2 has a counter-clockwise outer contour
-
-* Ccaron.0 has a counter-clockwise outer contour
-
-* Ccaron.0 has a counter-clockwise outer contour
-
-* Ccaron.1 has a counter-clockwise outer contour
-
-* Ccaron.1 has a counter-clockwise outer contour
-
-* Ccaron.2 has a counter-clockwise outer contour
-
-* Ccaron.2 has a counter-clockwise outer contour
-
-* Ccedilla.0 has a counter-clockwise outer contour
-
-* Ccedilla.0 has a counter-clockwise outer contour
-
-* Ccedilla.1 has a counter-clockwise outer contour
-
-* Ccedilla.1 has a counter-clockwise outer contour
-
-* Ccedilla.2 has a counter-clockwise outer contour
-
-* Ccedilla.2 has a counter-clockwise outer contour
-
-* Ccircumflex.0 has a counter-clockwise outer contour
-
-* Ccircumflex.0 has a counter-clockwise outer contour
-
-* Ccircumflex.1 has a counter-clockwise outer contour
-
-* Ccircumflex.1 has a counter-clockwise outer contour
-
-* Ccircumflex.2 has a counter-clockwise outer contour
-
-* Ccircumflex.2 has a counter-clockwise outer contour
-
-* Cdotaccent.0 has a counter-clockwise outer contour
-
-* Cdotaccent.0 has a counter-clockwise outer contour
-
-* Cdotaccent.1 has a counter-clockwise outer contour
-
-* Cdotaccent.1 has a counter-clockwise outer contour
-
-* Cdotaccent.2 has a counter-clockwise outer contour
-
-* Cdotaccent.2 has a counter-clockwise outer contour
-
-* D.0 has a counter-clockwise outer contour
-
-* D.1 has a counter-clockwise outer contour
-
-* D.2 has a counter-clockwise outer contour
-
-* Dcaron.0 has a counter-clockwise outer contour
-
-* Dcaron.0 has a counter-clockwise outer contour
-
-* Dcaron.1 has a counter-clockwise outer contour
-
-* Dcaron.1 has a counter-clockwise outer contour
-
-* Dcaron.2 has a counter-clockwise outer contour
-
-* Dcaron.2 has a counter-clockwise outer contour
-
-* Dcroat.0 has a counter-clockwise outer contour
-
-* E.0 has a counter-clockwise outer contour
-
-* E.1 has a counter-clockwise outer contour
-
-* E.2 has a counter-clockwise outer contour
-
-* Eacute.0 has a counter-clockwise outer contour
-
-* Eacute.0 has a counter-clockwise outer contour
-
-* Eacute.1 has a counter-clockwise outer contour
-
-* Eacute.1 has a counter-clockwise outer contour
-
-* Eacute.2 has a counter-clockwise outer contour
-
-* Eacute.2 has a counter-clockwise outer contour
-
-* Ebreve.0 has a counter-clockwise outer contour
-
-* Ebreve.0 has a counter-clockwise outer contour
-
-* Ebreve.1 has a counter-clockwise outer contour
-
-* Ebreve.1 has a counter-clockwise outer contour
-
-* Ebreve.2 has a counter-clockwise outer contour
-
-* Ebreve.2 has a counter-clockwise outer contour
-
-* Ecaron.0 has a counter-clockwise outer contour
-
-* Ecaron.0 has a counter-clockwise outer contour
-
-* Ecaron.1 has a counter-clockwise outer contour
-
-* Ecaron.1 has a counter-clockwise outer contour
-
-* Ecaron.2 has a counter-clockwise outer contour
-
-* Ecaron.2 has a counter-clockwise outer contour
-
-* Ecircumflex.0 has a counter-clockwise outer contour
-
-* Ecircumflex.0 has a counter-clockwise outer contour
-
-* Ecircumflex.1 has a counter-clockwise outer contour
-
-* Ecircumflex.1 has a counter-clockwise outer contour
-
-* Ecircumflex.2 has a counter-clockwise outer contour
-
-* Ecircumflex.2 has a counter-clockwise outer contour
-
-* Edieresis.0 has a counter-clockwise outer contour
-
-* Edieresis.0 has a counter-clockwise outer contour
-
-* Edieresis.0 has a counter-clockwise outer contour
-
-* Edieresis.1 has a counter-clockwise outer contour
-
-* Edieresis.1 has a counter-clockwise outer contour
-
-* Edieresis.1 has a counter-clockwise outer contour
-
-* Edieresis.2 has a counter-clockwise outer contour
-
-* Edieresis.2 has a counter-clockwise outer contour
-
-* Edieresis.2 has a counter-clockwise outer contour
-
-* Edotaccent.0 has a counter-clockwise outer contour
-
-* Edotaccent.0 has a counter-clockwise outer contour
-
-* Edotaccent.1 has a counter-clockwise outer contour
-
-* Edotaccent.1 has a counter-clockwise outer contour
-
-* Edotaccent.2 has a counter-clockwise outer contour
-
-* Edotaccent.2 has a counter-clockwise outer contour
-
-* Egrave.0 has a counter-clockwise outer contour
-
-* Egrave.0 has a counter-clockwise outer contour
-
-* Egrave.1 has a counter-clockwise outer contour
-
-* Egrave.1 has a counter-clockwise outer contour
-
-* Egrave.2 has a counter-clockwise outer contour
-
-* Egrave.2 has a counter-clockwise outer contour
-
-* Emacron.0 has a counter-clockwise outer contour
-
-* Emacron.0 has a counter-clockwise outer contour
-
-* Emacron.1 has a counter-clockwise outer contour
-
-* Emacron.1 has a counter-clockwise outer contour
-
-* Emacron.2 has a counter-clockwise outer contour
-
-* Emacron.2 has a counter-clockwise outer contour
-
-* Eogonek.0 has a counter-clockwise outer contour
-
-* Eogonek.0 has a counter-clockwise outer contour
-
-* Eogonek.1 has a counter-clockwise outer contour
-
-* Eogonek.1 has a counter-clockwise outer contour
-
-* Eogonek.2 has a counter-clockwise outer contour
-
-* Eogonek.2 has a counter-clockwise outer contour
-
-* Eth.0 has a counter-clockwise outer contour
-
-* Eth.1 has a counter-clockwise outer contour
-
-* Eth.2 has a counter-clockwise outer contour
-
-* F.0 has a counter-clockwise outer contour
-
-* F.1 has a counter-clockwise outer contour
-
-* F.2 has a counter-clockwise outer contour
-
-* G.0 has a counter-clockwise outer contour
-
-* G.1 has a counter-clockwise outer contour
-
-* G.2 has a counter-clockwise outer contour
-
-* Gbreve.0 has a counter-clockwise outer contour
-
-* Gbreve.0 has a counter-clockwise outer contour
-
-* Gbreve.1 has a counter-clockwise outer contour
-
-* Gbreve.1 has a counter-clockwise outer contour
-
-* Gbreve.2 has a counter-clockwise outer contour
-
-* Gbreve.2 has a counter-clockwise outer contour
-
-* Gcircumflex.0 has a counter-clockwise outer contour
-
-* Gcircumflex.0 has a counter-clockwise outer contour
-
-* Gcircumflex.1 has a counter-clockwise outer contour
-
-* Gcircumflex.1 has a counter-clockwise outer contour
-
-* Gcircumflex.2 has a counter-clockwise outer contour
-
-* Gcircumflex.2 has a counter-clockwise outer contour
-
-* Gdotaccent.0 has a counter-clockwise outer contour
-
-* Gdotaccent.0 has a counter-clockwise outer contour
-
-* Gdotaccent.1 has a counter-clockwise outer contour
-
-* Gdotaccent.1 has a counter-clockwise outer contour
-
-* Gdotaccent.2 has a counter-clockwise outer contour
-
-* Gdotaccent.2 has a counter-clockwise outer contour
-
-* H.0 has a counter-clockwise outer contour
-
-* H.1 has a counter-clockwise outer contour
-
-* H.2 has a counter-clockwise outer contour
-
-* Hbar.0 has a counter-clockwise outer contour
-
-* Hbar.1 has a counter-clockwise outer contour
-
-* Hbar.2 has a counter-clockwise outer contour
-
-* Hcircumflex.0 has a counter-clockwise outer contour
-
-* Hcircumflex.0 has a counter-clockwise outer contour
-
-* Hcircumflex.1 has a counter-clockwise outer contour
-
-* Hcircumflex.1 has a counter-clockwise outer contour
-
-* Hcircumflex.2 has a counter-clockwise outer contour
-
-* Hcircumflex.2 has a counter-clockwise outer contour
-
-* I.0 has a counter-clockwise outer contour
-
-* I.1 has a counter-clockwise outer contour
-
-* I.2 has a counter-clockwise outer contour
-
-* Iacute.0 has a counter-clockwise outer contour
-
-* Iacute.0 has a counter-clockwise outer contour
-
-* Iacute.1 has a counter-clockwise outer contour
-
-* Iacute.1 has a counter-clockwise outer contour
-
-* Iacute.2 has a counter-clockwise outer contour
-
-* Iacute.2 has a counter-clockwise outer contour
-
-* Ibreve.0 has a counter-clockwise outer contour
-
-* Ibreve.0 has a counter-clockwise outer contour
-
-* Ibreve.1 has a counter-clockwise outer contour
-
-* Ibreve.1 has a counter-clockwise outer contour
-
-* Ibreve.2 has a counter-clockwise outer contour
-
-* Ibreve.2 has a counter-clockwise outer contour
-
-* Icircumflex.0 has a counter-clockwise outer contour
-
-* Icircumflex.0 has a counter-clockwise outer contour
-
-* Icircumflex.1 has a counter-clockwise outer contour
-
-* Icircumflex.1 has a counter-clockwise outer contour
-
-* Icircumflex.2 has a counter-clockwise outer contour
-
-* Icircumflex.2 has a counter-clockwise outer contour
-
-* Idieresis.0 has a counter-clockwise outer contour
-
-* Idieresis.0 has a counter-clockwise outer contour
-
-* Idieresis.0 has a counter-clockwise outer contour
-
-* Idieresis.1 has a counter-clockwise outer contour
-
-* Idieresis.1 has a counter-clockwise outer contour
-
-* Idieresis.1 has a counter-clockwise outer contour
-
-* Idieresis.2 has a counter-clockwise outer contour
-
-* Idieresis.2 has a counter-clockwise outer contour
-
-* Idieresis.2 has a counter-clockwise outer contour
-
-* Idotaccent.0 has a counter-clockwise outer contour
-
-* Idotaccent.0 has a counter-clockwise outer contour
-
-* Idotaccent.1 has a counter-clockwise outer contour
-
-* Idotaccent.1 has a counter-clockwise outer contour
-
-* Idotaccent.2 has a counter-clockwise outer contour
-
-* Idotaccent.2 has a counter-clockwise outer contour
-
-* Igrave.0 has a counter-clockwise outer contour
-
-* Igrave.0 has a counter-clockwise outer contour
-
-* Igrave.1 has a counter-clockwise outer contour
-
-* Igrave.1 has a counter-clockwise outer contour
-
-* Igrave.2 has a counter-clockwise outer contour
-
-* Igrave.2 has a counter-clockwise outer contour
-
-* Imacron.0 has a counter-clockwise outer contour
-
-* Imacron.0 has a counter-clockwise outer contour
-
-* Imacron.1 has a counter-clockwise outer contour
-
-* Imacron.1 has a counter-clockwise outer contour
-
-* Imacron.2 has a counter-clockwise outer contour
-
-* Imacron.2 has a counter-clockwise outer contour
-
-* Iogonek.0 has a counter-clockwise outer contour
-
-* Iogonek.0 has a counter-clockwise outer contour
-
-* Iogonek.1 has a counter-clockwise outer contour
-
-* Iogonek.1 has a counter-clockwise outer contour
-
-* Iogonek.2 has a counter-clockwise outer contour
-
-* Iogonek.2 has a counter-clockwise outer contour
-
-* Itilde.0 has a counter-clockwise outer contour
-
-* Itilde.0 has a counter-clockwise outer contour
-
-* Itilde.1 has a counter-clockwise outer contour
-
-* Itilde.1 has a counter-clockwise outer contour
-
-* Itilde.2 has a counter-clockwise outer contour
-
-* Itilde.2 has a counter-clockwise outer contour
-
-* J.0 has a counter-clockwise outer contour
-
-* J.1 has a counter-clockwise outer contour
-
-* J.2 has a counter-clockwise outer contour
-
-* Jcircumflex.0 has a counter-clockwise outer contour
-
-* Jcircumflex.0 has a counter-clockwise outer contour
-
-* Jcircumflex.1 has a counter-clockwise outer contour
-
-* Jcircumflex.1 has a counter-clockwise outer contour
-
-* Jcircumflex.2 has a counter-clockwise outer contour
-
-* Jcircumflex.2 has a counter-clockwise outer contour
-
-* K.0 has a counter-clockwise outer contour
-
-* K.1 has a counter-clockwise outer contour
-
-* K.2 has a counter-clockwise outer contour
-
-* L.0 has a counter-clockwise outer contour
-
-* L.1 has a counter-clockwise outer contour
-
-* L.2 has a counter-clockwise outer contour
-
-* Lacute.0 has a counter-clockwise outer contour
-
-* Lacute.0 has a counter-clockwise outer contour
-
-* Lacute.1 has a counter-clockwise outer contour
-
-* Lacute.1 has a counter-clockwise outer contour
-
-* Lacute.2 has a counter-clockwise outer contour
-
-* Lacute.2 has a counter-clockwise outer contour
-
-* Lcaron.0 has a counter-clockwise outer contour
-
-* Lcaron.0 has a counter-clockwise outer contour
-
-* Lcaron.1 has a counter-clockwise outer contour
-
-* Lcaron.1 has a counter-clockwise outer contour
-
-* Lcaron.2 has a counter-clockwise outer contour
-
-* Lcaron.2 has a counter-clockwise outer contour
-
-* Ldot.0 has a counter-clockwise outer contour
-
-* Ldot.1 has a counter-clockwise outer contour
-
-* Ldot.2 has a counter-clockwise outer contour
-
-* Lslash.0 has a counter-clockwise outer contour
-
-* M.0 has a counter-clockwise outer contour
-
-* M.1 has a counter-clockwise outer contour
-
-* M.2 has a counter-clockwise outer contour
-
-* N.0 has a counter-clockwise outer contour
-
-* N.1 has a counter-clockwise outer contour
-
-* N.2 has a counter-clockwise outer contour
-
-* Nacute.0 has a counter-clockwise outer contour
-
-* Nacute.0 has a counter-clockwise outer contour
-
-* Nacute.1 has a counter-clockwise outer contour
-
-* Nacute.1 has a counter-clockwise outer contour
-
-* Nacute.2 has a counter-clockwise outer contour
-
-* Nacute.2 has a counter-clockwise outer contour
-
-* Ncaron.0 has a counter-clockwise outer contour
-
-* Ncaron.0 has a counter-clockwise outer contour
-
-* Ncaron.1 has a counter-clockwise outer contour
-
-* Ncaron.1 has a counter-clockwise outer contour
-
-* Ncaron.2 has a counter-clockwise outer contour
-
-* Ncaron.2 has a counter-clockwise outer contour
-
-* Ntilde.0 has a counter-clockwise outer contour
-
-* Ntilde.0 has a counter-clockwise outer contour
-
-* Ntilde.1 has a counter-clockwise outer contour
-
-* Ntilde.1 has a counter-clockwise outer contour
-
-* Ntilde.2 has a counter-clockwise outer contour
-
-* Ntilde.2 has a counter-clockwise outer contour
-
-* O.0 has a counter-clockwise outer contour
-
-* O.1 has a counter-clockwise outer contour
-
-* O.2 has a counter-clockwise outer contour
-
-* OE.0 has a counter-clockwise outer contour
-
-* OE.1 has a counter-clockwise outer contour
-
-* OE.2 has a counter-clockwise outer contour
-
-* Oacute.0 has a counter-clockwise outer contour
-
-* Oacute.0 has a counter-clockwise outer contour
-
-* Oacute.1 has a counter-clockwise outer contour
-
-* Oacute.1 has a counter-clockwise outer contour
-
-* Oacute.2 has a counter-clockwise outer contour
-
-* Oacute.2 has a counter-clockwise outer contour
-
-* Obreve.0 has a counter-clockwise outer contour
-
-* Obreve.0 has a counter-clockwise outer contour
-
-* Obreve.1 has a counter-clockwise outer contour
-
-* Obreve.1 has a counter-clockwise outer contour
-
-* Obreve.2 has a counter-clockwise outer contour
-
-* Obreve.2 has a counter-clockwise outer contour
-
-* Ocircumflex.0 has a counter-clockwise outer contour
-
-* Ocircumflex.0 has a counter-clockwise outer contour
-
-* Ocircumflex.1 has a counter-clockwise outer contour
-
-* Ocircumflex.1 has a counter-clockwise outer contour
-
-* Ocircumflex.2 has a counter-clockwise outer contour
-
-* Ocircumflex.2 has a counter-clockwise outer contour
-
-* Odieresis.0 has a counter-clockwise outer contour
-
-* Odieresis.0 has a counter-clockwise outer contour
-
-* Odieresis.0 has a counter-clockwise outer contour
-
-* Odieresis.1 has a counter-clockwise outer contour
-
-* Odieresis.1 has a counter-clockwise outer contour
-
-* Odieresis.1 has a counter-clockwise outer contour
-
-* Odieresis.2 has a counter-clockwise outer contour
-
-* Odieresis.2 has a counter-clockwise outer contour
-
-* Odieresis.2 has a counter-clockwise outer contour
-
-* Ograve.0 has a counter-clockwise outer contour
-
-* Ograve.0 has a counter-clockwise outer contour
-
-* Ograve.1 has a counter-clockwise outer contour
-
-* Ograve.1 has a counter-clockwise outer contour
-
-* Ograve.2 has a counter-clockwise outer contour
-
-* Ograve.2 has a counter-clockwise outer contour
-
-* Ohungarumlaut.0 has a counter-clockwise outer contour
-
-* Ohungarumlaut.0 has a counter-clockwise outer contour
-
-* Ohungarumlaut.0 has a counter-clockwise outer contour
-
-* Ohungarumlaut.1 has a counter-clockwise outer contour
-
-* Ohungarumlaut.1 has a counter-clockwise outer contour
-
-* Ohungarumlaut.1 has a counter-clockwise outer contour
-
-* Ohungarumlaut.2 has a counter-clockwise outer contour
-
-* Ohungarumlaut.2 has a counter-clockwise outer contour
-
-* Ohungarumlaut.2 has a counter-clockwise outer contour
-
-* Omacron.0 has a counter-clockwise outer contour
-
-* Omacron.0 has a counter-clockwise outer contour
-
-* Omacron.1 has a counter-clockwise outer contour
-
-* Omacron.1 has a counter-clockwise outer contour
-
-* Omacron.2 has a counter-clockwise outer contour
-
-* Omacron.2 has a counter-clockwise outer contour
-
-* Oslash.0 has a counter-clockwise outer contour
-
-* Oslash.1 has a counter-clockwise outer contour
-
-* Oslash.2 has a counter-clockwise outer contour
-
-* Otilde.0 has a counter-clockwise outer contour
-
-* Otilde.0 has a counter-clockwise outer contour
-
-* Otilde.1 has a counter-clockwise outer contour
-
-* Otilde.1 has a counter-clockwise outer contour
-
-* Otilde.2 has a counter-clockwise outer contour
-
-* Otilde.2 has a counter-clockwise outer contour
-
-* P.0 has a counter-clockwise outer contour
-
-* P.1 has a counter-clockwise outer contour
-
-* P.2 has a counter-clockwise outer contour
-
-* Q.0 has a counter-clockwise outer contour
-
-* Q.1 has a counter-clockwise outer contour
-
-* Q.2 has a counter-clockwise outer contour
-
-* R.0 has a counter-clockwise outer contour
-
-* R.1 has a counter-clockwise outer contour
-
-* R.2 has a counter-clockwise outer contour
-
-* Racute.0 has a counter-clockwise outer contour
-
-* Racute.0 has a counter-clockwise outer contour
-
-* Racute.1 has a counter-clockwise outer contour
-
-* Racute.1 has a counter-clockwise outer contour
-
-* Racute.2 has a counter-clockwise outer contour
-
-* Racute.2 has a counter-clockwise outer contour
-
-* Rcaron.0 has a counter-clockwise outer contour
-
-* Rcaron.0 has a counter-clockwise outer contour
-
-* Rcaron.1 has a counter-clockwise outer contour
-
-* Rcaron.1 has a counter-clockwise outer contour
-
-* Rcaron.2 has a counter-clockwise outer contour
-
-* Rcaron.2 has a counter-clockwise outer contour
-
-* S.0 has a counter-clockwise outer contour
-
-* S.1 has a counter-clockwise outer contour
-
-* S.2 has a counter-clockwise outer contour
-
-* Sacute.0 has a counter-clockwise outer contour
-
-* Sacute.0 has a counter-clockwise outer contour
-
-* Sacute.1 has a counter-clockwise outer contour
-
-* Sacute.1 has a counter-clockwise outer contour
-
-* Sacute.2 has a counter-clockwise outer contour
-
-* Sacute.2 has a counter-clockwise outer contour
-
-* Scaron.0 has a counter-clockwise outer contour
-
-* Scaron.0 has a counter-clockwise outer contour
-
-* Scaron.1 has a counter-clockwise outer contour
-
-* Scaron.1 has a counter-clockwise outer contour
-
-* Scaron.2 has a counter-clockwise outer contour
-
-* Scaron.2 has a counter-clockwise outer contour
-
-* Scedilla.0 has a counter-clockwise outer contour
-
-* Scedilla.0 has a counter-clockwise outer contour
-
-* Scedilla.1 has a counter-clockwise outer contour
-
-* Scedilla.1 has a counter-clockwise outer contour
-
-* Scedilla.2 has a counter-clockwise outer contour
-
-* Scedilla.2 has a counter-clockwise outer contour
-
-* Scircumflex.0 has a counter-clockwise outer contour
-
-* Scircumflex.0 has a counter-clockwise outer contour
-
-* Scircumflex.1 has a counter-clockwise outer contour
-
-* Scircumflex.1 has a counter-clockwise outer contour
-
-* Scircumflex.2 has a counter-clockwise outer contour
-
-* Scircumflex.2 has a counter-clockwise outer contour
-
-* T.0 has a counter-clockwise outer contour
-
-* T.1 has a counter-clockwise outer contour
-
-* T.2 has a counter-clockwise outer contour
-
-* Tcaron.0 has a counter-clockwise outer contour
-
-* Tcaron.0 has a counter-clockwise outer contour
-
-* Tcaron.1 has a counter-clockwise outer contour
-
-* Tcaron.1 has a counter-clockwise outer contour
-
-* Tcaron.2 has a counter-clockwise outer contour
-
-* Tcaron.2 has a counter-clockwise outer contour
-
-* Thorn.0 has a counter-clockwise outer contour
-
-* Thorn.1 has a counter-clockwise outer contour
-
-* Thorn.2 has a counter-clockwise outer contour
-
-* U.0 has a counter-clockwise outer contour
-
-* U.1 has a counter-clockwise outer contour
-
-* U.2 has a counter-clockwise outer contour
-
-* Uacute.0 has a counter-clockwise outer contour
-
-* Uacute.0 has a counter-clockwise outer contour
-
-* Uacute.1 has a counter-clockwise outer contour
-
-* Uacute.1 has a counter-clockwise outer contour
-
-* Uacute.2 has a counter-clockwise outer contour
-
-* Uacute.2 has a counter-clockwise outer contour
-
-* Ubreve.0 has a counter-clockwise outer contour
-
-* Ubreve.0 has a counter-clockwise outer contour
-
-* Ubreve.1 has a counter-clockwise outer contour
-
-* Ubreve.1 has a counter-clockwise outer contour
-
-* Ubreve.2 has a counter-clockwise outer contour
-
-* Ubreve.2 has a counter-clockwise outer contour
-
-* Ucircumflex.0 has a counter-clockwise outer contour
-
-* Ucircumflex.0 has a counter-clockwise outer contour
-
-* Ucircumflex.1 has a counter-clockwise outer contour
-
-* Ucircumflex.1 has a counter-clockwise outer contour
-
-* Ucircumflex.2 has a counter-clockwise outer contour
-
-* Ucircumflex.2 has a counter-clockwise outer contour
-
-* Udieresis.0 has a counter-clockwise outer contour
-
-* Udieresis.0 has a counter-clockwise outer contour
-
-* Udieresis.0 has a counter-clockwise outer contour
-
-* Udieresis.1 has a counter-clockwise outer contour
-
-* Udieresis.1 has a counter-clockwise outer contour
-
-* Udieresis.1 has a counter-clockwise outer contour
-
-* Udieresis.2 has a counter-clockwise outer contour
-
-* Udieresis.2 has a counter-clockwise outer contour
-
-* Udieresis.2 has a counter-clockwise outer contour
-
-* Ugrave.0 has a counter-clockwise outer contour
-
-* Ugrave.0 has a counter-clockwise outer contour
-
-* Ugrave.1 has a counter-clockwise outer contour
-
-* Ugrave.1 has a counter-clockwise outer contour
-
-* Ugrave.2 has a counter-clockwise outer contour
-
-* Ugrave.2 has a counter-clockwise outer contour
-
-* Uhungarumlaut.0 has a counter-clockwise outer contour
-
-* Uhungarumlaut.0 has a counter-clockwise outer contour
-
-* Uhungarumlaut.0 has a counter-clockwise outer contour
-
-* Uhungarumlaut.1 has a counter-clockwise outer contour
-
-* Uhungarumlaut.1 has a counter-clockwise outer contour
-
-* Uhungarumlaut.1 has a counter-clockwise outer contour
-
-* Uhungarumlaut.2 has a counter-clockwise outer contour
-
-* Uhungarumlaut.2 has a counter-clockwise outer contour
-
-* Uhungarumlaut.2 has a counter-clockwise outer contour
-
-* Umacron.0 has a counter-clockwise outer contour
-
-* Umacron.0 has a counter-clockwise outer contour
-
-* Umacron.1 has a counter-clockwise outer contour
-
-* Umacron.1 has a counter-clockwise outer contour
-
-* Umacron.2 has a counter-clockwise outer contour
-
-* Umacron.2 has a counter-clockwise outer contour
-
-* Uogonek.0 has a counter-clockwise outer contour
-
-* Uogonek.0 has a counter-clockwise outer contour
-
-* Uogonek.1 has a counter-clockwise outer contour
-
-* Uogonek.1 has a counter-clockwise outer contour
-
-* Uogonek.2 has a counter-clockwise outer contour
-
-* Uogonek.2 has a counter-clockwise outer contour
-
-* Uring.0 has a counter-clockwise outer contour
-
-* Uring.0 has a counter-clockwise outer contour
-
-* Uring.1 has a counter-clockwise outer contour
-
-* Uring.1 has a counter-clockwise outer contour
-
-* Uring.2 has a counter-clockwise outer contour
-
-* Uring.2 has a counter-clockwise outer contour
-
-* Utilde.0 has a counter-clockwise outer contour
-
-* Utilde.0 has a counter-clockwise outer contour
-
-* Utilde.1 has a counter-clockwise outer contour
-
-* Utilde.1 has a counter-clockwise outer contour
-
-* Utilde.2 has a counter-clockwise outer contour
-
-* Utilde.2 has a counter-clockwise outer contour
-
-* V.0 has a counter-clockwise outer contour
-
-* V.1 has a counter-clockwise outer contour
-
-* V.2 has a counter-clockwise outer contour
-
-* W.0 has a counter-clockwise outer contour
-
-* W.1 has a counter-clockwise outer contour
-
-* W.2 has a counter-clockwise outer contour
-
-* Wacute.0 has a counter-clockwise outer contour
-
-* Wacute.0 has a counter-clockwise outer contour
-
-* Wacute.1 has a counter-clockwise outer contour
-
-* Wacute.1 has a counter-clockwise outer contour
-
-* Wacute.2 has a counter-clockwise outer contour
-
-* Wacute.2 has a counter-clockwise outer contour
-
-* Wcircumflex.0 has a counter-clockwise outer contour
-
-* Wcircumflex.0 has a counter-clockwise outer contour
-
-* Wcircumflex.1 has a counter-clockwise outer contour
-
-* Wcircumflex.1 has a counter-clockwise outer contour
-
-* Wcircumflex.2 has a counter-clockwise outer contour
-
-* Wcircumflex.2 has a counter-clockwise outer contour
-
-* Wdieresis.0 has a counter-clockwise outer contour
-
-* Wdieresis.0 has a counter-clockwise outer contour
-
-* Wdieresis.0 has a counter-clockwise outer contour
-
-* Wdieresis.1 has a counter-clockwise outer contour
-
-* Wdieresis.1 has a counter-clockwise outer contour
-
-* Wdieresis.1 has a counter-clockwise outer contour
-
-* Wdieresis.2 has a counter-clockwise outer contour
-
-* Wdieresis.2 has a counter-clockwise outer contour
-
-* Wdieresis.2 has a counter-clockwise outer contour
-
-* Wgrave.0 has a counter-clockwise outer contour
-
-* Wgrave.0 has a counter-clockwise outer contour
-
-* Wgrave.1 has a counter-clockwise outer contour
-
-* Wgrave.1 has a counter-clockwise outer contour
-
-* Wgrave.2 has a counter-clockwise outer contour
-
-* Wgrave.2 has a counter-clockwise outer contour
-
-* X.0 has a counter-clockwise outer contour
-
-* X.1 has a counter-clockwise outer contour
-
-* X.2 has a counter-clockwise outer contour
-
-* Y.0 has a counter-clockwise outer contour
-
-* Y.1 has a counter-clockwise outer contour
-
-* Y.2 has a counter-clockwise outer contour
-
-* Yacute.0 has a counter-clockwise outer contour
-
-* Yacute.0 has a counter-clockwise outer contour
-
-* Yacute.1 has a counter-clockwise outer contour
-
-* Yacute.1 has a counter-clockwise outer contour
-
-* Yacute.2 has a counter-clockwise outer contour
-
-* Yacute.2 has a counter-clockwise outer contour
-
-* Ycircumflex.0 has a counter-clockwise outer contour
-
-* Ycircumflex.0 has a counter-clockwise outer contour
-
-* Ycircumflex.1 has a counter-clockwise outer contour
-
-* Ycircumflex.1 has a counter-clockwise outer contour
-
-* Ycircumflex.2 has a counter-clockwise outer contour
-
-* Ycircumflex.2 has a counter-clockwise outer contour
-
-* Ydieresis.0 has a counter-clockwise outer contour
-
-* Ydieresis.0 has a counter-clockwise outer contour
-
-* Ydieresis.0 has a counter-clockwise outer contour
-
-* Ydieresis.1 has a counter-clockwise outer contour
-
-* Ydieresis.1 has a counter-clockwise outer contour
-
-* Ydieresis.1 has a counter-clockwise outer contour
-
-* Ydieresis.2 has a counter-clockwise outer contour
-
-* Ydieresis.2 has a counter-clockwise outer contour
-
-* Ydieresis.2 has a counter-clockwise outer contour
-
-* Ygrave.0 has a counter-clockwise outer contour
-
-* Ygrave.0 has a counter-clockwise outer contour
-
-* Ygrave.1 has a counter-clockwise outer contour
-
-* Ygrave.1 has a counter-clockwise outer contour
-
-* Ygrave.2 has a counter-clockwise outer contour
-
-* Ygrave.2 has a counter-clockwise outer contour
-
-* Z.0 has a counter-clockwise outer contour
-
-* Z.1 has a counter-clockwise outer contour
-
-* Z.2 has a counter-clockwise outer contour
-
-* Zacute.0 has a counter-clockwise outer contour
-
-* Zacute.0 has a counter-clockwise outer contour
-
-* Zacute.1 has a counter-clockwise outer contour
-
-* Zacute.1 has a counter-clockwise outer contour
-
-* Zacute.2 has a counter-clockwise outer contour
-
-* Zacute.2 has a counter-clockwise outer contour
-
-* Zcaron.0 has a counter-clockwise outer contour
-
-* Zcaron.0 has a counter-clockwise outer contour
-
-* Zcaron.1 has a counter-clockwise outer contour
-
-* Zcaron.1 has a counter-clockwise outer contour
-
-* Zcaron.2 has a counter-clockwise outer contour
-
-* Zcaron.2 has a counter-clockwise outer contour
-
-* Zdotaccent.0 has a counter-clockwise outer contour
-
-* Zdotaccent.0 has a counter-clockwise outer contour
-
-* Zdotaccent.1 has a counter-clockwise outer contour
-
-* Zdotaccent.1 has a counter-clockwise outer contour
-
-* Zdotaccent.2 has a counter-clockwise outer contour
-
-* Zdotaccent.2 has a counter-clockwise outer contour
-
-* a.0 has a counter-clockwise outer contour
-
-* a.1 has a counter-clockwise outer contour
-
-* a.2 has a counter-clockwise outer contour
-
-* aacute.0 has a counter-clockwise outer contour
-
-* aacute.0 has a counter-clockwise outer contour
-
-* aacute.1 has a counter-clockwise outer contour
-
-* aacute.1 has a counter-clockwise outer contour
-
-* aacute.2 has a counter-clockwise outer contour
-
-* aacute.2 has a counter-clockwise outer contour
-
-* abreve.0 has a counter-clockwise outer contour
-
-* abreve.0 has a counter-clockwise outer contour
-
-* abreve.1 has a counter-clockwise outer contour
-
-* abreve.1 has a counter-clockwise outer contour
-
-* abreve.2 has a counter-clockwise outer contour
-
-* abreve.2 has a counter-clockwise outer contour
-
-* acircumflex.0 has a counter-clockwise outer contour
-
-* acircumflex.0 has a counter-clockwise outer contour
-
-* acircumflex.1 has a counter-clockwise outer contour
-
-* acircumflex.1 has a counter-clockwise outer contour
-
-* acircumflex.2 has a counter-clockwise outer contour
-
-* acircumflex.2 has a counter-clockwise outer contour
-
-* acute.0 has a counter-clockwise outer contour
-
-* acute.1 has a counter-clockwise outer contour
-
-* acute.2 has a counter-clockwise outer contour
-
-* acutecomb.0 has a counter-clockwise outer contour
-
-* acutecomb.1 has a counter-clockwise outer contour
-
-* acutecomb.2 has a counter-clockwise outer contour
-
-* adieresis.0 has a counter-clockwise outer contour
-
-* adieresis.0 has a counter-clockwise outer contour
-
-* adieresis.0 has a counter-clockwise outer contour
-
-* adieresis.1 has a counter-clockwise outer contour
-
-* adieresis.1 has a counter-clockwise outer contour
-
-* adieresis.1 has a counter-clockwise outer contour
-
-* adieresis.2 has a counter-clockwise outer contour
-
-* adieresis.2 has a counter-clockwise outer contour
-
-* adieresis.2 has a counter-clockwise outer contour
-
-* ae.0 has a counter-clockwise outer contour
-
-* ae.1 has a counter-clockwise outer contour
-
-* ae.2 has a counter-clockwise outer contour
-
-* agrave.0 has a counter-clockwise outer contour
-
-* agrave.0 has a counter-clockwise outer contour
-
-* agrave.1 has a counter-clockwise outer contour
-
-* agrave.1 has a counter-clockwise outer contour
-
-* agrave.2 has a counter-clockwise outer contour
-
-* agrave.2 has a counter-clockwise outer contour
-
-* amacron.0 has a counter-clockwise outer contour
-
-* amacron.0 has a counter-clockwise outer contour
-
-* amacron.1 has a counter-clockwise outer contour
-
-* amacron.1 has a counter-clockwise outer contour
-
-* amacron.2 has a counter-clockwise outer contour
-
-* amacron.2 has a counter-clockwise outer contour
-
-* ampersand.0 has a counter-clockwise outer contour
-
-* ampersand.1 has a counter-clockwise outer contour
-
-* ampersand.2 has a counter-clockwise outer contour
-
-* aogonek.0 has a counter-clockwise outer contour
-
-* aogonek.0 has a counter-clockwise outer contour
-
-* aogonek.1 has a counter-clockwise outer contour
-
-* aogonek.1 has a counter-clockwise outer contour
-
-* aogonek.2 has a counter-clockwise outer contour
-
-* aogonek.2 has a counter-clockwise outer contour
-
-* aring.0 has a counter-clockwise outer contour
-
-* aring.0 has a counter-clockwise outer contour
-
-* aring.1 has a counter-clockwise outer contour
-
-* aring.1 has a counter-clockwise outer contour
-
-* aring.2 has a counter-clockwise outer contour
-
-* aring.2 has a counter-clockwise outer contour
-
-* asciicircum.0 has a counter-clockwise outer contour
-
-* asciicircum.1 has a counter-clockwise outer contour
-
-* asciicircum.2 has a counter-clockwise outer contour
-
-* asciitilde.0 has a counter-clockwise outer contour
-
-* asciitilde.1 has a counter-clockwise outer contour
-
-* asciitilde.2 has a counter-clockwise outer contour
-
-* asterisk.0 has a counter-clockwise outer contour
-
-* asterisk.1 has a counter-clockwise outer contour
-
-* asterisk.2 has a counter-clockwise outer contour
-
-* at (U+0040) has a counter-clockwise outer contour
+<pre><code>* at (U+0040) has a counter-clockwise outer contour
 
 * at (U+0040) has a counter-clockwise outer contour
 
@@ -1962,27 +2127,27 @@ definitions.</p>
 
 * at.0 has a counter-clockwise outer contour
 
+* at.0 has a counter-clockwise outer contour
+
+* at.0 has a path with no bounds (probably a single point)
+
+* at.0 has a path with no bounds (probably a single point)
+
 * at.1 has a counter-clockwise outer contour
+
+* at.1 has a counter-clockwise outer contour
+
+* at.1 has a path with no bounds (probably a single point)
+
+* at.1 has a path with no bounds (probably a single point)
 
 * at.2 has a counter-clockwise outer contour
 
-* atilde.0 has a counter-clockwise outer contour
+* at.2 has a counter-clockwise outer contour
 
-* atilde.0 has a counter-clockwise outer contour
+* at.2 has a path with no bounds (probably a single point)
 
-* atilde.1 has a counter-clockwise outer contour
-
-* atilde.1 has a counter-clockwise outer contour
-
-* atilde.2 has a counter-clockwise outer contour
-
-* atilde.2 has a counter-clockwise outer contour
-
-* b.0 has a counter-clockwise outer contour
-
-* b.1 has a counter-clockwise outer contour
-
-* b.2 has a counter-clockwise outer contour
+* at.2 has a path with no bounds (probably a single point)
 
 * backslash.0 has a counter-clockwise outer contour
 
@@ -1990,1036 +2155,6 @@ definitions.</p>
 
 * backslash.2 has a counter-clockwise outer contour
 
-* bar.0 has a counter-clockwise outer contour
-
-* bar.1 has a counter-clockwise outer contour
-
-* bar.2 has a counter-clockwise outer contour
-
-* braceleft.0 has a counter-clockwise outer contour
-
-* braceleft.1 has a counter-clockwise outer contour
-
-* braceleft.2 has a counter-clockwise outer contour
-
-* braceright.0 has a counter-clockwise outer contour
-
-* braceright.1 has a counter-clockwise outer contour
-
-* braceright.2 has a counter-clockwise outer contour
-
-* bracketleft.0 has a counter-clockwise outer contour
-
-* bracketleft.1 has a counter-clockwise outer contour
-
-* bracketleft.2 has a counter-clockwise outer contour
-
-* bracketright.0 has a counter-clockwise outer contour
-
-* bracketright.1 has a counter-clockwise outer contour
-
-* bracketright.2 has a counter-clockwise outer contour
-
-* breve.0 has a counter-clockwise outer contour
-
-* breve.1 has a counter-clockwise outer contour
-
-* breve.2 has a counter-clockwise outer contour
-
-* brokenbar.0 has a counter-clockwise outer contour
-
-* brokenbar.0 has a counter-clockwise outer contour
-
-* brokenbar.1 has a counter-clockwise outer contour
-
-* brokenbar.1 has a counter-clockwise outer contour
-
-* brokenbar.2 has a counter-clockwise outer contour
-
-* brokenbar.2 has a counter-clockwise outer contour
-
-* c.0 has a counter-clockwise outer contour
-
-* c.1 has a counter-clockwise outer contour
-
-* c.2 has a counter-clockwise outer contour
-
-* cacute.0 has a counter-clockwise outer contour
-
-* cacute.0 has a counter-clockwise outer contour
-
-* cacute.1 has a counter-clockwise outer contour
-
-* cacute.1 has a counter-clockwise outer contour
-
-* cacute.2 has a counter-clockwise outer contour
-
-* cacute.2 has a counter-clockwise outer contour
-
-* caron.0 has a counter-clockwise outer contour
-
-* caron.1 has a counter-clockwise outer contour
-
-* caron.2 has a counter-clockwise outer contour
-
-* ccaron.0 has a counter-clockwise outer contour
-
-* ccaron.0 has a counter-clockwise outer contour
-
-* ccaron.1 has a counter-clockwise outer contour
-
-* ccaron.1 has a counter-clockwise outer contour
-
-* ccaron.2 has a counter-clockwise outer contour
-
-* ccaron.2 has a counter-clockwise outer contour
-
-* ccedilla.0 has a counter-clockwise outer contour
-
-* ccedilla.0 has a counter-clockwise outer contour
-
-* ccedilla.1 has a counter-clockwise outer contour
-
-* ccedilla.1 has a counter-clockwise outer contour
-
-* ccedilla.2 has a counter-clockwise outer contour
-
-* ccedilla.2 has a counter-clockwise outer contour
-
-* ccircumflex.0 has a counter-clockwise outer contour
-
-* ccircumflex.0 has a counter-clockwise outer contour
-
-* ccircumflex.1 has a counter-clockwise outer contour
-
-* ccircumflex.1 has a counter-clockwise outer contour
-
-* ccircumflex.2 has a counter-clockwise outer contour
-
-* ccircumflex.2 has a counter-clockwise outer contour
-
-* cdotaccent.0 has a counter-clockwise outer contour
-
-* cdotaccent.0 has a counter-clockwise outer contour
-
-* cdotaccent.1 has a counter-clockwise outer contour
-
-* cdotaccent.1 has a counter-clockwise outer contour
-
-* cdotaccent.2 has a counter-clockwise outer contour
-
-* cdotaccent.2 has a counter-clockwise outer contour
-
-* cedilla.0 has a counter-clockwise outer contour
-
-* cedilla.1 has a counter-clockwise outer contour
-
-* cedilla.2 has a counter-clockwise outer contour
-
-* cent.0 has a counter-clockwise outer contour
-
-* cent.0 has a counter-clockwise outer contour
-
-* cent.1 has a counter-clockwise outer contour
-
-* cent.2 has a counter-clockwise outer contour
-
-* cent.2 has a counter-clockwise outer contour
-
-* circumflex.0 has a counter-clockwise outer contour
-
-* circumflex.1 has a counter-clockwise outer contour
-
-* circumflex.2 has a counter-clockwise outer contour
-
-* colon.0 has a counter-clockwise outer contour
-
-* colon.0 has a counter-clockwise outer contour
-
-* colon.1 has a counter-clockwise outer contour
-
-* colon.1 has a counter-clockwise outer contour
-
-* colon.2 has a counter-clockwise outer contour
-
-* colon.2 has a counter-clockwise outer contour
-
-* comma.0 has a counter-clockwise outer contour
-
-* comma.1 has a counter-clockwise outer contour
-
-* comma.2 has a counter-clockwise outer contour
-
-* copyright.0 has a counter-clockwise outer contour
-
-* copyright.1 has a counter-clockwise outer contour
-
-* copyright.2 has a counter-clockwise outer contour
-
-* d.0 has a counter-clockwise outer contour
-
-* d.1 has a counter-clockwise outer contour
-
-* d.2 has a counter-clockwise outer contour
-
-* dcaron.0 has a counter-clockwise outer contour
-
-* dcaron.0 has a counter-clockwise outer contour
-
-* dcaron.1 has a counter-clockwise outer contour
-
-* dcaron.1 has a counter-clockwise outer contour
-
-* dcaron.2 has a counter-clockwise outer contour
-
-* dcaron.2 has a counter-clockwise outer contour
-
-* dcroat.0 has a counter-clockwise outer contour
-
-* dcroat.0 has a counter-clockwise outer contour
-
-* dcroat.1 has a counter-clockwise outer contour
-
-* dcroat.2 has a counter-clockwise outer contour
-
-* dcroat.2 has a counter-clockwise outer contour
-
-* degree.0 has a counter-clockwise outer contour
-
-* degree.1 has a counter-clockwise outer contour
-
-* degree.2 has a counter-clockwise outer contour
-
-* dieresis.0 has a counter-clockwise outer contour
-
-* dieresis.0 has a counter-clockwise outer contour
-
-* dieresis.1 has a counter-clockwise outer contour
-
-* dieresis.1 has a counter-clockwise outer contour
-
-* dieresis.2 has a counter-clockwise outer contour
-
-* dieresis.2 has a counter-clockwise outer contour
-
-* divide.0 has a counter-clockwise outer contour
-
-* divide.0 has a counter-clockwise outer contour
-
-* divide.0 has a counter-clockwise outer contour
-
-* divide.1 has a counter-clockwise outer contour
-
-* divide.1 has a counter-clockwise outer contour
-
-* divide.1 has a counter-clockwise outer contour
-
-* divide.2 has a counter-clockwise outer contour
-
-* divide.2 has a counter-clockwise outer contour
-
-* divide.2 has a counter-clockwise outer contour
-
-* dollar.0 has a counter-clockwise outer contour
-
-* dollar.1 has a counter-clockwise outer contour
-
-* dollar.2 has a counter-clockwise outer contour
-
-* dotaccent.0 has a counter-clockwise outer contour
-
-* dotaccent.1 has a counter-clockwise outer contour
-
-* dotaccent.2 has a counter-clockwise outer contour
-
-* dotbelowcomb.0 has a counter-clockwise outer contour
-
-* dotbelowcomb.1 has a counter-clockwise outer contour
-
-* dotbelowcomb.2 has a counter-clockwise outer contour
-
-* dotlessi.0 has a counter-clockwise outer contour
-
-* dotlessi.1 has a counter-clockwise outer contour
-
-* dotlessi.2 has a counter-clockwise outer contour
-
-* e.0 has a counter-clockwise outer contour
-
-* e.1 has a counter-clockwise outer contour
-
-* e.2 has a counter-clockwise outer contour
-
-* eacute.0 has a counter-clockwise outer contour
-
-* eacute.0 has a counter-clockwise outer contour
-
-* eacute.1 has a counter-clockwise outer contour
-
-* eacute.1 has a counter-clockwise outer contour
-
-* eacute.2 has a counter-clockwise outer contour
-
-* eacute.2 has a counter-clockwise outer contour
-
-* ebreve.0 has a counter-clockwise outer contour
-
-* ebreve.0 has a counter-clockwise outer contour
-
-* ebreve.1 has a counter-clockwise outer contour
-
-* ebreve.1 has a counter-clockwise outer contour
-
-* ebreve.2 has a counter-clockwise outer contour
-
-* ebreve.2 has a counter-clockwise outer contour
-
-* ecaron.0 has a counter-clockwise outer contour
-
-* ecaron.0 has a counter-clockwise outer contour
-
-* ecaron.1 has a counter-clockwise outer contour
-
-* ecaron.1 has a counter-clockwise outer contour
-
-* ecaron.2 has a counter-clockwise outer contour
-
-* ecaron.2 has a counter-clockwise outer contour
-
-* ecircumflex.0 has a counter-clockwise outer contour
-
-* ecircumflex.0 has a counter-clockwise outer contour
-
-* ecircumflex.1 has a counter-clockwise outer contour
-
-* ecircumflex.1 has a counter-clockwise outer contour
-
-* ecircumflex.2 has a counter-clockwise outer contour
-
-* ecircumflex.2 has a counter-clockwise outer contour
-
-* edieresis.0 has a counter-clockwise outer contour
-
-* edieresis.0 has a counter-clockwise outer contour
-
-* edieresis.0 has a counter-clockwise outer contour
-
-* edieresis.1 has a counter-clockwise outer contour
-
-* edieresis.1 has a counter-clockwise outer contour
-
-* edieresis.1 has a counter-clockwise outer contour
-
-* edieresis.2 has a counter-clockwise outer contour
-
-* edieresis.2 has a counter-clockwise outer contour
-
-* edieresis.2 has a counter-clockwise outer contour
-
-* edotaccent.0 has a counter-clockwise outer contour
-
-* edotaccent.0 has a counter-clockwise outer contour
-
-* edotaccent.1 has a counter-clockwise outer contour
-
-* edotaccent.1 has a counter-clockwise outer contour
-
-* edotaccent.2 has a counter-clockwise outer contour
-
-* edotaccent.2 has a counter-clockwise outer contour
-
-* egrave.0 has a counter-clockwise outer contour
-
-* egrave.0 has a counter-clockwise outer contour
-
-* egrave.1 has a counter-clockwise outer contour
-
-* egrave.1 has a counter-clockwise outer contour
-
-* egrave.2 has a counter-clockwise outer contour
-
-* egrave.2 has a counter-clockwise outer contour
-
-* eight.0 has a counter-clockwise outer contour
-
-* eight.1 has a counter-clockwise outer contour
-
-* eight.2 has a counter-clockwise outer contour
-
-* emacron.0 has a counter-clockwise outer contour
-
-* emacron.0 has a counter-clockwise outer contour
-
-* emacron.1 has a counter-clockwise outer contour
-
-* emacron.1 has a counter-clockwise outer contour
-
-* emacron.2 has a counter-clockwise outer contour
-
-* emacron.2 has a counter-clockwise outer contour
-
-* eogonek.0 has a counter-clockwise outer contour
-
-* eogonek.0 has a counter-clockwise outer contour
-
-* eogonek.1 has a counter-clockwise outer contour
-
-* eogonek.1 has a counter-clockwise outer contour
-
-* eogonek.2 has a counter-clockwise outer contour
-
-* eogonek.2 has a counter-clockwise outer contour
-
-* equal.0 has a counter-clockwise outer contour
-
-* equal.0 has a counter-clockwise outer contour
-
-* equal.1 has a counter-clockwise outer contour
-
-* equal.1 has a counter-clockwise outer contour
-
-* equal.2 has a counter-clockwise outer contour
-
-* equal.2 has a counter-clockwise outer contour
-
-* eth.0 has a counter-clockwise outer contour
-
-* eth.1 has a counter-clockwise outer contour
-
-* eth.2 has a counter-clockwise outer contour
-
-* exclam.0 has a counter-clockwise outer contour
-
-* exclam.0 has a counter-clockwise outer contour
-
-* exclam.1 has a counter-clockwise outer contour
-
-* exclam.1 has a counter-clockwise outer contour
-
-* exclam.2 has a counter-clockwise outer contour
-
-* exclam.2 has a counter-clockwise outer contour
-
-* exclamdown.0 has a counter-clockwise outer contour
-
-* exclamdown.0 has a counter-clockwise outer contour
-
-* exclamdown.1 has a counter-clockwise outer contour
-
-* exclamdown.1 has a counter-clockwise outer contour
-
-* exclamdown.2 has a counter-clockwise outer contour
-
-* exclamdown.2 has a counter-clockwise outer contour
-
-* f.0 has a counter-clockwise outer contour
-
-* f.1 has a counter-clockwise outer contour
-
-* f.2 has a counter-clockwise outer contour
-
-* five.0 has a counter-clockwise outer contour
-
-* five.1 has a counter-clockwise outer contour
-
-* five.2 has a counter-clockwise outer contour
-
-* four.0 has a counter-clockwise outer contour
-
-* four.1 has a counter-clockwise outer contour
-
-* four.2 has a counter-clockwise outer contour
-
-* g.0 has a counter-clockwise outer contour
-
-* g.1 has a counter-clockwise outer contour
-
-* g.2 has a counter-clockwise outer contour
-
-* gbreve.0 has a counter-clockwise outer contour
-
-* gbreve.0 has a counter-clockwise outer contour
-
-* gbreve.1 has a counter-clockwise outer contour
-
-* gbreve.1 has a counter-clockwise outer contour
-
-* gbreve.2 has a counter-clockwise outer contour
-
-* gbreve.2 has a counter-clockwise outer contour
-
-* gcircumflex.0 has a counter-clockwise outer contour
-
-* gcircumflex.0 has a counter-clockwise outer contour
-
-* gcircumflex.1 has a counter-clockwise outer contour
-
-* gcircumflex.1 has a counter-clockwise outer contour
-
-* gcircumflex.2 has a counter-clockwise outer contour
-
-* gcircumflex.2 has a counter-clockwise outer contour
-
-* gdotaccent.0 has a counter-clockwise outer contour
-
-* gdotaccent.0 has a counter-clockwise outer contour
-
-* gdotaccent.1 has a counter-clockwise outer contour
-
-* gdotaccent.1 has a counter-clockwise outer contour
-
-* gdotaccent.2 has a counter-clockwise outer contour
-
-* gdotaccent.2 has a counter-clockwise outer contour
-
-* germandbls.0 has a counter-clockwise outer contour
-
-* germandbls.1 has a counter-clockwise outer contour
-
-* germandbls.2 has a counter-clockwise outer contour
-
-* grave.0 has a counter-clockwise outer contour
-
-* grave.1 has a counter-clockwise outer contour
-
-* grave.2 has a counter-clockwise outer contour
-
-* gravecomb.0 has a counter-clockwise outer contour
-
-* gravecomb.1 has a counter-clockwise outer contour
-
-* gravecomb.2 has a counter-clockwise outer contour
-
-* greater.0 has a counter-clockwise outer contour
-
-* greater.1 has a counter-clockwise outer contour
-
-* greater.2 has a counter-clockwise outer contour
-
-* guillemotleft.0 has a counter-clockwise outer contour
-
-* guillemotleft.0 has a counter-clockwise outer contour
-
-* guillemotleft.1 has a counter-clockwise outer contour
-
-* guillemotleft.1 has a counter-clockwise outer contour
-
-* guillemotleft.2 has a counter-clockwise outer contour
-
-* guillemotleft.2 has a counter-clockwise outer contour
-
-* guillemotright.0 has a counter-clockwise outer contour
-
-* guillemotright.0 has a counter-clockwise outer contour
-
-* guillemotright.1 has a counter-clockwise outer contour
-
-* guillemotright.1 has a counter-clockwise outer contour
-
-* guillemotright.2 has a counter-clockwise outer contour
-
-* guillemotright.2 has a counter-clockwise outer contour
-
-* h.0 has a counter-clockwise outer contour
-
-* h.1 has a counter-clockwise outer contour
-
-* h.2 has a counter-clockwise outer contour
-
-* hbar.0 has a counter-clockwise outer contour
-
-* hbar.0 has a counter-clockwise outer contour
-
-* hbar.1 has a counter-clockwise outer contour
-
-* hbar.2 has a counter-clockwise outer contour
-
-* hbar.2 has a counter-clockwise outer contour
-
-* hcircumflex.0 has a counter-clockwise outer contour
-
-* hcircumflex.0 has a counter-clockwise outer contour
-
-* hcircumflex.1 has a counter-clockwise outer contour
-
-* hcircumflex.1 has a counter-clockwise outer contour
-
-* hcircumflex.2 has a counter-clockwise outer contour
-
-* hcircumflex.2 has a counter-clockwise outer contour
-
-* hookabovecomb.0 has a counter-clockwise outer contour
-
-* hookabovecomb.1 has a counter-clockwise outer contour
-
-* hookabovecomb.2 has a counter-clockwise outer contour
-
-* hungarumlaut.0 has a counter-clockwise outer contour
-
-* hungarumlaut.0 has a counter-clockwise outer contour
-
-* hungarumlaut.1 has a counter-clockwise outer contour
-
-* hungarumlaut.1 has a counter-clockwise outer contour
-
-* hungarumlaut.2 has a counter-clockwise outer contour
-
-* hungarumlaut.2 has a counter-clockwise outer contour
-
-* hyphen.0 has a counter-clockwise outer contour
-
-* hyphen.1 has a counter-clockwise outer contour
-
-* hyphen.2 has a counter-clockwise outer contour
-
-* i.0 has a counter-clockwise outer contour
-
-* i.0 has a counter-clockwise outer contour
-
-* i.1 has a counter-clockwise outer contour
-
-* i.1 has a counter-clockwise outer contour
-
-* i.2 has a counter-clockwise outer contour
-
-* i.2 has a counter-clockwise outer contour
-
-* iacute.0 has a counter-clockwise outer contour
-
-* iacute.0 has a counter-clockwise outer contour
-
-* iacute.1 has a counter-clockwise outer contour
-
-* iacute.1 has a counter-clockwise outer contour
-
-* iacute.2 has a counter-clockwise outer contour
-
-* iacute.2 has a counter-clockwise outer contour
-
-* ibreve.0 has a counter-clockwise outer contour
-
-* ibreve.0 has a counter-clockwise outer contour
-
-* ibreve.1 has a counter-clockwise outer contour
-
-* ibreve.1 has a counter-clockwise outer contour
-
-* ibreve.2 has a counter-clockwise outer contour
-
-* ibreve.2 has a counter-clockwise outer contour
-
-* icircumflex.0 has a counter-clockwise outer contour
-
-* icircumflex.0 has a counter-clockwise outer contour
-
-* icircumflex.1 has a counter-clockwise outer contour
-
-* icircumflex.1 has a counter-clockwise outer contour
-
-* icircumflex.2 has a counter-clockwise outer contour
-
-* icircumflex.2 has a counter-clockwise outer contour
-
-* idieresis.0 has a counter-clockwise outer contour
-
-* idieresis.0 has a counter-clockwise outer contour
-
-* idieresis.0 has a counter-clockwise outer contour
-
-* idieresis.1 has a counter-clockwise outer contour
-
-* idieresis.1 has a counter-clockwise outer contour
-
-* idieresis.1 has a counter-clockwise outer contour
-
-* idieresis.2 has a counter-clockwise outer contour
-
-* idieresis.2 has a counter-clockwise outer contour
-
-* idieresis.2 has a counter-clockwise outer contour
-
-* igrave.0 has a counter-clockwise outer contour
-
-* igrave.0 has a counter-clockwise outer contour
-
-* igrave.1 has a counter-clockwise outer contour
-
-* igrave.1 has a counter-clockwise outer contour
-
-* igrave.2 has a counter-clockwise outer contour
-
-* igrave.2 has a counter-clockwise outer contour
-
-* imacron.0 has a counter-clockwise outer contour
-
-* imacron.0 has a counter-clockwise outer contour
-
-* imacron.1 has a counter-clockwise outer contour
-
-* imacron.1 has a counter-clockwise outer contour
-
-* imacron.2 has a counter-clockwise outer contour
-
-* imacron.2 has a counter-clockwise outer contour
-
-* iogonek.0 has a counter-clockwise outer contour
-
-* iogonek.0 has a counter-clockwise outer contour
-
-* iogonek.0 has a counter-clockwise outer contour
-
-* iogonek.1 has a counter-clockwise outer contour
-
-* iogonek.1 has a counter-clockwise outer contour
-
-* iogonek.1 has a counter-clockwise outer contour
-
-* iogonek.2 has a counter-clockwise outer contour
-
-* iogonek.2 has a counter-clockwise outer contour
-
-* iogonek.2 has a counter-clockwise outer contour
-
-* itilde.0 has a counter-clockwise outer contour
-
-* itilde.0 has a counter-clockwise outer contour
-
-* itilde.1 has a counter-clockwise outer contour
-
-* itilde.1 has a counter-clockwise outer contour
-
-* itilde.2 has a counter-clockwise outer contour
-
-* itilde.2 has a counter-clockwise outer contour
-
-* j.0 has a counter-clockwise outer contour
-
-* j.0 has a counter-clockwise outer contour
-
-* j.1 has a counter-clockwise outer contour
-
-* j.1 has a counter-clockwise outer contour
-
-* j.2 has a counter-clockwise outer contour
-
-* j.2 has a counter-clockwise outer contour
-
-* jcircumflex.0 has a counter-clockwise outer contour
-
-* jcircumflex.0 has a counter-clockwise outer contour
-
-* jcircumflex.0 has a counter-clockwise outer contour
-
-* jcircumflex.1 has a counter-clockwise outer contour
-
-* jcircumflex.1 has a counter-clockwise outer contour
-
-* jcircumflex.1 has a counter-clockwise outer contour
-
-* jcircumflex.2 has a counter-clockwise outer contour
-
-* jcircumflex.2 has a counter-clockwise outer contour
-
-* jcircumflex.2 has a counter-clockwise outer contour
-
-* k.0 has a counter-clockwise outer contour
-
-* k.1 has a counter-clockwise outer contour
-
-* k.2 has a counter-clockwise outer contour
-
-* l.0 has a counter-clockwise outer contour
-
-* l.1 has a counter-clockwise outer contour
-
-* l.2 has a counter-clockwise outer contour
-
-* lacute.0 has a counter-clockwise outer contour
-
-* lacute.0 has a counter-clockwise outer contour
-
-* lacute.1 has a counter-clockwise outer contour
-
-* lacute.1 has a counter-clockwise outer contour
-
-* lacute.2 has a counter-clockwise outer contour
-
-* lacute.2 has a counter-clockwise outer contour
-
-* lcaron.0 has a counter-clockwise outer contour
-
-* lcaron.0 has a counter-clockwise outer contour
-
-* lcaron.1 has a counter-clockwise outer contour
-
-* lcaron.1 has a counter-clockwise outer contour
-
-* lcaron.2 has a counter-clockwise outer contour
-
-* lcaron.2 has a counter-clockwise outer contour
-
-* ldot.0 has a counter-clockwise outer contour
-
-* ldot.0 has a counter-clockwise outer contour
-
-* ldot.1 has a counter-clockwise outer contour
-
-* ldot.1 has a counter-clockwise outer contour
-
-* ldot.2 has a counter-clockwise outer contour
-
-* ldot.2 has a counter-clockwise outer contour
-
-* less.0 has a counter-clockwise outer contour
-
-* less.1 has a counter-clockwise outer contour
-
-* less.2 has a counter-clockwise outer contour
-
-* lslash.0 has a counter-clockwise outer contour
-
-* m.0 has a counter-clockwise outer contour
-
-* m.1 has a counter-clockwise outer contour
-
-* m.2 has a counter-clockwise outer contour
-
-* macron.0 has a counter-clockwise outer contour
-
-* macron.1 has a counter-clockwise outer contour
-
-* macron.2 has a counter-clockwise outer contour
-
-* mu.0 has a counter-clockwise outer contour
-
-* mu.1 has a counter-clockwise outer contour
-
-* mu.2 has a counter-clockwise outer contour
-
-* multiply.0 has a counter-clockwise outer contour
-
-* multiply.1 has a counter-clockwise outer contour
-
-* multiply.2 has a counter-clockwise outer contour
-
-* n.0 has a counter-clockwise outer contour
-
-* n.1 has a counter-clockwise outer contour
-
-* n.2 has a counter-clockwise outer contour
-
-* nacute.0 has a counter-clockwise outer contour
-
-* nacute.0 has a counter-clockwise outer contour
-
-* nacute.1 has a counter-clockwise outer contour
-
-* nacute.1 has a counter-clockwise outer contour
-
-* nacute.2 has a counter-clockwise outer contour
-
-* nacute.2 has a counter-clockwise outer contour
-
-* ncaron.0 has a counter-clockwise outer contour
-
-* ncaron.0 has a counter-clockwise outer contour
-
-* ncaron.1 has a counter-clockwise outer contour
-
-* ncaron.1 has a counter-clockwise outer contour
-
-* ncaron.2 has a counter-clockwise outer contour
-
-* ncaron.2 has a counter-clockwise outer contour
-
-* nine.0 has a counter-clockwise outer contour
-
-* nine.1 has a counter-clockwise outer contour
-
-* nine.2 has a counter-clockwise outer contour
-
-* ntilde.0 has a counter-clockwise outer contour
-
-* ntilde.0 has a counter-clockwise outer contour
-
-* ntilde.1 has a counter-clockwise outer contour
-
-* ntilde.1 has a counter-clockwise outer contour
-
-* ntilde.2 has a counter-clockwise outer contour
-
-* ntilde.2 has a counter-clockwise outer contour
-
-* numbersign.0 has a counter-clockwise outer contour
-
-* numbersign.1 has a counter-clockwise outer contour
-
-* numbersign.2 has a counter-clockwise outer contour
-
-* o.0 has a counter-clockwise outer contour
-
-* o.1 has a counter-clockwise outer contour
-
-* o.2 has a counter-clockwise outer contour
-
-* oacute.0 has a counter-clockwise outer contour
-
-* oacute.0 has a counter-clockwise outer contour
-
-* oacute.1 has a counter-clockwise outer contour
-
-* oacute.1 has a counter-clockwise outer contour
-
-* oacute.2 has a counter-clockwise outer contour
-
-* oacute.2 has a counter-clockwise outer contour
-
-* obreve.0 has a counter-clockwise outer contour
-
-* obreve.0 has a counter-clockwise outer contour
-
-* obreve.1 has a counter-clockwise outer contour
-
-* obreve.1 has a counter-clockwise outer contour
-
-* obreve.2 has a counter-clockwise outer contour
-
-* obreve.2 has a counter-clockwise outer contour
-
-* ocircumflex.0 has a counter-clockwise outer contour
-
-* ocircumflex.0 has a counter-clockwise outer contour
-
-* ocircumflex.1 has a counter-clockwise outer contour
-
-* ocircumflex.1 has a counter-clockwise outer contour
-
-* ocircumflex.2 has a counter-clockwise outer contour
-
-* ocircumflex.2 has a counter-clockwise outer contour
-
-* odieresis.0 has a counter-clockwise outer contour
-
-* odieresis.0 has a counter-clockwise outer contour
-
-* odieresis.0 has a counter-clockwise outer contour
-
-* odieresis.1 has a counter-clockwise outer contour
-
-* odieresis.1 has a counter-clockwise outer contour
-
-* odieresis.1 has a counter-clockwise outer contour
-
-* odieresis.2 has a counter-clockwise outer contour
-
-* odieresis.2 has a counter-clockwise outer contour
-
-* odieresis.2 has a counter-clockwise outer contour
-
-* oe.0 has a counter-clockwise outer contour
-
-* oe.1 has a counter-clockwise outer contour
-
-* oe.2 has a counter-clockwise outer contour
-
-* ogonek.0 has a counter-clockwise outer contour
-
-* ogonek.1 has a counter-clockwise outer contour
-
-* ogonek.2 has a counter-clockwise outer contour
-
-* ograve.0 has a counter-clockwise outer contour
-
-* ograve.0 has a counter-clockwise outer contour
-
-* ograve.1 has a counter-clockwise outer contour
-
-* ograve.1 has a counter-clockwise outer contour
-
-* ograve.2 has a counter-clockwise outer contour
-
-* ograve.2 has a counter-clockwise outer contour
-
-* ohungarumlaut.0 has a counter-clockwise outer contour
-
-* ohungarumlaut.0 has a counter-clockwise outer contour
-
-* ohungarumlaut.0 has a counter-clockwise outer contour
-
-* ohungarumlaut.1 has a counter-clockwise outer contour
-
-* ohungarumlaut.1 has a counter-clockwise outer contour
-
-* ohungarumlaut.1 has a counter-clockwise outer contour
-
-* ohungarumlaut.2 has a counter-clockwise outer contour
-
-* ohungarumlaut.2 has a counter-clockwise outer contour
-
-* ohungarumlaut.2 has a counter-clockwise outer contour
-
-* omacron.0 has a counter-clockwise outer contour
-
-* omacron.0 has a counter-clockwise outer contour
-
-* omacron.1 has a counter-clockwise outer contour
-
-* omacron.1 has a counter-clockwise outer contour
-
-* omacron.2 has a counter-clockwise outer contour
-
-* omacron.2 has a counter-clockwise outer contour
-
-* one.0 has a counter-clockwise outer contour
-
-* one.0 has a counter-clockwise outer contour
-
-* one.1 has a counter-clockwise outer contour
-
-* one.2 has a counter-clockwise outer contour
-
-* one.2 has a counter-clockwise outer contour
-
-* onehalf (U+00BD) has a counter-clockwise outer contour
-
-* onehalf.0 has a counter-clockwise outer contour
-
-* onehalf.1 has a counter-clockwise outer contour
-
-* onehalf.2 has a counter-clockwise outer contour
-
-* onehalf.2 has a counter-clockwise outer contour
-
-* onequarter.0 has a counter-clockwise outer contour
-
-* onequarter.0 has a counter-clockwise outer contour
-
-* onequarter.1 has a counter-clockwise outer contour
-
-* onequarter.1 has a counter-clockwise outer contour
-
-* onequarter.2 has a counter-clockwise outer contour
-
-* onequarter.2 has a counter-clockwise outer contour
-
-* ordfeminine.0 has a counter-clockwise outer contour
-
-* ordfeminine.1 has a counter-clockwise outer contour
-
-* ordfeminine.2 has a counter-clockwise outer contour
-
-* ordmasculine.0 has a counter-clockwise outer contour
-
-* ordmasculine.1 has a counter-clockwise outer contour
-
-* ordmasculine.2 has a counter-clockwise outer contour
-
-* oslash.0 has a counter-clockwise outer contour
-
-* oslash.1 has a counter-clockwise outer contour
-
-* oslash.2 has a counter-clockwise outer contour
-
 * otilde.0 has a counter-clockwise outer contour
 
 * otilde.0 has a counter-clockwise outer contour
@@ -3032,1609 +2167,61 @@ definitions.</p>
 
 * otilde.2 has a counter-clockwise outer contour
 
-* p.0 has a counter-clockwise outer contour
+* u098B.0 has a counter-clockwise outer contour
 
-* p.1 has a counter-clockwise outer contour
+* u098B.1 has a counter-clockwise outer contour
 
-* p.2 has a counter-clockwise outer contour
+* u098B.2 has a counter-clockwise outer contour
 
-* paragraph.0 has a counter-clockwise outer contour
+* u09A0 (U+09A0) has a counter-clockwise outer contour
 
-* paragraph.0 has a counter-clockwise outer contour
+* u09A0 (U+09A0) has a path with no bounds (probably a single point)
 
-* paragraph.1 has a counter-clockwise outer contour
+* u09A0.0 has a counter-clockwise outer contour
 
-* paragraph.1 has a counter-clockwise outer contour
+* u09A0.0 has a path with no bounds (probably a single point)
 
-* paragraph.2 has a counter-clockwise outer contour
+* u09A0.1 has a counter-clockwise outer contour
 
-* paragraph.2 has a counter-clockwise outer contour
+* u09A0.1 has a path with no bounds (probably a single point)
 
-* parenleft.0 has a counter-clockwise outer contour
+* u09A0.2 has a counter-clockwise outer contour
 
-* parenleft.1 has a counter-clockwise outer contour
+* u09A0.2 has a path with no bounds (probably a single point)
 
-* parenleft.2 has a counter-clockwise outer contour
+* u09AA (U+09AA) has a counter-clockwise outer contour
 
-* parenright.0 has a counter-clockwise outer contour
+* u09AA (U+09AA) has a path with no bounds (probably a single point)
 
-* parenright.1 has a counter-clockwise outer contour
+* u09AA.0 has a counter-clockwise outer contour
 
-* parenright.2 has a counter-clockwise outer contour
+* u09AA.0 has a path with no bounds (probably a single point)
 
-* percent.0 has a counter-clockwise outer contour
+* u09AA.1 has a counter-clockwise outer contour
 
-* percent.1 has a counter-clockwise outer contour
+* u09AA.1 has a path with no bounds (probably a single point)
 
-* percent.2 has a counter-clockwise outer contour
+* u09AA.2 has a counter-clockwise outer contour
 
-* period.0 has a counter-clockwise outer contour
+* u09AA.2 has a path with no bounds (probably a single point)
 
-* period.1 has a counter-clockwise outer contour
+* u09AE (U+09AE) has a counter-clockwise outer contour
 
-* period.2 has a counter-clockwise outer contour
+* u09AE (U+09AE) has a path with no bounds (probably a single point)
 
-* periodcentered.0 has a counter-clockwise outer contour
+* u09AE.0 has a counter-clockwise outer contour
 
-* periodcentered.1 has a counter-clockwise outer contour
+* u09AE.0 has a path with no bounds (probably a single point)
 
-* periodcentered.2 has a counter-clockwise outer contour
+* u09AE.1 has a counter-clockwise outer contour
 
-* plus.0 has a counter-clockwise outer contour
+* u09AE.1 has a path with no bounds (probably a single point)
 
-* plus.0 has a counter-clockwise outer contour
+* u09AE.2 has a counter-clockwise outer contour
 
-* plus.1 has a counter-clockwise outer contour
-
-* plus.2 has a counter-clockwise outer contour
-
-* plus.2 has a counter-clockwise outer contour
-
-* plusminus.0 has a counter-clockwise outer contour
-
-* plusminus.0 has a counter-clockwise outer contour
-
-* plusminus.0 has a counter-clockwise outer contour
-
-* plusminus.1 has a counter-clockwise outer contour
-
-* plusminus.1 has a counter-clockwise outer contour
-
-* plusminus.2 has a counter-clockwise outer contour
-
-* plusminus.2 has a counter-clockwise outer contour
-
-* plusminus.2 has a counter-clockwise outer contour
-
-* q.0 has a counter-clockwise outer contour
-
-* q.1 has a counter-clockwise outer contour
-
-* q.2 has a counter-clockwise outer contour
-
-* question.0 has a counter-clockwise outer contour
-
-* question.0 has a counter-clockwise outer contour
-
-* question.1 has a counter-clockwise outer contour
-
-* question.1 has a counter-clockwise outer contour
-
-* question.2 has a counter-clockwise outer contour
-
-* question.2 has a counter-clockwise outer contour
-
-* questiondown.0 has a counter-clockwise outer contour
-
-* questiondown.0 has a counter-clockwise outer contour
-
-* questiondown.1 has a counter-clockwise outer contour
-
-* questiondown.1 has a counter-clockwise outer contour
-
-* questiondown.2 has a counter-clockwise outer contour
-
-* questiondown.2 has a counter-clockwise outer contour
-
-* quotedbl.0 has a counter-clockwise outer contour
-
-* quotedbl.0 has a counter-clockwise outer contour
-
-* quotedbl.1 has a counter-clockwise outer contour
-
-* quotedbl.1 has a counter-clockwise outer contour
-
-* quotedbl.2 has a counter-clockwise outer contour
-
-* quotedbl.2 has a counter-clockwise outer contour
-
-* quotesingle.0 has a counter-clockwise outer contour
-
-* quotesingle.1 has a counter-clockwise outer contour
-
-* quotesingle.2 has a counter-clockwise outer contour
-
-* r.0 has a counter-clockwise outer contour
-
-* r.1 has a counter-clockwise outer contour
-
-* r.2 has a counter-clockwise outer contour
-
-* racute.0 has a counter-clockwise outer contour
-
-* racute.0 has a counter-clockwise outer contour
-
-* racute.1 has a counter-clockwise outer contour
-
-* racute.1 has a counter-clockwise outer contour
-
-* racute.2 has a counter-clockwise outer contour
-
-* racute.2 has a counter-clockwise outer contour
-
-* rcaron.0 has a counter-clockwise outer contour
-
-* rcaron.0 has a counter-clockwise outer contour
-
-* rcaron.1 has a counter-clockwise outer contour
-
-* rcaron.1 has a counter-clockwise outer contour
-
-* rcaron.2 has a counter-clockwise outer contour
-
-* rcaron.2 has a counter-clockwise outer contour
-
-* registered.0 has a counter-clockwise outer contour
-
-* registered.1 has a counter-clockwise outer contour
-
-* registered.2 has a counter-clockwise outer contour
-
-* ring.0 has a counter-clockwise outer contour
-
-* ring.1 has a counter-clockwise outer contour
-
-* ring.2 has a counter-clockwise outer contour
-
-* s.0 has a counter-clockwise outer contour
-
-* s.1 has a counter-clockwise outer contour
-
-* s.2 has a counter-clockwise outer contour
-
-* sacute.0 has a counter-clockwise outer contour
-
-* sacute.0 has a counter-clockwise outer contour
-
-* sacute.1 has a counter-clockwise outer contour
-
-* sacute.1 has a counter-clockwise outer contour
-
-* sacute.2 has a counter-clockwise outer contour
-
-* sacute.2 has a counter-clockwise outer contour
-
-* scaron.0 has a counter-clockwise outer contour
-
-* scaron.0 has a counter-clockwise outer contour
-
-* scaron.1 has a counter-clockwise outer contour
-
-* scaron.1 has a counter-clockwise outer contour
-
-* scaron.2 has a counter-clockwise outer contour
-
-* scaron.2 has a counter-clockwise outer contour
-
-* scedilla.0 has a counter-clockwise outer contour
-
-* scedilla.0 has a counter-clockwise outer contour
-
-* scedilla.1 has a counter-clockwise outer contour
-
-* scedilla.1 has a counter-clockwise outer contour
-
-* scedilla.2 has a counter-clockwise outer contour
-
-* scedilla.2 has a counter-clockwise outer contour
-
-* scircumflex.0 has a counter-clockwise outer contour
-
-* scircumflex.0 has a counter-clockwise outer contour
-
-* scircumflex.1 has a counter-clockwise outer contour
-
-* scircumflex.1 has a counter-clockwise outer contour
-
-* scircumflex.2 has a counter-clockwise outer contour
-
-* scircumflex.2 has a counter-clockwise outer contour
-
-* section.0 has a counter-clockwise outer contour
-
-* section.0 has a counter-clockwise outer contour
-
-* section.1 has a counter-clockwise outer contour
-
-* section.2 has a counter-clockwise outer contour
-
-* section.2 has a counter-clockwise outer contour
-
-* semicolon.0 has a counter-clockwise outer contour
-
-* semicolon.0 has a counter-clockwise outer contour
-
-* semicolon.1 has a counter-clockwise outer contour
-
-* semicolon.1 has a counter-clockwise outer contour
-
-* semicolon.2 has a counter-clockwise outer contour
-
-* semicolon.2 has a counter-clockwise outer contour
-
-* seven.0 has a counter-clockwise outer contour
-
-* seven.1 has a counter-clockwise outer contour
-
-* seven.2 has a counter-clockwise outer contour
-
-* six.0 has a counter-clockwise outer contour
-
-* six.1 has a counter-clockwise outer contour
-
-* six.2 has a counter-clockwise outer contour
-
-* slash.0 has a counter-clockwise outer contour
-
-* slash.1 has a counter-clockwise outer contour
-
-* slash.2 has a counter-clockwise outer contour
-
-* sterling.0 has a counter-clockwise outer contour
-
-* sterling.0 has a counter-clockwise outer contour
-
-* sterling.1 has a counter-clockwise outer contour
-
-* sterling.2 has a counter-clockwise outer contour
-
-* sterling.2 has a counter-clockwise outer contour
-
-* t.0 has a counter-clockwise outer contour
-
-* t.1 has a counter-clockwise outer contour
-
-* t.2 has a counter-clockwise outer contour
-
-* tcaron.0 has a counter-clockwise outer contour
-
-* tcaron.0 has a counter-clockwise outer contour
-
-* tcaron.1 has a counter-clockwise outer contour
-
-* tcaron.1 has a counter-clockwise outer contour
-
-* tcaron.2 has a counter-clockwise outer contour
-
-* tcaron.2 has a counter-clockwise outer contour
-
-* thorn.0 has a counter-clockwise outer contour
-
-* thorn.1 has a counter-clockwise outer contour
-
-* thorn.2 has a counter-clockwise outer contour
-
-* three.0 has a counter-clockwise outer contour
-
-* three.1 has a counter-clockwise outer contour
-
-* three.2 has a counter-clockwise outer contour
-
-* threequarters.0 has a counter-clockwise outer contour
-
-* threequarters.0 has a counter-clockwise outer contour
-
-* threequarters.1 has a counter-clockwise outer contour
-
-* threequarters.1 has a counter-clockwise outer contour
-
-* threequarters.2 has a counter-clockwise outer contour
-
-* threequarters.2 has a counter-clockwise outer contour
-
-* tilde.0 has a counter-clockwise outer contour
-
-* tilde.1 has a counter-clockwise outer contour
-
-* tilde.2 has a counter-clockwise outer contour
-
-* tildecomb.0 has a counter-clockwise outer contour
-
-* tildecomb.1 has a counter-clockwise outer contour
-
-* tildecomb.2 has a counter-clockwise outer contour
-
-* two (U+0032) has a counter-clockwise outer contour
-
-* two.1 has a counter-clockwise outer contour
-
-* u.0 has a counter-clockwise outer contour
-
-* u.1 has a counter-clockwise outer contour
-
-* u.2 has a counter-clockwise outer contour
-
-* u09a4.0 has a counter-clockwise outer contour
-
-* u09a4.0 has a counter-clockwise outer contour
-
-* u09a4.1 has a counter-clockwise outer contour
-
-* u09a4.1 has a counter-clockwise outer contour
-
-* u09a4.2 has a counter-clockwise outer contour
-
-* u09a4.2 has a counter-clockwise outer contour
-
-* uacute.0 has a counter-clockwise outer contour
-
-* uacute.0 has a counter-clockwise outer contour
-
-* uacute.1 has a counter-clockwise outer contour
-
-* uacute.1 has a counter-clockwise outer contour
-
-* uacute.2 has a counter-clockwise outer contour
-
-* uacute.2 has a counter-clockwise outer contour
-
-* ubreve.0 has a counter-clockwise outer contour
-
-* ubreve.0 has a counter-clockwise outer contour
-
-* ubreve.1 has a counter-clockwise outer contour
-
-* ubreve.1 has a counter-clockwise outer contour
-
-* ubreve.2 has a counter-clockwise outer contour
-
-* ubreve.2 has a counter-clockwise outer contour
-
-* ucircumflex.0 has a counter-clockwise outer contour
-
-* ucircumflex.0 has a counter-clockwise outer contour
-
-* ucircumflex.1 has a counter-clockwise outer contour
-
-* ucircumflex.1 has a counter-clockwise outer contour
-
-* ucircumflex.2 has a counter-clockwise outer contour
-
-* ucircumflex.2 has a counter-clockwise outer contour
-
-* udieresis.0 has a counter-clockwise outer contour
-
-* udieresis.0 has a counter-clockwise outer contour
-
-* udieresis.0 has a counter-clockwise outer contour
-
-* udieresis.1 has a counter-clockwise outer contour
-
-* udieresis.1 has a counter-clockwise outer contour
-
-* udieresis.1 has a counter-clockwise outer contour
-
-* udieresis.2 has a counter-clockwise outer contour
-
-* udieresis.2 has a counter-clockwise outer contour
-
-* udieresis.2 has a counter-clockwise outer contour
-
-* ugrave.0 has a counter-clockwise outer contour
-
-* ugrave.0 has a counter-clockwise outer contour
-
-* ugrave.1 has a counter-clockwise outer contour
-
-* ugrave.1 has a counter-clockwise outer contour
-
-* ugrave.2 has a counter-clockwise outer contour
-
-* ugrave.2 has a counter-clockwise outer contour
-
-* uhungarumlaut.0 has a counter-clockwise outer contour
-
-* uhungarumlaut.0 has a counter-clockwise outer contour
-
-* uhungarumlaut.0 has a counter-clockwise outer contour
-
-* uhungarumlaut.1 has a counter-clockwise outer contour
-
-* uhungarumlaut.1 has a counter-clockwise outer contour
-
-* uhungarumlaut.1 has a counter-clockwise outer contour
-
-* uhungarumlaut.2 has a counter-clockwise outer contour
-
-* uhungarumlaut.2 has a counter-clockwise outer contour
-
-* uhungarumlaut.2 has a counter-clockwise outer contour
-
-* umacron.0 has a counter-clockwise outer contour
-
-* umacron.0 has a counter-clockwise outer contour
-
-* umacron.1 has a counter-clockwise outer contour
-
-* umacron.1 has a counter-clockwise outer contour
-
-* umacron.2 has a counter-clockwise outer contour
-
-* umacron.2 has a counter-clockwise outer contour
-
-* underscore.0 has a counter-clockwise outer contour
-
-* underscore.1 has a counter-clockwise outer contour
-
-* underscore.2 has a counter-clockwise outer contour
-
-* uni00B2 (U+00B2) has a counter-clockwise outer contour
-
-* uni00B2.2 has a counter-clockwise outer contour
-
-* uni00B3.0 has a counter-clockwise outer contour
-
-* uni00B3.1 has a counter-clockwise outer contour
-
-* uni00B3.2 has a counter-clockwise outer contour
-
-* uni00B9.0 has a counter-clockwise outer contour
-
-* uni00B9.0 has a counter-clockwise outer contour
-
-* uni00B9.1 has a counter-clockwise outer contour
-
-* uni00B9.1 has a counter-clockwise outer contour
-
-* uni00B9.2 has a counter-clockwise outer contour
-
-* uni0122.0 has a counter-clockwise outer contour
-
-* uni0122.0 has a counter-clockwise outer contour
-
-* uni0122.1 has a counter-clockwise outer contour
-
-* uni0122.1 has a counter-clockwise outer contour
-
-* uni0122.2 has a counter-clockwise outer contour
-
-* uni0122.2 has a counter-clockwise outer contour
-
-* uni0123.0 has a counter-clockwise outer contour
-
-* uni0123.0 has a counter-clockwise outer contour
-
-* uni0123.1 has a counter-clockwise outer contour
-
-* uni0123.1 has a counter-clockwise outer contour
-
-* uni0123.2 has a counter-clockwise outer contour
-
-* uni0123.2 has a counter-clockwise outer contour
-
-* uni0136.0 has a counter-clockwise outer contour
-
-* uni0136.0 has a counter-clockwise outer contour
-
-* uni0136.1 has a counter-clockwise outer contour
-
-* uni0136.1 has a counter-clockwise outer contour
-
-* uni0136.2 has a counter-clockwise outer contour
-
-* uni0136.2 has a counter-clockwise outer contour
-
-* uni0137.0 has a counter-clockwise outer contour
-
-* uni0137.0 has a counter-clockwise outer contour
-
-* uni0137.1 has a counter-clockwise outer contour
-
-* uni0137.1 has a counter-clockwise outer contour
-
-* uni0137.2 has a counter-clockwise outer contour
-
-* uni0137.2 has a counter-clockwise outer contour
-
-* uni013B.0 has a counter-clockwise outer contour
-
-* uni013B.0 has a counter-clockwise outer contour
-
-* uni013B.1 has a counter-clockwise outer contour
-
-* uni013B.1 has a counter-clockwise outer contour
-
-* uni013B.2 has a counter-clockwise outer contour
-
-* uni013B.2 has a counter-clockwise outer contour
-
-* uni013C.0 has a counter-clockwise outer contour
-
-* uni013C.0 has a counter-clockwise outer contour
-
-* uni013C.1 has a counter-clockwise outer contour
-
-* uni013C.1 has a counter-clockwise outer contour
-
-* uni013C.2 has a counter-clockwise outer contour
-
-* uni013C.2 has a counter-clockwise outer contour
-
-* uni0145.0 has a counter-clockwise outer contour
-
-* uni0145.0 has a counter-clockwise outer contour
-
-* uni0145.1 has a counter-clockwise outer contour
-
-* uni0145.1 has a counter-clockwise outer contour
-
-* uni0145.2 has a counter-clockwise outer contour
-
-* uni0145.2 has a counter-clockwise outer contour
-
-* uni0146.0 has a counter-clockwise outer contour
-
-* uni0146.0 has a counter-clockwise outer contour
-
-* uni0146.1 has a counter-clockwise outer contour
-
-* uni0146.1 has a counter-clockwise outer contour
-
-* uni0146.2 has a counter-clockwise outer contour
-
-* uni0146.2 has a counter-clockwise outer contour
-
-* uni0156.0 has a counter-clockwise outer contour
-
-* uni0156.0 has a counter-clockwise outer contour
-
-* uni0156.1 has a counter-clockwise outer contour
-
-* uni0156.1 has a counter-clockwise outer contour
-
-* uni0156.2 has a counter-clockwise outer contour
-
-* uni0156.2 has a counter-clockwise outer contour
-
-* uni0157.0 has a counter-clockwise outer contour
-
-* uni0157.0 has a counter-clockwise outer contour
-
-* uni0157.1 has a counter-clockwise outer contour
-
-* uni0157.1 has a counter-clockwise outer contour
-
-* uni0157.2 has a counter-clockwise outer contour
-
-* uni0157.2 has a counter-clockwise outer contour
-
-* uni0162.0 has a counter-clockwise outer contour
-
-* uni0162.0 has a counter-clockwise outer contour
-
-* uni0162.1 has a counter-clockwise outer contour
-
-* uni0162.1 has a counter-clockwise outer contour
-
-* uni0162.2 has a counter-clockwise outer contour
-
-* uni0162.2 has a counter-clockwise outer contour
-
-* uni0163.0 has a counter-clockwise outer contour
-
-* uni0163.0 has a counter-clockwise outer contour
-
-* uni0163.1 has a counter-clockwise outer contour
-
-* uni0163.1 has a counter-clockwise outer contour
-
-* uni0163.2 has a counter-clockwise outer contour
-
-* uni0163.2 has a counter-clockwise outer contour
-
-* uni0218.0 has a counter-clockwise outer contour
-
-* uni0218.0 has a counter-clockwise outer contour
-
-* uni0218.1 has a counter-clockwise outer contour
-
-* uni0218.1 has a counter-clockwise outer contour
-
-* uni0218.2 has a counter-clockwise outer contour
-
-* uni0218.2 has a counter-clockwise outer contour
-
-* uni0219.0 has a counter-clockwise outer contour
-
-* uni0219.0 has a counter-clockwise outer contour
-
-* uni0219.1 has a counter-clockwise outer contour
-
-* uni0219.1 has a counter-clockwise outer contour
-
-* uni0219.2 has a counter-clockwise outer contour
-
-* uni0219.2 has a counter-clockwise outer contour
-
-* uni021A.0 has a counter-clockwise outer contour
-
-* uni021A.0 has a counter-clockwise outer contour
-
-* uni021A.1 has a counter-clockwise outer contour
-
-* uni021A.1 has a counter-clockwise outer contour
-
-* uni021A.2 has a counter-clockwise outer contour
-
-* uni021A.2 has a counter-clockwise outer contour
-
-* uni021B.0 has a counter-clockwise outer contour
-
-* uni021B.0 has a counter-clockwise outer contour
-
-* uni021B.1 has a counter-clockwise outer contour
-
-* uni021B.1 has a counter-clockwise outer contour
-
-* uni021B.2 has a counter-clockwise outer contour
-
-* uni021B.2 has a counter-clockwise outer contour
-
-* uni0237.0 has a counter-clockwise outer contour
-
-* uni0237.1 has a counter-clockwise outer contour
-
-* uni0237.2 has a counter-clockwise outer contour
-
-* uni0302.0 has a counter-clockwise outer contour
-
-* uni0302.1 has a counter-clockwise outer contour
-
-* uni0302.2 has a counter-clockwise outer contour
-
-* uni0304.0 has a counter-clockwise outer contour
-
-* uni0304.1 has a counter-clockwise outer contour
-
-* uni0304.2 has a counter-clockwise outer contour
-
-* uni0306.0 has a counter-clockwise outer contour
-
-* uni0306.1 has a counter-clockwise outer contour
-
-* uni0306.2 has a counter-clockwise outer contour
-
-* uni0307.0 has a counter-clockwise outer contour
-
-* uni0307.1 has a counter-clockwise outer contour
-
-* uni0307.2 has a counter-clockwise outer contour
-
-* uni0308.0 has a counter-clockwise outer contour
-
-* uni0308.0 has a counter-clockwise outer contour
-
-* uni0308.1 has a counter-clockwise outer contour
-
-* uni0308.1 has a counter-clockwise outer contour
-
-* uni0308.2 has a counter-clockwise outer contour
-
-* uni0308.2 has a counter-clockwise outer contour
-
-* uni030A.0 has a counter-clockwise outer contour
-
-* uni030A.1 has a counter-clockwise outer contour
-
-* uni030A.2 has a counter-clockwise outer contour
-
-* uni030B.0 has a counter-clockwise outer contour
-
-* uni030B.0 has a counter-clockwise outer contour
-
-* uni030B.1 has a counter-clockwise outer contour
-
-* uni030B.1 has a counter-clockwise outer contour
-
-* uni030B.2 has a counter-clockwise outer contour
-
-* uni030B.2 has a counter-clockwise outer contour
-
-* uni030C.0 has a counter-clockwise outer contour
-
-* uni030C.1 has a counter-clockwise outer contour
-
-* uni030C.2 has a counter-clockwise outer contour
-
-* uni030F.0 has a counter-clockwise outer contour
-
-* uni030F.0 has a counter-clockwise outer contour
-
-* uni030F.1 has a counter-clockwise outer contour
-
-* uni030F.1 has a counter-clockwise outer contour
-
-* uni030F.2 has a counter-clockwise outer contour
-
-* uni030F.2 has a counter-clockwise outer contour
-
-* uni0312.0 has a counter-clockwise outer contour
-
-* uni0312.1 has a counter-clockwise outer contour
-
-* uni0312.2 has a counter-clockwise outer contour
-
-* uni0313.0 has a counter-clockwise outer contour
-
-* uni0313.1 has a counter-clockwise outer contour
-
-* uni0313.2 has a counter-clockwise outer contour
-
-* uni0326.0 has a counter-clockwise outer contour
-
-* uni0326.1 has a counter-clockwise outer contour
-
-* uni0326.2 has a counter-clockwise outer contour
-
-* uni0327.0 has a counter-clockwise outer contour
-
-* uni0327.1 has a counter-clockwise outer contour
-
-* uni0327.2 has a counter-clockwise outer contour
-
-* uni0328.0 has a counter-clockwise outer contour
-
-* uni0328.1 has a counter-clockwise outer contour
-
-* uni0328.2 has a counter-clockwise outer contour
-
-* uni0964.0 has a counter-clockwise outer contour
-
-* uni0964.1 has a counter-clockwise outer contour
-
-* uni0964.2 has a counter-clockwise outer contour
-
-* uni0965.0 has a counter-clockwise outer contour
-
-* uni0965.0 has a counter-clockwise outer contour
-
-* uni0965.1 has a counter-clockwise outer contour
-
-* uni0965.1 has a counter-clockwise outer contour
-
-* uni0965.2 has a counter-clockwise outer contour
-
-* uni0965.2 has a counter-clockwise outer contour
-
-* uni0981.0 has a counter-clockwise outer contour
-
-* uni0981.0 has a counter-clockwise outer contour
-
-* uni0981.1 has a counter-clockwise outer contour
-
-* uni0981.1 has a counter-clockwise outer contour
-
-* uni0981.2 has a counter-clockwise outer contour
-
-* uni0981.2 has a counter-clockwise outer contour
-
-* uni0982.0 has a counter-clockwise outer contour
-
-* uni0982.0 has a counter-clockwise outer contour
-
-* uni0982.1 has a counter-clockwise outer contour
-
-* uni0982.1 has a counter-clockwise outer contour
-
-* uni0982.2 has a counter-clockwise outer contour
-
-* uni0982.2 has a counter-clockwise outer contour
-
-* uni0983.0 has a counter-clockwise outer contour
-
-* uni0983.0 has a counter-clockwise outer contour
-
-* uni0983.1 has a counter-clockwise outer contour
-
-* uni0983.1 has a counter-clockwise outer contour
-
-* uni0983.2 has a counter-clockwise outer contour
-
-* uni0983.2 has a counter-clockwise outer contour
-
-* uni0985.0 has a counter-clockwise outer contour
-
-* uni0985.0 has a counter-clockwise outer contour
-
-* uni0985.0 has a counter-clockwise outer contour
-
-* uni0985.0 has a counter-clockwise outer contour
-
-* uni0985.1 has a counter-clockwise outer contour
-
-* uni0985.2 has a counter-clockwise outer contour
-
-* uni0985.2 has a counter-clockwise outer contour
-
-* uni0985.2 has a counter-clockwise outer contour
-
-* uni0985.2 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.0 has a counter-clockwise outer contour
-
-* uni0986.1 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0986.2 has a counter-clockwise outer contour
-
-* uni0987.0 has a counter-clockwise outer contour
-
-* uni0987.0 has a counter-clockwise outer contour
-
-* uni0987.0 has a counter-clockwise outer contour
-
-* uni0987.0 has a counter-clockwise outer contour
-
-* uni0987.1 has a counter-clockwise outer contour
-
-* uni0987.1 has a counter-clockwise outer contour
-
-* uni0987.1 has a counter-clockwise outer contour
-
-* uni0987.1 has a counter-clockwise outer contour
-
-* uni0987.2 has a counter-clockwise outer contour
-
-* uni0987.2 has a counter-clockwise outer contour
-
-* uni0988.0 has a counter-clockwise outer contour
-
-* uni0988.0 has a counter-clockwise outer contour
-
-* uni0988.1 has a counter-clockwise outer contour
-
-* uni0988.1 has a counter-clockwise outer contour
-
-* uni0988.2 has a counter-clockwise outer contour
-
-* uni0988.2 has a counter-clockwise outer contour
-
-* uni0989.0 has a counter-clockwise outer contour
-
-* uni0989.0 has a counter-clockwise outer contour
-
-* uni0989.0 has a counter-clockwise outer contour
-
-* uni0989.0 has a counter-clockwise outer contour
-
-* uni0989.1 has a counter-clockwise outer contour
-
-* uni0989.1 has a counter-clockwise outer contour
-
-* uni0989.1 has a counter-clockwise outer contour
-
-* uni0989.1 has a counter-clockwise outer contour
-
-* uni0989.2 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.0 has a counter-clockwise outer contour
-
-* uni098B.1 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098B.2 has a counter-clockwise outer contour
-
-* uni098C.0 has a counter-clockwise outer contour
-
-* uni098C.1 has a counter-clockwise outer contour
-
-* uni098C.2 has a counter-clockwise outer contour
-
-* uni098F.0 has a counter-clockwise outer contour
-
-* uni098F.0 has a counter-clockwise outer contour
-
-* uni098F.1 has a counter-clockwise outer contour
-
-* uni098F.1 has a counter-clockwise outer contour
-
-* uni098F.2 has a counter-clockwise outer contour
-
-* uni098F.2 has a counter-clockwise outer contour
-
-* uni0990.0 has a counter-clockwise outer contour
-
-* uni0990.0 has a counter-clockwise outer contour
-
-* uni0990.0 has a counter-clockwise outer contour
-
-* uni0990.1 has a counter-clockwise outer contour
-
-* uni0990.1 has a counter-clockwise outer contour
-
-* uni0990.1 has a counter-clockwise outer contour
-
-* uni0990.2 has a counter-clockwise outer contour
-
-* uni0993 (U+0993) has a counter-clockwise outer contour
-
-* uni0993.1 has a counter-clockwise outer contour
-
-* uni0994.0 has a counter-clockwise outer contour
-
-* uni0994.0 has a counter-clockwise outer contour
-
-* uni0994.1 has a counter-clockwise outer contour
-
-* uni0994.2 has a counter-clockwise outer contour
-
-* uni0994.2 has a counter-clockwise outer contour
-
-* uni0995.0 has a counter-clockwise outer contour
-
-* uni0995.0 has a counter-clockwise outer contour
-
-* uni0995.0 has a counter-clockwise outer contour
-
-* uni0995.0 has a counter-clockwise outer contour
-
-* uni0995.1 has a counter-clockwise outer contour
-
-* uni0995.2 has a counter-clockwise outer contour
-
-* uni0995.2 has a counter-clockwise outer contour
-
-* uni0995.2 has a counter-clockwise outer contour
-
-* uni0995.2 has a counter-clockwise outer contour
-
-* uni0996.0 has a counter-clockwise outer contour
-
-* uni0996.0 has a counter-clockwise outer contour
-
-* uni0996.0 has a counter-clockwise outer contour
-
-* uni0996.0 has a counter-clockwise outer contour
-
-* uni0996.0 has a counter-clockwise outer contour
-
-* uni0996.1 has a counter-clockwise outer contour
-
-* uni0996.2 has a counter-clockwise outer contour
-
-* uni0996.2 has a counter-clockwise outer contour
-
-* uni0996.2 has a counter-clockwise outer contour
-
-* uni0996.2 has a counter-clockwise outer contour
-
-* uni0996.2 has a counter-clockwise outer contour
-
-* uni0997.0 has a counter-clockwise outer contour
-
-* uni0997.0 has a counter-clockwise outer contour
-
-* uni0997.0 has a counter-clockwise outer contour
-
-* uni0997.1 has a counter-clockwise outer contour
-
-* uni0997.2 has a counter-clockwise outer contour
-
-* uni0997.2 has a counter-clockwise outer contour
-
-* uni0997.2 has a counter-clockwise outer contour
-
-* uni099C.0 has a counter-clockwise outer contour
-
-* uni099C.0 has a counter-clockwise outer contour
-
-* uni099C.0 has a counter-clockwise outer contour
-
-* uni099C.1 has a counter-clockwise outer contour
-
-* uni099C.2 has a counter-clockwise outer contour
-
-* uni099C.2 has a counter-clockwise outer contour
-
-* uni099C.2 has a counter-clockwise outer contour
-
-* uni099D.0 has a counter-clockwise outer contour
-
-* uni099D.0 has a counter-clockwise outer contour
-
-* uni099D.0 has a counter-clockwise outer contour
-
-* uni099D.0 has a counter-clockwise outer contour
-
-* uni099D.0 has a counter-clockwise outer contour
-
-* uni099D.1 has a counter-clockwise outer contour
-
-* uni099D.2 has a counter-clockwise outer contour
-
-* uni099D.2 has a counter-clockwise outer contour
-
-* uni099D.2 has a counter-clockwise outer contour
-
-* uni099D.2 has a counter-clockwise outer contour
-
-* uni099D.2 has a counter-clockwise outer contour
-
-* uni099E.0 has a counter-clockwise outer contour
-
-* uni099E.0 has a counter-clockwise outer contour
-
-* uni099E.0 has a counter-clockwise outer contour
-
-* uni099E.1 has a counter-clockwise outer contour
-
-* uni099E.1 has a counter-clockwise outer contour
-
-* uni099E.1 has a counter-clockwise outer contour
-
-* uni099E.2 has a counter-clockwise outer contour
-
-* uni099F.0 has a counter-clockwise outer contour
-
-* uni099F.0 has a counter-clockwise outer contour
-
-* uni099F.0 has a counter-clockwise outer contour
-
-* uni099F.1 has a counter-clockwise outer contour
-
-* uni099F.2 has a counter-clockwise outer contour
-
-* uni099F.2 has a counter-clockwise outer contour
-
-* uni099F.2 has a counter-clockwise outer contour
-
-* uni09A1.0 has a counter-clockwise outer contour
-
-* uni09A1.0 has a counter-clockwise outer contour
-
-* uni09A1.0 has a counter-clockwise outer contour
-
-* uni09A2.0 has a counter-clockwise outer contour
-
-* uni09A2.0 has a counter-clockwise outer contour
-
-* uni09A2.1 has a counter-clockwise outer contour
-
-* uni09A2.2 has a counter-clockwise outer contour
-
-* uni09A2.2 has a counter-clockwise outer contour
-
-* uni09A3.0 has a counter-clockwise outer contour
-
-* uni09A3.0 has a counter-clockwise outer contour
-
-* uni09A3.0 has a counter-clockwise outer contour
-
-* uni09A3.1 has a counter-clockwise outer contour
-
-* uni09A3.2 has a counter-clockwise outer contour
-
-* uni09A3.2 has a counter-clockwise outer contour
-
-* uni09A3.2 has a counter-clockwise outer contour
-
-* uni09A5.0 has a counter-clockwise outer contour
-
-* uni09A5.1 has a counter-clockwise outer contour
-
-* uni09A5.2 has a counter-clockwise outer contour
-
-* uni09A7.0 has a counter-clockwise outer contour
-
-* uni09A7.0 has a counter-clockwise outer contour
-
-* uni09A7.0 has a counter-clockwise outer contour
-
-* uni09A7.0 has a counter-clockwise outer contour
-
-* uni09A7.1 has a counter-clockwise outer contour
-
-* uni09A7.2 has a counter-clockwise outer contour
-
-* uni09A7.2 has a counter-clockwise outer contour
-
-* uni09A7.2 has a counter-clockwise outer contour
-
-* uni09A7.2 has a counter-clockwise outer contour
-
-* uni09A8.0 has a counter-clockwise outer contour
-
-* uni09A8.0 has a counter-clockwise outer contour
-
-* uni09A8.0 has a counter-clockwise outer contour
-
-* uni09A8.1 has a counter-clockwise outer contour
-
-* uni09A8.2 has a counter-clockwise outer contour
-
-* uni09A8.2 has a counter-clockwise outer contour
-
-* uni09A8.2 has a counter-clockwise outer contour
-
-* uni09AB.0 has a counter-clockwise outer contour
-
-* uni09AB.0 has a counter-clockwise outer contour
-
-* uni09AB.0 has a counter-clockwise outer contour
-
-* uni09AB.0 has a counter-clockwise outer contour
-
-* uni09AB.1 has a counter-clockwise outer contour
-
-* uni09AB.2 has a counter-clockwise outer contour
-
-* uni09AB.2 has a counter-clockwise outer contour
-
-* uni09AB.2 has a counter-clockwise outer contour
-
-* uni09AB.2 has a counter-clockwise outer contour
-
-* uni09AC.0 has a counter-clockwise outer contour
-
-* uni09AC.0 has a counter-clockwise outer contour
-
-* uni09AC.0 has a counter-clockwise outer contour
-
-* uni09AC.1 has a counter-clockwise outer contour
-
-* uni09AC.2 has a counter-clockwise outer contour
-
-* uni09AC.2 has a counter-clockwise outer contour
-
-* uni09AC.2 has a counter-clockwise outer contour
-
-* uni09AD.0 has a counter-clockwise outer contour
-
-* uni09AD.0 has a counter-clockwise outer contour
-
-* uni09AD.1 has a counter-clockwise outer contour
-
-* uni09AD.1 has a counter-clockwise outer contour
-
-* uni09AD.2 has a counter-clockwise outer contour
-
-* uni09AD.2 has a counter-clockwise outer contour
-
-* uni09AF.0 has a counter-clockwise outer contour
-
-* uni09AF.0 has a counter-clockwise outer contour
-
-* uni09AF.0 has a counter-clockwise outer contour
-
-* uni09AF.1 has a counter-clockwise outer contour
-
-* uni09AF.2 has a counter-clockwise outer contour
-
-* uni09AF.2 has a counter-clockwise outer contour
-
-* uni09AF.2 has a counter-clockwise outer contour
-
-* uni09B0.0 has a counter-clockwise outer contour
-
-* uni09B0.0 has a counter-clockwise outer contour
-
-* uni09B0.0 has a counter-clockwise outer contour
-
-* uni09B0.0 has a counter-clockwise outer contour
-
-* uni09B0.1 has a counter-clockwise outer contour
-
-* uni09B0.1 has a counter-clockwise outer contour
-
-* uni09B0.2 has a counter-clockwise outer contour
-
-* uni09B0.2 has a counter-clockwise outer contour
-
-* uni09B0.2 has a counter-clockwise outer contour
-
-* uni09B0.2 has a counter-clockwise outer contour
-
-* uni09B2.0 has a counter-clockwise outer contour
-
-* uni09B2.1 has a counter-clockwise outer contour
-
-* uni09B2.2 has a counter-clockwise outer contour
-
-* uni09B6.0 has a counter-clockwise outer contour
-
-* uni09B6.0 has a counter-clockwise outer contour
-
-* uni09B6.0 has a counter-clockwise outer contour
-
-* uni09B6.0 has a counter-clockwise outer contour
-
-* uni09B6.0 has a counter-clockwise outer contour
-
-* uni09B6.1 has a counter-clockwise outer contour
-
-* uni09B6.2 has a counter-clockwise outer contour
-
-* uni09B6.2 has a counter-clockwise outer contour
-
-* uni09B6.2 has a counter-clockwise outer contour
-
-* uni09B6.2 has a counter-clockwise outer contour
-
-* uni09B6.2 has a counter-clockwise outer contour
-
-* uni09B7.0 has a counter-clockwise outer contour
-
-* uni09B7.1 has a counter-clockwise outer contour
-
-* uni09B7.2 has a counter-clockwise outer contour
-
-* uni09B9.0 has a counter-clockwise outer contour
-
-* uni09B9.0 has a counter-clockwise outer contour
-
-* uni09B9.0 has a counter-clockwise outer contour
-
-* uni09B9.1 has a counter-clockwise outer contour
-
-* uni09B9.1 has a counter-clockwise outer contour
-
-* uni09B9.2 has a counter-clockwise outer contour
-
-* uni09B9.2 has a counter-clockwise outer contour
-
-* uni09B9.2 has a counter-clockwise outer contour
-
-* uni09BE.0 has a counter-clockwise outer contour
-
-* uni09BE.0 has a counter-clockwise outer contour
-
-* uni09BE.0 has a counter-clockwise outer contour
-
-* uni09BE.1 has a counter-clockwise outer contour
-
-* uni09BE.2 has a counter-clockwise outer contour
-
-* uni09BE.2 has a counter-clockwise outer contour
-
-* uni09BE.2 has a counter-clockwise outer contour
-
-* uni09EB (U+09EB) has a counter-clockwise outer contour
-
-* uni09EB.1 has a counter-clockwise outer contour
-
-* uni09EC.0 has a counter-clockwise outer contour
-
-* uni09EC.0 has a counter-clockwise outer contour
-
-* uni09EC.1 has a counter-clockwise outer contour
-
-* uni09EC.2 has a counter-clockwise outer contour
-
-* uni09EC.2 has a counter-clockwise outer contour
-
-* uni09ED.0 has a counter-clockwise outer contour
-
-* uni09ED.1 has a counter-clockwise outer contour
-
-* uni09ED.2 has a counter-clockwise outer contour
-
-* uni09EE.0 has a counter-clockwise outer contour
-
-* uni09EE.1 has a counter-clockwise outer contour
-
-* uni09EE.2 has a counter-clockwise outer contour
-
-* uni09EF.0 has a counter-clockwise outer contour
-
-* uni1E9E.0 has a counter-clockwise outer contour
-
-* uni1E9E.1 has a counter-clockwise outer contour
-
-* uni1E9E.2 has a counter-clockwise outer contour
-
-* uogonek.0 has a counter-clockwise outer contour
-
-* uogonek.0 has a counter-clockwise outer contour
-
-* uogonek.1 has a counter-clockwise outer contour
-
-* uogonek.1 has a counter-clockwise outer contour
-
-* uogonek.2 has a counter-clockwise outer contour
-
-* uogonek.2 has a counter-clockwise outer contour
-
-* uring.0 has a counter-clockwise outer contour
-
-* uring.0 has a counter-clockwise outer contour
-
-* uring.1 has a counter-clockwise outer contour
-
-* uring.1 has a counter-clockwise outer contour
-
-* uring.2 has a counter-clockwise outer contour
-
-* uring.2 has a counter-clockwise outer contour
-
-* utilde.0 has a counter-clockwise outer contour
-
-* utilde.0 has a counter-clockwise outer contour
-
-* utilde.1 has a counter-clockwise outer contour
-
-* utilde.1 has a counter-clockwise outer contour
-
-* utilde.2 has a counter-clockwise outer contour
-
-* utilde.2 has a counter-clockwise outer contour
-
-* v.0 has a counter-clockwise outer contour
-
-* v.1 has a counter-clockwise outer contour
-
-* v.2 has a counter-clockwise outer contour
-
-* w.0 has a counter-clockwise outer contour
-
-* w.1 has a counter-clockwise outer contour
-
-* w.2 has a counter-clockwise outer contour
-
-* wacute.0 has a counter-clockwise outer contour
-
-* wacute.0 has a counter-clockwise outer contour
-
-* wacute.1 has a counter-clockwise outer contour
-
-* wacute.1 has a counter-clockwise outer contour
-
-* wacute.2 has a counter-clockwise outer contour
-
-* wacute.2 has a counter-clockwise outer contour
-
-* wcircumflex.0 has a counter-clockwise outer contour
-
-* wcircumflex.0 has a counter-clockwise outer contour
-
-* wcircumflex.1 has a counter-clockwise outer contour
-
-* wcircumflex.1 has a counter-clockwise outer contour
-
-* wcircumflex.2 has a counter-clockwise outer contour
-
-* wcircumflex.2 has a counter-clockwise outer contour
-
-* wdieresis.0 has a counter-clockwise outer contour
-
-* wdieresis.0 has a counter-clockwise outer contour
-
-* wdieresis.0 has a counter-clockwise outer contour
-
-* wdieresis.1 has a counter-clockwise outer contour
-
-* wdieresis.1 has a counter-clockwise outer contour
-
-* wdieresis.1 has a counter-clockwise outer contour
-
-* wdieresis.2 has a counter-clockwise outer contour
-
-* wdieresis.2 has a counter-clockwise outer contour
-
-* wdieresis.2 has a counter-clockwise outer contour
-
-* wgrave.0 has a counter-clockwise outer contour
-
-* wgrave.0 has a counter-clockwise outer contour
-
-* wgrave.1 has a counter-clockwise outer contour
-
-* wgrave.1 has a counter-clockwise outer contour
-
-* wgrave.2 has a counter-clockwise outer contour
-
-* wgrave.2 has a counter-clockwise outer contour
-
-* x.0 has a counter-clockwise outer contour
-
-* x.1 has a counter-clockwise outer contour
-
-* x.2 has a counter-clockwise outer contour
-
-* y.0 has a counter-clockwise outer contour
-
-* y.1 has a counter-clockwise outer contour
-
-* y.2 has a counter-clockwise outer contour
-
-* yacute.0 has a counter-clockwise outer contour
-
-* yacute.0 has a counter-clockwise outer contour
-
-* yacute.1 has a counter-clockwise outer contour
-
-* yacute.1 has a counter-clockwise outer contour
-
-* yacute.2 has a counter-clockwise outer contour
-
-* yacute.2 has a counter-clockwise outer contour
-
-* ycircumflex.0 has a counter-clockwise outer contour
-
-* ycircumflex.0 has a counter-clockwise outer contour
-
-* ycircumflex.1 has a counter-clockwise outer contour
-
-* ycircumflex.1 has a counter-clockwise outer contour
-
-* ycircumflex.2 has a counter-clockwise outer contour
-
-* ycircumflex.2 has a counter-clockwise outer contour
-
-* ydieresis.0 has a counter-clockwise outer contour
-
-* ydieresis.0 has a counter-clockwise outer contour
-
-* ydieresis.0 has a counter-clockwise outer contour
-
-* ydieresis.1 has a counter-clockwise outer contour
-
-* ydieresis.1 has a counter-clockwise outer contour
-
-* ydieresis.1 has a counter-clockwise outer contour
-
-* ydieresis.2 has a counter-clockwise outer contour
-
-* ydieresis.2 has a counter-clockwise outer contour
-
-* ydieresis.2 has a counter-clockwise outer contour
-
-* yen.0 has a counter-clockwise outer contour
-
-* yen.1 has a counter-clockwise outer contour
-
-* yen.2 has a counter-clockwise outer contour
-
-* ygrave.0 has a counter-clockwise outer contour
-
-* ygrave.0 has a counter-clockwise outer contour
-
-* ygrave.1 has a counter-clockwise outer contour
-
-* ygrave.1 has a counter-clockwise outer contour
-
-* ygrave.2 has a counter-clockwise outer contour
-
-* ygrave.2 has a counter-clockwise outer contour
-
-* z.0 has a counter-clockwise outer contour
-
-* z.1 has a counter-clockwise outer contour
-
-* z.2 has a counter-clockwise outer contour
-
-* zacute.0 has a counter-clockwise outer contour
-
-* zacute.0 has a counter-clockwise outer contour
-
-* zacute.1 has a counter-clockwise outer contour
-
-* zacute.1 has a counter-clockwise outer contour
-
-* zacute.2 has a counter-clockwise outer contour
-
-* zacute.2 has a counter-clockwise outer contour
-
-* zcaron.0 has a counter-clockwise outer contour
-
-* zcaron.0 has a counter-clockwise outer contour
-
-* zcaron.1 has a counter-clockwise outer contour
-
-* zcaron.1 has a counter-clockwise outer contour
-
-* zcaron.2 has a counter-clockwise outer contour
-
-* zcaron.2 has a counter-clockwise outer contour
-
-* zdotaccent.0 has a counter-clockwise outer contour
-
-* zdotaccent.0 has a counter-clockwise outer contour
-
-* zdotaccent.1 has a counter-clockwise outer contour
-
-* zdotaccent.1 has a counter-clockwise outer contour
-
-* zdotaccent.2 has a counter-clockwise outer contour
-
-* zdotaccent.2 has a counter-clockwise outer contour
-
-* zero.0 has a counter-clockwise outer contour
-
-* zero.1 has a counter-clockwise outer contour
-
-* zero.2 has a counter-clockwise outer contour
+* u09AE.2 has a path with no bounds (probably a single point)
 </code></pre>
  [code: ccw-outer-contour]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.hinting.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The gasp range 0xFFFF value 0x02 should be set to 0x0F.</p>
- [code: unset-flags]
 
 
 
@@ -4694,24 +2281,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.6x (1600)</p>
- [code: bad-hhea-range]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -4744,8 +2313,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 12 | 14 | 106 | 7 | 112 | 0 | 
-| 0% | 0% | 5% | 6% | 42% | 3% | 45% | 0% | 
+| 6 | 0 | 15 | 13 | 99 | 7 | 111 | 0 | 
+| 2% | 0% | 6% | 5% | 39% | 3% | 44% | 0% | 
 
 
 

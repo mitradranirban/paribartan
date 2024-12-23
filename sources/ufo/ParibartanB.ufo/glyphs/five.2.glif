@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five.2" format="2">
+  <advance width="418"/>
+  <outline>
+    <component base="five" xScale="0.8" yScale="0.8" xOffset="-8.2" yOffset="77.7"/>
+  </outline>
+</glyph>

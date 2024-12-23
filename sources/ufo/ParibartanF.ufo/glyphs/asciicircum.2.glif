@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum.2" format="2">
+  <advance width="502"/>
+  <outline>
+    <component base="asciicircum" xScale="0.8" yScale="0.8" xOffset="100.2" yOffset="90"/>
+  </outline>
+</glyph>
