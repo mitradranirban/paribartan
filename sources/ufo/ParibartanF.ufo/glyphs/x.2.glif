@@ -2,6 +2,6 @@
 <glyph name="x.2" format="2">
   <advance width="724"/>
   <outline>
-    <component base="x" xScale="0.64" yScale="0.64" xOffset="212.32" yOffset="91.98"/>
+    <component base="x" xScale="0.8" yScale="0.8" xOffset="112.4" yOffset="51.1"/>
   </outline>
 </glyph>

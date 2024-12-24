@@ -12,6 +12,12 @@ lookup nuktNuktaFormsinBengali2lookup0 {
     sub \u09AF \u09BC  by \u09DF;
 } nuktNuktaFormsinBengali2lookup0;
 
+lookup rphfRephForminBengali2lookup0 {
+  lookupflag 0;
+    sub \u09B0 \u09CD  by \u09B0_u09CD.rphf;
+    sub \u09F0 \u09CD  by \u09B0_u09CD.rphf;
+} rphfRephForminBengali2lookup0;
+
 feature nukt {
 
  script DFLT;
@@ -22,6 +28,17 @@ feature nukt {
      language dflt ;
       lookup nuktNuktaFormsinBengali2lookup0;
 } nukt;
+
+feature rphf {
+
+ script DFLT;
+     language dflt ;
+      lookup rphfRephForminBengali2lookup0;
+
+ script bng2;
+     language dflt ;
+      lookup rphfRephForminBengali2lookup0;
+} rphf;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \A.0 \A.1 \A.2 \AE \AE.0 \AE.1 \AE.2 \Aacute \Aacute.0 \Aacute.1 
@@ -258,11 +275,13 @@ feature nukt {
 	\quotedblbase.1 \quotedblbase.2 \ellipsis \guilsinglleft \guilsinglright 
 	\ellipsis.0 \ellipsis.1 \ellipsis.2 \guilsinglleft.0 \guilsinglright.0 
 	\guilsinglleft.1 \guilsinglright.1 \guilsinglleft.2 \guilsinglright.2 
-	\bullet \bullet.0 \bullet.1 \bullet.2 ];
+	\bullet \bullet.0 \bullet.1 \bullet.2 \trademark \minus \trademark.0 
+	\trademark.1 \trademark.2 \minus.0 \minus.1 \minus.2 \u09B0_u09CD.rphf.0 
+	\u09B0_u09CD.rphf.1 \u09B0_u09CD.rphf.2 ];
 @GDEF_Mark = [\acutecomb \dotbelowcomb \gravecomb \hookabovecomb \tildecomb 
 	\uni0302 \uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni030F 
 	\uni0312 \uni0313 \uni0326 \uni0327 \uni0328 \u09BC \u09C1 \u09C2 \u09C3 \u09C4 
-	\u09CD \u09E2 \u09E3 \u09FE ];
+	\u09CD \u09E2 \u09E3 \u09FE \u09B0_u09CD.rphf ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;

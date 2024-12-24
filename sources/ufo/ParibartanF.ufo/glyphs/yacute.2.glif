@@ -2,6 +2,6 @@
 <glyph name="yacute.2" format="2">
   <advance width="652"/>
   <outline>
-    <component base="yacute" xScale="0.64" yScale="0.64" xOffset="205.3" yOffset="117.18"/>
+    <component base="yacute" xScale="0.8" yScale="0.8" xOffset="108.5" yOffset="65.1"/>
   </outline>
 </glyph>

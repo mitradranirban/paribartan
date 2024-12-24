@@ -2,6 +2,6 @@
 <glyph name="u09CD.2" format="2">
   <advance width="0"/>
   <outline>
-    <component base="u09CD" xScale="0.64" yScale="0.64" xOffset="51.4" yOffset="-44.64"/>
+    <component base="u09CD" xScale="0.8" yScale="0.8" xOffset="23" yOffset="-24.8"/>
   </outline>
 </glyph>

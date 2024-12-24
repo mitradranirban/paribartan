@@ -2,6 +2,6 @@
 <glyph name="uni25CC.2" format="2">
   <advance width="864"/>
   <outline>
-    <component base="uni25CC" xScale="0.64" yScale="0.64" xOffset="236.98" yOffset="140.4"/>
+    <component base="uni25CC" xScale="0.8" yScale="0.8" xOffset="126.1" yOffset="78"/>
   </outline>
 </glyph>

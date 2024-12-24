@@ -27,7 +27,7 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
 	mkdir -p fonts/variable 
 	mkdir -p fonts/webfonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; ttx -d fonts/variable sources/ttx/Paribartan-VF.ttx && ttx -d fonts/webfonts --flavor woff2 sources/ttx/Paribartan-VF.ttx; done)  && touch build.stamp
+	(for config in sources/config*.yaml; do . venv/bin/activate; ttx -d fonts/variable sources/ttx/Paribartan[SHDW,MASK].ttx && ttx -d fonts/webfonts --flavor woff2 sources/ttx/Paribartan[SHDW,MASK].ttx; done)  && touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
@@ -43,7 +43,7 @@ test: venv-test build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof fonts/variable/Paribartan-VF.ttf  
+	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof fonts/variable/Paribartan[SHDW,MASK].ttx  
 
 images: venv $(DRAWBOT_OUTPUT)
 

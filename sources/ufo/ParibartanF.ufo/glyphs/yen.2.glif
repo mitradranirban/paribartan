@@ -2,6 +2,6 @@
 <glyph name="yen.2" format="2">
   <advance width="612"/>
   <outline>
-    <component base="yen" xScale="0.64" yScale="0.64" xOffset="192.16" yOffset="137.88"/>
+    <component base="yen" xScale="0.8" yScale="0.8" xOffset="101.2" yOffset="76.6"/>
   </outline>
 </glyph>

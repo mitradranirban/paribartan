@@ -2,6 +2,6 @@
 <glyph name="quotesinglbase.2" format="2">
   <advance width="252"/>
   <outline>
-    <component base="quotesinglbase" xScale="0.64" yScale="0.64" xOffset="145.36" yOffset="1.8"/>
+    <component base="quotesinglbase" xScale="0.8" yScale="0.8" xOffset="75.2" yOffset="1"/>
   </outline>
 </glyph>

@@ -2,6 +2,6 @@
 <glyph name="ygrave.2" format="2">
   <advance width="652"/>
   <outline>
-    <component base="ygrave" xScale="0.64" yScale="0.64" xOffset="205.3" yOffset="115.02"/>
+    <component base="ygrave" xScale="0.8" yScale="0.8" xOffset="108.5" yOffset="63.9"/>
   </outline>
 </glyph>

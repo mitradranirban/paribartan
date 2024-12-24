@@ -4,6 +4,8 @@
   <dict>
     <key>.notdef</key>
     <string>_notdef.glif</string>
+    <key>space</key>
+    <string>space.glif</string>
     <key>A</key>
     <string>A_.glif</string>
     <key>A.0</key>
@@ -2198,8 +2200,6 @@
     <string>slash.1.glif</string>
     <key>slash.2</key>
     <string>slash.2.glif</string>
-    <key>space</key>
-    <string>space.glif</string>
     <key>sterling</key>
     <string>sterling.glif</string>
     <key>sterling.0</key>
@@ -2280,14 +2280,7 @@
     <string>u.1.glif</string>
     <key>u.2</key>
     <string>u.2.glif</string>
-    <key>u09A4</key>
-    <string>u09a4.glif</string>
-    <key>u09A4.0</key>
-    <string>u09a4.0.glif</string>
-    <key>u09A4.1</key>
-    <string>u09a4.1.glif</string>
-    <key>u09A4.2</key>
-    <string>u09a4.2.glif</string>
+    
     <key>uacute</key>
     <string>uacute.glif</string>
     <key>uacute.0</key>
@@ -2890,6 +2883,14 @@
     <string>u09A_3.1.glif</string>
     <key>u09A3.2</key>
     <string>u09A_3.2.glif</string>
+    <key>u09A4</key>
+    <string>u09a4.glif</string>
+    <key>u09A4.0</key>
+    <string>u09a4.0.glif</string>
+    <key>u09A4.1</key>
+    <string>u09a4.1.glif</string>
+    <key>u09A4.2</key>
+    <string>u09a4.2.glif</string>
     <key>u09A5</key>
     <string>u09A_5.glif</string>
     <key>u09A5.0</key>
@@ -3664,26 +3665,26 @@
     <string>quotedblbase.2.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
-    <key>guilsinglleft</key>
-    <string>guilsinglleft.glif</string>
-    <key>guilsinglright</key>
-    <string>guilsinglright.glif</string>
     <key>ellipsis.0</key>
     <string>ellipsis.0.glif</string>
     <key>ellipsis.1</key>
     <string>ellipsis.1.glif</string>
     <key>ellipsis.2</key>
     <string>ellipsis.2.glif</string>
+    <key>guilsinglleft</key>
+    <string>guilsinglleft.glif</string>
     <key>guilsinglleft.0</key>
     <string>guilsinglleft.0.glif</string>
-    <key>guilsinglright.0</key>
-    <string>guilsinglright.0.glif</string>
     <key>guilsinglleft.1</key>
     <string>guilsinglleft.1.glif</string>
-    <key>guilsinglright.1</key>
-    <string>guilsinglright.1.glif</string>
     <key>guilsinglleft.2</key>
     <string>guilsinglleft.2.glif</string>
+    <key>guilsinglright</key>
+    <string>guilsinglright.glif</string>
+    <key>guilsinglright.0</key>
+    <string>guilsinglright.0.glif</string>
+    <key>guilsinglright.1</key>
+    <string>guilsinglright.1.glif</string>
     <key>guilsinglright.2</key>
     <string>guilsinglright.2.glif</string>
     <key>bullet</key>
@@ -3694,5 +3695,29 @@
     <string>bullet.1.glif</string>
     <key>bullet.2</key>
     <string>bullet.2.glif</string>
+    <key>trademark</key>
+    <string>trademark.glif</string>
+    <key>trademark.0</key>
+    <string>trademark.0.glif</string>
+    <key>trademark.1</key>
+    <string>trademark.1.glif</string>
+    <key>trademark.2</key>
+    <string>trademark.2.glif</string>
+    <key>minus</key>
+    <string>minus.glif</string>
+    <key>minus.0</key>
+    <string>minus.0.glif</string>
+    <key>minus.1</key>
+    <string>minus.1.glif</string>
+    <key>minus.2</key>
+    <string>minus.2.glif</string>
+    <key>u09B0_u09CD.rphf</key>
+    <string>u09B_0_u09C_D_.rphf.glif</string>
+    <key>u09B0_u09CD.rphf.0</key>
+    <string>u09B_0_u09C_D_.rphf.0.glif</string>
+    <key>u09B0_u09CD.rphf.1</key>
+    <string>u09B_0_u09C_D_.rphf.1.glif</string>
+    <key>u09B0_u09CD.rphf.2</key>
+    <string>u09B_0_u09C_D_.rphf.2.glif</string>
   </dict>
 </plist>

@@ -2,6 +2,6 @@
 <glyph name="quotedblleft.2" format="2">
   <advance width="452"/>
   <outline>
-    <component base="quotedblleft" xScale="0.64" yScale="0.64" xOffset="181.18" yOffset="283.68"/>
+    <component base="quotedblleft" xScale="0.8" yScale="0.8" xOffset="95.1" yOffset="157.6"/>
   </outline>
 </glyph>

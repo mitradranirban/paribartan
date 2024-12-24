@@ -2,6 +2,6 @@
 <glyph name="uring.2" format="2">
   <advance width="597"/>
   <outline>
-    <component base="uring" xScale="0.64" yScale="0.64" xOffset="207.46" yOffset="151.38"/>
+    <component base="uring" xScale="0.8" yScale="0.8" xOffset="109.7" yOffset="84.1"/>
   </outline>
 </glyph>
