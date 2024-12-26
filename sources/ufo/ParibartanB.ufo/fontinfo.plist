@@ -29,7 +29,7 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2024/12/20 16:48:32</string>
+    <string>2024/12/23 16:45:26</string>
     <key>openTypeHheaAscender</key>
     <integer>1200</integer>
     <key>openTypeHheaDescender</key>
@@ -144,41 +144,41 @@
     <array>
       <dict>
         <key>x</key>
-        <real>504</real>
+        <real>416.961</real>
         <key>y</key>
-        <real>509.5</real>
+        <real>492.1</real>
         <key>angle</key>
         <real>0</real>
       </dict>
       <dict>
         <key>x</key>
-        <real>524</real>
+        <real>432.961</real>
         <key>y</key>
-        <real>-392.5</real>
+        <real>-229.5</real>
         <key>angle</key>
         <real>0</real>
       </dict>
       <dict>
         <key>x</key>
-        <real>496</real>
+        <real>410.561</real>
         <key>y</key>
-        <real>1199.5</real>
+        <real>1044.1</real>
         <key>angle</key>
         <real>0</real>
       </dict>
       <dict>
         <key>x</key>
-        <real>500</real>
+        <real>413.761</real>
         <key>y</key>
-        <real>669.5</real>
+        <real>620.1</real>
         <key>angle</key>
         <real>0</real>
       </dict>
       <dict>
         <key>x</key>
-        <real>500</real>
+        <real>413.761</real>
         <key>y</key>
-        <real>769.1</real>
+        <real>699.78</real>
         <key>angle</key>
         <real>0</real>
       </dict>

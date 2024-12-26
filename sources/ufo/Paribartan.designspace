@@ -3,12 +3,14 @@
   <axes>
     <axis tag="SHDW" name="SHADOW" minimum="-50" maximum="50" default="0">
       <labels>
+        <label uservalue="-50" name="LeftShadow"/>
         <label uservalue="0" name="Regular" elidable="true"/>
+        <label uservalue="50" name="RtShadow"/>
       </labels>
     </axis>
     <axis tag="MASK" name="MASK" minimum="-50" maximum="50" default="0">
       <labels>
-        <label uservalue="0" name="Regular" elidable="true"/>
+        <label uservalue="0" name="Normal" elidable="true"/>
       </labels>
     </axis>
   </axes>

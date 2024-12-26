@@ -5,29 +5,29 @@
     <version value="0"/>
     <numPaletteEntries value="3"/>
     <palette index="0">
-      <color index="0" value="#00A0E1FF"/>
-      <color index="1" value="#2200F5FF"/>
-      <color index="2" value="#FF5F2280"/>
-    </palette>
-    <palette index="1">
       <color index="0" value="#FFD114FF"/>
       <color index="1" value="#FF552DFF"/>
-      <color index="2" value="#0D30EB80"/>
+      <color index="2" value="#FF552D80"/>
+    </palette>
+    <palette index="1">
+      <color index="0" value="#F52882FF"/>
+      <color index="1" value="#FF5A2CFF"/>
+      <color index="2" value="#F5288280"/>
     </palette>
     <palette index="2">
       <color index="0" value="#C3C3E1FF"/>
       <color index="1" value="#555573FF"/>
-      <color index="2" value="#3D3D2280"/>
+      <color index="2" value="#55557380"/>
     </palette>
     <palette index="3">
-      <color index="0" value="#F52882FF"/>
-      <color index="1" value="#FF5A2C8F"/>
-      <color index="2" value="#13D77D80"/>
-    </palette>
-    <palette index="4">
       <color index="0" value="#95DF92FF"/>
       <color index="1" value="#0A2C09FF"/>
-      <color index="2" value="#69206C80"/>
+      <color index="2" value="#0A2C0980"/>
+    </palette> 
+    <palette index="4">
+      <color index="0" value="#00A0E1FF"/>
+      <color index="1" value="#2200F5FF"/>
+      <color index="2" value="#2200F580"/>
     </palette>
       
   </CPAL>

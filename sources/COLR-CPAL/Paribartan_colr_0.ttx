@@ -2313,12 +2313,52 @@
       <layer colorID="0" name="minus.2"/>
       <layer colorID="2" name="minus.1"/>
     </ColorGlyph>
+    <ColorGlyph name="u09B0_u09CD.rphf">
+      <layer colorID="1" name="u09B0_u09CD.rphf.0"/>
+      <layer colorID="0" name="u09B0_u09CD.rphf.2"/>
+      <layer colorID="2" name="u09B0_u09CD.rphf.1"/>
+    </ColorGlyph>
+    <ColorGlyph name="u0995_u09CD_u09B7.akhn">
+      <layer colorID="1" name="u0995_u09CD_u09B7.akhn.0"/>
+      <layer colorID="0" name="u0995_u09CD_u09B7.akhn.2"/>
+      <layer colorID="2" name="u0995_u09CD_u09B7.akhn.1"/>
+    </ColorGlyph>
+       <ColorGlyph name="u099C_u09CD_u099E.akhn">
+      <layer colorID="1" name="u099C_u09CD_u099E.akhn.0"/>
+      <layer colorID="0" name="u099C_u09CD_u099E.akhn.2"/>
+      <layer colorID="2" name="u099C_u09CD_u099E.akhn.1"/>
+    </ColorGlyph>
+       <ColorGlyph name="u09CD_u09B0.blwf">
+      <layer colorID="1" name="u09CD_u09B0.blwf.0"/>
+      <layer colorID="0" name="u09CD_u09B0.blwf.2"/>
+      <layer colorID="2" name="u09CD_u09B0.blwf.1"/>
+    </ColorGlyph>
+     <ColorGlyph name="u09CD_u09AF.pstf">
+      <layer colorID="1" name="u09CD_u09AF.pstf.0"/>
+      <layer colorID="0" name="u09CD_u09AF.pstf.2"/>
+      <layer colorID="2" name="u09CD_u09AF.pstf.1"/>
+    </ColorGlyph>
+    <ColorGlyph name="u0995_u09CD_u09B0">
+      <layer colorID="1" name="u0995_u09CD_u09B0.0"/>
+      <layer colorID="0" name="u0995_u09CD_u09B0.2"/>
+      <layer colorID="2" name="u0995_u09CD_u09B0.1"/>
+    </ColorGlyph>
+    <ColorGlyph name="u0996_u09CD_u09B0">
+      <layer colorID="1" name="u0996_u09CD_u09B0.0"/>
+      <layer colorID="0" name="u0996_u09CD_u09B0.2"/>
+      <layer colorID="2" name="u0996_u09CD_u09B0.1"/>
+    </ColorGlyph> 
+
+
   </COLR>
 
-</ttFont>
+
     <ColorGlyph name="">
       <layer colorID="1" name=".0"/>
       <layer colorID="0" name=".2"/>
       <layer colorID="2" name=".1"/>
+    </ColorGlyph>
+</ttFont>
+    
     
  

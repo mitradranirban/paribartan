@@ -12,11 +12,35 @@ lookup nuktNuktaFormsinBengali2lookup0 {
     sub \u09AF \u09BC  by \u09DF;
 } nuktNuktaFormsinBengali2lookup0;
 
+lookup akhnAkhandinBengali2lookup0 {
+  lookupflag 0;
+    sub \u0995 \u09CD \u09B7  by \u0995_u09CD_u09B7.akhn;
+    sub \u099C \u09CD \u099E  by \u099C_u09CD_u099E.akhn;
+} akhnAkhandinBengali2lookup0;
+
 lookup rphfRephForminBengali2lookup0 {
   lookupflag 0;
-    sub \u09B0 \u09CD  by \u09B0_u09CD.rphf;
     sub \u09F0 \u09CD  by \u09B0_u09CD.rphf;
+    sub \u09B0 \u09CD  by \u09B0_u09CD.rphf;
 } rphfRephForminBengali2lookup0;
+
+lookup blwfBelowBaseFormsinBengali2lookup0 {
+  lookupflag 0;
+    sub \u09CD \u09F0  by \u09CD_u09B0.blwf;
+    sub \u09CD \u09B0  by \u09CD_u09B0.blwf;
+} blwfBelowBaseFormsinBengali2lookup0;
+
+lookup pstfPostBaseFormsinBengali2lookup0 {
+  lookupflag 0;
+    sub \u09CD \u09AF  by \u09CD_u09AF.pstf;
+} pstfPostBaseFormsinBengali2lookup0;
+
+lookup vatuVattuVariantsinBengali2lookup0 {
+  lookupflag 0;
+    sub \u0995 \u09CD_u09B0.blwf  by \u0995_u09CD_u09B0;
+    sub \u0996 \u09CD_u09B0.blwf  by \u0996_u09CD_u09B0;
+    sub \u0997 \u09CD_u09B0.blwf  by \u0997_u09CD_u09B0;
+} vatuVattuVariantsinBengali2lookup0;
 
 feature nukt {
 
@@ -29,6 +53,17 @@ feature nukt {
       lookup nuktNuktaFormsinBengali2lookup0;
 } nukt;
 
+feature akhn {
+
+ script DFLT;
+     language dflt ;
+      lookup akhnAkhandinBengali2lookup0;
+
+ script bng2;
+     language dflt ;
+      lookup akhnAkhandinBengali2lookup0;
+} akhn;
+
 feature rphf {
 
  script DFLT;
@@ -39,16 +74,49 @@ feature rphf {
      language dflt ;
       lookup rphfRephForminBengali2lookup0;
 } rphf;
+
+feature blwf {
+
+ script DFLT;
+     language dflt ;
+      lookup blwfBelowBaseFormsinBengali2lookup0;
+
+ script bng2;
+     language dflt ;
+      lookup blwfBelowBaseFormsinBengali2lookup0;
+} blwf;
+
+feature pstf {
+
+ script DFLT;
+     language dflt ;
+      lookup pstfPostBaseFormsinBengali2lookup0;
+
+ script bng2;
+     language dflt ;
+      lookup pstfPostBaseFormsinBengali2lookup0;
+} pstf;
+
+feature vatu {
+
+ script DFLT;
+     language dflt ;
+      lookup vatuVattuVariantsinBengali2lookup0;
+
+ script bng2;
+     language dflt ;
+      lookup vatuVattuVariantsinBengali2lookup0;
+} vatu;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\A \A.0 \A.1 \A.2 \AE \AE.0 \AE.1 \AE.2 \Aacute \Aacute.0 \Aacute.1 
-	\Aacute.2 \Abreve \Abreve.0 \Abreve.1 \Abreve.2 \Acircumflex \Acircumflex.0 
-	\Acircumflex.1 \Acircumflex.2 \Adieresis \Adieresis.0 \Adieresis.1 
-	\Adieresis.2 \Agrave \Agrave.0 \Agrave.1 \Agrave.2 \Amacron \Amacron.0 
-	\Amacron.1 \Amacron.2 \Aogonek \Aogonek.0 \Aogonek.1 \Aogonek.2 \Aring \Aring.0 
-	\Aring.1 \Aring.2 \Atilde \Atilde.0 \Atilde.1 \Atilde.2 \B \B.0 \B.1 \B.2 \C \C.0 
-	\C.1 \C.2 \Cacute \Cacute.0 \Cacute.1 \Cacute.2 \Ccaron \Ccaron.0 \Ccaron.1 
-	\Ccaron.2 \Ccedilla \Ccedilla.0 \Ccedilla.1 \Ccedilla.2 \Ccircumflex 
+@GDEF_Simple = [\space \A \A.0 \A.1 \A.2 \AE \AE.0 \AE.1 \AE.2 \Aacute \Aacute.0 
+	\Aacute.1 \Aacute.2 \Abreve \Abreve.0 \Abreve.1 \Abreve.2 \Acircumflex 
+	\Acircumflex.0 \Acircumflex.1 \Acircumflex.2 \Adieresis \Adieresis.0 
+	\Adieresis.1 \Adieresis.2 \Agrave \Agrave.0 \Agrave.1 \Agrave.2 \Amacron 
+	\Amacron.0 \Amacron.1 \Amacron.2 \Aogonek \Aogonek.0 \Aogonek.1 \Aogonek.2 
+	\Aring \Aring.0 \Aring.1 \Aring.2 \Atilde \Atilde.0 \Atilde.1 \Atilde.2 \B \B.0 
+	\B.1 \B.2 \C \C.0 \C.1 \C.2 \Cacute \Cacute.0 \Cacute.1 \Cacute.2 \Ccaron \Ccaron.0 
+	\Ccaron.1 \Ccaron.2 \Ccedilla \Ccedilla.0 \Ccedilla.1 \Ccedilla.2 \Ccircumflex 
 	\Ccircumflex.0 \Ccircumflex.1 \Ccircumflex.2 \Cdotaccent \Cdotaccent.0 
 	\Cdotaccent.1 \Cdotaccent.2 \D \D.0 \D.1 \D.2 \Dcaron \Dcaron.0 \Dcaron.1 
 	\Dcaron.2 \Dcroat \Dcroat.0 \Dcroat.1 \Dcroat.2 \E \E.0 \E.1 \E.2 \Eacute 
@@ -184,81 +252,81 @@ feature rphf {
 	\scircumflex.0 \scircumflex.1 \scircumflex.2 \section \section.0 \section.1 
 	\section.2 \semicolon \semicolon.0 \semicolon.1 \semicolon.2 \seven \seven.0 
 	\seven.1 \seven.2 \six \six.0 \six.1 \six.2 \slash \slash.0 \slash.1 \slash.2 
-	\space \sterling \sterling.0 \sterling.1 \sterling.2 \t \t.0 \t.1 \t.2 \tcaron 
-	\tcaron.0 \tcaron.1 \tcaron.2 \thorn \thorn.0 \thorn.1 \thorn.2 \three \three.0 
-	\three.1 \three.2 \threequarters \threequarters.0 \threequarters.1 
-	\threequarters.2 \tilde \tilde.0 \tilde.1 \tilde.2 \tildecomb.0 \tildecomb.1 
-	\tildecomb.2 \two \two.0 \two.1 \two.2 \u \u.0 \u.1 \u.2 \u09A4 \u09A4.0 \u09A4.1 
-	\u09A4.2 \uacute \uacute.0 \uacute.1 \uacute.2 \ubreve \ubreve.0 \ubreve.1 
-	\ubreve.2 \ucircumflex \ucircumflex.0 \ucircumflex.1 \ucircumflex.2 
-	\udieresis \udieresis.0 \udieresis.1 \udieresis.2 \ugrave \ugrave.0 \ugrave.1 
-	\ugrave.2 \uhungarumlaut \uhungarumlaut.0 \uhungarumlaut.1 \uhungarumlaut.2 
-	\umacron \umacron.0 \umacron.1 \umacron.2 \underscore \underscore.0 
-	\underscore.1 \underscore.2 \uni00A0 \uni00B2 \uni00B2.0 \uni00B2.1 \uni00B2.2 
-	\uni00B3 \uni00B3.0 \uni00B3.1 \uni00B3.2 \uni00B9 \uni00B9.0 \uni00B9.1 
-	\uni00B9.2 \uni0122 \uni0122.0 \uni0122.1 \uni0122.2 \uni0123 \uni0123.0 
-	\uni0123.1 \uni0123.2 \uni0136 \uni0136.0 \uni0136.1 \uni0136.2 \uni0137 
-	\uni0137.0 \uni0137.1 \uni0137.2 \uni013B \uni013B.0 \uni013B.1 \uni013B.2 
-	\uni013C \uni013C.0 \uni013C.1 \uni013C.2 \uni0145 \uni0145.0 \uni0145.1 
-	\uni0145.2 \uni0146 \uni0146.0 \uni0146.1 \uni0146.2 \uni0156 \uni0156.0 
-	\uni0156.1 \uni0156.2 \uni0157 \uni0157.0 \uni0157.1 \uni0157.2 \uni0162 
-	\uni0162.0 \uni0162.1 \uni0162.2 \uni0163 \uni0163.0 \uni0163.1 \uni0163.2 
-	\uni0218 \uni0218.0 \uni0218.1 \uni0218.2 \uni0219 \uni0219.0 \uni0219.1 
-	\uni0219.2 \uni021A \uni021A.0 \uni021A.1 \uni021A.2 \uni021B \uni021B.0 
-	\uni021B.1 \uni021B.2 \uni0237 \uni0237.0 \uni0237.1 \uni0237.2 \uni0302.0 
-	\uni0302.1 \uni0302.2 \uni0304.0 \uni0304.1 \uni0304.2 \uni0306.0 \uni0306.1 
-	\uni0306.2 \uni0307.0 \uni0307.1 \uni0307.2 \uni0308.0 \uni0308.1 \uni0308.2 
-	\uni030A.0 \uni030A.1 \uni030A.2 \uni030B.0 \uni030B.1 \uni030B.2 \uni030C.0 
-	\uni030C.1 \uni030C.2 \uni030F.0 \uni030F.1 \uni030F.2 \uni0312.0 \uni0312.1 
-	\uni0312.2 \uni0313.0 \uni0313.1 \uni0313.2 \uni0326.0 \uni0326.1 \uni0326.2 
-	\uni0327.0 \uni0327.1 \uni0327.2 \uni0328.0 \uni0328.1 \uni0328.2 \u0964 
-	\u0964.0 \u0964.1 \u0964.2 \u0965 \u0965.0 \u0965.1 \u0965.2 \u0980 \u0980.0 
-	\u0980.1 \u0980.2 \u0981 \u0981.0 \u0981.1 \u0981.2 \u0982 \u0982.0 \u0982.1 
-	\u0982.2 \u0983 \u0983.0 \u0983.1 \u0983.2 \u0985 \u0985.0 \u0985.1 \u0985.2 
-	\u0986 \u0986.0 \u0986.1 \u0986.2 \u0987 \u0987.0 \u0987.1 \u0987.2 \u0988 
-	\u0988.0 \u0988.1 \u0988.2 \u0989 \u0989.0 \u0989.1 \u0989.2 \u098A \u098A.0 
-	\u098A.1 \u098A.2 \u098B \u098B.0 \u098B.1 \u098B.2 \u098C \u098C.0 \u098C.1 
-	\u098C.2 \u098F \u098F.0 \u098F.1 \u098F.2 \u0990 \u0990.0 \u0990.1 \u0990.2 
-	\u0993 \u0993.0 \u0993.1 \u0993.2 \u0994 \u0994.0 \u0994.1 \u0994.2 \u0995 
-	\u0995.0 \u0995.1 \u0995.2 \u0996 \u0996.0 \u0996.1 \u0996.2 \u0997 \u0997.0 
-	\u0997.1 \u0997.2 \u0998 \u0998.0 \u0998.1 \u0998.2 \u0999 \u0999.0 \u0999.1 
-	\u0999.2 \u099A \u099A.0 \u099A.1 \u099A.2 \u099B \u099B.0 \u099B.1 \u099B.2 
-	\u099C \u099C.0 \u099C.1 \u099C.2 \u099D \u099D.0 \u099D.1 \u099D.2 \u099E 
-	\u099E.0 \u099E.1 \u099E.2 \u099F \u099F.0 \u099F.1 \u099F.2 \u09A0 \u09A0.0 
-	\u09A0.1 \u09A0.2 \u09A1 \u09A1.0 \u09A1.1 \u09A1.2 \u09A2 \u09A2.0 \u09A2.1 
-	\u09A2.2 \u09A3 \u09A3.0 \u09A3.1 \u09A3.2 \u09A5 \u09A5.0 \u09A5.1 \u09A5.2 
-	\u09A6 \u09A6.0 \u09A6.1 \u09A6.2 \u09A7 \u09A7.0 \u09A7.1 \u09A7.2 \u09A8 
-	\u09A8.0 \u09A8.1 \u09A8.2 \u09AA \u09AA.0 \u09AA.1 \u09AA.2 \u09AB \u09AB.0 
-	\u09AB.1 \u09AB.2 \u09AC \u09AC.0 \u09AC.1 \u09AC.2 \u09AD \u09AD.0 \u09AD.1 
-	\u09AD.2 \u09AE \u09AE.0 \u09AE.1 \u09AE.2 \u09AF \u09AF.0 \u09AF.1 \u09AF.2 
-	\u09B0 \u09B0.0 \u09B0.1 \u09B0.2 \u09B2 \u09B2.0 \u09B2.1 \u09B2.2 \u09B6 
-	\u09B6.0 \u09B6.1 \u09B6.2 \u09B7 \u09B7.0 \u09B7.1 \u09B7.2 \u09B8 \u09B8.0 
-	\u09B8.1 \u09B8.2 \u09B9 \u09B9.0 \u09B9.1 \u09B9.2 \u09BC.0 \u09BC.1 \u09BC.2 
-	\u09BD \u09BD.0 \u09BD.1 \u09BD.2 \u09BE \u09BE.0 \u09BE.1 \u09BE.2 \u09BF 
-	\u09BF.0 \u09BF.1 \u09BF.2 \u09C0 \u09C0.0 \u09C0.1 \u09C0.2 \u09C1.0 \u09C1.1 
-	\u09C1.2 \u09C2.0 \u09C2.1 \u09C2.2 \u09C3.0 \u09C3.1 \u09C3.2 \u09C4.0 \u09C4.1 
-	\u09C4.2 \u09C7 \u09C7.0 \u09C7.1 \u09C7.2 \u09C8 \u09C8.0 \u09C8.1 \u09C8.2 
-	\u09CB \u09CB.0 \u09CB.1 \u09CB.2 \u09CC \u09CC.0 \u09CC.1 \u09CC.2 \u09CD.0 
-	\u09CD.1 \u09CD.2 \u09CE \u09CE.0 \u09CE.1 \u09CE.2 \u09D7 \u09D7.0 \u09D7.1 
-	\u09D7.2 \u09DC \u09DC.0 \u09DC.1 \u09DC.2 \u09DD \u09DD.0 \u09DD.1 \u09DD.2 
-	\u09DF \u09DF.0 \u09DF.1 \u09DF.2 \u09E0 \u09E0.0 \u09E0.1 \u09E0.2 \u09E1 
-	\u09E1.0 \u09E1.1 \u09E1.2 \u09E2.0 \u09E2.1 \u09E2.2 \u09E3.0 \u09E3.1 \u09E3.2 
-	\u09E6 \u09E6.0 \u09E6.1 \u09E6.2 \u09E7 \u09E7.0 \u09E7.1 \u09E7.2 \u09E8 
-	\u09E8.0 \u09E8.1 \u09E8.2 \u09E9 \u09E9.0 \u09E9.1 \u09E9.2 \u09EA \u09EA.0 
-	\u09EA.1 \u09EA.2 \u09EB \u09EB.0 \u09EB.1 \u09EB.2 \u09EC \u09EC.0 \u09EC.1 
-	\u09EC.2 \u09ED \u09ED.0 \u09ED.1 \u09ED.2 \u09EE \u09EE.0 \u09EE.1 \u09EE.2 
-	\u09EF \u09EF.0 \u09EF.1 \u09EF.2 \u09F0 \u09F0.0 \u09F0.1 \u09F0.2 \u09F1 
-	\u09F1.0 \u09F1.1 \u09F1.2 \u09F2 \u09F2.0 \u09F2.1 \u09F2.2 \u09F3 \u09F3.0 
-	\u09F3.1 \u09F3.2 \u09F4 \u09F4.0 \u09F4.1 \u09F4.2 \u09F5 \u09F5.0 \u09F5.1 
-	\u09F5.2 \u09F6 \u09F6.0 \u09F6.1 \u09F6.2 \u09F7 \u09F7.0 \u09F7.1 \u09F7.2 
-	\u09F8 \u09F8.0 \u09F8.1 \u09F8.2 \u09F9 \u09F9.0 \u09F9.1 \u09F9.2 \u09FA 
-	\u09FA.0 \u09FA.1 \u09FA.2 \u09FB \u09FB.0 \u09FB.1 \u09FB.2 \u09FC \u09FC.0 
-	\u09FC.1 \u09FC.2 \u09FD \u09FD.0 \u09FD.1 \u09FD.2 \u09FE.0 \u09FE.1 \u09FE.2 
-	\uni1E9E \uni1E9E.0 \uni1E9E.1 \uni1E9E.2 \uni20B9 \uni20B9.0 \uni20B9.1 
-	\uni20B9.2 \uni25CC \uni25CC.0 \uni25CC.1 \uni25CC.2 \uogonek \uogonek.0 
-	\uogonek.1 \uogonek.2 \uring \uring.0 \uring.1 \uring.2 \utilde \utilde.0 
-	\utilde.1 \utilde.2 \v \v.0 \v.1 \v.2 \w \w.0 \w.1 \w.2 \wacute \wacute.0 \wacute.1 
-	\wacute.2 \wcircumflex \wcircumflex.0 \wcircumflex.1 \wcircumflex.2 
+	\sterling \sterling.0 \sterling.1 \sterling.2 \t \t.0 \t.1 \t.2 \tcaron \tcaron.0 
+	\tcaron.1 \tcaron.2 \thorn \thorn.0 \thorn.1 \thorn.2 \three \three.0 \three.1 
+	\three.2 \threequarters \threequarters.0 \threequarters.1 \threequarters.2 
+	\tilde \tilde.0 \tilde.1 \tilde.2 \tildecomb.0 \tildecomb.1 \tildecomb.2 \two 
+	\two.0 \two.1 \two.2 \u \u.0 \u.1 \u.2 \uacute \uacute.0 \uacute.1 \uacute.2 
+	\ubreve \ubreve.0 \ubreve.1 \ubreve.2 \ucircumflex \ucircumflex.0 
+	\ucircumflex.1 \ucircumflex.2 \udieresis \udieresis.0 \udieresis.1 
+	\udieresis.2 \ugrave \ugrave.0 \ugrave.1 \ugrave.2 \uhungarumlaut 
+	\uhungarumlaut.0 \uhungarumlaut.1 \uhungarumlaut.2 \umacron \umacron.0 
+	\umacron.1 \umacron.2 \underscore \underscore.0 \underscore.1 \underscore.2 
+	\uni00A0 \uni00B2 \uni00B2.0 \uni00B2.1 \uni00B2.2 \uni00B3 \uni00B3.0 
+	\uni00B3.1 \uni00B3.2 \uni00B9 \uni00B9.0 \uni00B9.1 \uni00B9.2 \uni0122 
+	\uni0122.0 \uni0122.1 \uni0122.2 \uni0123 \uni0123.0 \uni0123.1 \uni0123.2 
+	\uni0136 \uni0136.0 \uni0136.1 \uni0136.2 \uni0137 \uni0137.0 \uni0137.1 
+	\uni0137.2 \uni013B \uni013B.0 \uni013B.1 \uni013B.2 \uni013C \uni013C.0 
+	\uni013C.1 \uni013C.2 \uni0145 \uni0145.0 \uni0145.1 \uni0145.2 \uni0146 
+	\uni0146.0 \uni0146.1 \uni0146.2 \uni0156 \uni0156.0 \uni0156.1 \uni0156.2 
+	\uni0157 \uni0157.0 \uni0157.1 \uni0157.2 \uni0162 \uni0162.0 \uni0162.1 
+	\uni0162.2 \uni0163 \uni0163.0 \uni0163.1 \uni0163.2 \uni0218 \uni0218.0 
+	\uni0218.1 \uni0218.2 \uni0219 \uni0219.0 \uni0219.1 \uni0219.2 \uni021A 
+	\uni021A.0 \uni021A.1 \uni021A.2 \uni021B \uni021B.0 \uni021B.1 \uni021B.2 
+	\uni0237 \uni0237.0 \uni0237.1 \uni0237.2 \uni0302.0 \uni0302.1 \uni0302.2 
+	\uni0304.0 \uni0304.1 \uni0304.2 \uni0306.0 \uni0306.1 \uni0306.2 \uni0307.0 
+	\uni0307.1 \uni0307.2 \uni0308.0 \uni0308.1 \uni0308.2 \uni030A.0 \uni030A.1 
+	\uni030A.2 \uni030B.0 \uni030B.1 \uni030B.2 \uni030C.0 \uni030C.1 \uni030C.2 
+	\uni030F.0 \uni030F.1 \uni030F.2 \uni0312.0 \uni0312.1 \uni0312.2 \uni0313.0 
+	\uni0313.1 \uni0313.2 \uni0326.0 \uni0326.1 \uni0326.2 \uni0327.0 \uni0327.1 
+	\uni0327.2 \uni0328.0 \uni0328.1 \uni0328.2 \u0964 \u0964.0 \u0964.1 \u0964.2 
+	\u0965 \u0965.0 \u0965.1 \u0965.2 \u0980 \u0980.0 \u0980.1 \u0980.2 \u0981 
+	\u0981.0 \u0981.1 \u0981.2 \u0982 \u0982.0 \u0982.1 \u0982.2 \u0983 \u0983.0 
+	\u0983.1 \u0983.2 \u0985 \u0985.0 \u0985.1 \u0985.2 \u0986 \u0986.0 \u0986.1 
+	\u0986.2 \u0987 \u0987.0 \u0987.1 \u0987.2 \u0988 \u0988.0 \u0988.1 \u0988.2 
+	\u0989 \u0989.0 \u0989.1 \u0989.2 \u098A \u098A.0 \u098A.1 \u098A.2 \u098B 
+	\u098B.0 \u098B.1 \u098B.2 \u098C \u098C.0 \u098C.1 \u098C.2 \u098F \u098F.0 
+	\u098F.1 \u098F.2 \u0990 \u0990.0 \u0990.1 \u0990.2 \u0993 \u0993.0 \u0993.1 
+	\u0993.2 \u0994 \u0994.0 \u0994.1 \u0994.2 \u0995 \u0995.0 \u0995.1 \u0995.2 
+	\u0996 \u0996.0 \u0996.1 \u0996.2 \u0997 \u0997.0 \u0997.1 \u0997.2 \u0998 
+	\u0998.0 \u0998.1 \u0998.2 \u0999 \u0999.0 \u0999.1 \u0999.2 \u099A \u099A.0 
+	\u099A.1 \u099A.2 \u099B \u099B.0 \u099B.1 \u099B.2 \u099C \u099C.0 \u099C.1 
+	\u099C.2 \u099D \u099D.0 \u099D.1 \u099D.2 \u099E \u099E.0 \u099E.1 \u099E.2 
+	\u099F \u099F.0 \u099F.1 \u099F.2 \u09A0 \u09A0.0 \u09A0.1 \u09A0.2 \u09A1 
+	\u09A1.0 \u09A1.1 \u09A1.2 \u09A2 \u09A2.0 \u09A2.1 \u09A2.2 \u09A3 \u09A3.0 
+	\u09A3.1 \u09A3.2 \u09A4 \u09A4.0 \u09A4.1 \u09A4.2 \u09A5 \u09A5.0 \u09A5.1 
+	\u09A5.2 \u09A6 \u09A6.0 \u09A6.1 \u09A6.2 \u09A7 \u09A7.0 \u09A7.1 \u09A7.2 
+	\u09A8 \u09A8.0 \u09A8.1 \u09A8.2 \u09AA \u09AA.0 \u09AA.1 \u09AA.2 \u09AB 
+	\u09AB.0 \u09AB.1 \u09AB.2 \u09AC \u09AC.0 \u09AC.1 \u09AC.2 \u09AD \u09AD.0 
+	\u09AD.1 \u09AD.2 \u09AE \u09AE.0 \u09AE.1 \u09AE.2 \u09AF \u09AF.0 \u09AF.1 
+	\u09AF.2 \u09B0 \u09B0.0 \u09B0.1 \u09B0.2 \u09B2 \u09B2.0 \u09B2.1 \u09B2.2 
+	\u09B6 \u09B6.0 \u09B6.1 \u09B6.2 \u09B7 \u09B7.0 \u09B7.1 \u09B7.2 \u09B8 
+	\u09B8.0 \u09B8.1 \u09B8.2 \u09B9 \u09B9.0 \u09B9.1 \u09B9.2 \u09BC.0 \u09BC.1 
+	\u09BC.2 \u09BD \u09BD.0 \u09BD.1 \u09BD.2 \u09BE \u09BE.0 \u09BE.1 \u09BE.2 
+	\u09BF \u09BF.0 \u09BF.1 \u09BF.2 \u09C0 \u09C0.0 \u09C0.1 \u09C0.2 \u09C1.0 
+	\u09C1.1 \u09C1.2 \u09C2.0 \u09C2.1 \u09C2.2 \u09C3.0 \u09C3.1 \u09C3.2 \u09C4.0 
+	\u09C4.1 \u09C4.2 \u09C7 \u09C7.0 \u09C7.1 \u09C7.2 \u09C8 \u09C8.0 \u09C8.1 
+	\u09C8.2 \u09CB \u09CB.0 \u09CB.1 \u09CB.2 \u09CC \u09CC.0 \u09CC.1 \u09CC.2 
+	\u09CD.0 \u09CD.1 \u09CD.2 \u09CE \u09CE.0 \u09CE.1 \u09CE.2 \u09D7 \u09D7.0 
+	\u09D7.1 \u09D7.2 \u09DC \u09DC.0 \u09DC.1 \u09DC.2 \u09DD \u09DD.0 \u09DD.1 
+	\u09DD.2 \u09DF \u09DF.0 \u09DF.1 \u09DF.2 \u09E0 \u09E0.0 \u09E0.1 \u09E0.2 
+	\u09E1 \u09E1.0 \u09E1.1 \u09E1.2 \u09E2.0 \u09E2.1 \u09E2.2 \u09E3.0 \u09E3.1 
+	\u09E3.2 \u09E6 \u09E6.0 \u09E6.1 \u09E6.2 \u09E7 \u09E7.0 \u09E7.1 \u09E7.2 
+	\u09E8 \u09E8.0 \u09E8.1 \u09E8.2 \u09E9 \u09E9.0 \u09E9.1 \u09E9.2 \u09EA 
+	\u09EA.0 \u09EA.1 \u09EA.2 \u09EB \u09EB.0 \u09EB.1 \u09EB.2 \u09EC \u09EC.0 
+	\u09EC.1 \u09EC.2 \u09ED \u09ED.0 \u09ED.1 \u09ED.2 \u09EE \u09EE.0 \u09EE.1 
+	\u09EE.2 \u09EF \u09EF.0 \u09EF.1 \u09EF.2 \u09F0 \u09F0.0 \u09F0.1 \u09F0.2 
+	\u09F1 \u09F1.0 \u09F1.1 \u09F1.2 \u09F2 \u09F2.0 \u09F2.1 \u09F2.2 \u09F3 
+	\u09F3.0 \u09F3.1 \u09F3.2 \u09F4 \u09F4.0 \u09F4.1 \u09F4.2 \u09F5 \u09F5.0 
+	\u09F5.1 \u09F5.2 \u09F6 \u09F6.0 \u09F6.1 \u09F6.2 \u09F7 \u09F7.0 \u09F7.1 
+	\u09F7.2 \u09F8 \u09F8.0 \u09F8.1 \u09F8.2 \u09F9 \u09F9.0 \u09F9.1 \u09F9.2 
+	\u09FA \u09FA.0 \u09FA.1 \u09FA.2 \u09FB \u09FB.0 \u09FB.1 \u09FB.2 \u09FC 
+	\u09FC.0 \u09FC.1 \u09FC.2 \u09FD \u09FD.0 \u09FD.1 \u09FD.2 \u09FE.0 \u09FE.1 
+	\u09FE.2 \uni1E9E \uni1E9E.0 \uni1E9E.1 \uni1E9E.2 \uni20B9 \uni20B9.0 
+	\uni20B9.1 \uni20B9.2 \uni25CC \uni25CC.0 \uni25CC.1 \uni25CC.2 \uogonek 
+	\uogonek.0 \uogonek.1 \uogonek.2 \uring \uring.0 \uring.1 \uring.2 \utilde 
+	\utilde.0 \utilde.1 \utilde.2 \v \v.0 \v.1 \v.2 \w \w.0 \w.1 \w.2 \wacute \wacute.0 
+	\wacute.1 \wacute.2 \wcircumflex \wcircumflex.0 \wcircumflex.1 \wcircumflex.2 
 	\wdieresis \wdieresis.0 \wdieresis.1 \wdieresis.2 \wgrave \wgrave.0 \wgrave.1 
 	\wgrave.2 \x \x.0 \x.1 \x.2 \y \y.0 \y.1 \y.2 \yacute \yacute.0 \yacute.1 \yacute.2 
 	\ycircumflex \ycircumflex.0 \ycircumflex.1 \ycircumflex.2 \ydieresis 
@@ -272,19 +340,30 @@ feature rphf {
 	\quotesinglbase.1 \quotesinglbase.2 \quotedblleft \quotedblright 
 	\quotedblbase \quotedblleft.0 \quotedblleft.1 \quotedblleft.2 
 	\quotedblright.0 \quotedblright.1 \quotedblright.2 \quotedblbase.0 
-	\quotedblbase.1 \quotedblbase.2 \ellipsis \guilsinglleft \guilsinglright 
-	\ellipsis.0 \ellipsis.1 \ellipsis.2 \guilsinglleft.0 \guilsinglright.0 
-	\guilsinglleft.1 \guilsinglright.1 \guilsinglleft.2 \guilsinglright.2 
-	\bullet \bullet.0 \bullet.1 \bullet.2 \trademark \minus \trademark.0 
-	\trademark.1 \trademark.2 \minus.0 \minus.1 \minus.2 \u09B0_u09CD.rphf.0 
-	\u09B0_u09CD.rphf.1 \u09B0_u09CD.rphf.2 ];
+	\quotedblbase.1 \quotedblbase.2 \ellipsis \ellipsis.0 \ellipsis.1 \ellipsis.2 
+	\guilsinglleft \guilsinglleft.0 \guilsinglleft.1 \guilsinglleft.2 
+	\guilsinglright \guilsinglright.0 \guilsinglright.1 \guilsinglright.2 
+	\bullet \bullet.0 \bullet.1 \bullet.2 \trademark \trademark.0 \trademark.1 
+	\trademark.2 \minus \minus.0 \minus.1 \minus.2 \u09B0_u09CD.rphf.0 
+	\u09B0_u09CD.rphf.1 \u09B0_u09CD.rphf.2 \u0995_u09CD_u09B7.akhn.0 
+	\u0995_u09CD_u09B7.akhn.1 \u0995_u09CD_u09B7.akhn.2 
+	\u099C_u09CD_u099E.akhn.0 \u099C_u09CD_u099E.akhn.1 
+	\u099C_u09CD_u099E.akhn.2 \u09CD_u09B0.blwf.0 \u09CD_u09B0.blwf.1 
+	\u09CD_u09B0.blwf.2 \u09CD_u09AF.pstf.0 \u09CD_u09AF.pstf.1 
+	\u09CD_u09AF.pstf.2 \u0995_u09CD_u09B0.0 \u0995_u09CD_u09B0.1 
+	\u0995_u09CD_u09B0.2 \u0996_u09CD_u09B0.0 \u0996_u09CD_u09B0.1 
+	\u0996_u09CD_u09B0.2 \u0997_u09CD_u09B0.0 \u0997_u09CD_u09B0.1 
+	\u0997_u09CD_u09B0.2 ];
+@GDEF_Ligature = [\u0995_u09CD_u09B7.akhn \u099C_u09CD_u099E.akhn 
+	\u09CD_u09B0.blwf \u09CD_u09AF.pstf \u0995_u09CD_u09B0 \u0996_u09CD_u09B0 
+	\u0997_u09CD_u09B0 ];
 @GDEF_Mark = [\acutecomb \dotbelowcomb \gravecomb \hookabovecomb \tildecomb 
 	\uni0302 \uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni030F 
 	\uni0312 \uni0313 \uni0326 \uni0327 \uni0328 \u09BC \u09C1 \u09C2 \u09C3 \u09C4 
 	\u09CD \u09E2 \u09E3 \u09FE \u09B0_u09CD.rphf ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 
