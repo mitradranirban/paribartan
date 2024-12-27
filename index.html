@@ -4,16 +4,86 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Paribartan Font development</title>
+		<style>
+			@font-face {
+				font-family: Paribartan;
+				src: url("Paribartan-VF.woff2");
+				font-weight: normal;
+				font-style: normal;
+				
+			}
+			@font-palette-values --palette0 {
+				font-family: Paribartan;
+				base-palette: 0
+			}
+			@font-palette-values --palette1 {
+				font-family: Paribartan;
+				base-palette: 1
+			}
+			@font-palette-values --palette2 {
+				font-family: Paribartan;
+				base-palette: 2
+			}
+			@font-palette-values --palette3 {
+				font-family: Paribartan;
+				base-palette: 3
+			}
+			@font-palette-values --palette4 {
+				font-family: Paribartan;
+				base-palette: 4
+			}
+			h1{
+				font-family: Paribartan;
+				font-variation-settings: "SHDW" -50 "MASK" 10;
+			}
+			h2{
+				font-family: Paribartan;
+				font-variation-settings: "SHDW" 50 "MASK" -15;
+			}
+			p{
+				font-family: Paribartan;
+				font-variation-settings: "SHDW" 30 "MASK" 0;
+			}
+			 .pallete0 {
+				font-family: Paribartan;
+				font-palette: --palette0;
+			 }
+			 .pallete1 {
+				font-family: Paribartan;
+				font-palette: --palette1;
+			 }
+			 .pallete2 {
+				font-family: Paribartan;
+				font-palette: --palette2;
+			 }
+			 .pallete3 {
+				font-family: Paribartan;
+				font-palette: --palette3;
+			 }
+			 .pallete4 {
+				font-family: Paribartan;
+				font-palette: --palette4;
+			 }
+			  
+
+		</style>
 	</head>
 	<body>
-		<h1>Paribartan Font testing pages</h1>
-		<ul>
-			<li>
-				<a href="fontbakery/fontbakery-report.html">FontBakery Report</a>
-			</li>
-			<li>
-				<a href="proof/diffenator2-report.html">Diffenator2 Report</a>
-			</li>
+		<h1 class="palette0">Paribartan Variable Color Font</h1>
+		<h2 >
+			About
+		</h2>
+		<p> Paribartan is a variable color font created using open source tools</p> 
+		<p> It has Five inbuilt color palettes </p>
+		<p class="pallete0"> Orange </p>
+		<p class="palette1"> Violet </p>
+		<p class="palette2"> Grey </p>
+		<p class="palette3"> Green </p>
+		<p class="palette4"> Blue </p>
+		<p> and also 2 custom axes of Shadow and Mask </p>
+
+
+		
 		</ul>
 	</body>
 </html>

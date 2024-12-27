@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[24] Paribartan-VF.ttf</summary>
+<details><summary>[23] Paribartan[SHDW,MASK].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -40,7 +40,7 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>Expected &quot;Paribartan[MASK,SHDW].ttf. Got Paribartan-VF.ttf.</p>
+* 🔥 **FAIL** <p>Expected &quot;Paribartan[MASK,SHDW].ttf. Got Paribartan[SHDW,MASK].ttf.</p>
  [code: bad-filename]
 
 
@@ -390,6 +390,9 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * ldot.1
 * macron.0
 * macron.1
+* minus.0
+* minus.1
+* minus.2
 * nacute.0
 * nacute.1
 * ncaron.0
@@ -438,6 +441,9 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * threequarters.1
 * tilde.0
 * tilde.1
+* trademark.0
+* trademark.1
+* trademark.2
 * u0965.0
 * u0965.1
 * u09CB.0
@@ -532,29 +538,6 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * zcaron.1
 * zdotaccent.0 and zdotaccent.1</p>
  [code: found-nested-components]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x2122 (TRADE MARK SIGN)
-
-
-- 0x2212 (MINUS SIGN)
-</code></pre>
- [code: missing-codepoints]
 
 
 
@@ -728,7 +711,7 @@ u0981 (U+0981)</p>
 
 
 
-* ⚠️ **WARN** <p>The most common width is 644 among a set of 6 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 644 among a set of 7 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1000:
 logicalnot</p>
@@ -752,553 +735,11 @@ multiply</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- A.2
-
-- AE.2
-
-- Aacute.2
-
-- Abreve.2
-
-- Acircumflex.2
-
-- Adieresis.2
-
-- Agrave.2
-
-- Amacron.2
-
-- Aogonek.2
-
-- Aring.2
-
-- Atilde.2
-
-- B.2
-
-- C.2
-
-- Cacute.2
-
-- Ccaron.2
-
-- Ccedilla.2
-
-- Ccircumflex.2
-
-- Cdotaccent.2
-
-- D.2
-
-- Dcaron.2
-
-- Dcroat.1
+<pre><code>- Dcroat.1
 
 - Dcroat.2
 
-- E.2
-
-- Eacute.2
-
-- Ebreve.2
-
-- Ecaron.2
-
-- Ecircumflex.2
-
-- Edieresis.2
-
-- Edotaccent.2
-
-- Egrave.2
-
-- Emacron.2
-
-- Eogonek.2
-
-- Eth.2
-
-- Euro.2
-
-- F.2
-
-- G.2
-
-- Gbreve.2
-
-- Gcircumflex.2
-
-- Gdotaccent.2
-
-- H.2
-
-- Hbar.2
-
-- Hcircumflex.2
-
-- Iacute.2
-
-- Ibreve.2
-
-- Icircumflex.2
-
-- Idieresis.2
-
-- Idotaccent.2
-
-- Igrave.2
-
-- Imacron.2
-
-- Iogonek.2
-
-- Itilde.2
-
-- J.2
-
-- Jcircumflex.2
-
-- K.2
-
-- L.2
-
-- Lacute.2
-
-- Lcaron.2
-
-- Ldot.2
-
-- M.2
-
-- N.2
-
-- Nacute.2
-
-- Ncaron.2
-
-- Ntilde.2
-
-- O.2
-
-- OE.2
-
-- Oacute.2
-
-- Obreve.2
-
-- Ocircumflex.2
-
-- Odieresis.2
-
-- Ograve.2
-
-- Ohungarumlaut.2
-
-- Omacron.2
-
-- Oslash.2
-
-- Otilde.2
-
-- P.2
-
-- Q.2
-
-- R.2
-
-- Racute.2
-
-- Rcaron.2
-
-- S.2
-
-- Sacute.2
-
-- Scaron.2
-
-- Scedilla.2
-
-- Scircumflex.2
-
-- T.2
-
-- Tcaron.2
-
-- Thorn.2
-
-- U.2
-
-- Uacute.2
-
-- Ubreve.2
-
-- Ucircumflex.2
-
-- Udieresis.2
-
-- Ugrave.2
-
-- Uhungarumlaut.2
-
-- Umacron.2
-
-- Uogonek.2
-
-- Uring.2
-
-- Utilde.2
-
-- V.2
-
-- W.2
-
-- Wacute.2
-
-- Wcircumflex.2
-
-- Wdieresis.2
-
-- Wgrave.2
-
-- X.2
-
-- Y.2
-
-- Yacute.2
-
-- Ycircumflex.2
-
-- Ydieresis.2
-
-- Ygrave.2
-
-- Z.2
-
-- Zacute.2
-
-- Zcaron.2
-
-- Zdotaccent.2
-
-- a.2
-
-- aacute.2
-
-- abreve.2
-
-- acircumflex.2
-
-- acute.2
-
-- adieresis.2
-
-- ae.2
-
-- agrave.2
-
-- amacron.2
-
-- ampersand.2
-
-- aogonek.2
-
-- aring.2
-
-- asciicircum.2
-
-- asciitilde.2
-
-- asterisk.2
-
-- at.2
-
-- atilde.2
-
-- b.2
-
-- backslash.2
-
-- bar.2
-
-- braceleft.2
-
-- braceright.2
-
-- bracketleft.2
-
-- bracketright.2
-
-- breve.2
-
-- brokenbar.2
-
-- c.2
-
-- cacute.2
-
-- caron.2
-
-- ccaron.2
-
-- ccedilla.2
-
-- ccircumflex.2
-
-- cdotaccent.2
-
-- cedilla.2
-
-- cent.2
-
-- colon.2
-
-- comma.2
-
-- copyright.2
-
-- d.2
-
-- dcaron.2
-
-- dcroat.2
-
-- divide.2
-
-- dollar.2
-
-- e.2
-
-- eacute.2
-
-- ebreve.2
-
-- ecaron.2
-
-- ecircumflex.2
-
-- edieresis.2
-
-- edotaccent.2
-
-- egrave.2
-
-- eight.2
-
-- emacron.2
-
-- emdash.2
-
-- endash.2
-
-- eogonek.2
-
-- equal.2
-
-- eth.2
-
-- exclam.2
-
-- f.2
-
-- five.2
-
-- four.2
-
-- g.2
-
-- gbreve.2
-
-- gcircumflex.2
-
-- gdotaccent.2
-
-- germandbls.2
-
-- grave.2
-
-- gravecomb.2
-
-- greater.2
-
-- guillemotleft.2
-
-- guillemotright.2
-
-- h.2
-
-- hbar.2
-
-- hcircumflex.2
-
-- hungarumlaut.2
-
-- i.2
-
-- iacute.2
-
-- ibreve.2
-
-- icircumflex.2
-
-- idieresis.2
-
-- igrave.2
-
-- imacron.2
-
-- iogonek.2
-
-- itilde.2
-
-- j.2
-
-- jcircumflex.2
-
-- k.2
-
-- l.2
-
-- lacute.2
-
-- lcaron.2
-
-- ldot.2
-
-- less.2
-
-- logicalnot.2
-
-- m.2
-
-- mu.2
-
-- n.2
-
-- nacute.2
-
-- ncaron.2
-
 - nonmarkingreturn
-
-- ntilde.2
-
-- numbersign.2
-
-- o.2
-
-- oacute.2
-
-- obreve.2
-
-- ocircumflex.2
-
-- odieresis.2
-
-- oe.2
-
-- ogonek.2
-
-- ograve.2
-
-- ohungarumlaut.2
-
-- omacron.2
-
-- one.2
-
-- onehalf.2
-
-- onequarter.2
-
-- oslash.2
-
-- otilde.2
-
-- p.2
-
-- paragraph.2
-
-- parenleft.2
-
-- parenright.2
-
-- percent.2
-
-- plus.2
-
-- plusminus.2
-
-- q.2
-
-- question.2
-
-- quotedbl.2
-
-- quoteleft.2
-
-- quotesingle.2
-
-- r.2
-
-- racute.2
-
-- rcaron.2
-
-- registered.2
-
-- ring.2
-
-- s.2
-
-- sacute.2
-
-- scaron.2
-
-- scedilla.2
-
-- scircumflex.2
-
-- section.2
-
-- semicolon.2
-
-- seven.2
-
-- six.2
-
-- slash.2
-
-- sterling.2
-
-- t.2
-
-- tcaron.2
-
-- three.2
-
-- threequarters.2
-
-- tilde.2
-
-- two.2
-
-- u0980.2
-
-- u0981.2
-
-- u0982.2
-
-- u0983.2
-
-- u0985.2
-
-- u0986.2
-
-- u0987.2
-
-- u0988.2
-
-- u0989.2
 
 - u098A.0
 
@@ -1306,281 +747,19 @@ multiply</p>
 
 - u098A.2
 
-- u098B.2
-
-- u098C.2
-
-- u098F.2
-
-- u0990.2
-
-- u0993.2
-
-- u0994.2
-
-- u0995.2
-
-- u0996.2
-
-- u0997.2
-
-- u0998.2
-
-- u0999.2
-
-- u099A.2
-
-- u099B.2
-
-- u099C.2
-
-- u099D.2
-
-- u099E.2
-
-- u099F.2
-
-- u09A0.2
-
 - u09A1.0
 
 - u09A1.1
 
 - u09A1.2
 
-- u09A2.2
-
-- u09A3.2
-
-- u09A4.2
-
-- u09A5.2
-
-- u09A6.2
-
-- u09A7.2
-
-- u09A8.2
-
-- u09AA.2
-
-- u09AB.2
-
-- u09AC.2
-
-- u09AD.2
-
-- u09AE.2
-
-- u09AF.2
-
-- u09B0.2
-
-- u09B2.2
-
-- u09B6.2
-
-- u09B7.2
-
-- u09B8.2
-
-- u09B9.2
-
-- u09BD.2
-
-- u09BE.2
-
-- u09BF.2
-
-- u09C0.2
-
-- u09C1.2
-
-- u09C2.2
-
-- u09C3.2
-
-- u09C4.2
-
-- u09C7.2
-
-- u09C8.2
-
-- u09CB.2
-
-- u09CC.2
-
-- u09CD.2
-
-- u09CE.2
-
-- u09D7.2
-
-- u09DC.2
-
-- u09DD.2
-
-- u09DF.2
-
-- u09E0.2
-
-- u09E1.2
-
-- u09E2.2
-
-- u09E3.2
-
-- u09E6.2
-
-- u09E8.2
-
-- u09E9.2
-
-- u09EA.2
-
-- u09EB.2
-
-- u09EC.2
-
-- u09ED.2
-
-- u09EE.2
-
 - u09EF.1
 
 - u09EF.2
 
-- u09F0.2
-
-- u09F1.2
-
-- u09F2.2
-
-- u09F3.2
-
-- u09F4.2
-
-- u09F5.2
-
-- u09F6.2
-
-- u09F7.2
-
-- u09F8.2
-
 - u09F9.1
 
 - u09F9.2
-
-- u09FB.2
-
-- u09FC.2
-
-- u09FE.2
-
-- uacute.2
-
-- ubreve.2
-
-- ucircumflex.2
-
-- udieresis.2
-
-- ugrave.2
-
-- uhungarumlaut.2
-
-- umacron.2
-
-- underscore.2
-
-- uni0122.2
-
-- uni0123.2
-
-- uni0136.2
-
-- uni0137.2
-
-- uni013B.2
-
-- uni013C.2
-
-- uni0145.2
-
-- uni0146.2
-
-- uni0156.2
-
-- uni0157.2
-
-- uni0162.2
-
-- uni0163.2
-
-- uni0218.2
-
-- uni0219.2
-
-- uni021A.2
-
-- uni021B.2
-
-- uni0237.2
-
-- uni0302.2
-
-- uni0304.2
-
-- uni030F.2
-
-- uni1E9E.2
-
-- uni20B9.2
-
-- uni25CC.2
-
-- uogonek.2
-
-- uring.2
-
-- utilde.2
-
-- v.2
-
-- w.2
-
-- wacute.2
-
-- wcircumflex.2
-
-- wdieresis.2
-
-- wgrave.2
-
-- x.2
-
-- y.2
-
-- yacute.2
-
-- ycircumflex.2
-
-- ydieresis.2
-
-- yen.2
-
-- ygrave.2
-
-- z.2
-
-- zacute.2
-
-- zcaron.2
-
-- zdotaccent.2
-
-- zero.2
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -1626,15 +805,15 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, hebrew, malayalam, syriac, tai-le, coptic, todhri, old-permic, duployan, math, canadian-aboriginal</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, todhri, coptic, syriac, canadian-aboriginal, old-permic, math, malayalam, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -1659,8 +838,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̓ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ỉ ǐ ȉ i̒ ị̇ ị̉ ị̊ ị̋ ị̌ ị̏ ị̒ ị̓ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ ȉ̦ i̦̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Bete-Bendi (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Zapotec (Latn, 490,000 speakers), Nateni (Latn, 100,000 speakers), Heiltsuk (Latn, 300 speakers), Bafut (Latn, 158,146 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Southern Kisi (Latn, 360,000 speakers), Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), Mundani (Latn, 34,000 speakers), Teke-Ebo (Latn, 260,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Nzakara (Latn, 50,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ma’di (Latn, 584,000 speakers), Han (Latn, 6 speakers), Koonzime (Latn, 40,000 speakers), Kaska (Latn, 125 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Cicipu (Latn, 44,000 speakers), Mfumte (Latn, 79,000 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Gulay (Latn, 250,478 speakers), Yala (Latn, 200,000 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Han (Latn, 6 speakers), Gulay (Latn, 250,478 speakers), Vute (Latn, 21,000 speakers), Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Sar (Latn, 500,000 speakers), Basaa (Latn, 332,940 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Heiltsuk (Latn, 300 speakers), Zapotec (Latn, 490,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Nzakara (Latn, 50,000 speakers), Navajo (Latn, 166,319 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Bafut (Latn, 158,146 speakers), Kom (Latn, 360,685 speakers), Mfumte (Latn, 79,000 speakers), Fur (Latn, 1,230,163 speakers), Mango (Latn, 77,000 speakers), Makaa (Latn, 221,000 speakers), Ejagham (Latn, 120,000 speakers), Ngbaka (Latn, 1,020,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1876,7 +1055,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/variable/Paribartan-VF.ttf'].</p>
+* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/variable/Paribartan[SHDW,MASK].ttf'].</p>
  [code: missing-os2-fsselection-bit7]
 
 
@@ -1893,8 +1072,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 10 | 15 | 101 | 7 | 118 | 0 | 
-| 0% | 0% | 4% | 6% | 40% | 3% | 47% | 0% | 
+| 0 | 0 | 9 | 15 | 102 | 7 | 118 | 0 | 
+| 0% | 0% | 4% | 6% | 41% | 3% | 47% | 0% | 
 
 
 
