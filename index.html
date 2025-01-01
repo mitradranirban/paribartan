@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Paribartan Font development</title>
+		<title>Paribartan Variable Color Font </title>
 		<style>
 			@font-face {
 				font-family: Paribartan;
-				src: url("Paribartan-VF.woff2");
+				src: url("Paribartan[MASK,SHDW].woff2") ;
 				font-weight: normal;
 				font-style: normal;
+				MASK -50 50;
+				SHDW -50 50;
 				
 			}
 			@font-palette-values --palette0 {
@@ -32,58 +34,64 @@
 				font-family: Paribartan;
 				base-palette: 4
 			}
-			h1{
+			.shadow1{
 				font-family: Paribartan;
-				font-variation-settings: "SHDW" -50 "MASK" 10;
+				font-variation-settings: "SHDW" -50, "MASK" 10;
 			}
-			h2{
+			.shadow2{
 				font-family: Paribartan;
-				font-variation-settings: "SHDW" 50 "MASK" -15;
+				font-variation-settings: "SHDW" 50, "MASK" -15;
 			}
-			p{
+			.shadow3{
 				font-family: Paribartan;
-				font-variation-settings: "SHDW" 30 "MASK" 0;
+				font-variation-settings: "SHDW" 0, "MASK" 50;
 			}
-			 .pallete0 {
+			 .palette0 {
 				font-family: Paribartan;
 				font-palette: --palette0;
 			 }
-			 .pallete1 {
+			 .palette1 {
 				font-family: Paribartan;
 				font-palette: --palette1;
 			 }
-			 .pallete2 {
+			 .palette2 {
 				font-family: Paribartan;
 				font-palette: --palette2;
 			 }
-			 .pallete3 {
+			 .palette3 {
 				font-family: Paribartan;
 				font-palette: --palette3;
 			 }
-			 .pallete4 {
+			 .palette4 {
 				font-family: Paribartan;
 				font-palette: --palette4;
 			 }
-			  
+			 .shadow1{
+				font-family: Paribartan;
+				font-variation-settings: "SHDW" -50 "MASK" 10;
+			 }
+			  @keyframes animate-shadow{
+
+			  }
+			  @keyframes animate-color{
+
+			  }
 
 		</style>
 	</head>
 	<body>
-		<h1 class="palette0">Paribartan Variable Color Font</h1>
-		<h2 >
-			About
-		</h2>
-		<p> Paribartan is a variable color font created using open source tools</p> 
-		<p> It has Five inbuilt color palettes </p>
-		<p class="pallete0"> Orange </p>
-		<p class="palette1"> Violet </p>
-		<p class="palette2"> Grey </p>
-		<p class="palette3"> Green </p>
-		<p class="palette4"> Blue </p>
-		<p> and also 2 custom axes of Shadow and Mask </p>
+		<div class="palette0 shadow1"> <h1>Paribartan Variable Color Typeface</h1></div>
+		<div class="palette4 shadow2"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
+		<p> Paribartan is a variable color font created using open source tools </p> 
+		<p> It covers Latin, Extended Latin and Bangla (Bengali) characters</p>
+		<p> It has Five in-built color palettes </p>
+		<span class="palette0"> Orange </span>,
+		<span class="palette1"> Violet </span>,
+		<span class="palette2"> Grey </span>,
+		<span class="palette3"> Green </span>, and
+		<span class="palette4"> Blue </span></p>
 
-
-		
-		</ul>
+		<p> It also has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>. </p>
+	 
 	</body>
 </html>
