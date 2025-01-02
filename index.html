@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Paribartan Variable Color Font </title>
 		<style>
 			@font-face {
@@ -66,11 +66,11 @@
 				font-family: Paribartan;
 				font-palette: --palette4;
 			 }
-			 .shadow1{
+			 .shadow3{
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" -50 "MASK" 10;
 			 }
-			  @keyframes animate-palette {
+  @keyframes animate-palette {
   from {
     font-palette: --palette1;
   }
@@ -79,13 +79,30 @@
     font-palette: --palette3;
   }
 }
+ @keyframes animate-shadow {
+from {
+	font-variation-settings: "SHDW" -50 "MASK" 10;
+}
+to {
+	font-variation-settings: "SHDW" 50 "MASK" -10;
+}
+ }
+
 
 .colorchange {
   font-family: "Paribartan";
-  font-size: 5rem;
+  font-size: 2rem;
   margin: 0;
   text-align: center;
   animation: animate-palette 4s infinite alternate linear;
+}
+
+.shadowchange {
+	font-family: "Paribartan";
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  animation: animate-shadow 4s infinite alternate ;
 }
 
 		</style>
@@ -104,7 +121,7 @@
 		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. 
 
 		<p> It is variable font with 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
-		which can be modified to create 3d movement effect</p>
+		which is useful to do <span class="palette2 shadowchange shadow1"> 3 D </span> <span class="palette3 shadowchange shadow2">Effect </span> using css. 
 	 
 	</body>
 </html>
