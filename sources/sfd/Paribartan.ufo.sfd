@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1734972326
-ModificationTime: 1735220760
+ModificationTime: 1735798784
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -63,8 +63,153 @@ Lookup: 4 0 0 "rphfRephForminBengali2lookup0" { "rphfRephForminBengali2lookup0 s
 Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali2 lookup 0" { "'blwf' Below Base Forms in Bengali2 lookup 0-1"  } ['blwf' ('DFLT' <'dflt' > 'bng2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Bengali2 lookup 0" { "'pstf' Post Base Forms in Bengali2 lookup 0-1"  } ['pstf' ('DFLT' <'dflt' > 'bng2' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants in Bengali2 lookup 0" { "'vatu' Vattu Variants in Bengali2 lookup 0-1"  } ['vatu' ('DFLT' <'dflt' > 'bng2' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,0,0] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 85 59 "'kern' Horizontal Kerning in Latin lookup 0-1"
+ 317 A A.0 A.1 A.2 Aacute Aacute.0 Aacute.1 Aacute.2 Abreve Abreve.0 Abreve.1 Abreve.2 Acircumflex Acircumflex.0 Acircumflex.1 Acircumflex.2 Adieresis Adieresis.0 Adieresis.1 Adieresis.2 Agrave Agrave.0 Agrave.1 Agrave.2 Amacron Amacron.0 Amacron.1 Amacron.2 Aring Aring.0 Aring.1 Aring.2 Atilde Atilde.0 Atilde.1 Atilde.2
+ 517 AE AE.0 AE.1 AE.2 E E.0 E.1 E.2 Eacute Eacute.0 Eacute.1 Eacute.2 Ebreve Ebreve.0 Ebreve.1 Ebreve.2 Ecaron Ecaron.0 Ecaron.1 Ecaron.2 Ecircumflex Ecircumflex.0 Ecircumflex.1 Ecircumflex.2 Edieresis Edieresis.0 Edieresis.1 Edieresis.2 Edotaccent Edotaccent.0 Edotaccent.1 Edotaccent.2 Egrave Egrave.0 Egrave.1 Egrave.2 Emacron Emacron.0 Emacron.1 Emacron.2 Euro Euro.0 Euro.1 Euro.2 OE OE.0 OE.1 OE.2 Zacute Zacute.0 Zacute.1 Zacute.2 Zcaron Zcaron.0 Zcaron.1 Zcaron.2 Zdotaccent Zdotaccent.0 Zdotaccent.1 Zdotaccent.2
+ 37 Aogonek Aogonek.0 Aogonek.1 Aogonek.2
+ 13 B B.0 B.1 B.2
+ 47 C C.0 C.1 C.2 Cacute Cacute.0 Cacute.1 Cacute.2
+ 87 Ccaron Ccaron.0 Ccaron.1 Ccaron.2 Ccircumflex Ccircumflex.0 Ccircumflex.1 Ccircumflex.2
+ 41 Ccedilla Ccedilla.0 Ccedilla.1 Ccedilla.2
+ 49 Cdotaccent Cdotaccent.0 Cdotaccent.1 Cdotaccent.2
+ 487 D D.0 D.1 D.2 Dcaron Dcaron.0 Dcaron.1 Dcaron.2 Dcroat Dcroat.0 Dcroat.1 Dcroat.2 Eth Eth.0 Eth.1 Eth.2 O O.0 O.1 O.2 Oacute Oacute.0 Oacute.1 Oacute.2 Obreve Obreve.0 Obreve.1 Obreve.2 Ocircumflex Ocircumflex.0 Ocircumflex.1 Ocircumflex.2 Odieresis Odieresis.0 Odieresis.1 Odieresis.2 Ograve Ograve.0 Ograve.1 Ograve.2 Ohungarumlaut Ohungarumlaut.0 Ohungarumlaut.1 Ohungarumlaut.2 Omacron Omacron.0 Omacron.1 Omacron.2 Oslash Oslash.0 Oslash.1 Oslash.2 Otilde Otilde.0 Otilde.1 Otilde.2
+ 37 Eogonek Eogonek.0 Eogonek.1 Eogonek.2
+ 13 F F.0 F.1 F.2
+ 155 G G.0 G.1 G.2 Gcircumflex Gcircumflex.0 Gcircumflex.1 Gcircumflex.2 Gdotaccent Gdotaccent.0 Gdotaccent.1 Gdotaccent.2 uni0122 uni0122.0 uni0122.1 uni0122.2
+ 33 Gbreve Gbreve.0 Gbreve.1 Gbreve.2
+ 311 H H.0 H.1 H.2 Hcircumflex Hcircumflex.0 Hcircumflex.1 Hcircumflex.2 I I.0 I.1 I.2 Itilde Itilde.0 Itilde.1 Itilde.2 M M.0 M.1 M.2 N N.0 N.1 N.2 Nacute Nacute.0 Nacute.1 Nacute.2 Ncaron Ncaron.0 Ncaron.1 Ncaron.2 Ntilde Ntilde.0 Ntilde.1 Ntilde.2 d d.0 d.1 d.2 i i.0 i.1 i.2 uni0145 uni0145.0 uni0145.1 uni0145.2
+ 93 Hbar Hbar.0 Hbar.1 Hbar.2 dcroat dcroat.0 dcroat.1 dcroat.2 itilde itilde.0 itilde.1 itilde.2
+ 33 Iacute Iacute.0 Iacute.1 Iacute.2
+ 71 Ibreve Ibreve.0 Ibreve.1 Ibreve.2 Imacron Imacron.0 Imacron.1 Imacron.2
+ 53 Icircumflex Icircumflex.0 Icircumflex.1 Icircumflex.2
+ 45 Idieresis Idieresis.0 Idieresis.1 Idieresis.2
+ 49 Idotaccent Idotaccent.0 Idotaccent.1 Idotaccent.2
+ 33 Igrave Igrave.0 Igrave.1 Igrave.2
+ 89 Iogonek Iogonek.0 Iogonek.1 Iogonek.2 iogonek iogonek.0 iogonek.1 iogonek.2 j j.0 j.1 j.2
+ 369 J J.0 J.1 J.2 U U.0 U.1 U.2 Uacute Uacute.0 Uacute.1 Uacute.2 Ubreve Ubreve.0 Ubreve.1 Ubreve.2 Ucircumflex Ucircumflex.0 Ucircumflex.1 Ucircumflex.2 Udieresis Udieresis.0 Udieresis.1 Udieresis.2 Ugrave Ugrave.0 Ugrave.1 Ugrave.2 Umacron Umacron.0 Umacron.1 Umacron.2 Uogonek Uogonek.0 Uogonek.1 Uogonek.2 Uring Uring.0 Uring.1 Uring.2 Utilde Utilde.0 Utilde.1 Utilde.2
+ 53 Jcircumflex Jcircumflex.0 Jcircumflex.1 Jcircumflex.2
+ 51 K K.0 K.1 K.2 uni0136 uni0136.0 uni0136.1 uni0136.2
+ 179 L L.0 L.1 L.2 Lacute Lacute.0 Lacute.1 Lacute.2 Lcaron Lcaron.0 Lcaron.1 Lcaron.2 Ldot Ldot.0 Ldot.1 Ldot.2 Lslash Lslash.0 Lslash.1 Lslash.2 uni013B uni013B.0 uni013B.1 uni013B.2
+ 13 P P.0 P.1 P.2
+ 13 Q Q.0 Q.1 Q.2
+ 119 R R.0 R.1 R.2 Racute Racute.0 Racute.1 Racute.2 Rcaron Rcaron.0 Rcaron.1 Rcaron.2 uni0156 uni0156.0 uni0156.1 uni0156.2
+ 181 S S.0 S.1 S.2 Scaron Scaron.0 Scaron.1 Scaron.2 Scedilla Scedilla.0 Scedilla.1 Scedilla.2 Scircumflex Scircumflex.0 Scircumflex.1 Scircumflex.2 uni0218 uni0218.0 uni0218.1 uni0218.2
+ 33 Sacute Sacute.0 Sacute.1 Sacute.2
+ 123 T T.0 T.1 T.2 Tcaron Tcaron.0 Tcaron.1 Tcaron.2 uni0162 uni0162.0 uni0162.1 uni0162.2 uni021A uni021A.0 uni021A.1 uni021A.2
+ 29 Thorn Thorn.0 Thorn.1 Thorn.2
+ 61 Uhungarumlaut Uhungarumlaut.0 Uhungarumlaut.1 Uhungarumlaut.2
+ 195 V V.0 V.1 V.2 W W.0 W.1 W.2 Wacute Wacute.0 Wacute.1 Wacute.2 Wcircumflex Wcircumflex.0 Wcircumflex.1 Wcircumflex.2 Wdieresis Wdieresis.0 Wdieresis.1 Wdieresis.2 Wgrave Wgrave.0 Wgrave.1 Wgrave.2
+ 13 X X.0 X.1 X.2
+ 135 Y Y.0 Y.1 Y.2 Yacute Yacute.0 Yacute.1 Yacute.2 Ycircumflex Ycircumflex.0 Ycircumflex.1 Ycircumflex.2 Ygrave Ygrave.0 Ygrave.1 Ygrave.2
+ 45 Ydieresis Ydieresis.0 Ydieresis.1 Ydieresis.2
+ 13 Z Z.0 Z.1 Z.2
+ 525 a a.0 a.1 a.2 abreve abreve.0 abreve.1 abreve.2 acircumflex acircumflex.0 acircumflex.1 acircumflex.2 agrave agrave.0 agrave.1 agrave.2 amacron amacron.0 amacron.1 amacron.2 aogonek aogonek.0 aogonek.1 aogonek.2 aring aring.0 aring.1 aring.2 atilde atilde.0 atilde.1 atilde.2 dotlessi dotlessi.0 dotlessi.1 dotlessi.2 u u.0 u.1 u.2 uacute uacute.0 uacute.1 uacute.2 ubreve ubreve.0 ubreve.1 ubreve.2 ucircumflex ucircumflex.0 ucircumflex.1 ucircumflex.2 ugrave ugrave.0 ugrave.1 ugrave.2 umacron umacron.0 umacron.1 umacron.2
+ 33 aacute aacute.0 aacute.1 aacute.2
+ 91 adieresis adieresis.0 adieresis.1 adieresis.2 udieresis udieresis.0 udieresis.1 udieresis.2
+ 593 ae ae.0 ae.1 ae.2 e e.0 e.1 e.2 eacute eacute.0 eacute.1 eacute.2 ebreve ebreve.0 ebreve.1 ebreve.2 ecaron ecaron.0 ecaron.1 ecaron.2 ecircumflex ecircumflex.0 ecircumflex.1 ecircumflex.2 edotaccent edotaccent.0 edotaccent.1 edotaccent.2 egrave egrave.0 egrave.1 egrave.2 emacron emacron.0 emacron.1 emacron.2 eogonek eogonek.0 eogonek.1 eogonek.2 h h.0 h.1 h.2 hbar hbar.0 hbar.1 hbar.2 hcircumflex hcircumflex.0 hcircumflex.1 hcircumflex.2 m m.0 m.1 m.2 n n.0 n.1 n.2 ncaron ncaron.0 ncaron.1 ncaron.2 ntilde ntilde.0 ntilde.1 ntilde.2 oe oe.0 oe.1 oe.2 uni0146 uni0146.0 uni0146.1 uni0146.2
+ 345 b b.0 b.1 b.2 o o.0 o.1 o.2 oacute oacute.0 oacute.1 oacute.2 obreve obreve.0 obreve.1 obreve.2 ocircumflex ocircumflex.0 ocircumflex.1 ocircumflex.2 odieresis odieresis.0 odieresis.1 odieresis.2 ograve ograve.0 ograve.1 ograve.2 omacron omacron.0 omacron.1 omacron.2 otilde otilde.0 otilde.1 otilde.2 p p.0 p.1 p.2 thorn thorn.0 thorn.1 thorn.2
+ 13 c c.0 c.1 c.2
+ 33 cacute cacute.0 cacute.1 cacute.2
+ 33 ccaron ccaron.0 ccaron.1 ccaron.2
+ 41 ccedilla ccedilla.0 ccedilla.1 ccedilla.2
+ 53 ccircumflex ccircumflex.0 ccircumflex.1 ccircumflex.2
+ 49 cdotaccent cdotaccent.0 cdotaccent.1 cdotaccent.2
+ 4 cent
+ 33 dcaron dcaron.0 dcaron.1 dcaron.2
+ 79 edieresis edieresis.0 edieresis.1 edieresis.2 nacute nacute.0 nacute.1 nacute.2
+ 21 eth eth.0 eth.1 eth.2
+ 13 f f.0 f.1 f.2
+ 189 g g.0 g.1 g.2 gbreve gbreve.0 gbreve.1 gbreve.2 gcircumflex gcircumflex.0 gcircumflex.1 gcircumflex.2 gdotaccent gdotaccent.0 gdotaccent.1 gdotaccent.2 uni0123 uni0123.0 uni0123.1 uni0123.2
+ 49 germandbls germandbls.0 germandbls.1 germandbls.2
+ 33 iacute iacute.0 iacute.1 iacute.2
+ 33 ibreve ibreve.0 ibreve.1 ibreve.2
+ 53 icircumflex icircumflex.0 icircumflex.1 icircumflex.2
+ 45 idieresis idieresis.0 idieresis.1 idieresis.2
+ 33 igrave igrave.0 igrave.1 igrave.2
+ 37 imacron imacron.0 imacron.1 imacron.2
+ 53 jcircumflex jcircumflex.0 jcircumflex.1 jcircumflex.2
+ 51 k k.0 k.1 k.2 uni0137 uni0137.0 uni0137.1 uni0137.2
+ 47 l l.0 l.1 l.2 lacute lacute.0 lacute.1 lacute.2
+ 33 lcaron lcaron.0 lcaron.1 lcaron.2
+ 25 ldot ldot.0 ldot.1 ldot.2
+ 33 lslash lslash.0 lslash.1 lslash.2
+ 61 ohungarumlaut ohungarumlaut.0 ohungarumlaut.1 ohungarumlaut.2
+ 14 ordmasculine.2
+ 33 oslash oslash.0 oslash.1 oslash.2
+ 51 q q.0 q.1 q.2 uni0237 uni0237.0 uni0237.1 uni0237.2
+ 49 r.0 r.1 r.2 uni0157 uni0157.0 uni0157.1 uni0157.2
+ 33 racute racute.0 racute.1 racute.2
+ 33 rcaron rcaron.0 rcaron.1 rcaron.2
+ 93 s s.0 s.1 s.2 scedilla scedilla.0 scedilla.1 scedilla.2 uni0219 uni0219.0 uni0219.1 uni0219.2
+ 33 sacute sacute.0 sacute.1 sacute.2
+ 87 scaron scaron.0 scaron.1 scaron.2 scircumflex scircumflex.0 scircumflex.1 scircumflex.2
+ 11 t.0 t.1 t.2
+ 33 tcaron tcaron.0 tcaron.1 tcaron.2
+ 61 uhungarumlaut uhungarumlaut.0 uhungarumlaut.1 uhungarumlaut.2
+ 37 uni013C uni013C.0 uni013C.1 uni013C.2
+ 75 uni0163 uni0163.0 uni0163.1 uni0163.2 uni021B uni021B.0 uni021B.1 uni021B.2
+ 373 A A.0 A.1 A.2 AE AE.0 AE.1 AE.2 Aacute Aacute.0 Aacute.1 Aacute.2 Abreve Abreve.0 Abreve.1 Abreve.2 Acircumflex Acircumflex.0 Acircumflex.1 Acircumflex.2 Adieresis Adieresis.0 Adieresis.1 Adieresis.2 Agrave Agrave.0 Agrave.1 Agrave.2 Amacron Amacron.0 Amacron.1 Amacron.2 Aogonek Aogonek.0 Aogonek.1 Aogonek.2 Aring Aring.0 Aring.1 Aring.2 Atilde Atilde.0 Atilde.1 Atilde.2
+ 1181 B B.0 B.1 B.2 D D.0 D.1 D.2 Dcaron Dcaron.0 Dcaron.1 Dcaron.2 E E.0 E.1 E.2 Ebreve Ebreve.0 Ebreve.1 Ebreve.2 Ecaron Ecaron.0 Ecaron.1 Ecaron.2 Ecircumflex Ecircumflex.0 Ecircumflex.1 Ecircumflex.2 Edieresis Edieresis.0 Edieresis.1 Edieresis.2 Edotaccent Edotaccent.0 Edotaccent.1 Edotaccent.2 Emacron Emacron.0 Emacron.1 Emacron.2 Eogonek Eogonek.0 Eogonek.1 Eogonek.2 F F.0 F.1 F.2 H H.0 H.1 H.2 Hcircumflex Hcircumflex.0 Hcircumflex.1 Hcircumflex.2 I I.0 I.1 I.2 Idotaccent Idotaccent.0 Idotaccent.1 Idotaccent.2 Iogonek Iogonek.0 Iogonek.1 Iogonek.2 K K.0 K.1 K.2 L L.0 L.1 L.2 Lcaron Lcaron.0 Lcaron.1 Lcaron.2 Ldot Ldot.0 Ldot.1 Ldot.2 M M.0 M.1 M.2 N N.0 N.1 N.2 Nacute Nacute.0 Nacute.1 Nacute.2 Ncaron Ncaron.0 Ncaron.1 Ncaron.2 Ntilde Ntilde.0 Ntilde.1 Ntilde.2 P P.0 P.1 P.2 R R.0 R.1 R.2 Racute Racute.0 Racute.1 Racute.2 Rcaron Rcaron.0 Rcaron.1 Rcaron.2 Thorn Thorn.0 Thorn.1 Thorn.2 b b.0 b.1 b.2 h h.0 h.1 h.2 i i.0 i.1 i.2 iogonek iogonek.0 iogonek.1 iogonek.2 k k.0 k.1 k.2 uni0136 uni0136.0 uni0136.1 uni0136.2 uni0137 uni0137.0 uni0137.1 uni0137.2 uni013B uni013B.0 uni013B.1 uni013B.2 uni0145 uni0145.0 uni0145.1 uni0145.2 uni0156 uni0156.0 uni0156.1 uni0156.2
+ 799 C C.0 C.1 C.2 Ccaron Ccaron.0 Ccaron.1 Ccaron.2 Ccedilla Ccedilla.0 Ccedilla.1 Ccedilla.2 Ccircumflex Ccircumflex.0 Ccircumflex.1 Ccircumflex.2 Cdotaccent Cdotaccent.0 Cdotaccent.1 Cdotaccent.2 G G.0 G.1 G.2 Gbreve Gbreve.0 Gbreve.1 Gbreve.2 Gcircumflex Gcircumflex.0 Gcircumflex.1 Gcircumflex.2 Gdotaccent Gdotaccent.0 Gdotaccent.1 Gdotaccent.2 O O.0 O.1 O.2 OE OE.0 OE.1 OE.2 Oacute Oacute.0 Oacute.1 Oacute.2 Obreve Obreve.0 Obreve.1 Obreve.2 Ocircumflex Ocircumflex.0 Ocircumflex.1 Ocircumflex.2 Odieresis Odieresis.0 Odieresis.1 Odieresis.2 Ograve Ograve.0 Ograve.1 Ograve.2 Ohungarumlaut Ohungarumlaut.0 Ohungarumlaut.1 Ohungarumlaut.2 Omacron Omacron.0 Omacron.1 Omacron.2 Oslash Oslash.0 Oslash.1 Oslash.2 Otilde Otilde.0 Otilde.1 Otilde.2 Q Q.0 Q.1 Q.2 uni0122 uni0122.0 uni0122.1 uni0122.2
+ 33 Cacute Cacute.0 Cacute.1 Cacute.2
+ 55 Dcroat Dcroat.0 Dcroat.1 Dcroat.2 Eth Eth.0 Eth.1 Eth.2
+ 67 Eacute Eacute.0 Eacute.1 Eacute.2 Ibreve Ibreve.0 Ibreve.1 Ibreve.2
+ 33 Egrave Egrave.0 Egrave.1 Egrave.2
+ 25 Euro Euro.0 Euro.1 Euro.2
+ 59 Hbar Hbar.0 Hbar.1 Hbar.2 ibreve ibreve.0 ibreve.1 ibreve.2
+ 33 Iacute Iacute.0 Iacute.1 Iacute.2
+ 53 Icircumflex Icircumflex.0 Icircumflex.1 Icircumflex.2
+ 45 Idieresis Idieresis.0 Idieresis.1 Idieresis.2
+ 33 Igrave Igrave.0 Igrave.1 Igrave.2
+ 37 Imacron Imacron.0 Imacron.1 Imacron.2
+ 33 Itilde Itilde.0 Itilde.1 Itilde.2
+ 67 J J.0 J.1 J.2 Jcircumflex Jcircumflex.0 Jcircumflex.1 Jcircumflex.2
+ 33 Lacute Lacute.0 Lacute.1 Lacute.2
+ 24 Lslash Lslash.0 Lslash.1
+ 8 Lslash.2
+ 215 S S.0 S.1 S.2 Sacute Sacute.0 Sacute.1 Sacute.2 Scaron Scaron.0 Scaron.1 Scaron.2 Scedilla Scedilla.0 Scedilla.1 Scedilla.2 Scircumflex Scircumflex.0 Scircumflex.1 Scircumflex.2 uni0218 uni0218.0 uni0218.1 uni0218.2
+ 123 T T.0 T.1 T.2 Tcaron Tcaron.0 Tcaron.1 Tcaron.2 uni0162 uni0162.0 uni0162.1 uni0162.2 uni021A uni021A.0 uni021A.1 uni021A.2
+ 529 U U.0 U.1 U.2 Uacute Uacute.0 Uacute.1 Uacute.2 Ubreve Ubreve.0 Ubreve.1 Ubreve.2 Ucircumflex Ucircumflex.0 Ucircumflex.1 Ucircumflex.2 Udieresis Udieresis.0 Udieresis.1 Udieresis.2 Ugrave Ugrave.0 Ugrave.1 Ugrave.2 Uhungarumlaut Uhungarumlaut.0 Uhungarumlaut.1 Uhungarumlaut.2 Umacron Umacron.0 Umacron.1 Umacron.2 Uogonek Uogonek.0 Uogonek.1 Uogonek.2 Uring Uring.0 Uring.1 Uring.2 Utilde Utilde.0 Utilde.1 Utilde.2 l l.0 l.1 l.2 lcaron lcaron.0 lcaron.1 lcaron.2 ldot ldot.0 ldot.1 ldot.2 uni013C uni013C.0 uni013C.1 uni013C.2
+ 195 V V.0 V.1 V.2 W W.0 W.1 W.2 Wacute Wacute.0 Wacute.1 Wacute.2 Wcircumflex Wcircumflex.0 Wcircumflex.1 Wcircumflex.2 Wdieresis Wdieresis.0 Wdieresis.1 Wdieresis.2 Wgrave Wgrave.0 Wgrave.1 Wgrave.2
+ 13 X X.0 X.1 X.2
+ 181 Y Y.0 Y.1 Y.2 Yacute Yacute.0 Yacute.1 Yacute.2 Ycircumflex Ycircumflex.0 Ycircumflex.1 Ycircumflex.2 Ydieresis Ydieresis.0 Ydieresis.1 Ydieresis.2 Ygrave Ygrave.0 Ygrave.1 Ygrave.2
+ 131 Z Z.0 Z.1 Z.2 Zacute Zacute.0 Zacute.1 Zacute.2 Zcaron Zcaron.0 Zcaron.1 Zcaron.2 Zdotaccent Zdotaccent.0 Zdotaccent.1 Zdotaccent.2
+ 1117 a a.0 a.1 a.2 aacute aacute.0 aacute.1 aacute.2 acircumflex acircumflex.0 acircumflex.1 acircumflex.2 ae ae.0 ae.1 ae.2 aogonek aogonek.0 aogonek.1 aogonek.2 c c.0 c.1 c.2 cacute cacute.0 cacute.1 cacute.2 ccaron ccaron.0 ccaron.1 ccaron.2 ccedilla ccedilla.0 ccedilla.1 ccedilla.2 ccircumflex ccircumflex.0 ccircumflex.1 ccircumflex.2 cdotaccent cdotaccent.0 cdotaccent.1 cdotaccent.2 cent d d.0 d.1 d.2 dcaron dcaron.0 dcaron.1 dcaron.2 dcroat dcroat.0 dcroat.1 dcroat.2 e e.0 e.1 e.2 eacute eacute.0 eacute.1 eacute.2 ebreve ebreve.0 ebreve.1 ebreve.2 ecaron ecaron.0 ecaron.1 ecaron.2 ecircumflex ecircumflex.0 ecircumflex.1 ecircumflex.2 edotaccent edotaccent.0 edotaccent.1 edotaccent.2 emacron emacron.0 emacron.1 emacron.2 eogonek eogonek.0 eogonek.1 eogonek.2 g g.0 g.1 g.2 gbreve gbreve.0 gbreve.1 gbreve.2 gcircumflex gcircumflex.0 gcircumflex.1 gcircumflex.2 gdotaccent gdotaccent.0 gdotaccent.1 gdotaccent.2 o o.0 o.1 o.2 ocircumflex ocircumflex.0 ocircumflex.1 ocircumflex.2 oe oe.0 oe.1 oe.2 oslash oslash.0 oslash.1 oslash.2 otilde otilde.1 otilde.2 q q.0 q.1 q.2 uni0123 uni0123.0 uni0123.1 uni0123.2
+ 330 abreve abreve.0 abreve.1 abreve.2 amacron amacron.0 amacron.1 amacron.2 aring aring.0 aring.1 aring.2 atilde atilde.0 atilde.1 atilde.2 edieresis edieresis.0 edieresis.1 edieresis.2 egrave egrave.0 egrave.1 egrave.2 oacute oacute.0 oacute.1 oacute.2 obreve obreve.0 obreve.1 obreve.2 omacron omacron.0 omacron.1 omacron.2 otilde.0
+ 91 adieresis adieresis.0 adieresis.1 adieresis.2 odieresis odieresis.0 odieresis.1 odieresis.2
+ 67 agrave agrave.0 agrave.1 agrave.2 ograve ograve.0 ograve.1 ograve.2
+ 13 f f.0 f.1 f.2
+ 79 germandbls germandbls.0 germandbls.1 germandbls.2 thorn thorn.0 thorn.1 thorn.2
+ 25 hbar hbar.0 hbar.1 hbar.2
+ 53 hcircumflex hcircumflex.0 hcircumflex.1 hcircumflex.2
+ 33 iacute iacute.0 iacute.1 iacute.2
+ 53 icircumflex icircumflex.0 icircumflex.1 icircumflex.2
+ 45 idieresis idieresis.0 idieresis.1 idieresis.2
+ 33 igrave igrave.0 igrave.1 igrave.2
+ 71 imacron imacron.0 imacron.1 imacron.2 itilde itilde.0 itilde.1 itilde.2
+ 67 j j.0 j.1 j.2 jcircumflex jcircumflex.0 jcircumflex.1 jcircumflex.2
+ 33 lacute lacute.0 lacute.1 lacute.2
+ 33 lslash lslash.0 lslash.1 lslash.2
+ 301 m m.0 m.1 m.2 n n.0 n.1 n.2 nacute nacute.0 nacute.1 nacute.2 ncaron ncaron.0 ncaron.1 ncaron.2 ntilde ntilde.0 ntilde.1 ntilde.2 p p.0 p.1 p.2 r r.0 r.1 r.2 racute racute.0 racute.1 racute.2 rcaron rcaron.0 rcaron.1 rcaron.2 uni0146 uni0146.0 uni0146.1 uni0146.2 uni0157 uni0157.0 uni0157.1 uni0157.2
+ 61 ohungarumlaut ohungarumlaut.0 ohungarumlaut.1 ohungarumlaut.2
+ 181 s s.0 s.1 s.2 scaron scaron.0 scaron.1 scaron.2 scedilla scedilla.0 scedilla.1 scedilla.2 scircumflex scircumflex.0 scircumflex.1 scircumflex.2 uni0219 uni0219.0 uni0219.1 uni0219.2
+ 33 sacute sacute.0 sacute.1 sacute.2
+ 121 t.0 t.1 t.2 tcaron tcaron.0 tcaron.1 tcaron.2 uni0163 uni0163.0 uni0163.1 uni0163.2 uni021B uni021B.0 uni021B.1 uni021B.2
+ 275 u u.0 u.1 u.2 uacute uacute.0 uacute.1 uacute.2 ubreve ubreve.0 ubreve.1 ubreve.2 ucircumflex ucircumflex.0 ucircumflex.1 ucircumflex.2 umacron umacron.0 umacron.1 umacron.2 uogonek uogonek.0 uogonek.1 uogonek.2 uring uring.0 uring.1 uring.2 utilde utilde.0 utilde.1 utilde.2
+ 79 udieresis udieresis.0 udieresis.1 udieresis.2 ugrave ugrave.0 ugrave.1 ugrave.2
+ 61 uhungarumlaut uhungarumlaut.0 uhungarumlaut.1 uhungarumlaut.2
+ 37 uni0237 uni0237.0 uni0237.1 uni0237.2
+ 73 v v.0 v.1 v.2 w w.0 w.1 w.2 wdieresis wdieresis.0 wdieresis.1 wdieresis.2
+ 135 wacute wacute.0 wacute.1 wacute.2 wcircumflex wcircumflex.0 wcircumflex.1 wcircumflex.2 wgrave wgrave.0 wgrave.1 wgrave.2 y y.0 y.1 y.2
+ 13 x x.0 x.1 x.2
+ 87 yacute yacute.0 yacute.1 yacute.2 ycircumflex ycircumflex.0 ycircumflex.1 ycircumflex.2
+ 79 ydieresis ydieresis.0 ydieresis.1 ydieresis.2 ygrave ygrave.0 ygrave.1 ygrave.2
+ 21 yen yen.0 yen.1 yen.2
+ 131 z z.0 z.1 z.2 zacute zacute.0 zacute.1 zacute.2 zcaron zcaron.0 zcaron.1 zcaron.2 zdotaccent zdotaccent.0 zdotaccent.1 zdotaccent.2
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 4 {} 12 {} -106 {} -113 {} -105 {} -51 {} -38 {} -150 {} -69 {} -18 {} -36 {} -142 {} -48 {} -88 {} -99 {} 16 {} -77 {} -153 {} -151 {} -36 {} -239 {} -67 {} -193 {} -7 {} -242 {} 8 {} -62 {} -67 {} -67 {} -72 {} -116 {} 13 {} -88 {} -21 {} -10 {} -28 {} -125 {} -36 {} -67 {} -191 {} -75 {} -177 {} 12 {} -124 {} -51 {} -60 {} -149 {} -55 {} -59 {} -125 {} -174 {} -96 {} -108 {} 46 {} -123 {} -122 {} -65 {} 61 {} 0 {} 24 {} 49 {} -84 {} -90 {} -51 {} 8 {} 23 {} -148 {} 36 {} 38 {} 17 {} -82 {} 12 {} -29 {} -48 {} 46 {} -31 {} -46 {} -103 {} 18 {} 46 {} 43 {} 25 {} 24 {} 12 {} 50 {} -30 {} -32 {} -3 {} -19 {} -79 {} 47 {} 41 {} 30 {} 52 {} 15 {} 43 {} 117 {} 28 {} -148 {} 27 {} -128 {} 44 {} 15 {} -12 {} -20 {} -80 {} -15 {} -16 {} 14 {} -160 {} -79 {} -93 {} 61 {} -92 {} -74 {} 80 {} 96 {} 0 {} 6 {} 14 {} -105 {} -105 {} -103 {} -42 {} -27 {} -151 {} -67 {} -10 {} -29 {} -135 {} -36 {} -83 {} -102 {} 18 {} -89 {} -152 {} -151 {} -37 {} -239 {} -65 {} -186 {} 3 {} -234 {} 10 {} -65 {} -67 {} -67 {} -70 {} -115 {} 12 {} -88 {} -17 {} -7 {} -25 {} -124 {} -31 {} -65 {} -93 {} -68 {} -177 {} 10 {} -121 {} -57 {} -59 {} -156 {} -57 {} -59 {} -122 {} -84 {} -96 {} -110 {} 57 {} -131 {} -131 {} -65 {} 61 {} 0 {} -51 {} 35 {} 12 {} 10 {} -33 {} 0 {} 22 {} 25 {} -6 {} 28 {} 6 {} -80 {} 20 {} -36 {} -35 {} -24 {} -19 {} -12 {} -15 {} 0 {} -39 {} 34 {} -49 {} -85 {} -115 {} -1 {} 34 {} 33 {} 32 {} 32 {} -2 {} 36 {} -5 {} 18 {} 24 {} 8 {} -6 {} 18 {} 0 {} -139 {} 28 {} -47 {} 35 {} -30 {} -17 {} -23 {} -1 {} 34 {} 33 {} -32 {} -133 {} 46 {} 43 {} 35 {} 39 {} 38 {} 82 {} 63 {} 0 {} -30 {} -6 {} -150 {} -160 {} -107 {} -45 {} -31 {} -264 {} -17 {} -16 {} -37 {} -137 {} -42 {} -83 {} -113 {} -9 {} -97 {} -109 {} -196 {} -35 {} -8 {} -10 {} -29 {} -29 {} -41 {} -5 {} -80 {} -83 {} -54 {} -73 {} -150 {} -7 {} -12 {} -24 {} -3 {} -35 {} -10 {} 61 {} -18 {} -204 {} -24 {} -205 {} -10 {} -40 {} -68 {} -77 {} -151 {} -65 {} -68 {} -40 {} -220 {} -185 {} -204 {} 12 {} -187 {} -158 {} 24 {} 41 {} 0 {} -30 {} 14 {} -137 {} -37 {} -88 {} 3 {} 39 {} -241 {} -8 {} 16 {} -3 {} 8 {} 32 {} -8 {} 139 {} 0 {} 174 {} -142 {} -174 {} -31 {} 4 {} 0 {} -27 {} -20 {} -52 {} 14 {} -77 {} -74 {} -40 {} -63 {} -132 {} 12 {} -2 {} 1 {} 10 {} -18 {} -1 {} 56 {} -14 {} -183 {} 4 {} -186 {} 4 {} -39 {} -60 {} -72 {} -133 {} -64 {} -62 {} -40 {} -202 {} -164 {} -183 {} 10 {} -163 {} -135 {} 19 {} 54 {} 0 {} 2 {} 33 {} -112 {} -114 {} -68 {} -4 {} 13 {} -224 {} 16 {} 26 {} 4 {} -95 {} 4 {} -43 {} -70 {} 27 {} -60 {} -105 {} -156 {} -5 {} 27 {} 25 {} 4 {} 4 {} -13 {} 35 {} -51 {} -49 {} -18 {} -38 {} -112 {} 34 {} 23 {} 16 {} 33 {} 2 {} 24 {} 87 {} 13 {} 35 {} 14 {} -167 {} 27 {} -10 {} -41 {} -44 {} -120 {} -37 {} -36 {} -10 {} 38 {} -146 {} -156 {} 40 {} -130 {} -111 {} 51 {} 78 {} 0 {} 23 {} 47 {} -98 {} -59 {} -53 {} 12 {} 28 {} -210 {} 37 {} 38 {} 16 {} -32 {} 19 {} -19 {} 88 {} 44 {} 131 {} -55 {} -142 {} 18 {} 45 {} 43 {} 24 {} 25 {} 10 {} 48 {} -26 {} -29 {} 0 {} -20 {} -96 {} 47 {} 42 {} 29 {} 51 {} 19 {} 44 {} 115 {} 36 {} -150 {} 29 {} -151 {} 44 {} 14 {} -14 {} -23 {} -97 {} -11 {} -14 {} 13 {} -166 {} -131 {} -150 {} 67 {} -133 {} -102 {} 79 {} 95 {} 0 {} -74 {} 41 {} 40 {} 34 {} 14 {} 0 {} 17 {} 35 {} -20 {} 28 {} 7 {} -86 {} 11 {} -37 {} -43 {} -93 {} -23 {} 42 {} 42 {} -13 {} -133 {} 39 {} -70 {} -124 {} -158 {} -65 {} 26 {} 25 {} 24 {} 24 {} 39 {} 40 {} -30 {} 21 {} 30 {} 10 {} -57 {} 14 {} -19 {} -141 {} 29 {} 14 {} 42 {} -39 {} 37 {} 35 {} 37 {} 43 {} 42 {} -27 {} -129 {} 55 {} 52 {} 27 {} 47 {} 46 {} 93 {} 90 {} 0 {} 24 {} 46 {} -90 {} -92 {} -54 {} 9 {} 26 {} -160 {} 33 {} 38 {} 17 {} -82 {} 16 {} -30 {} -60 {} 44 {} -50 {} -48 {} -102 {} 14 {} 43 {} 40 {} 25 {} 24 {} 13 {} 48 {} -40 {} -38 {} -8 {} -22 {} -81 {} 43 {} 38 {} 29 {} 50 {} 11 {} 40 {} 117 {} 23 {} -62 {} 27 {} -129 {} 40 {} 13 {} -20 {} -22 {} -91 {} -22 {} -21 {} 12 {} -54 {} -81 {} -97 {} 64 {} -105 {} -89 {} 78 {} 93 {} 0 {} -220 {} 42 {} -110 {} -113 {} -74 {} -10 {} -1 {} -170 {} 38 {} 24 {} 5 {} -118 {} -22 {} -55 {} -117 {} -199 {} -111 {} -45 {} -113 {} -73 {} 46 {} 43 {} 27 {} 14 {} 17 {} 45 {} -166 {} -112 {} -17 {} -43 {} -124 {} 35 {} 42 {} 21 {} 48 {} -21 {} 43 {} 122 {} 29 {} -213 {} 29 {} -134 {} -113 {} 17 {} -129 {} -120 {} -89 {} -109 {} -77 {} 16 {} -316 {} -111 {} -126 {} -162 {} -113 {} -88 {} 81 {} -70 {} 0 {} 23 {} 47 {} 15 {} 5 {} -54 {} 7 {} 24 {} 29 {} -14 {} 36 {} 16 {} -73 {} 16 {} -29 {} -15 {} 45 {} 8 {} -141 {} -143 {} 17 {} -107 {} 38 {} -106 {} 10 {} -141 {} 43 {} 41 {} 40 {} 40 {} 39 {} -75 {} 47 {} -27 {} 28 {} 40 {} 19 {} -59 {} 28 {} -14 {} -117 {} 24 {} -48 {} 46 {} -26 {} 1 {} -3 {} -101 {} 41 {} 40 {} -36 {} -104 {} -43 {} -56 {} 64 {} -77 {} -75 {} 92 {} 95 {} 0 {} 22 {} 47 {} 14 {} 5 {} -54 {} 10 {} 25 {} 29 {} -14 {} 37 {} 14 {} -42 {} 17 {} -26 {} 50 {} 45 {} 123 {} -141 {} -143 {} 16 {} -106 {} 38 {} -108 {} 10 {} -141 {} 43 {} 41 {} 40 {} 40 {} 39 {} -75 {} 47 {} -27 {} 27 {} 39 {} 19 {} -59 {} 27 {} -14 {} -137 {} 24 {} -48 {} 46 {} -28 {} 2 {} -5 {} -99 {} 41 {} 40 {} -38 {} -123 {} -43 {} -57 {} 64 {} -77 {} -74 {} 92 {} 95 {} 0 {} 14 {} 45 {} 35 {} 31 {} 9 {} 20 {} 44 {} 39 {} 28 {} 45 {} 21 {} -55 {} 43 {} -14 {} -2 {} 38 {} 13 {} 38 {} 38 {} 21 {} 39 {} 43 {} 15 {} 16 {} 3 {} 42 {} 35 {} 34 {} 34 {} 33 {} 37 {} 45 {} 34 {} 31 {} 49 {} 23 {} 36 {} 106 {} 27 {} -109 {} 42 {} 8 {} 43 {} 8 {} 29 {} 27 {} 34 {} 42 {} 41 {} 8 {} -107 {} 66 {} 65 {} 68 {} 61 {} 60 {} 99 {} 93 {} 0 {} -53 {} 36 {} -20 {} -21 {} -45 {} -4 {} 18 {} -33 {} 33 {} 23 {} 1 {} -83 {} 16 {} -41 {} -35 {} -33 {} -19 {} -18 {} -35 {} -14 {} 41 {} 37 {} -4 {} -36 {} -53 {} 38 {} -24 {} -23 {} -3 {} -25 {} -34 {} 33 {} 38 {} 15 {} 40 {} 6 {} 40 {} 41 {} 31 {} -142 {} 24 {} -65 {} -2 {} 7 {} -31 {} -36 {} -34 {} -9 {} -9 {} 4 {} -150 {} -4 {} -10 {} -5 {} -16 {} -14 {} 45 {} 39 {} 0 {} -130 {} -55 {} -95 {} -83 {} -117 {} -70 {} 21 {} -115 {} -91 {} -40 {} -75 {} -92 {} 91 {} -109 {} -56 {} -120 {} 72 {} -116 {} -117 {} -105 {} -130 {} -64 {} -130 {} -125 {} -167 {} -90 {} -90 {} -91 {} -83 {} -94 {} -109 {} -55 {} -92 {} -68 {} -57 {} -78 {} -106 {} -36 {} -94 {} -208 {} -52 {} -146 {} -60 {} -117 {} -97 {} -109 {} -111 {} -71 {} -74 {} -111 {} -205 {} -74 {} -85 {} -73 {} -94 {} -90 {} -46 {} -27 {} 0 {} -70 {} -6 {} -36 {} 7 {} -65 {} 25 {} 0 {} -47 {} -40 {} 11 {} -2 {} 29 {} 0 {} 18 {} 174 {} -50 {} 214 {} -50 {} -51 {} -48 {} -53 {} -13 {} -67 {} -68 {} -101 {} -25 {} -35 {} -37 {} -32 {} -39 {} -49 {} -8 {} -39 {} -3 {} -9 {} -31 {} -47 {} 24 {} -44 {} -161 {} 9 {} -83 {} -11 {} -65 {} -43 {} -52 {} -51 {} -19 {} -22 {} -61 {} -159 {} -16 {} -24 {} -16 {} -32 {} -30 {} 16 {} 27 {} 0 {} -25 {} 25 {} 5 {} 7 {} -24 {} 13 {} 31 {} 5 {} -2 {} 26 {} 11 {} 11 {} 32 {} 10 {} 179 {} 1 {} 171 {} 2 {} 2 {} -8 {} 2 {} 21 {} -22 {} -22 {} -51 {} 16 {} 6 {} 4 {} 7 {} 3 {} 0 {} 25 {} 2 {} 14 {} 26 {} 2 {} 1 {} 65 {} -4 {} -128 {} 21 {} -31 {} 23 {} -25 {} -1 {} -7 {} -2 {} 18 {} 16 {} -22 {} -126 {} 30 {} 25 {} 31 {} 18 {} 19 {} 65 {} 68 {} 0 {} -118 {} -46 {} -89 {} 13 {} -113 {} 37 {} 43 {} -110 {} -87 {} 33 {} 8 {} 42 {} 11 {} 33 {} 198 {} -110 {} 230 {} -112 {} -112 {} -97 {} -122 {} -58 {} -122 {} -121 {} -147 {} -83 {} -86 {} -87 {} -79 {} -86 {} -105 {} -52 {} -88 {} -2 {} -52 {} -75 {} -102 {} -12 {} -91 {} -204 {} 26 {} -141 {} -56 {} -111 {} -93 {} -105 {} -107 {} -67 {} -70 {} -105 {} -202 {} -69 {} -80 {} -69 {} -88 {} -84 {} -41 {} -22 {} 0 {} 16 {} 49 {} 38 {} 37 {} 13 {} 41 {} 63 {} 43 {} 33 {} 54 {} 28 {} 37 {} 56 {} 27 {} 193 {} 42 {} 225 {} 42 {} 42 {} 25 {} 43 {} 47 {} 18 {} 20 {} 3 {} 47 {} 39 {} 38 {} 38 {} 37 {} 41 {} 49 {} 39 {} 35 {} 54 {} 28 {} 41 {} 110 {} 33 {} -104 {} 49 {} 12 {} 47 {} 11 {} 33 {} 30 {} 39 {} 46 {} 46 {} 12 {} -102 {} 71 {} 69 {} 73 {} 65 {} 65 {} 103 {} 97 {} 0 {} -110 {} -54 {} -77 {} -76 {} -105 {} -62 {} -40 {} -79 {} -83 {} -42 {} -79 {} -71 {} -40 {} -107 {} -30 {} -83 {} 91 {} -82 {} -83 {} -90 {} -83 {} -59 {} -107 {} -105 {} -139 {} -66 {} -75 {} -77 {} -74 {} -79 {} -83 {} -55 {} -80 {} -69 {} -53 {} -77 {} -83 {} -20 {} -86 {} -208 {} -52 {} -116 {} -56 {} -106 {} -83 {} -89 {} -85 {} -62 {} -64 {} -103 {} -205 {} -53 {} -58 {} -52 {} -66 {} -65 {} -18 {} -13 {} 0 {} 17 {} 48 {} 39 {} 36 {} 13 {} 24 {} 49 {} 42 {} 29 {} 49 {} 25 {} -51 {} 49 {} -11 {} 0 {} 42 {} 17 {} 42 {} 42 {} 20 {} 41 {} 46 {} 18 {} 19 {} 6 {} 45 {} 37 {} 37 {} 37 {} 36 {} 41 {} 47 {} 34 {} 35 {} 53 {} 24 {} 35 {} 109 {} 22 {} 9 {} 45 {} 11 {} 46 {} 11 {} 31 {} 31 {} 37 {} 45 {} 45 {} 11 {} 13 {} 69 {} 67 {} 71 {} 60 {} 59 {} 102 {} 96 {} 0 {} -44 {} 46 {} 35 {} 31 {} 10 {} 17 {} 39 {} 40 {} 32 {} 43 {} 20 {} -60 {} 36 {} -17 {} -6 {} -8 {} 16 {} 39 {} 39 {} 13 {} 42 {} 45 {} 15 {} -4 {} 0 {} 40 {} 35 {} 34 {} 34 {} 33 {} 38 {} 45 {} 38 {} 31 {} 50 {} 24 {} 40 {} 103 {} 32 {} -117 {} 43 {} 8 {} 43 {} 10 {} 29 {} 26 {} 35 {} 44 {} 43 {} 10 {} -117 {} 68 {} 66 {} 53 {} 61 {} 61 {} 100 {} 89 {} 0 {} -65 {} 28 {} 11 {} 11 {} -16 {} 13 {} 31 {} 13 {} 5 {} 27 {} 11 {} 11 {} 30 {} 10 {} 178 {} -43 {} 171 {} 11 {} 11 {} -12 {} 14 {} 27 {} -14 {} -37 {} -42 {} 14 {} 11 {} 9 {} 12 {} 8 {} 9 {} 27 {} 10 {} 16 {} 28 {} 4 {} 12 {} 68 {} 3 {} -133 {} 25 {} -23 {} 23 {} -17 {} 2 {} -3 {} 7 {} 23 {} 22 {} -15 {} -133 {} 38 {} 34 {} 17 {} 28 {} 28 {} 73 {} 65 {} 0 {} -11 {} -4 {} -194 {} -195 {} -139 {} -72 {} -59 {} -264 {} -93 {} -38 {} -56 {} -168 {} -70 {} -114 {} -137 {} -7 {} -124 {} -216 {} -218 {} -90 {} -138 {} -107 {} -143 {} -9 {} -163 {} -25 {} -153 {} -152 {} -140 {} -138 {} -171 {} -7 {} -108 {} -51 {} -36 {} -54 {} -133 {} -25 {} -98 {} -231 {} -109 {} -254 {} -14 {} -153 {} -106 {} -114 {} -212 {} -141 {} -138 {} -150 {} -229 {} -182 {} -201 {} 53 {} -207 {} -195 {} -91 {} 26 {} 0 {} 28 {} 45 {} -156 {} -167 {} -75 {} -7 {} -2 {} -306 {} -32 {} 28 {} 9 {} -122 {} -28 {} -50 {} -144 {} 46 {} -148 {} -203 {} -203 {} 23 {} -293 {} -24 {} -247 {} 18 {} -282 {} 46 {} -31 {} -39 {} -39 {} -42 {} -110 {} 45 {} -55 {} 24 {} 31 {} 12 {} -110 {} -19 {} -32 {} -197 {} -51 {} -266 {} 44 {} -129 {} -9 {} -13 {} -210 {} -15 {} -19 {} -130 {} -174 {} -151 {} -172 {} 68 {} -203 {} -202 {} -201 {} 96 {} 0 {} -139 {} 37 {} 14 {} 10 {} -3 {} -6 {} 11 {} 33 {} 1 {} 24 {} 3 {} -96 {} 3 {} -45 {} -65 {} -154 {} -53 {} 25 {} 23 {} 16 {} -5 {} 37 {} -32 {} -99 {} -101 {} -2 {} -70 {} -64 {} -31 {} -72 {} 29 {} 36 {} 12 {} 18 {} 13 {} 8 {} 17 {} 1 {} 13 {} -174 {} 27 {} -35 {} 32 {} -58 {} -26 {} -35 {} 28 {} 32 {} 31 {} -34 {} -181 {} 72 {} 70 {} 62 {} 66 {} 65 {} 10 {} 83 {} 0 {} -63 {} 26 {} 23 {} 21 {} -4 {} -10 {} 11 {} 19 {} -32 {} 18 {} -4 {} -93 {} 7 {} -47 {} -50 {} -41 {} -35 {} 25 {} 26 {} -25 {} -151 {} 24 {} -81 {} -100 {} -164 {} -35 {} 8 {} 9 {} 8 {} 8 {} 22 {} 27 {} -42 {} 9 {} 18 {} -2 {} -69 {} 6 {} -32 {} 6 {} 18 {} -4 {} 28 {} -53 {} 17 {} 16 {} 18 {} 29 {} 28 {} -40 {} 10 {} 39 {} 34 {} 16 {} 22 {} 21 {} 73 {} 74 {} 0 {} -15 {} 13 {} -26 {} -33 {} -52 {} -29 {} -10 {} -11 {} -35 {} -1 {} -22 {} -111 {} -12 {} -65 {} -65 {} -8 {} -42 {} -31 {} -33 {} -23 {} -75 {} -1 {} -75 {} -12 {} -143 {} -13 {} -40 {} -41 {} -33 {} -46 {} -26 {} 12 {} -34 {} -11 {} -3 {} -19 {} -38 {} -11 {} -31 {} -165 {} -13 {} -91 {} 8 {} -90 {} -48 {} -55 {} -27 {} -9 {} -11 {} -72 {} -161 {} 12 {} 6 {} 53 {} -1 {} -1 {} -30 {} 51 {} 0 {} -72 {} 21 {} -27 {} -32 {} -77 {} -20 {} 0 {} -44 {} 1 {} 8 {} -13 {} -99 {} -6 {} -56 {} -45 {} -47 {} -20 {} -116 {} -119 {} -81 {} 16 {} 20 {} -22 {} -54 {} -62 {} 16 {} 9 {} 7 {} 9 {} 6 {} -103 {} 16 {} 11 {} 0 {} 23 {} -16 {} 13 {} 36 {} -34 {} -159 {} 9 {} -105 {} 11 {} -11 {} -56 {} -60 {} -98 {} 9 {} 6 {} -9 {} -162 {} -63 {} -76 {} -96 {} -89 {} -80 {} 62 {} 19 {} 0 {} -85 {} 9 {} -45 {} -41 {} -82 {} -22 {} 58 {} -74 {} -20 {} 6 {} -21 {} -53 {} 124 {} -60 {} -20 {} -73 {} 106 {} -124 {} -125 {} -90 {} -18 {} 4 {} -55 {} -70 {} -94 {} -7 {} -6 {} -8 {} -2 {} -11 {} -106 {} 6 {} -14 {} -11 {} 10 {} -22 {} -17 {} 22 {} -41 {} -164 {} 0 {} -117 {} 0 {} -30 {} -63 {} -72 {} -100 {} -5 {} -8 {} -32 {} -169 {} -67 {} -81 {} -98 {} -88 {} -78 {} 39 {} 4 {} 0 {} -200 {} 43 {} -138 {} -140 {} -83 {} -15 {} -8 {} -217 {} 39 {} 20 {} 2 {} -122 {} -26 {} -58 {} -104 {} -175 {} -88 {} -57 {} -172 {} -64 {} 46 {} 43 {} 26 {} 12 {} 16 {} 45 {} -188 {} -119 {} -16 {} -55 {} -171 {} 36 {} 43 {} 21 {} 47 {} -12 {} 44 {} 118 {} 35 {} -205 {} 27 {} -167 {} -159 {} 16 {} -195 {} -156 {} -117 {} -158 {} -102 {} 16 {} -278 {} -190 {} -207 {} -195 {} -166 {} -130 {} 81 {} -112 {} 0 {} -122 {} 37 {} 30 {} 24 {} 11 {} -9 {} 6 {} 33 {} -14 {} 22 {} 2 {} -100 {} -2 {} -48 {} -66 {} -157 {} -55 {} 38 {} 38 {} 5 {} -45 {} 36 {} -57 {} -142 {} -155 {} -45 {} -20 {} -22 {} -18 {} -27 {} 39 {} 36 {} -15 {} 16 {} 18 {} 4 {} -20 {} -12 {} -8 {} -164 {} 25 {} -2 {} 38 {} -79 {} 14 {} 8 {} 37 {} 39 {} 38 {} -42 {} -155 {} 70 {} 68 {} 56 {} 64 {} 64 {} 57 {} 91 {} 0 {} -96 {} 2 {} -19 {} -26 {} -49 {} -27 {} 32 {} -25 {} -26 {} -2 {} -26 {} -74 {} 90 {} -61 {} -27 {} -85 {} 76 {} -28 {} -29 {} -45 {} -28 {} 0 {} -51 {} -75 {} -89 {} -22 {} -20 {} -22 {} -17 {} -24 {} -29 {} 1 {} -23 {} -15 {} 1 {} -22 {} -26 {} 29 {} -30 {} -158 {} -4 {} -62 {} -3 {} -48 {} -31 {} -39 {} -30 {} -4 {} -6 {} -45 {} -158 {} 3 {} -3 {} -23 {} -10 {} -9 {} 37 {} 32 {} 0 {} -160 {} 17 {} -74 {} -79 {} -81 {} -35 {} -19 {} -90 {} -12 {} -5 {} -24 {} -124 {} -28 {} -72 {} -82 {} -155 {} -72 {} -84 {} -92 {} -63 {} 25 {} 15 {} 8 {} -2 {} 0 {} 19 {} -111 {} -96 {} -50 {} -59 {} -86 {} -7 {} 2 {} -8 {} 1 {} -43 {} 0 {} 104 {} -34 {} -191 {} -1 {} -125 {} -66 {} -30 {} -104 {} -108 {} -75 {} -69 {} -63 {} -27 {} -224 {} -52 {} -61 {} -73 {} -64 {} -55 {} 63 {} -27 {} 0 {} 0 {} 19 {} -126 {} -127 {} -96 {} -32 {} -15 {} -180 {} -43 {} -1 {} -21 {} -121 {} -22 {} -72 {} -83 {} 7 {} -69 {} -153 {} -158 {} -51 {} 10 {} -5 {} -3 {} 14 {} -7 {} 15 {} -101 {} -98 {} -75 {} -63 {} -128 {} 8 {} -32 {} -10 {} -3 {} -32 {} -48 {} 96 {} -62 {} -186 {} -24 {} -180 {} 2 {} -65 {} -72 {} -80 {} -132 {} -89 {} -84 {} -61 {} -195 {} -123 {} -135 {} 57 {} -134 {} -118 {} 49 {} 47 {} 0 {} -213 {} 1 {} -165 {} -164 {} -130 {} -73 {} -61 {} -208 {} -67 {} -40 {} -56 {} -159 {} -66 {} -111 {} -110 {} -197 {} -70 {} -181 {} -188 {} -141 {} 12 {} -2 {} -1 {} -8 {} -6 {} 3 {} -189 {} -161 {} -106 {} -82 {} -187 {} -59 {} -39 {} -34 {} -43 {} -99 {} -55 {} 100 {} -117 {} -245 {} -36 {} -198 {} -153 {} -74 {} -192 {} -183 {} -149 {} -161 {} -133 {} -69 {} -301 {} -173 {} -189 {} -177 {} -171 {} -146 {} 57 {} -117 {} 0 {} -210 {} 0 {} -168 {} -133 {} -131 {} -64 {} -53 {} -210 {} -70 {} -36 {} -54 {} -116 {} -61 {} -98 {} -24 {} -197 {} 27 {} -183 {} -190 {} -142 {} 11 {} -4 {} -1 {} -6 {} -7 {} 0 {} -191 {} -163 {} -108 {} -82 {} -189 {} -61 {} -41 {} -35 {} -45 {} -101 {} -57 {} 99 {} -120 {} -247 {} -34 {} -200 {} -155 {} -76 {} -194 {} -185 {} -151 {} -163 {} -135 {} -71 {} -303 {} -176 {} -191 {} -179 {} -173 {} -148 {} 55 {} -119 {} 0 {} 19 {} 47 {} -68 {} -71 {} -53 {} 11 {} 29 {} -137 {} 36 {} 40 {} 18 {} -77 {} 22 {} -27 {} -46 {} 45 {} -34 {} -51 {} -119 {} 19 {} 46 {} 43 {} 22 {} 15 {} 9 {} 49 {} -20 {} -23 {} 2 {} -16 {} -83 {} 46 {} 41 {} 30 {} 52 {} 18 {} 43 {} 112 {} 34 {} -147 {} 32 {} -137 {} 43 {} 15 {} -14 {} -22 {} -81 {} -6 {} -8 {} 14 {} -166 {} -87 {} -101 {} 40 {} -96 {} -76 {} 78 {} 95 {} 0 {} 22 {} 49 {} 41 {} 38 {} 16 {} 21 {} 44 {} 44 {} -4 {} 47 {} 24 {} -56 {} 43 {} -14 {} -7 {} 45 {} 6 {} 44 {} 44 {} 24 {} -143 {} 45 {} -65 {} 6 {} -144 {} 44 {} 39 {} 39 {} 39 {} 39 {} 43 {} 49 {} -14 {} 34 {} 47 {} 24 {} -52 {} 43 {} -6 {} -108 {} 41 {} 14 {} 48 {} -19 {} 34 {} 33 {} 41 {} 46 {} 46 {} -13 {} -101 {} 71 {} 70 {} 70 {} 68 {} 68 {} 104 {} 97 {} 0 {} 15 {} 48 {} 38 {} 34 {} 12 {} 18 {} 41 {} 40 {} -5 {} 45 {} 22 {} -55 {} 40 {} -16 {} 73 {} 41 {} 32 {} 40 {} 40 {} 17 {} 13 {} 44 {} 3 {} 14 {} -1 {} 41 {} 37 {} 36 {} 36 {} 34 {} 39 {} 48 {} -11 {} 33 {} 44 {} 22 {} -43 {} 106 {} -8 {} -112 {} 40 {} 9 {} 47 {} -22 {} 30 {} 26 {} 36 {} 45 {} 44 {} -16 {} -102 {} 66 {} 63 {} 65 {} 59 {} 59 {} 102 {} 96 {} 0 {} 21 {} 48 {} 41 {} 38 {} 16 {} 20 {} 44 {} 44 {} -2 {} 47 {} 23 {} -56 {} 42 {} -15 {} -8 {} 45 {} 8 {} 44 {} 44 {} 22 {} -66 {} 45 {} -53 {} 4 {} -116 {} 43 {} 39 {} 39 {} 38 {} 39 {} 43 {} 48 {} -10 {} 34 {} 47 {} 23 {} -34 {} 44 {} -5 {} -109 {} 41 {} 14 {} 48 {} -17 {} 34 {} 32 {} 41 {} 46 {} 46 {} -13 {} -102 {} 71 {} 70 {} 70 {} 67 {} 67 {} 103 {} 98 {} 0 {} 5 {} 36 {} 17 {} 13 {} -30 {} 2 {} 23 {} 23 {} -23 {} 29 {} 7 {} -80 {} 19 {} -34 {} -38 {} 30 {} -25 {} -10 {} -6 {} 0 {} -183 {} 29 {} -112 {} -15 {} -179 {} 29 {} 30 {} 30 {} 29 {} 29 {} -21 {} 36 {} -35 {} 19 {} 30 {} 8 {} -76 {} 20 {} -25 {} -133 {} 20 {} -15 {} 34 {} -32 {} 9 {} 7 {} -29 {} 30 {} 30 {} -38 {} -125 {} -11 {} -16 {} 24 {} -27 {} -27 {} 88 {} 78 {} 0 {} -49 {} 31 {} 16 {} 12 {} -36 {} -9 {} 9 {} 23 {} -35 {} 20 {} -1 {} -95 {} 3 {} -47 {} -56 {} -21 {} -43 {} -16 {} -12 {} -75 {} -200 {} 29 {} -120 {} -114 {} -196 {} -12 {} 31 {} 31 {} 30 {} 30 {} -28 {} 31 {} -47 {} 12 {} 20 {} 0 {} -91 {} 4 {} -37 {} -153 {} 19 {} -18 {} 30 {} -33 {} 2 {} 1 {} -35 {} 30 {} 30 {} -40 {} -144 {} -14 {} -20 {} -61 {} -32 {} -32 {} 87 {} 43 {} 0 {} 26 {} 47 {} 39 {} 35 {} 18 {} 16 {} 38 {} 39 {} -10 {} 43 {} 21 {} -66 {} 34 {} -21 {} -23 {} 46 {} -8 {} 45 {} 45 {} 28 {} -186 {} 42 {} -70 {} 13 {} -166 {} 46 {} -2 {} -4 {} -4 {} -4 {} 45 {} 48 {} -22 {} 32 {} 43 {} 21 {} -66 {} 34 {} -14 {} -122 {} 34 {} 11 {} 46 {} -60 {} 29 {} 28 {} 44 {} 43 {} 44 {} -26 {} -122 {} 74 {} 73 {} 72 {} 73 {} 73 {} 86 {} 99 {} 0 {} -385 {} -188 {} -364 {} -345 {} -324 {} -259 {} -251 {} -413 {} -287 {} -228 {} -242 {} -330 {} -262 {} -293 {} -133 {} -363 {} -225 {} -362 {} -364 {} -342 {} -179 {} -192 {} -190 {} -199 {} -193 {} -187 {} -384 {} -363 {} -326 {} -266 {} -366 {} -268 {} -252 {} -225 {} -253 {} -308 {} -288 {} -89 {} -344 {} -441 {} -228 {} -389 {} -329 {} -288 {} -366 {} -370 {} -338 {} -346 {} -322 {} -280 {} -481 {} -347 {} -365 {} -335 {} -355 {} -332 {} -129 {} -283 {} 0 {} -94 {} 18 {} -69 {} -72 {} -73 {} -28 {} -9 {} -106 {} -6 {} 1 {} -20 {} -113 {} -14 {} -66 {} -72 {} -71 {} -57 {} -69 {} -75 {} -55 {} 26 {} 19 {} 1 {} -26 {} -23 {} 23 {} -100 {} -90 {} -46 {} -73 {} -70 {} -1 {} 11 {} -5 {} 10 {} -36 {} 4 {} 66 {} -31 {} -180 {} 3 {} -114 {} -42 {} -24 {} -79 {} -84 {} -65 {} -58 {} -56 {} -20 {} -201 {} -47 {} -55 {} -40 {} -58 {} -52 {} 47 {} 7 {} 0 {} -64 {} -19 {} -48 {} -50 {} -66 {} -50 {} -27 {} -70 {} -76 {} -23 {} -47 {} -130 {} -30 {} -86 {} -85 {} -39 {} -69 {} -43 {} -44 {} -51 {} -239 {} -37 {} -143 {} -86 {} -229 {} -39 {} -76 {} -79 {} -79 {} -79 {} -40 {} 6 {} -88 {} -36 {} -24 {} -47 {} -130 {} -30 {} -80 {} 37 {} -40 {} -91 {} -14 {} -128 {} -60 {} -57 {} -49 {} -36 {} -35 {} -97 {} 37 {} -22 {} -26 {} -18 {} -39 {} -39 {} -40 {} 31 {} 0 {} -94 {} 16 {} -60 {} -63 {} -74 {} -28 {} -9 {} -104 {} 3 {} 1 {} -20 {} -113 {} -14 {} -67 {} -72 {} -71 {} -57 {} -61 {} -75 {} -27 {} 5 {} 18 {} -36 {} -67 {} -85 {} 6 {} -100 {} -86 {} -35 {} -92 {} -67 {} 16 {} 20 {} -5 {} -6 {} 4 {} 23 {} 5 {} 20 {} -180 {} 3 {} -114 {} -42 {} -48 {} -79 {} -85 {} -65 {} -58 {} -56 {} -48 {} -201 {} -47 {} -55 {} -40 {} -59 {} -53 {} -3 {} 7 {} 0 {} 22 {} 47 {} 36 {} 31 {} 15 {} 17 {} 40 {} 36 {} 28 {} 44 {} 21 {} -63 {} 37 {} -19 {} -18 {} 44 {} -2 {} 43 {} 43 {} 25 {} 36 {} 44 {} -6 {} 8 {} -59 {} 46 {} -6 {} -8 {} 3 {} -10 {} 43 {} 47 {} 34 {} 32 {} 49 {} 24 {} 36 {} 45 {} 27 {} -121 {} 38 {} 8 {} 46 {} 2 {} 27 {} 24 {} 42 {} 42 {} 41 {} 5 {} -122 {} 73 {} 72 {} 72 {} 69 {} 68 {} 80 {} 98 {} 0 {} 20 {} 45 {} 34 {} 30 {} 14 {} 11 {} 33 {} 34 {} -9 {} 38 {} 16 {} -69 {} 31 {} -26 {} -21 {} 44 {} -5 {} 42 {} 42 {} 21 {} -63 {} 37 {} -55 {} 3 {} -125 {} 43 {} 0 {} -1 {} -1 {} -2 {} 42 {} 45 {} -16 {} 28 {} 40 {} 17 {} -32 {} 33 {} -11 {} -63 {} 29 {} 7 {} 45 {} -42 {} 26 {} 24 {} 41 {} 41 {} 41 {} -25 {} -57 {} 72 {} 70 {} 71 {} 66 {} 66 {} 78 {} 98 {} 0 {} -178 {} 21 {} -104 {} -106 {} -96 {} -29 {} -14 {} -170 {} -1 {} 2 {} -18 {} -124 {} -26 {} -71 {} -94 {} -162 {} -81 {} -134 {} -160 {} -57 {} 26 {} 19 {} 8 {} -7 {} -2 {} 22 {} -165 {} -122 {} -48 {} -59 {} -149 {} 1 {} 10 {} -3 {} 6 {} -39 {} 10 {} 108 {} -17 {} -213 {} 5 {} -164 {} -136 {} -23 {} -170 {} -154 {} -116 {} -140 {} -102 {} -22 {} -286 {} -162 {} -176 {} -166 {} -150 {} -118 {} 59 {} -97 {} 0 {} -53 {} -22 {} -41 {} -46 {} -89 {} -58 {} -38 {} -36 {} -82 {} -30 {} -52 {} -140 {} -41 {} -95 {} -82 {} -28 {} -76 {} -70 {} -65 {} -59 {} -176 {} -30 {} -155 {} -76 {} -204 {} -29 {} -28 {} -29 {} -30 {} -30 {} -81 {} -22 {} -92 {} -40 {} -30 {} -51 {} -126 {} -36 {} -84 {} -195 {} -39 {} -74 {} -23 {} -93 {} -48 {} -51 {} -89 {} -28 {} -28 {} -100 {} -185 {} -70 {} -76 {} -32 {} -88 {} -88 {} 28 {} 20 {} 0 {} -39 {} 38 {} 33 {} 29 {} 0 {} 1 {} 21 {} 34 {} -23 {} 29 {} 6 {} -81 {} 18 {} -36 {} -37 {} -14 {} -22 {} 28 {} 29 {} -30 {} -149 {} 36 {} -84 {} -86 {} -156 {} -8 {} 35 {} 34 {} 34 {} 34 {} 21 {} 37 {} -35 {} 19 {} 30 {} 9 {} -67 {} 19 {} -22 {} -133 {} 28 {} 6 {} 39 {} -30 {} 30 {} 27 {} 18 {} 39 {} 38 {} -29 {} -120 {} 30 {} 26 {} 2 {} 18 {} 17 {} 94 {} 74 {} 0 {} -140 {} 41 {} -44 {} -47 {} -53 {} -8 {} 8 {} -78 {} 37 {} 24 {} 4 {} -100 {} -1 {} -48 {} -66 {} -132 {} -52 {} -25 {} -50 {} -23 {} 45 {} 42 {} 18 {} -10 {} -4 {} 44 {} -95 {} -74 {} -10 {} -56 {} -47 {} 37 {} 43 {} 20 {} 43 {} 12 {} 44 {} 92 {} 38 {} -171 {} 29 {} -89 {} -39 {} 13 {} -67 {} -72 {} -43 {} -40 {} -36 {} 12 {} -208 {} -20 {} -27 {} -42 {} -32 {} -26 {} 66 {} 8 {} 0 {} 18 {} 44 {} 21 {} 17 {} -27 {} 11 {} 32 {} 28 {} -14 {} 39 {} 16 {} -70 {} 28 {} -25 {} -29 {} 42 {} -14 {} -12 {} -7 {} 10 {} -174 {} 37 {} -106 {} 5 {} -169 {} 41 {} 37 {} 37 {} 37 {} 37 {} -20 {} 44 {} -26 {} 28 {} 39 {} 17 {} -67 {} 29 {} -16 {} -4 {} 29 {} -13 {} 43 {} -23 {} 11 {} 11 {} -33 {} 38 {} 38 {} -30 {} -1 {} -6 {} -15 {} 51 {} -34 {} -35 {} 94 {} 90 {} 0 {} -144 {} 38 {} -28 {} -37 {} -51 {} -8 {} 8 {} -9 {} 33 {} 25 {} 4 {} -99 {} 0 {} -46 {} -40 {} -123 {} -48 {} -23 {} -52 {} 2 {} 39 {} 39 {} 3 {} -25 {} -20 {} 38 {} -139 {} -98 {} -13 {} -86 {} -29 {} 37 {} 38 {} 18 {} 35 {} 13 {} 41 {} 73 {} 37 {} -182 {} 29 {} -119 {} -16 {} 2 {} -139 {} -137 {} -23 {} -21 {} -21 {} -1 {} -231 {} 23 {} 14 {} 13 {} 8 {} 9 {} 49 {} 31 {} 0 {} -319 {} -191 {} -289 {} -288 {} -297 {} -246 {} -230 {} -315 {} -270 {} -218 {} -236 {} -313 {} -234 {} -279 {} -135 {} -307 {} -209 {} -308 {} -308 {} -305 {} -182 {} -195 {} -194 {} -203 {} -196 {} -190 {} -287 {} -286 {} -276 {} -251 {} -305 {} -242 {} -249 {} -222 {} -234 {} -272 {} -282 {} -93 {} -300 {} -396 {} -221 {} -334 {} -257 {} -278 {} -294 {} -307 {} -298 {} -269 {} -267 {} -271 {} -403 {} -271 {} -285 {} -271 {} -290 {} -280 {} -132 {} -225 {} 0 {} -55 {} 27 {} -25 {} -27 {} -51 {} -12 {} 10 {} -39 {} 26 {} 15 {} -7 {} -91 {} 9 {} -49 {} -42 {} -36 {} -26 {} -30 {} -38 {} -32 {} 35 {} 27 {} -17 {} -50 {} -78 {} 31 {} -27 {} -27 {} -11 {} -29 {} -37 {} 24 {} 29 {} 6 {} 39 {} -11 {} 31 {} 18 {} 5 {} -147 {} 15 {} -69 {} -5 {} 8 {} -35 {} -39 {} -38 {} -12 {} -13 {} 6 {} -154 {} -9 {} -13 {} -9 {} -19 {} -19 {} 34 {} 35 {} 0 {} -18 {} 28 {} 8 {} 6 {} -21 {} 2 {} 27 {} 5 {} 5 {} 27 {} 3 {} -74 {} 26 {} -33 {} -23 {} 6 {} -6 {} 5 {} 4 {} -4 {} 1 {} 26 {} -34 {} -31 {} -83 {} 18 {} 6 {} 5 {} 8 {} 4 {} 3 {} 29 {} 17 {} 14 {} 26 {} 13 {} 18 {} 35 {} 17 {} -128 {} 23 {} -28 {} 23 {} -28 {} -1 {} -5 {} 0 {} 18 {} 17 {} -26 {} -126 {} 30 {} 26 {} 31 {} 20 {} 20 {} 62 {} 68 {} 0 {} -106 {} 40 {} -59 {} -61 {} -70 {} -11 {} 5 {} -103 {} 37 {} 20 {} 1 {} -102 {} -3 {} -51 {} -63 {} -94 {} -48 {} -42 {} -96 {} -18 {} 44 {} 42 {} 2 {} -47 {} -51 {} 42 {} -81 {} -67 {} -10 {} -74 {} -86 {} 38 {} 43 {} 18 {} 42 {} 15 {} 44 {} 19 {} 38 {} -171 {} 26 {} -116 {} -54 {} 13 {} -88 {} -89 {} -76 {} -63 {} -57 {} 12 {} -202 {} -69 {} -76 {} -69 {} -75 {} -66 {} 25 {} -18 {} 0 {} -227 {} -173 {} -198 {} -203 {} -228 {} -205 {} -181 {} -204 {} -187 {} -178 {} -201 {} -280 {} -181 {} -239 {} -204 {} -202 {} -204 {} -204 {} -204 {} -219 {} -180 {} -176 {} -223 {} -230 {} -266 {} -176 {} -198 {} -200 {} -197 {} -205 {} -205 {} -174 {} -187 {} -190 {} -161 {} -203 {} -185 {} -160 {} -221 {} -332 {} -182 {} -237 {} -180 {} -200 {} -206 {} -214 {} -208 {} -185 {} -188 {} -204 {} -329 {} -177 {} -182 {} -176 {} -190 {} -189 {} -141 {} -136 {} 0 {} -60 {} 32 {} -27 {} -28 {} -55 {} -13 {} 8 {} -46 {} 20 {} 15 {} -6 {} -95 {} 5 {} -51 {} -47 {} -43 {} -31 {} -21 {} -45 {} -13 {} 35 {} 34 {} -36 {} -70 {} -123 {} 31 {} -35 {} -34 {} -12 {} -37 {} -43 {} 31 {} 36 {} 9 {} -1 {} 15 {} 38 {} -5 {} 35 {} -153 {} 17 {} -76 {} -13 {} -54 {} -44 {} -47 {} -44 {} -20 {} -20 {} -55 {} -162 {} -19 {} -22 {} -20 {} -26 {} -25 {} 17 {} 27 {} 0 {} 3 {} 49 {} 32 {} 30 {} 3 {} 22 {} 47 {} 32 {} 23 {} 47 {} 24 {} -52 {} 47 {} -12 {} -2 {} 29 {} 14 {} 31 {} 31 {} 15 {} 13 {} 46 {} -16 {} -9 {} -65 {} 37 {} 29 {} 29 {} 30 {} 28 {} 29 {} 47 {} 33 {} 34 {} 46 {} 31 {} 34 {} 54 {} 33 {} -26 {} 43 {} -1 {} 44 {} -8 {} 21 {} 20 {} 26 {} 42 {} 41 {} -6 {} -20 {} 56 {} 52 {} 56 {} 41 {} 41 {} 87 {} 92 {} 0 {} -12 {} 6 {} -64 {} -72 {} -78 {} -56 {} -45 {} -25 {} -82 {} -22 {} -40 {} -156 {} -58 {} -99 {} -135 {} -8 {} -125 {} -58 {} -64 {} -45 {} -297 {} -32 {} -171 {} -6 {} -272 {} -31 {} -136 {} -140 {} -142 {} -144 {} -26 {} 4 {} -108 {} -31 {} -19 {} -37 {} -148 {} -53 {} -81 {} -211 {} -59 {} -142 {} -1 {} -192 {} -93 {} -97 {} -30 {} -25 {} -25 {} -125 {} -195 {} 25 {} 21 {} 59 {} 15 {} 14 {} -147 {} 48 {} 0 {} -49 {} -28 {} -167 {} -169 {} -148 {} -86 {} -70 {} -231 {} -108 {} -53 {} -70 {} -177 {} -74 {} -126 {} -143 {} -25 {} -96 {} -210 {} -211 {} -55 {} -246 {} -77 {} -227 {} -67 {} -263 {} -26 {} -84 {} -90 {} -91 {} -93 {} -166 {} -28 {} -125 {} -53 {} -47 {} -65 {} -165 {} -78 {} -108 {} -242 {} -102 {} -244 {} -27 {} -164 {} -89 {} -95 {} -202 {} -70 {} -73 {} -164 {} -227 {} -159 {} -171 {} -18 {} -185 {} -183 {} -158 {} 23 {} 0 {} -56 {} 25 {} -76 {} -80 {} -78 {} -15 {} 4 {} -99 {} 6 {} 14 {} -8 {} -101 {} -2 {} -54 {} -64 {} -24 {} -50 {} -111 {} -136 {} -27 {} 32 {} 26 {} 12 {} -2 {} 2 {} 29 {} -85 {} -76 {} -32 {} -50 {} -99 {} 13 {} 17 {} 6 {} 21 {} -19 {} 16 {} 106 {} -7 {} -174 {} 13 {} -145 {} -17 {} -14 {} -83 {} -88 {} -85 {} -59 {} -54 {} -12 {} -200 {} -77 {} -87 {} -14 {} -86 {} -72 {} 70 {} 32 {} 0 {} -111 {} 52 {} 45 {} 39 {} 26 {} -4 {} 4 {} 51 {} -35 {} 31 {} 13 {} -110 {} -12 {} -48 {} -95 {} -105 {} -85 {} 53 {} 52 {} 23 {} -231 {} 53 {} -73 {} -144 {} -207 {} -123 {} -60 {} -63 {} -64 {} -67 {} 54 {} 52 {} -49 {} 31 {} 27 {} 10 {} -111 {} -19 {} -39 {} -184 {} 37 {} 13 {} 52 {} -137 {} 10 {} 5 {} 52 {} 54 {} 54 {} -39 {} -165 {} 88 {} 86 {} 74 {} 84 {} 84 {} -14 {} 104 {} 0 {} 22 {} 42 {} -35 {} -40 {} -55 {} -1 {} 16 {} -19 {} -13 {} 29 {} 8 {} -90 {} 8 {} -40 {} -56 {} 45 {} -42 {} -65 {} -74 {} 20 {} -90 {} 18 {} -74 {} 2 {} -150 {} 45 {} -13 {} -19 {} -15 {} -22 {} -33 {} 42 {} -10 {} 22 {} 26 {} 12 {} -14 {} 3 {} -2 {} -157 {} 6 {} -123 {} 42 {} -83 {} -18 {} -24 {} -34 {} 9 {} 7 {} -73 {} -147 {} 14 {} 10 {} 59 {} 4 {} 4 {} -61 {} 94 {} 0 {} -65 {} 24 {} 0 {} -6 {} -52 {} -15 {} 4 {} 0 {} -37 {} 13 {} -9 {} -89 {} 1 {} -50 {} 63 {} -47 {} 5 {} -42 {} -37 {} -85 {} 10 {} 21 {} -1 {} -10 {} -4 {} 8 {} 16 {} 14 {} 15 {} 13 {} -49 {} 17 {} -36 {} 4 {} 8 {} -14 {} -68 {} 100 {} -46 {} -156 {} 12 {} -42 {} 18 {} -41 {} -12 {} -21 {} -53 {} 17 {} 15 {} -44 {} -150 {} -25 {} -35 {} -69 {} -48 {} -43 {} 82 {} 27 {} 0 {} -151 {} 41 {} -38 {} -44 {} -49 {} 2 {} 23 {} -44 {} 40 {} 32 {} 10 {} -65 {} 20 {} -30 {} 96 {} -130 {} 53 {} -26 {} -75 {} -2 {} 43 {} 41 {} 16 {} -2 {} -5 {} 44 {} -146 {} -72 {} 7 {} -48 {} -55 {} 39 {} 43 {} 22 {} 50 {} 18 {} 45 {} 97 {} 41 {} -139 {} 34 {} -106 {} -35 {} 19 {} -113 {} -120 {} -43 {} -43 {} -39 {} 17 {} -191 {} 6 {} -15 {} 8 {} -25 {} -16 {} 67 {} 4 {} 0 {} -43 {} 37 {} 20 {} 18 {} -29 {} 2 {} 24 {} 28 {} -16 {} 30 {} 7 {} -78 {} 22 {} -34 {} -32 {} -18 {} -16 {} -9 {} -5 {} -17 {} -179 {} 35 {} -72 {} -98 {} -157 {} -6 {} 37 {} 37 {} 37 {} 37 {} -17 {} 37 {} -28 {} 20 {} 29 {} 8 {} -54 {} 19 {} -22 {} -140 {} 29 {} -14 {} 36 {} -24 {} 9 {} 8 {} -20 {} 36 {} 36 {} -29 {} -140 {} 10 {} 6 {} -20 {} -1 {} -2 {} 92 {} 53 {} 0 {} 21 {} 48 {} 41 {} 39 {} 17 {} 24 {} 49 {} 44 {} -2 {} 49 {} 25 {} -51 {} 49 {} -11 {} 0 {} 44 {} 17 {} 44 {} 44 {} 22 {} -167 {} 45 {} -62 {} 11 {} -146 {} 43 {} 38 {} 39 {} 39 {} 39 {} 43 {} 48 {} -12 {} 35 {} 49 {} 25 {} -51 {} 49 {} -5 {} 20 {} 43 {} 15 {} 46 {} -14 {} 32 {} 33 {} 40 {} 46 {} 46 {} -10 {} 20 {} 69 {} 67 {} 69 {} 62 {} 62 {} 105 {} 97 {} 0 {} -166 {} 12 {} 13 {} 6 {} -11 {} -52 {} -43 {} 3 {} -80 {} -16 {} -33 {} -158 {} -61 {} -96 {} -146 {} -219 {} -137 {} 16 {} 16 {} -107 {} -319 {} 9 {} -151 {} -272 {} -287 {} -271 {} -23 {} -21 {} -21 {} -21 {} 1 {} 10 {} -97 {} -15 {} -15 {} -33 {} -157 {} -59 {} -85 {} -236 {} -11 {} -12 {} 10 {} -112 {} 12 {} 13 {} -7 {} 11 {} 12 {} -82 {} -236 {} -20 {} -23 {} -89 {} -34 {} -34 {} 76 {} 40 {} 0 {} -309 {} -116 {} -112 {} -126 {} -138 {} -188 {} -180 {} -126 {} -210 {} -152 {} -168 {} -279 {} -192 {} -228 {} -166 {} -348 {} -204 {} -111 {} -111 {} -242 {} -261 {} -119 {} -241 {} -284 {} -287 {} -270 {} -150 {} -152 {} -152 {} -159 {} -127 {} -117 {} -221 {} -149 {} -155 {} -166 {} -266 {} -141 {} -214 {} -359 {} -147 {} -138 {} -112 {} -243 {} -108 {} -116 {} -136 {} -112 {} -116 {} -219 {} -351 {} -144 {} -155 {} -210 {} -169 {} -166 {} -56 {} -88 {} 0 {} -173 {} 18 {} 21 {} 11 {} -4 {} -54 {} -46 {} 8 {} -79 {} -17 {} -34 {} -160 {} -62 {} -99 {} -142 {} -220 {} -131 {} 23 {} 23 {} -106 {} -197 {} 15 {} -138 {} -218 {} -223 {} -189 {} -16 {} -17 {} -19 {} -19 {} 7 {} 18 {} -94 {} -13 {} -16 {} -33 {} -138 {} -53 {} -81 {} -230 {} -11 {} -5 {} 21 {} -111 {} 24 {} 20 {} -2 {} 21 {} 19 {} -84 {} -218 {} -11 {} -18 {} -77 {} -31 {} -30 {} 78 {} 46 {} 0 {} -17 {} 33 {} -6 {} -9 {} -24 {} -6 {} 14 {} -18 {} -32 {} 22 {} 0 {} -88 {} 10 {} -43 {} -46 {} 36 {} -31 {} 0 {} 0 {} -10 {} -216 {} 14 {} -112 {} -62 {} -193 {} 36 {} -5 {} -6 {} -7 {} -7 {} -1 {} 32 {} -43 {} 14 {} 22 {} 0 {} -88 {} 10 {} -37 {} -133 {} 8 {} -56 {} 31 {} -62 {} -28 {} -25 {} -5 {} 15 {} 15 {} -49 {} -133 {} 9 {} 5 {} -11 {} -4 {} -4 {} 16 {} 84 {} 0 {} -215 {} -156 {} -202 {} -209 {} -219 {} -200 {} -181 {} -216 {} -222 {} -170 {} -191 {} -275 {} -184 {} -235 {} -136 {} -155 {} -186 {} -196 {} -196 {} -205 {} -196 {} -173 {} -207 {} -207 {} -214 {} -155 {} -196 {} -201 {} -201 {} -201 {} -196 {} -158 {} -224 {} -178 {} -174 {} -193 {} -258 {} -105 {} -229 {} -341 {} -182 {} -254 {} -156 {} -248 {} -217 {} -227 {} -199 {} -175 {} -178 {} -238 {} -333 {} -181 {} -188 {} -198 {} -198 {} -196 {} -136 {} -105 {} 0 {} -25 {} 30 {} -12 {} -17 {} -31 {} -14 {} 5 {} -26 {} -38 {} 15 {} -5 {} -99 {} 0 {} -52 {} -58 {} 33 {} -43 {} -7 {} -7 {} -16 {} -130 {} 9 {} -103 {} -71 {} -160 {} 31 {} -7 {} -12 {} -13 {} -13 {} -8 {} 30 {} -48 {} 8 {} 15 {} -5 {} -80 {} 3 {} -39 {} -156 {} 1 {} -66 {} 31 {} -69 {} -29 {} -34 {} -10 {} 13 {} 11 {} -57 {} -145 {} 6 {} 2 {} -10 {} -6 {} -6 {} 6 {} 82 {} 0 {} 22 {} 42 {} -45 {} -49 {} -54 {} -8 {} 7 {} -78 {} -33 {} 24 {} 4 {} -100 {} -2 {} -48 {} -66 {} 45 {} -52 {} -51 {} -51 {} 16 {} -168 {} 0 {} -125 {} 3 {} -179 {} 45 {} -12 {} -17 {} -18 {} -19 {} -41 {} 42 {} -49 {} 19 {} 26 {} 6 {} -87 {} 4 {} -33 {} -156 {} -14 {} -99 {} 41 {} -85 {} -12 {} -18 {} -49 {} 5 {} 3 {} -73 {} -142 {} -16 {} -22 {} 52 {} -31 {} -31 {} -41 {} 94 {} 0 {} -151 {} 26 {} -84 {} -88 {} -87 {} -23 {} -8 {} -102 {} 7 {} 9 {} -11 {} -116 {} -17 {} -63 {} -86 {} -127 {} -74 {} -116 {} -145 {} -41 {} 32 {} 28 {} 14 {} -4 {} 5 {} 31 {} -168 {} -121 {} -39 {} -66 {} -113 {} 10 {} 19 {} 4 {} 17 {} -28 {} 19 {} 109 {} -6 {} -203 {} 14 {} -151 {} -85 {} -12 {} -161 {} -146 {} -87 {} -103 {} -82 {} -10 {} -268 {} -89 {} -100 {} -73 {} -93 {} -77 {} 73 {} -38 {} 0 {} -24 {} 24 {} 4 {} -1 {} -26 {} -7 {} 15 {} 1 {} -30 {} 19 {} -4 {} -76 {} 15 {} -40 {} 77 {} 1 {} 21 {} -1 {} 0 {} -20 {} 2 {} 17 {} -6 {} -4 {} -11 {} 13 {} 3 {} 0 {} 1 {} 0 {} -1 {} 19 {} -33 {} 7 {} 15 {} -6 {} -65 {} 95 {} -35 {} -138 {} 12 {} -33 {} 19 {} -48 {} -4 {} -12 {} -4 {} 15 {} 13 {} -41 {} -129 {} 25 {} 20 {} 24 {} 13 {} 14 {} 73 {} 65 {} 0 {} 22 {} 42 {} -94 {} -95 {} -77 {} -11 {} 1 {} -160 {} -37 {} 22 {} 4 {} -110 {} -12 {} -53 {} -82 {} 46 {} -69 {} -139 {} -140 {} 14 {} -179 {} -5 {} -151 {} 4 {} -189 {} 45 {} -14 {} -18 {} -20 {} -21 {} -95 {} 42 {} -54 {} 20 {} 25 {} 6 {} -94 {} -5 {} -36 {} -37 {} -26 {} -173 {} 42 {} -91 {} -22 {} -23 {} -137 {} 0 {} -2 {} -91 {} -30 {} -88 {} -100 {} 53 {} -115 {} -113 {} -87 {} 95 {} 0 {} 18 {} 37 {} -50 {} -52 {} -57 {} -12 {} 3 {} -81 {} -37 {} 20 {} 0 {} -103 {} -5 {} -51 {} -69 {} 41 {} -55 {} -54 {} -55 {} 9 {} -177 {} -4 {} -128 {} 0 {} -182 {} 41 {} -18 {} -21 {} -22 {} -23 {} -44 {} 37 {} -52 {} 15 {} 22 {} 2 {} -90 {} 0 {} -37 {} -37 {} -17 {} -102 {} 37 {} -88 {} -20 {} -21 {} -58 {} 0 {} 0 {} -76 {} -31 {} -19 {} -28 {} 48 {} -45 {} -45 {} -44 {} 90 {}
 LangName: 1033 "Copyright 2024 The Paribartan Project Authors (github.com/mitradranirban/paribartan)" "" "" "" "" "Version 0.100" "" "" "Dr Anirban Mitra" "Dr Anirban Mitra" "Variable Color Bengali Font" "https://fonts.atipra.in" "https://github.com/mitradranirban" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org" "https://openfontlicense.org"
 PickledDataWithLists: "(dp0
 ."
@@ -97,59 +242,61 @@ Encoding: 0 -1 0
 GlifName: _notdef
 Width: 1000
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 66<243 635> 206 71<371 447> 322 119<371 421.499> 544 77<371 421.499> 732 62<243 635>
+VStem: 193 50<66 732> 371 76<206 277 322 395.265> 438 75<452.665 532.487> 635 48<66 732>
 LayerCount: 2
 Fore
 SplineSet
-208 794 m 257
+208 794 m 257xfc80
  668 794 l 257
- 672 794 675.5 792.5 678.5 789.5 c 128
+ 672 794 675.5 792.5 678.5 789.5 c 0
  681.5 786.5 683 783 683 779 c 257
  683 15 l 257
- 683 11 681.5 7.5 678.5 4.5 c 128
+ 683 11 681.5 7.5 678.5 4.5 c 0
  675.5 1.5 672 0 668 0 c 257
  208 0 l 257
- 204 0 200.5 1.5 197.5 4.5 c 128
+ 204 0 200.5 1.5 197.5 4.5 c 0
  194.5 7.5 193 11 193 15 c 257
  193 779 l 257
- 193 783 194.5 786.5 197.5 789.5 c 128
- 200.5 792.5 204 794 208 794 c 257
+ 193 783 194.5 786.5 197.5 789.5 c 0
+ 200.5 792.5 204 794 208 794 c 257xfc80
 258 732 m 257
- 254 732 250.5 730.5 247.5 727.5 c 128
+ 254 732 250.5 730.5 247.5 727.5 c 0
  244.5 724.5 243 721 243 717 c 257
  243 81 l 257
- 243 77 244.5 73.5 247.5 70.5 c 128
+ 243 77 244.5 73.5 247.5 70.5 c 0
  250.5 67.5 254 66 258 66 c 257
  620 66 l 257
- 624 66 627.5 67.5 630.5 70.5 c 128
+ 624 66 627.5 67.5 630.5 70.5 c 0
  633.5 73.5 635 77 635 81 c 257
  635 717 l 257
- 635 721 633.5 724.5 630.5 727.5 c 128
+ 635 721 633.5 724.5 630.5 727.5 c 0
  627.5 730.5 624 732 620 732 c 257
  258 732 l 257
-371 621 m 257
+371 621 m 257xfe80
  375 621 375 621 384 621 c 257
- 420 621 450.5 608.5 475.5 583.5 c 128
- 500.5 558.5 513 528.333333333 513 493 c 257
- 513 469 507 447 495 427 c 128
+ 420 621 450.5 608.5 475.5 583.5 c 0
+ 500.5 558.5 513 528.333333333 513 493 c 257xfd80
+ 513 469 507 447 495 427 c 0
  483 407 467 391.333333333 447 380 c 257
  447 322 l 257
  371 322 l 257
  371 364 l 257
  371 427 l 257
- 371 441 l 257
+ 371 441 l 257xfe80
  375 439.666666667 379.333333333 439 384 439 c 257
- 398.666666667 439 411.333333333 444.166666667 422 454.5 c 128
- 432.666666667 464.833333333 438 477.666666667 438 493 c 257
- 438 507.666666667 432.666666667 520.166666667 422 530.5 c 128
+ 398.666666667 439 411.333333333 444.166666667 422 454.5 c 0
+ 432.666666667 464.833333333 438 477.666666667 438 493 c 257xfd80
+ 438 507.666666667 432.666666667 520.166666667 422 530.5 c 0
  411.333333333 540.833333333 398.666666667 546 384 546 c 257
  379.333333333 546 375 545.333333333 371 544 c 257
- 371 621 l 257
-371 206 m 257
+ 371 621 l 257xfe80
+371 206 m 257xfe80
  371 277 l 257
  447 277 l 257
  447 206 l 257
- 371 206 l 257
+ 371 206 l 257xfe80
 EndSplineSet
 EndChar
 
@@ -169,7 +316,8 @@ GlifName: A_
 Width: 752
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 227 140<297 407>
 LayerCount: 2
 Fore
 SplineSet
@@ -826,21 +974,23 @@ GlifName: C_
 Width: 555
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -14 157<335.863 503.89> 612 161<335.863 503.89>
+VStem: 50 153<277.615 477.647>
 LayerCount: 2
 Fore
 SplineSet
 432 612 m 257
- 368.666666667 612 314.666666667 589.166666667 270 543.5 c 128
+ 368.666666667 612 314.666666667 589.166666667 270 543.5 c 0
  225.333333333 497.833333333 203 442.666666667 203 378 c 257
- 203 312.666666667 225.333333333 257.166666667 270 211.5 c 128
+ 203 312.666666667 225.333333333 257.166666667 270 211.5 c 0
  314.666666667 165.833333333 368.666666667 143 432 143 c 257
  457.333333333 143 481.666666667 147 505 155 c 257
  505 -7 l 257
  481 -11.6666666667 456.666666667 -14 432 -14 c 257
- 326.666666667 -14 236.666666667 24.5 162 101.5 c 128
- 87.3333333333 178.5 50 271.333333333 50 380 c 128
- 50 488.666666667 87.3333333333 581.333333333 162 658 c 128
+ 326.666666667 -14 236.666666667 24.5 162 101.5 c 0
+ 87.3333333333 178.5 50 271.333333333 50 380 c 0
+ 50 488.666666667 87.3333333333 581.333333333 162 658 c 0
  236.666666667 734.666666667 326.666666667 773 432 773 c 257
  456.666666667 773 481 770.666666667 505 766 c 257
  505 600 l 257
@@ -2427,7 +2577,9 @@ GlifName: I_
 Width: 252
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -2 21G<50 202> 754 20G<50 202>
+VStem: 50 152<-2 774>
 LayerCount: 2
 Fore
 SplineSet
@@ -3644,28 +3796,30 @@ GlifName: O_
 Width: 864
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -14 157<335.863 528.137> 612 161<335.863 528.137>
+VStem: 50 153<277.615 477.647> 661 153<277.615 477.647>
 LayerCount: 2
 Fore
 SplineSet
 661 378 m 257
- 661 442.666666667 638.666666667 497.833333333 594 543.5 c 128
- 549.333333333 589.166666667 495.333333333 612 432 612 c 128
- 368.666666667 612 314.666666667 589.166666667 270 543.5 c 128
+ 661 442.666666667 638.666666667 497.833333333 594 543.5 c 0
+ 549.333333333 589.166666667 495.333333333 612 432 612 c 0
+ 368.666666667 612 314.666666667 589.166666667 270 543.5 c 0
  225.333333333 497.833333333 203 442.666666667 203 378 c 257
- 203 312.666666667 225.333333333 257.166666667 270 211.5 c 128
- 314.666666667 165.833333333 368.666666667 143 432 143 c 128
- 495.333333333 143 549.333333333 165.833333333 594 211.5 c 128
+ 203 312.666666667 225.333333333 257.166666667 270 211.5 c 0
+ 314.666666667 165.833333333 368.666666667 143 432 143 c 0
+ 495.333333333 143 549.333333333 165.833333333 594 211.5 c 0
  638.666666667 257.166666667 661 312.666666667 661 378 c 257
-814 380 m 128
- 814 271.333333333 776.666666667 178.5 702 101.5 c 128
- 627.333333333 24.5 537.333333333 -14 432 -14 c 128
- 326.666666667 -14 236.666666667 24.5 162 101.5 c 128
- 87.3333333333 178.5 50 271.333333333 50 380 c 128
- 50 488.666666667 87.3333333333 581.333333333 162 658 c 128
- 236.666666667 734.666666667 326.666666667 773 432 773 c 128
- 537.333333333 773 627.333333333 734.666666667 702 658 c 128
- 776.666666667 581.333333333 814 488.666666667 814 380 c 128
+814 380 m 0
+ 814 271.333333333 776.666666667 178.5 702 101.5 c 0
+ 627.333333333 24.5 537.333333333 -14 432 -14 c 0
+ 326.666666667 -14 236.666666667 24.5 162 101.5 c 0
+ 87.3333333333 178.5 50 271.333333333 50 380 c 0
+ 50 488.666666667 87.3333333333 581.333333333 162 658 c 0
+ 236.666666667 734.666666667 326.666666667 773 432 773 c 0
+ 537.333333333 773 627.333333333 734.666666667 702 658 c 0
+ 776.666666667 581.333333333 814 488.666666667 814 380 c 0
 EndSplineSet
 EndChar
 
@@ -5570,7 +5724,7 @@ GlifName: V_
 Width: 652
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13169,24 +13323,26 @@ GlifName: o
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 498 20G<301.333 347.667>
+VStem: 50 151<195.908 324.618> 419 151<195.994 324.529>
 LayerCount: 2
 Fore
 SplineSet
 310 367 m 257
  301.333333333 367 293.333333333 366 286 364 c 257
  286 365 l 257
- 261.333333333 359.666666667 241 347.333333333 225 328 c 128
+ 261.333333333 359.666666667 241 347.333333333 225 328 c 0
  209 308.666666667 201 286 201 260 c 257
- 201 234.666666667 209 212.333333333 225 193 c 128
+ 201 234.666666667 209 212.333333333 225 193 c 0
  241 173.666666667 261.333333333 161.333333333 286 156 c 257
  286 157 l 257
  293.333333333 155 301.333333333 154 310 154 c 257
  318 154 326 155 334 157 c 257
  334 156 l 257
- 358.666666667 161.333333333 379 173.666666667 395 193 c 128
+ 358.666666667 161.333333333 379 173.666666667 395 193 c 0
  411 212.333333333 419 234.666666667 419 260 c 257
- 419 286 411 308.666666667 395 328 c 128
+ 419 286 411 308.666666667 395 328 c 0
  379 347.333333333 358.666666667 359.666666667 334 365 c 257
  334 364 l 257
  326 366 318 367 310 367 c 257
@@ -13194,17 +13350,17 @@ SplineSet
  308 3 l 257
  306 3 306 3 304 3 c 257
  298.666666667 3 294 3.33333333333 290 4 c 257
- 222.666666667 8 165.833333333 34.6666666667 119.5 84 c 128
+ 222.666666667 8 165.833333333 34.6666666667 119.5 84 c 0
  73.1666666667 133.333333333 50 192 50 260 c 257
- 50 328 73.1666666667 386.833333333 119.5 436.5 c 128
+ 50 328 73.1666666667 386.833333333 119.5 436.5 c 0
  165.833333333 486.166666667 222.666666667 513 290 517 c 257
  294 517.666666667 298.666666667 518 304 518 c 257
  306 518 306 518 308 518 c 257
  309 518 l 257
  310 518 310 518 312 518 c 257
- 383.333333333 518 444.166666667 492.833333333 494.5 442.5 c 128
- 544.833333333 392.166666667 570 331.333333333 570 260 c 128
- 570 188.666666667 544.833333333 128 494.5 78 c 128
+ 383.333333333 518 444.166666667 492.833333333 494.5 442.5 c 0
+ 544.833333333 392.166666667 570 331.333333333 570 260 c 0
+ 570 188.666666667 544.833333333 128 494.5 78 c 0
  444.166666667 28 383.333333333 3 312 3 c 257
  311 3 311 3 310 3 c 258
  309 3 l 257
@@ -27506,7 +27662,8 @@ GlifName: x
 Width: 724
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: -1 20G<18.3541 179 431.548 624> 493 20G<17.4319 186 430.5 623>
 LayerCount: 2
 Fore
 SplineSet

@@ -70,12 +70,23 @@
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" -50 "MASK" 10;
 			 }
-			  @keyframes animate-shadow{
+			  @keyframes animate-palette {
+  from {
+    font-palette: --palette1;
+  }
 
-			  }
-			  @keyframes animate-color{
+  to {
+    font-palette: --palette3;
+  }
+}
 
-			  }
+.colorchange {
+  font-family: "Paribartan";
+  font-size: 5rem;
+  margin: 0;
+  text-align: center;
+  animation: animate-palette 4s infinite alternate linear;
+}
 
 		</style>
 	</head>
@@ -86,12 +97,14 @@
 		<p> It covers Latin, Extended Latin and Bangla (Bengali) characters</p>
 		<p> It has Five in-built color palettes </p>
 		<span class="palette0"> Orange </span>,
-		<span class="palette1"> Violet </span>,
+		<span class="palette1"> Red </span>,
 		<span class="palette2"> Grey </span>,
 		<span class="palette3"> Green </span>, and
 		<span class="palette4"> Blue </span></p>
+		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. 
 
-		<p> It also has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>. </p>
+		<p> It is variable font with 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
+		which can be modified to create 3d movement effect</p>
 	 
 	</body>
 </html>
