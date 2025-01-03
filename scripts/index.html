@@ -7,30 +7,29 @@
 		<style>
 			@font-face {
 				font-family: Paribartan;
-				src: url("Paribartan[MASK,SHDW].woff2") ;
+				src: url("Paribartan[MASK,SHDW].woff2") format("woff2-variations");
 				font-weight: normal;
 				font-style: normal;
-				MASK -50 50;
-				SHDW -50 50;
-				
+				MASK: -50 50;
+				SHDW: -50 50;
 			}
-			@font-palette-values --palette0 {
+			@font-palette-values --orange {
 				font-family: Paribartan;
 				base-palette: 0
 			}
-			@font-palette-values --palette1 {
+			@font-palette-values --red {
 				font-family: Paribartan;
 				base-palette: 1
 			}
-			@font-palette-values --palette2 {
+			@font-palette-values --gray {
 				font-family: Paribartan;
 				base-palette: 2
 			}
-			@font-palette-values --palette3 {
+			@font-palette-values --green {
 				font-family: Paribartan;
 				base-palette: 3
 			}
-			@font-palette-values --palette4 {
+			@font-palette-values --blue {
 				font-family: Paribartan;
 				base-palette: 4
 			}
@@ -46,25 +45,25 @@
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" 0, "MASK" 50;
 			}
-			 .palette0 {
+			 .orange {
 				font-family: Paribartan;
-				font-palette: --palette0;
+				font-palette: --orange;
 			 }
-			 .palette1 {
+			 .red {
 				font-family: Paribartan;
-				font-palette: --palette1;
+				font-palette: --red;
 			 }
-			 .palette2 {
+			 .blue {
 				font-family: Paribartan;
-				font-palette: --palette2;
+				font-palette: --blue;
 			 }
-			 .palette3 {
+			 .gray {
 				font-family: Paribartan;
-				font-palette: --palette3;
+				font-palette: --gray;
 			 }
-			 .palette4 {
+			 .green {
 				font-family: Paribartan;
-				font-palette: --palette4;
+				font-palette: --green;
 			 }
 			 .shadow3{
 				font-family: Paribartan;
@@ -72,18 +71,18 @@
 			 }
   @keyframes animate-palette {
   from {
-    font-palette: --palette1;
+    font-palette: --red;
   }
 
   to {
-    font-palette: --palette3;
+    font-palette: --green;
   }
 }
  @keyframes animate-shadow {
-from {
+0% {
 	font-variation-settings: "SHDW" -50 "MASK" 10;
 }
-to {
+100% {
 	font-variation-settings: "SHDW" 50 "MASK" -10;
 }
  }
@@ -91,37 +90,35 @@ to {
 
 .colorchange {
   font-family: "Paribartan";
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0;
   text-align: center;
   animation: animate-palette 4s infinite alternate linear;
 }
 
 .shadowchange {
-	font-family: "Paribartan";
-  font-size: 2rem;
-  margin: 0;
-  text-align: center;
+  font-family: "Paribartan";
+  font-variation-settings: "MASK" -20 "SHDW" 40;
   animation: animate-shadow 4s infinite alternate ;
 }
 
-		</style>
+</style>
 	</head>
 	<body>
-		<div class="palette0 shadow1"> <h1>Paribartan Variable Color Typeface</h1></div>
-		<div class="palette4 shadow2"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
+		<div class="shadowchange"><h1>Paribartan Variable Color Typeface</h1></div>
+		<div class="blue shadow2"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
 		<p> Paribartan is a variable color font created using open source tools </p> 
 		<p> It covers Latin, Extended Latin and Bangla (Bengali) characters</p>
 		<p> It has Five in-built color palettes </p>
-		<span class="palette0"> Orange </span>,
-		<span class="palette1"> Red </span>,
-		<span class="palette2"> Grey </span>,
-		<span class="palette3"> Green </span>, and
-		<span class="palette4"> Blue </span></p>
+		<span class="orange"> Orange </span>,
+		<span class="red"> Red </span>,
+		<span class="gray"> Grey </span>,
+		<span class="green"> Green </span>, and
+		<span class="blue"> Blue </span></p>
 		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. 
 
-		<p> It is variable font with 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
-		which is useful to do <span class="palette2 shadowchange shadow1"> 3 D </span> <span class="palette3 shadowchange shadow2">Effect </span> using css. 
+		<p> It has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
+		which is useful to do <span class="green shadow1"> 3 D </span> <span class="gray shadow2">Effect </span> using css. 
 	 
 	</body>
 </html>

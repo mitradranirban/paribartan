@@ -13,6 +13,8 @@ instance_ufos
 build.ninja
 ttf
 variable_ttf
+master_ttf
+master_otf
 build
 
 # OS generated files #
