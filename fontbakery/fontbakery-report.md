@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.1
+
+
 
 
 
@@ -10,10 +12,10 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[22] Paribartan[MASK,SHDW].ttf</summary>
+<details><summary>[24] Paribartan[MASK,SHDW].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
     <div>
 
 
@@ -22,8 +24,8 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (uni00A0) is 100 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
+* 🔥 **FAIL** <p>&quot;Regular&quot; instance not present.</p>
+ [code: no-regular-instance]
 
 
 
@@ -31,7 +33,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Put an empty glyph on GID 1 right after the .notdef glyph for COLRv0 fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.color.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Put an empty glyph on GID 1 right after the .notdef glyph for COLRv0 fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#empty-glyph-on-gid1-for-colrv0">empty_glyph_on_gid1_for_colrv0</a></summary>
     <div>
 
 
@@ -49,64 +51,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
-<ul>
-<li>Add missing instances</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Regular</td>
-<td align="left">N/A</td>
-<td align="left">SHDW=0.0, MASK=0.0</td>
-</tr>
-</tbody>
-</table>
- [code: bad-fvar-instances]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.hinting.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi.org/project/gftools/</a></p>
- [code: lacks-gasp]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check glyphs do not have components which are themselves components. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyf.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure glyphs do not have components which are themselves components. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#nested-components">nested_components</a></summary>
     <div>
 
 
@@ -527,25 +472,7 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.100&quot;</p>
- [code: bad-version-strings]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font enables smart dropout control in "prep" table instructions? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.hinting.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure smart dropout control is enabled in "prep" table instructions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#smart-dropout">smart_dropout</a></summary>
     <div>
 
 
@@ -563,7 +490,7 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
 
 
@@ -572,9 +499,8 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 
 
 
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-dotbelowcomb (U+0323)</p>
- [code: spacing-mark-glyphs]
+* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (uni00A0) is 100 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
+ [code: different-widths]
 
 
 
@@ -582,7 +508,82 @@ dotbelowcomb (U+0323)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fvar-instances">googlefonts/fvar_instances</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>fvar instances are incorrect:</p>
+<ul>
+<li>Add missing instances</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Regular</td>
+<td align="left">N/A</td>
+<td align="left">SHDW=0.0, MASK=0.0</td>
+</tr>
+</tbody>
+</table>
+ [code: bad-fvar-instances]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-gasp">googlefonts/gasp</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi.org/project/gftools/</a></p>
+ [code: lacks-gasp]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.100&quot;</p>
+ [code: bad-version-strings]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-mark-chars">opentype/gdef_mark_chars</a></summary>
     <div>
 
 
@@ -601,7 +602,7 @@ u0981 (U+0981)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-spacing-marks">opentype/gdef_spacing_marks</a></summary>
     <div>
 
 
@@ -610,8 +611,9 @@ u0981 (U+0981)</p>
 
 
 
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
+* ⚠️ **WARN** <p>The following glyphs seem to be spacing (because they have width &gt; 0 on the hmtx table) so they may be in the GDEF mark glyph class by mistake, or they should have zero width instead:
+dotbelowcomb (U+0323)</p>
+ [code: spacing-mark-glyphs]
 
 
 
@@ -619,7 +621,7 @@ u0981 (U+0981)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for points out of bounds. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for points out of bounds. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-points-out-of-bounds">opentype/points_out_of_bounds</a></summary>
     <div>
 
 
@@ -649,7 +651,7 @@ u0981 (U+0981)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
     <div>
 
 
@@ -684,7 +686,43 @@ u0981 (U+0981)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-avar-table">mandatory_avar_table</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table. Most variable fonts should include an avar table to correctly define axes progression rates.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
     <div>
 
 
@@ -707,7 +745,113 @@ multiply</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* u0983 (U+0983): L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983 (U+0983): L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983 (U+0983): L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983 (U+0983): L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983 (U+0983): L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983 (U+0983): L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.0: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.1: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,664.0&gt;--&lt;211.0,664.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u0983.2: L&lt;&lt;211.0,264.0&gt;--&lt;211.0,264.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn: B&lt;&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.0: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.0: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.0: B&lt;&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.1: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.1: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.1: B&lt;&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.2: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.2: B&lt;&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;-&lt;309.0,518.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u099C_u09CD_u099E.akhn.2: B&lt;&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;-&lt;541.0,313.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09C2 (U+09C2): L&lt;&lt;-87.0,-91.0&gt;--&lt;-89.0,-90.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09C2.0: L&lt;&lt;-87.0,-91.0&gt;--&lt;-89.0,-90.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09C2.1: L&lt;&lt;-87.0,-91.0&gt;--&lt;-89.0,-90.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09C2.2: L&lt;&lt;-87.0,-91.0&gt;--&lt;-89.0,-90.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09EB (U+09EB): L&lt;&lt;357.0,385.0&gt;--&lt;358.0,384.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09EB.0: L&lt;&lt;357.0,385.0&gt;--&lt;358.0,384.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09EB.1: L&lt;&lt;357.0,385.0&gt;--&lt;358.0,384.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u09EB.2: L&lt;&lt;357.0,385.0&gt;--&lt;358.0,384.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -751,7 +895,7 @@ multiply</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -769,7 +913,7 @@ multiply</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -784,18 +928,18 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tai-le, canadian-aboriginal, malayalam, math, todhri, old-permic, tifinagh, duployan, syriac, hebrew</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, todhri, duployan, malayalam, coptic, old-permic, syriac, tai-le, math, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
@@ -809,7 +953,51 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ŋ, ŋ, Ŧ, ŧ, Ʒ, Ǥ, ǥ, Ǯ, ǯ, ʒ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ŋ, ŋ, Ŧ, ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ĳ, ĳ</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -820,8 +1008,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̓ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ỉ ǐ ȉ i̒ ị̇ ị̉ ị̊ ị̋ ị̌ ị̏ ị̒ ị̓ i̦̇ ỉ̦ i̦̊ i̦̋ ǐ̦ ȉ̦ i̦̒</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Ekpeye (Latn, 226,000 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Zapotec (Latn, 490,000 speakers), Vute (Latn, 21,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Yala (Latn, 200,000 speakers), South Central Banda (Latn, 244,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Heiltsuk (Latn, 300 speakers), Ngbaka (Latn, 1,020,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Makaa (Latn, 221,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Navajo (Latn, 166,319 speakers), Southern Kisi (Latn, 360,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers), Cicipu (Latn, 44,000 speakers), Bafut (Latn, 158,146 speakers), Mango (Latn, 77,000 speakers), Han (Latn, 6 speakers), Nzakara (Latn, 50,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Kaska (Latn, 125 speakers).</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Southern Tutchone (Latn, 65 speakers), Abua (Latn, 25,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ikwere (Latn, 717,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Northern Tutchone (Latn, 85 speakers), Ekpeye (Latn, 226,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Vute (Latn, 21,000 speakers), Western Krahn (Latn, 97,800 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Sar (Latn, 500,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Makaa (Latn, 221,000 speakers), Bafut (Latn, 158,146 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Koonzime (Latn, 40,000 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Southern Kisi (Latn, 360,000 speakers), Dii (Latn, 71,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Mango (Latn, 77,000 speakers), Fur (Latn, 1,230,163 speakers), South Central Banda (Latn, 244,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Avokaya (Latn, 100,000 speakers), Longto (Latn, 5,000 speakers), Basaa (Latn, 332,940 speakers), Nzakara (Latn, 50,000 speakers), Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Keliko (Latn, 63,000 speakers), Yala (Latn, 200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Han (Latn, 6 speakers).</p>
  [code: soft-dotted]
 
 
@@ -830,7 +1018,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
     <div>
 
 
@@ -952,25 +1140,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -988,25 +1158,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'anir' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
     <div>
 
 
@@ -1028,7 +1180,7 @@ definitions.</p>
 <details><summary>[1] Family checks</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-use-typo-metrics">googlefonts/use_typo_metrics</a></summary>
     <div>
 
 
@@ -1054,8 +1206,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 8 | 15 | 102 | 7 | 119 | 0 | 
-| 0% | 0% | 3% | 6% | 41% | 3% | 47% | 0% | 
+| 0 | 0 | 9 | 16 | 93 | 6 | 112 | 0 | 
+| 0% | 0% | 4% | 7% | 39% | 3% | 47% | 0% | 
 
 
 
