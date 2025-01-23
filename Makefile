@@ -28,7 +28,7 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 	mkdir -p fonts/variable 
 	mkdir -p fonts/webfonts
 	mkdir fonts/ttf
-	(for config in sources/config*.yaml; do . venv/bin/activate; ttx -d fonts/variable sources/ttx/Paribartan[MASK,SHDW].ttx && ttx -d fonts/webfonts --flavor woff2 sources/ttx/Paribartan[MASK,SHDW].ttx && ttx -d fonts/ttf sources/ttx/ParibartanR.ttx; done)  && touch build.stamp
+	(for config in sources/config*.yaml; do . venv/bin/activate; ttx -d fonts/variable sources/ttx/Paribartan[MASK,SHDW].ttx && ttx -d fonts/webfonts --flavor woff2 sources/ttx/Paribartan[MASK,SHDW].ttx; done)  && touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
