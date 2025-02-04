@@ -16,16 +16,16 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/variable/Paribartan-VF.ttf"
+FONT_PATH = "fonts/variable/Paribartan[MASK,SHDW].ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
+LINE_ONE = "Würde gleichen unveräußerlichen"  
+LINE_TWO = "Considerând – Pieņemta pasludināta Ģenerālās"
+LINE_THREE = "যেহেতু মানব পরিবারের সকল সদস্যের"
+LINE_FOUR = "রাজনৈতিক অন্ততঃপক্ষে সমঝোতা,"
+BIG_TEXT_FONT_SIZE = 96
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
 

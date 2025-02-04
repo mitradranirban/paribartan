@@ -1,21 +1,19 @@
 # Paribartan Variable Bengali Font
 
 
-Paribartan is a Variable Multicolor Bengali or Bangla Font fully created using Open Source tools.
+Paribartan is a Work in Progress Variable Multicolor Bengali and Latin Font fully created using Open Source tools.
 
-It is a geometric Sans-Serif design in Latin glyphs and matching design in Bengali Glyphs.
+It has a geometric Sans-Serif design in Latin glyphs and matching design in Bengali Glyphs.
 
 ![Sample Image](documentation/image1.png)
-![Sample Image](documentation/Paribartan.gif)
+![Sample Image](documentation/image2.png)
 
 ## About
 
 This font is developed by Dr Anirban Mitra, amateur typographer and free software enthusiast
 
 ## Building
-
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
-
+ 
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
