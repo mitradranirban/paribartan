@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.sc" format="2">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="33" y="465" type="line"/>
+      <point x="197" y="465" type="line"/>
+      <point x="197" y="162" type="line"/>
+      <point x="507" y="162" type="line"/>
+      <point x="507" y="-2" type="line"/>
+      <point x="34" y="-2" type="line"/>
+      <point x="34" y="-1" type="line"/>
+      <point x="33" y="-1" type="line"/>
+    </contour>
+  </outline>
+</glyph>

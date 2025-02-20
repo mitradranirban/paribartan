@@ -1,0 +1,145 @@
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
+  lookupflag 0;
+    sub \a by \a.sc ;
+    sub \a by \a.sc ;
+    sub \b by \b.sc ;
+    sub \c by \c.sc ;
+    sub \d by \d.sc ;
+    sub \e by \e.sc ;
+    sub \f by \f.sc ;
+    sub \g by \g.sc ;
+    sub \h by \h.sc ;
+    sub \i by \i.sc ;
+    sub \j by \j.sc ;
+    sub \k by \k.sc ;
+    sub \l by \l.sc ;
+    sub \m by \m.sc ;
+    sub \n by \n.sc ;
+    sub \o by \o.sc ;
+    sub \p by \p.sc ;
+    sub \q by \q.sc ;
+    sub \r by \r.sc ;
+    sub \s by \s.sc ;
+    sub \t by \t.sc ;
+    sub \u by \u.sc ;
+    sub \v by \v.sc ;
+    sub \w by \w.sc ;
+    sub \x by \x.sc ;
+    sub \y by \y.sc ;
+    sub \z by \z.sc ;
+} smcpLowercasetoSmallCapitalsinLatinlookup0;
+
+lookup c2scCapitalstoSmallCapitalsinLatinlookup0 {
+  lookupflag 0;
+    sub \A by \a.sc ;
+    sub \A by \a.sc ;
+    sub \B by \b.sc ;
+    sub \C by \c.sc ;
+    sub \D by \d.sc ;
+    sub \E by \e.sc ;
+    sub \F by \f.sc ;
+    sub \G by \g.sc ;
+    sub \H by \h.sc ;
+    sub \I by \i.sc ;
+    sub \J by \j.sc ;
+    sub \K by \k.sc ;
+    sub \L by \l.sc ;
+    sub \M by \m.sc ;
+    sub \N by \n.sc ;
+    sub \O by \o.sc ;
+    sub \P by \p.sc ;
+    sub \Q by \q.sc ;
+    sub \R by \r.sc ;
+    sub \S by \s.sc ;
+    sub \T by \t.sc ;
+    sub \U by \u.sc ;
+    sub \V by \v.sc ;
+    sub \W by \w.sc ;
+    sub \X by \x.sc ;
+    sub \Y by \y.sc ;
+    sub \Z by \z.sc ;
+} c2scCapitalstoSmallCapitalsinLatinlookup0;
+
+feature smcp {
+
+ script latn;
+     language dflt ;
+      lookup smcpLowercasetoSmallCapitalsinLatinlookup0;
+} smcp;
+
+feature c2sc {
+
+ script latn;
+     language dflt ;
+      lookup c2scCapitalstoSmallCapitalsinLatinlookup0;
+} c2sc;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \u09A4 \uni09AC \space \uni00A0 \exclamdown \uni00B2 
+	\uni00B3 \uni00B9 \sterling \uni098F \uni0985 \uni09BE \uni0986 \uni09B9 
+	\uni0987 \uni09A1 \uni0989 \uni09A2 \uni099F \uni0995 \uni0993 \uni09B0 
+	\ordfeminine \ordmasculine \mu \guillemotleft \guillemotright \cent \yen 
+	\questiondown \plusminus \degree \dieresis \macron \dotlessi \Iogonek 
+	\Idotaccent \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Ccedilla \Egrave 
+	\Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \agrave \aacute \acircumflex \atilde \adieresis \ccedilla 
+	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
+	\ntilde \ograve \oacute \ocircumflex \otilde \odieresis \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \ydieresis \Amacron \amacron \Abreve \abreve 
+	\Aogonek \aogonek \Cacute \cacute \Ccircumflex \ccircumflex \Cdotaccent 
+	\cdotaccent \Ccaron \ccaron \Dcaron \Emacron \emacron \Ebreve \ebreve 
+	\Edotaccent \edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex 
+	\gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent \Hcircumflex \hcircumflex 
+	\Itilde \itilde \Imacron \imacron \Ibreve \ibreve \iogonek \Jcircumflex 
+	\jcircumflex \Lacute \lacute \Nacute \nacute \Ncaron \ncaron \Omacron \omacron 
+	\Obreve \obreve \Ohungarumlaut \ohungarumlaut \Racute \racute \Rcaron \rcaron 
+	\Sacute \sacute \Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron 
+	\uni0162 \uni0163 \Tcaron \Utilde \utilde \Umacron \umacron \Ubreve \ubreve 
+	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
+	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
+	\Zcaron \zcaron \Aring \aring \uni0123 \uni0122 \cedilla \acute \uni0136 \uni0137 
+	\uni013B \uni013C \uni0145 \uni0146 \uni0156 \uni0157 \Uring \uring \multiply 
+	\periodcentered \registered \copyright \brokenbar \section \paragraph \Thorn 
+	\germandbls \thorn \AE \Eth \Oslash \ae \eth \divide \oslash \Dcroat \dcaron 
+	\dcroat \Hbar \hbar \Ldot \ldot \lcaron \Lslash \Lcaron \lslash \OE \oe \tcaron 
+	\uni021A \uni0218 \uni0219 \uni021B \uni0237 \circumflex \uni02D1 \caron \breve 
+	\dotaccent \ring \ogonek \tilde \hungarumlaut \Wgrave \wgrave \Wacute \wacute 
+	\Wdieresis \wdieresis \uni1E9E \Ygrave \ygrave \onehalf \onequarter 
+	\threequarters \uni0982 \uni0983 \uni098A \uni0990 \uni0994 \uni099E \uni099D 
+	\uni099C \uni09A3 \uni0964 \uni0965 \uni0981 \uni09AD \uni09A7 \uni09A8 \uni09B6 
+	\uni0988 \uni0996 \uni098B \uni09B2 \uni09AF \uni09AB \uni0997 \uni098C \uni09EF 
+	\uni09EC \uni09ED \uni09EE \uni09EB \uni09B7 \uni09A5 \uni0980 \uni09BD \uni099A 
+	\uni09CD \uni09B8 \uni09AE \uni09BF \uni09C0 \NameMe.405 \NameMe.406 \bn_ka_ssa 
+	\bn_ja_nya \u09CD_u09B0.blwf \bn_ja_phala \u099D_u09CD_u09B0 
+	\u099E_u09CD_u09B0 \u099F_u09CD_u09B0 \u09A0_u09CD_u09B0 \u09A1_u09CD_u09B0 
+	\u09A2_u09CD_u09B0 \u09A3_u09CD_u09B0 \u09A4_u09CD_u09B0 \u09A5_u09CD_u09B0 
+	\u09A6_u09CD_u09B0 \u09A7_u09CD_u09B0 \u09A8_u09CD_u09B0 \u09AA_u09CD_u09B0 
+	\NameMe.433 \NameMe.434 \NameMe.435 \NameMe.436 \NameMe.437 \NameMe.438 
+	\NameMe.440 \NameMe.444 \NameMe.445 \NameMe.446 \NameMe.447 \a.sc \b.sc \c.sc 
+	\d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc \m.sc \n.sc \o.sc \p.sc \q.sc 
+	\r.sc \s.sc \t.sc \u.sc \v.sc \w.sc \x.sc \y.sc \z.sc ];
+@GDEF_Ligature = [\u0995_u09CD_u09B0 \u0996_u09CD_u09B0 \u0997_u09CD_u09B0 
+	\u0998_u09CD_u09B0 \u0999_u09CD_u09B0 \u099A_u09CD_u09B0 \u099B_u09CD_u09B0 
+	\u099C_u09CD_u09B0 ];
+@GDEF_Mark = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0306 \uni0304 \uni0308 
+	\uni0307 \hookabovecomb \uni030A \uni030B \uni030C \uni030F \dotbelowcomb 
+	\uni0328 \uni0327 \uni0313 \uni0312 \uni0326 \uni09BC ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+

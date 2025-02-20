@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_ja_phala" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="0" y="799" type="line"/>
+      <point x="400" y="799" type="line"/>
+      <point x="400" y="665" type="line"/>
+      <point x="288.615" y="665" type="line"/>
+      <point x="267.719" y="614.12"/>
+      <point x="245.8" y="543.826"/>
+      <point x="245.581" y="472.451" type="curve" smooth="yes"/>
+      <point x="245.313" y="414.714"/>
+      <point x="246" y="413.403"/>
+      <point x="246" y="355.667" type="curve" smooth="yes"/>
+      <point x="246" y="269.062"/>
+      <point x="301" y="232.32"/>
+      <point x="301" y="145.715" type="curve" smooth="yes"/>
+      <point x="301" y="80.1045"/>
+      <point x="245" y="-3.87695"/>
+      <point x="245" y="-3.87695" type="curve"/>
+      <point x="93" y="-3.87695" type="line"/>
+      <point x="93" y="-3.87695"/>
+      <point x="149" y="84.041"/>
+      <point x="149" y="150.963" type="curve" smooth="yes"/>
+      <point x="149" y="234.943"/>
+      <point x="93" y="267.749"/>
+      <point x="93" y="351.729" type="curve" smooth="yes"/>
+      <point x="93" y="414.715"/>
+      <point x="93" y="419.964"/>
+      <point x="93" y="482.949" type="curve" smooth="yes"/>
+      <point x="93" y="554.579"/>
+      <point x="111.98" y="618.381"/>
+      <point x="131.566" y="665" type="curve"/>
+      <point x="0" y="665" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>344</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>400</integer>
+            <key>width</key>
+            <integer>152</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

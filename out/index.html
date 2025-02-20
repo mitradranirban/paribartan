@@ -66,6 +66,20 @@
 				font-family: Paribartan;
 				font-palette: --green;
 			 }
+
+			 .mix1 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --blue 55%, --red 45%);
+			 }
+			 .mix2 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --orange 60%, --green 40%);
+			 }
+			 .mix3 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --gray 30%, --green 70%);
+			 }
+
 			 .shadow3{
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" -50 "MASK" 10;
@@ -120,7 +134,7 @@
 .shadowchange {
   font-family: "Paribartan";
   font-variation-settings: "MASK" -20 "SHDW" 40;
-  animation: animate-shadow 4s infinite alternate ;
+  animation: animate-shadow 2s infinite alternate ;
 }
 
 </style>
@@ -130,13 +144,16 @@
 		<div class="blue shadowchange"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
 		<p> Paribartan is a WIP variable color font created using open source tools </p> 
 		<p> It covers Latin, Extended Latin and Bangla (Bengali) characters</p>
-		<p> It has Five in-built color palettes </p>
+		<p> It has Five in-built color palettes 
 		<span class="orange"> Orange </span>,
 		<span class="red"> Red </span>,
 		<span class="gray"> Grey </span>,
 		<span class="green"> Green </span>, and
-		<span class="blue"> Blue </span></p>
-		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. </p>
+		<span class="blue"> Blue </span> or you can use
+		<span class="mix1"> any </span>
+		<span class="mix2"> mix </span>
+		<span class="mix3">in between</span> </p>
+		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. 
 
 		<p> It has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
 		which is useful to do <span class="green shadow1"> 3 D </span> <span class="gray shadow2">Effect </span> using css. </p>

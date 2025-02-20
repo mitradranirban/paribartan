@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gbreve" format="2">
+  <advance width="651"/>
+  <unicode hex="011E"/>
+  <outline>
+    <component base="uni0306" xOffset="432.5" yOffset="25.25"/>
+    <component base="G"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-14</integer>
+            <key>width</key>
+            <integer>157</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>612</integer>
+            <key>width</key>
+            <integer>161</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>833</integer>
+            <key>width</key>
+            <integer>52</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>50</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>235</integer>
+            <key>width</key>
+            <integer>14</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>449</integer>
+            <key>width</key>
+            <integer>152</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>616</integer>
+            <key>width</key>
+            <integer>12</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

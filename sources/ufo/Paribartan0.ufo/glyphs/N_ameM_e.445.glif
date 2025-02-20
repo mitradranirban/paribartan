@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NameMe.445" format="2">
+  <advance width="841"/>
+  <outline>
+    <contour>
+      <point x="644" y="671" type="line"/>
+      <point x="357" y="671" type="line"/>
+      <point x="644" y="529" type="line"/>
+    </contour>
+    <contour>
+      <point x="644" y="157" type="line"/>
+      <point x="644" y="382" type="line"/>
+      <point x="512" y="437" type="line"/>
+      <point x="302" y="262" type="line"/>
+    </contour>
+    <contour>
+      <point x="77" y="180" type="line"/>
+      <point x="108" y="327" type="line"/>
+      <point x="379" y="487" type="line"/>
+      <point x="118" y="671" type="line"/>
+      <point x="0" y="671" type="line"/>
+      <point x="0" y="803" type="line"/>
+      <point x="841" y="803" type="line"/>
+      <point x="841" y="671" type="line"/>
+      <point x="796" y="671" type="line"/>
+      <point x="796" y="-2" type="line"/>
+      <point x="644" y="-2" type="line"/>
+      <point x="644" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

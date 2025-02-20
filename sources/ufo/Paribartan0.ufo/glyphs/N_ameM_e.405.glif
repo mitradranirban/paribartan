@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NameMe.405" format="2">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="147.125" y="283" type="line"/>
+      <point x="220.125" y="283" type="line"/>
+      <point x="220.125" y="-105" type="line"/>
+      <point x="146.125" y="-105" type="line"/>
+      <point x="-79.625" y="31.25" type="line"/>
+      <point x="-79.625" y="107.25" type="line"/>
+      <point x="147.125" y="195.998" type="line"/>
+    </contour>
+    <contour>
+      <point x="146.125" y="-27.7767" type="line"/>
+      <point x="146.125" y="121.536" type="line"/>
+      <point x="-7.625" y="69.25" type="line"/>
+    </contour>
+  </outline>
+</glyph>
