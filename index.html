@@ -66,11 +66,33 @@
 				font-family: Paribartan;
 				font-palette: --green;
 			 }
+			 .mix1 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --blue 55%, --red 45%);
+			 }
+			 .mix2 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --orange 60%, --green 40%);
+			 }
+			 .mix3 {
+				font-family: Paribartan;
+				font-palette:  palette-mix(in lch, --gray 30%, --green 70%);
+			 }
 			 .shadow3{
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" -50 "MASK" 10;
 			 }
 			 a:link{
+				font-family: Paribartan;
+				font-palette: --blue;
+			}
+			
+			a:hover {
+				font-family: Paribartan;
+				font-palette: --green;
+				font-variation-settings: "SHDW" 50, "MASK" -15;
+			}
+			a:link{
 				font-family: Paribartan;
 				font-palette: --blue;
 			}
@@ -89,6 +111,7 @@
 				font-family: Paribartan;
 				font-palette: --red;
 			}
+			
 			
   @keyframes animate-palette {
   from {
@@ -135,11 +158,26 @@
 		<span class="red"> Red </span>,
 		<span class="gray"> Grey </span>,
 		<span class="green"> Green </span>, and
-		<span class="blue"> Blue </span></p>
+		<span class="blue"> Blue </span> 
+		<span class="mix1"> any </span>
+		<span class="mix2"> mix </span>
+		<span class="mix3">in between</span> </p>
 		<p> You can also do <span class="colorchange shadow1"> Color Animation</span> using css. 
 
 		<p> It has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
 		which is useful to do <span class="green shadow1"> 3 D </span> <span class="gray shadow2">Effect </span> using css. </p>
+		<h2>Bangla Preview</h2>
+		<p><span class="orange"> হলদে </span>
+		<span class="green"> সবুজ </span>
+		<span class="gray"> ওরাং </span>
+		<span class="blue"> ওটাং </span></p>
+		<p><span class="red"> ইঁট </span> 
+		<span class="mix1"> পাটকেল </span>
+		<span class="mix2"> চিত </span>
+		<span class="mix3">পটাং</span> </p>
+		<p> <span class="colorchange shadow1">মুসকিল-আসান</span>
+		<span class="shadow2">উড়ে</span> <span class="shadow3">মালি</span></p>
+		<p> <span class="green shadow1">ধর্মতলায়</span> <span class="gray shadow2">কর্মখালি</span></p>
 	<p><a href="https://github.com/mitradranirban/paribartan">Visit our Github page</a></p>
 	</body>
 </html>
