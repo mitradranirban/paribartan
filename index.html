@@ -66,6 +66,7 @@
 				font-family: Paribartan;
 				font-palette: --green;
 			 }
+
 			 .mix1 {
 				font-family: Paribartan;
 				font-palette:  palette-mix(in lch, --blue 55%, --red 45%);
@@ -78,21 +79,12 @@
 				font-family: Paribartan;
 				font-palette:  palette-mix(in lch, --gray 30%, --green 70%);
 			 }
+
 			 .shadow3{
 				font-family: Paribartan;
 				font-variation-settings: "SHDW" -50 "MASK" 10;
 			 }
 			 a:link{
-				font-family: Paribartan;
-				font-palette: --blue;
-			}
-			
-			a:hover {
-				font-family: Paribartan;
-				font-palette: --green;
-				font-variation-settings: "SHDW" 50, "MASK" -15;
-			}
-			a:link{
 				font-family: Paribartan;
 				font-palette: --blue;
 			}
@@ -112,7 +104,6 @@
 				font-palette: --red;
 			}
 			
-			
   @keyframes animate-palette {
   from {
     font-palette: --red;
@@ -124,10 +115,10 @@
 }
  @keyframes animate-shadow {
 0% {
-	font-variation-settings: "SHDW" -50 "MASK" 10;
+	font-variation-settings: "SHDW" -50 ;
 }
 100% {
-	font-variation-settings: "SHDW" 50 "MASK" -10;
+	font-variation-settings: "SHDW" 50 ;
 }
  }
 
@@ -143,22 +134,22 @@
 .shadowchange {
   font-family: "Paribartan";
   font-variation-settings: "MASK" -20 "SHDW" 40;
-  animation: animate-shadow 4s infinite alternate ;
+  animation: animate-shadow 2s infinite alternate ;
 }
 
 </style>
 	</head>
 	<body>
 		<div class="shadowchange"><h1>Paribartan Variable Color Typeface</h1></div>
-		<div class="blue shadow2"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
+		<div class="blue shadowchange"><h2>পরিবর্তন রঙীন টাইপফেস	</h2></div>
 		<p> Paribartan is a WIP variable color font created using open source tools </p> 
 		<p> It covers Latin, Extended Latin and Bangla (Bengali) characters</p>
-		<p> It has Five in-built color palettes </p>
+		<p> It has Five in-built color palettes 
 		<span class="orange"> Orange </span>,
 		<span class="red"> Red </span>,
 		<span class="gray"> Grey </span>,
 		<span class="green"> Green </span>, and
-		<span class="blue"> Blue </span> 
+		<span class="blue"> Blue </span> or you can use
 		<span class="mix1"> any </span>
 		<span class="mix2"> mix </span>
 		<span class="mix3">in between</span> </p>
@@ -166,21 +157,6 @@
 
 		<p> It has 2 custom axes of <span class="shadow2">Shadow</span> and <span class="shadow3">Mask </span>.
 		which is useful to do <span class="green shadow1"> 3 D </span> <span class="gray shadow2">Effect </span> using css. </p>
-		<h2>Bangla Preview</h2>
-		<p><span class="orange"> হলদে </span>
-		<span class="green"> সবুজ </span>
-		<span class="gray"> ওরাং </span>
-		<span class="blue"> ওটাং </span></p>
-		<p><span class="red"> ইট </span> 
-		<span class="mix1"> পাটকেল </span>
-		<span class="mix2"> চিত </span>
-		<span class="mix3">পটাং</span> </p>
-		<p> <span class="colorchange shadow1">মুসকিল-আসান</span>
-		<span class="shadow2">উড়ে</span> 
-		<span class="shadow3">মালি</span></p>
-		<p> <span class="green shadow1">ধর্মতলায়</span> 
-		<span class="gray shadow2">কর্মখালি</span></p>
-		
 	<p><a href="https://github.com/mitradranirban/paribartan">Visit our Github page</a></p>
 	</body>
 </html>
