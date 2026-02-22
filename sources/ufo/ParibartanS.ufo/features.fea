@@ -21,14 +21,14 @@ lookup akhnAkhandinBengali2lookup0 {
 
 lookup rphfRephForminBengali2lookup0 {
   lookupflag 0;
-    sub \u09B0 \u09CD  by \u09B0_u09CD.rphf;
     sub \u09F0 \u09CD  by \u09B0_u09CD.rphf;
+    sub \u09B0 \u09CD  by \u09B0_u09CD.rphf;
 } rphfRephForminBengali2lookup0;
 
 lookup blwfBelowBaseFormsinBengali2lookup0 {
   lookupflag 0;
-    sub \u09CD \u09B0  by \u09CD_u09B0.blwf;
     sub \u09CD \u09F0  by \u09CD_u09B0.blwf;
+    sub \u09CD \u09B0  by \u09CD_u09B0.blwf;
 } blwfBelowBaseFormsinBengali2lookup0;
 
 lookup pstfPostBaseFormsinBengali2lookup0 {
