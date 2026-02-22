@@ -1,36 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.55">
-
+<name>
+    <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SHADOW
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      MASK
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      LOOP
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      LeftShadow
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      RtShadow
+    </namerecord>
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Normal
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright 2024 The Paribartan Project Authors (github.com/mitradranirban/paribartan)
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Paribartan
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      0.200;anir;Paribartan-Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Paribartan Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 0.200
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      Paribartan-Regular
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Dr Anirban Mitra
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Dr Anirban Mitra
+    </namerecord>
+    <namerecord nameID="10" platformID="3" platEncID="1" langID="0x409">
+      Variable Color Bengali Font
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      https://fonts.atipra.in
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      https://github.com/mitradranirban
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      https://openfontlicense.org
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      SHADOW
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      MASK
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      LOOP
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      LeftShadow
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      RtShadow
+    </namerecord>
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
+      Normal
+    </namerecord>
+    <namerecord nameID="3000" platformID="3" platEncID="1" langID="0x0409">
+    Default-Orange
+    </namerecord>
+    <namerecord nameID="3001" platformID="3" platEncID="1" langID="0x0409">
+      Pink
+    </namerecord>
+    <namerecord nameID="3002" platformID="3" platEncID="1" langID="0x0409">
+      Gray
+    </namerecord>
+    <namerecord nameID="3003" platformID="3" platEncID="1" langID="0x0409">
+      Green
+    </namerecord>
+    <namerecord nameID="3004" platformID="3" platEncID="1" langID="0x0409">
+      Blue
+     </namerecord>
+  </name>
   <CPAL>
-    <version value="0"/>
-    <numPaletteEntries value="3"/>
-    <palette index="0">
-      <color index="0" value="#FFD114FF"/>
-      <color index="1" value="#FF552DFF"/>
-      <color index="2" value="#FF552D80"/>
-    </palette>
-    <palette index="1">
-      <color index="0" value="#F52882FF"/>
-      <color index="1" value="#FF5A2CFF"/>
-      <color index="2" value="#F5288280"/>
-    </palette>
-    <palette index="2">
-      <color index="0" value="#C3C3E1FF"/>
-      <color index="1" value="#555573FF"/>
-      <color index="2" value="#55557380"/>
-    </palette>
-    <palette index="3">
-      <color index="0" value="#95DF92FF"/>
-      <color index="1" value="#0A2C09FF"/>
-      <color index="2" value="#0A2C0980"/>
-    </palette> 
-    <palette index="4">
-      <color index="0" value="#00A0E1FF"/>
-      <color index="1" value="#2200F5FF"/>
-      <color index="2" value="#2200F580"/>
-    </palette>
-      
-  </CPAL>
+  <version value="1"/>
+  <numPaletteEntries value="3"/>
+
+  <!-- nameID 3000–3004 will be defined in the name table -->
+  <palette index="0" label="3000">
+    <color index="0" value="#FFD114FF"/>
+    <color index="1" value="#FF552DFF"/>
+    <color index="2" value="#FF552D80"/>
+  </palette>
+  <palette index="1" label="3001">
+    <color index="0" value="#F52882FF"/>
+    <color index="1" value="#FF5A2CFF"/>
+    <color index="2" value="#F5288280"/>
+  </palette>
+  <palette index="2" label="3002">
+    <color index="0" value="#C3C3E1FF"/>
+    <color index="1" value="#555573FF"/>
+    <color index="2" value="#55557380"/>
+  </palette>
+  <palette index="3" label="3003">
+    <color index="0" value="#95DF92FF"/>
+    <color index="1" value="#0A2C09FF"/>
+    <color index="2" value="#0A2C0980"/>
+  </palette>
+  <palette index="4" label="3004">
+    <color index="0" value="#00A0E1FF"/>
+    <color index="1" value="#2200F5FF"/>
+    <color index="2" value="#2200F580"/>
+  </palette>
+</CPAL>
+
+  
   
   <COLR>
     <version value="0"/>
@@ -2387,13 +2490,6 @@
 
 
   </COLR>
-
-
-    <ColorGlyph name="">
-      <layer colorID="1" name=".0"/>
-      <layer colorID="0" name=".2"/>
-      <layer colorID="2" name=".1"/>
-    </ColorGlyph>
 </ttFont>
     
     
