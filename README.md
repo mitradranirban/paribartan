@@ -17,14 +17,26 @@ This font is developed by Dr Anirban Mitra, amateur typographer and free softwar
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+ 
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look [at this site](https://mitradranirban.github.io/paribartan).
 
 ## Changelog
-**Version 0.001 **
-- Start of project
+**Version 0.001**
+
+ - Start of Project
+
+**Version 0.100**
+
+- Added Etented Latin and Basic Bangla Glyphs 
+- Added two variable color axes `SHADOW` and `MASK`
+- Added  five color palettes.
+
+**Version 0.200**
+
+ - Added `LOOP` axis
+ - updated `CPAL` table to version 1 with named color palettes. 
+
 
 ## License
 
